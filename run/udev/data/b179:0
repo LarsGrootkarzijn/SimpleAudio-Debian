@@ -1,0 +1,10 @@
+N:mmcblk1
+S:disk/by-id/memstick-MMC04G_0x69cb918c
+S:disk/by-path/platform-481d8000.mmc
+W:4
+I:6778485
+E:ID_BUS=memstick
+E:ID_PART_TABLE_TYPE=dos
+E:ID_PATH=platform-481d8000.mmc
+E:ID_PATH_TAG=platform-481d8000_mmc
+E:ID_SERIAL=MMC04G_0x69cb918c

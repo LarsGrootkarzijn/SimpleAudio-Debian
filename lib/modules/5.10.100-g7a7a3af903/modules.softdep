@@ -1,0 +1,16 @@
+# Soft dependencies extracted from modules themselves.
+# Copy, with a .conf extension, to /etc/modprobe.d to use it with modprobe.
+softdep cifs gcm
+softdep cifs ccm
+softdep cifs aead2
+softdep cifs sha512
+softdep cifs sha256
+softdep cifs cmac
+softdep cifs aes
+softdep cifs nls
+softdep cifs md5
+softdep cifs md4
+softdep cifs hmac
+softdep cifs ecb
+softdep libcrc32c pre: crc32c
+softdep ohci_pci pre: ehci_pci

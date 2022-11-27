@@ -1,0 +1,244 @@
+Jan  1 00:00:19 debian-armhf sshd[1978]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:19 debian-armhf sshd[1978]: Server listening on :: port 22.
+Jan  1 00:00:20 debian-armhf getty[2010]: /dev/ttyO0: No such file or directory
+Nov 27 17:48:18 debian-armhf getty[2011]: /dev/ttyO0: No such file or directory
+Nov 27 17:48:28 debian-armhf getty[2014]: /dev/ttyO0: No such file or directory
+Nov 27 17:48:38 debian-armhf getty[2015]: /dev/ttyO0: No such file or directory
+Nov 27 17:48:48 debian-armhf getty[2016]: /dev/ttyO0: No such file or directory
+Nov 27 17:48:58 debian-armhf getty[2019]: /dev/ttyO0: No such file or directory
+Nov 27 17:48:59 debian-armhf sshd[2017]: Accepted password for root from 192.168.1.47 port 53091 ssh2
+Nov 27 17:48:59 debian-armhf sshd[2017]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Nov 27 17:49:08 debian-armhf getty[2025]: /dev/ttyO0: No such file or directory
+Nov 27 17:49:18 debian-armhf getty[2027]: /dev/ttyO0: No such file or directory
+Nov 27 17:49:28 debian-armhf getty[2028]: /dev/ttyO0: No such file or directory
+Nov 27 17:50:05 debian-armhf sshd[2031]: Accepted password for root from 192.168.1.47 port 53105 ssh2
+Nov 27 17:50:05 debian-armhf sshd[2031]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Nov 27 17:51:07 debian-armhf login[2030]: pam_unix(login:session): session opened for user debian by LOGIN(uid=0)
+Nov 27 17:51:32 debian-armhf sudo:   debian : TTY=ttyS0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/apt-get install zip
+Nov 27 17:51:32 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by debian(uid=0)
+Nov 27 17:51:33 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 17:52:07 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/lib/modules ; USER=root ; COMMAND=/usr/bin/apt-get install zip
+Nov 27 17:52:07 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 17:52:07 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 17:54:01 debian-armhf sshd[2096]: Accepted password for root from 192.168.1.47 port 53383 ssh2
+Nov 27 17:54:01 debian-armhf sshd[2096]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Nov 27 17:55:00 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-get install git
+Nov 27 17:55:00 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 17:55:00 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 17:55:04 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-get install git
+Nov 27 17:55:04 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 17:55:05 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 17:56:58 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-get update
+Nov 27 17:56:58 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 17:58:54 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 17:59:19 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-get upgrade
+Nov 27 17:59:19 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 17:59:42 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 18:00:08 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-get upgrade
+Nov 27 18:00:08 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 18:00:25 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 18:00:32 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-get full-upgrade
+Nov 27 18:00:32 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 18:00:32 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 18:00:38 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-get upgrade
+Nov 27 18:00:38 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 18:00:51 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-get upgrade
+Nov 27 18:00:51 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 18:00:51 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 18:01:03 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-get upgrade
+Nov 27 18:01:03 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 18:01:23 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 18:01:26 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-get upgrade
+Nov 27 18:01:26 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 18:01:38 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 18:03:12 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-get upgrade
+Nov 27 18:03:12 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 18:03:14 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 18:03:18 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-get update
+Nov 27 18:03:18 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 18:04:22 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 18:05:03 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-get upgrade
+Nov 27 18:05:03 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 18:05:52 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 18:06:33 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-get update
+Nov 27 18:06:33 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 18:07:57 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 18:08:11 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-get upgrade
+Nov 27 18:08:11 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 18:10:28 debian-armhf groupmod[5506]: group changed in /etc/group (group libuuid/101, new name: uuidd)
+Nov 27 18:10:28 debian-armhf groupmod[5506]: group changed in /etc/gshadow (group libuuid, new name: uuidd)
+Nov 27 18:10:28 debian-armhf usermod[5514]: change user name 'libuuid' to 'uuidd'
+Nov 27 18:10:28 debian-armhf usermod[5514]: change user 'uuidd' home from '/var/lib/libuuid' to '/run/uuidd'
+Nov 27 18:10:28 debian-armhf usermod[5514]: change user 'uuidd' shell from '/bin/sh' to '/bin/false'
+Nov 27 18:12:37 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 18:13:00 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-get full-upgrade
+Nov 27 18:13:00 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 18:13:00 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 18:14:30 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-get update
+Nov 27 18:14:30 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 18:16:39 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 18:16:58 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-get update
+Nov 27 18:16:58 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 18:17:01 debian-armhf CRON[7273]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 27 18:17:01 debian-armhf CRON[7273]: pam_unix(cron:session): session closed for user root
+Nov 27 18:17:38 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 18:17:55 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-get upgrade
+Nov 27 18:17:55 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 18:18:24 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 18:19:57 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-get update
+Nov 27 18:19:57 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 18:21:24 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 18:21:40 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-get upgrade
+Nov 27 18:21:40 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 18:22:53 debian-armhf sshd[1978]: Received signal 15; terminating.
+Nov 27 18:22:53 debian-armhf sshd[8078]: Server listening on 0.0.0.0 port 22.
+Nov 27 18:22:53 debian-armhf sshd[8078]: Server listening on :: port 22.
+Nov 27 18:32:04 debian-armhf sshd[8078]: Received signal 15; terminating.
+Nov 27 18:32:04 debian-armhf sshd[12298]: Server listening on 0.0.0.0 port 22.
+Nov 27 18:32:04 debian-armhf sshd[12298]: Server listening on :: port 22.
+Nov 27 18:34:08 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 18:34:13 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-get dist-upgrade
+Nov 27 18:34:13 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 18:44:19 debian-armhf groupadd[3018]: group added to /etc/group: name=input, GID=106
+Nov 27 18:44:19 debian-armhf groupadd[3018]: group added to /etc/gshadow: name=input
+Nov 27 18:44:19 debian-armhf groupadd[3018]: new group: name=input, GID=106
+Nov 27 18:44:59 debian-armhf sshd[12298]: Received signal 15; terminating.
+Nov 27 18:44:59 debian-armhf sshd[3394]: Server listening on 0.0.0.0 port 22.
+Nov 27 18:44:59 debian-armhf sshd[3394]: Server listening on :: port 22.
+Nov 27 18:46:40 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 18:57:23 debian-armhf sshd[2017]: pam_unix(sshd:session): session closed for user root
+Nov 27 19:05:06 debian-armhf sshd[13102]: Accepted password for root from 192.168.1.53 port 53363 ssh2
+Nov 27 19:05:06 debian-armhf sshd[13102]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Nov 27 19:05:25 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get dis-upgrade
+Nov 27 19:05:25 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 19:05:26 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 19:06:06 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get dist-upgrade
+Nov 27 19:06:06 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 19:07:56 debian-armhf sshd[3394]: Received signal 15; terminating.
+Nov 27 19:07:56 debian-armhf sshd[13702]: Server listening on 0.0.0.0 port 22.
+Nov 27 19:07:56 debian-armhf sshd[13702]: Server listening on :: port 22.
+Nov 27 19:17:01 debian-armhf CRON[27346]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 27 19:17:01 debian-armhf CRON[27346]: pam_unix(cron:session): session closed for user root
+Nov 27 19:17:31 debian-armhf useradd[27457]: new user: name=_apt, UID=103, GID=65534, home=/nonexistent, shell=/bin/false
+Nov 27 19:17:32 debian-armhf usermod[27463]: change user '_apt' password
+Nov 27 19:17:32 debian-armhf chage[27469]: changed password expiry for _apt
+Nov 27 19:18:30 debian-armhf sshd[13702]: Received signal 15; terminating.
+Nov 27 19:18:30 debian-armhf sshd[27840]: Server listening on 0.0.0.0 port 22.
+Nov 27 19:18:30 debian-armhf sshd[27840]: Server listening on :: port 22.
+Nov 27 19:19:41 debian-armhf groupadd[28129]: group added to /etc/group: name=systemd-journal, GID=107
+Nov 27 19:19:41 debian-armhf groupadd[28129]: group added to /etc/gshadow: name=systemd-journal
+Nov 27 19:19:41 debian-armhf groupadd[28129]: new group: name=systemd-journal, GID=107
+Nov 27 19:19:41 debian-armhf groupadd[28135]: group added to /etc/group: name=systemd-timesync, GID=108
+Nov 27 19:19:41 debian-armhf groupadd[28135]: group added to /etc/gshadow: name=systemd-timesync
+Nov 27 19:19:41 debian-armhf groupadd[28135]: new group: name=systemd-timesync, GID=108
+Nov 27 19:19:41 debian-armhf useradd[28140]: new user: name=systemd-timesync, UID=104, GID=108, home=/run/systemd, shell=/bin/false
+Nov 27 19:19:41 debian-armhf usermod[28146]: change user 'systemd-timesync' password
+Nov 27 19:19:42 debian-armhf chage[28152]: changed password expiry for systemd-timesync
+Nov 27 19:19:42 debian-armhf chfn[28156]: changed user 'systemd-timesync' information
+Nov 27 19:19:42 debian-armhf groupadd[28164]: group added to /etc/group: name=systemd-network, GID=109
+Nov 27 19:19:42 debian-armhf groupadd[28164]: group added to /etc/gshadow: name=systemd-network
+Nov 27 19:19:42 debian-armhf groupadd[28164]: new group: name=systemd-network, GID=109
+Nov 27 19:19:42 debian-armhf useradd[28169]: new user: name=systemd-network, UID=105, GID=109, home=/run/systemd/netif, shell=/bin/false
+Nov 27 19:19:43 debian-armhf usermod[28175]: change user 'systemd-network' password
+Nov 27 19:19:43 debian-armhf chage[28181]: changed password expiry for systemd-network
+Nov 27 19:19:43 debian-armhf chfn[28185]: changed user 'systemd-network' information
+Nov 27 19:19:44 debian-armhf groupadd[28193]: group added to /etc/group: name=systemd-resolve, GID=110
+Nov 27 19:19:44 debian-armhf groupadd[28193]: group added to /etc/gshadow: name=systemd-resolve
+Nov 27 19:19:44 debian-armhf groupadd[28193]: new group: name=systemd-resolve, GID=110
+Nov 27 19:19:44 debian-armhf useradd[28198]: new user: name=systemd-resolve, UID=106, GID=110, home=/run/systemd/resolve, shell=/bin/false
+Nov 27 19:19:44 debian-armhf usermod[28204]: change user 'systemd-resolve' password
+Nov 27 19:19:44 debian-armhf chage[28210]: changed password expiry for systemd-resolve
+Nov 27 19:19:44 debian-armhf chfn[28214]: changed user 'systemd-resolve' information
+Nov 27 19:19:45 debian-armhf groupadd[28222]: group added to /etc/group: name=systemd-bus-proxy, GID=111
+Nov 27 19:19:45 debian-armhf groupadd[28222]: group added to /etc/gshadow: name=systemd-bus-proxy
+Nov 27 19:19:45 debian-armhf groupadd[28222]: new group: name=systemd-bus-proxy, GID=111
+Nov 27 19:19:45 debian-armhf useradd[28227]: new user: name=systemd-bus-proxy, UID=107, GID=111, home=/run/systemd, shell=/bin/false
+Nov 27 19:19:45 debian-armhf usermod[28233]: change user 'systemd-bus-proxy' password
+Nov 27 19:19:45 debian-armhf chage[28239]: changed password expiry for systemd-bus-proxy
+Nov 27 19:19:46 debian-armhf chfn[28243]: changed user 'systemd-bus-proxy' information
+Nov 27 19:20:00 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 19:29:20 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get dist-upgrade
+Nov 27 19:29:20 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 19:31:50 debian-armhf sshd[27840]: Received signal 15; terminating.
+Nov 27 19:31:50 debian-armhf sshd[4202]: Server listening on 0.0.0.0 port 22.
+Nov 27 19:31:50 debian-armhf sshd[4202]: Server listening on :: port 22.
+Nov 27 19:34:34 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 19:34:47 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get dist-upgrade
+Nov 27 19:34:47 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 19:35:16 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 19:36:55 debian-armhf userdel[5242]: delete user 'systemd-bus-proxy'
+Nov 27 19:36:55 debian-armhf userdel[5242]: removed group 'systemd-bus-proxy' owned by 'systemd-bus-proxy'
+Nov 27 19:36:55 debian-armhf userdel[5242]: removed shadow group 'systemd-bus-proxy' owned by 'systemd-bus-proxy'
+Nov 27 19:39:33 debian-armhf sudo: PAM unable to dlopen(pam_systemd.so): /lib/security/pam_systemd.so: cannot open shared object file: No such file or directory
+Nov 27 19:39:33 debian-armhf sudo: PAM adding faulty module: pam_systemd.so
+Nov 27 19:39:33 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get dist-upgrade
+Nov 27 19:39:33 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 19:43:07 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 19:46:48 debian-armhf sudo: PAM unable to dlopen(pam_systemd.so): /lib/security/pam_systemd.so: cannot open shared object file: No such file or directory
+Nov 27 19:46:48 debian-armhf sudo: PAM adding faulty module: pam_systemd.so
+Nov 27 19:46:48 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get dist-upgrade
+Nov 27 19:46:48 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 19:47:57 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 19:48:45 debian-armhf sudo: PAM unable to dlopen(pam_systemd.so): /lib/security/pam_systemd.so: cannot open shared object file: No such file or directory
+Nov 27 19:48:45 debian-armhf sudo: PAM adding faulty module: pam_systemd.so
+Nov 27 19:48:45 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/dpkg -i --force-all /tmp/
+Nov 27 19:48:45 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 19:48:45 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 19:49:01 debian-armhf sudo: PAM unable to dlopen(pam_systemd.so): /lib/security/pam_systemd.so: cannot open shared object file: No such file or directory
+Nov 27 19:49:01 debian-armhf sudo: PAM adding faulty module: pam_systemd.so
+Nov 27 19:49:01 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/dpkg -i --force-all /tmp/apt-dpkg-install-EVTsgD/00-systemd-sysv_241-7~deb10u8_armhf.deb
+Nov 27 19:49:01 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 19:49:01 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 19:50:29 debian-armhf sudo: PAM unable to dlopen(pam_systemd.so): /lib/security/pam_systemd.so: cannot open shared object file: No such file or directory
+Nov 27 19:50:29 debian-armhf sudo: PAM adding faulty module: pam_systemd.so
+Nov 27 19:50:29 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/dpkg --remove sysvinit
+Nov 27 19:50:29 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 19:50:30 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 19:51:55 debian-armhf sudo: PAM unable to dlopen(pam_systemd.so): /lib/security/pam_systemd.so: cannot open shared object file: No such file or directory
+Nov 27 19:51:55 debian-armhf sudo: PAM adding faulty module: pam_systemd.so
+Nov 27 19:51:55 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get dist-upgrade
+Nov 27 19:51:55 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 19:56:59 debian-armhf groupadd[22531]: group added to /etc/group: name=kvm, GID=111
+Nov 27 19:56:59 debian-armhf groupadd[22531]: group added to /etc/gshadow: name=kvm
+Nov 27 19:56:59 debian-armhf groupadd[22531]: new group: name=kvm, GID=111
+Nov 27 19:57:50 debian-armhf groupadd[22541]: group added to /etc/group: name=render, GID=112
+Nov 27 19:57:50 debian-armhf groupadd[22541]: group added to /etc/gshadow: name=render
+Nov 27 19:57:50 debian-armhf groupadd[22541]: new group: name=render, GID=112
+Nov 27 19:59:12 debian-armhf sshd[4202]: Received signal 15; terminating.
+Nov 27 19:59:13 debian-armhf sshd[27927]: Server listening on 0.0.0.0 port 22.
+Nov 27 19:59:13 debian-armhf sshd[27927]: Server listening on :: port 22.
+Nov 27 19:59:46 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 20:01:28 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get update
+Nov 27 20:01:28 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 20:02:31 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 20:03:15 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get upgrade
+Nov 27 20:03:15 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 20:16:59 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 20:17:26 debian-armhf CRON[13536]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 27 20:17:26 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get dist-upgrade
+Nov 27 20:17:52 debian-armhf sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 27 20:17:52 debian-armhf CRON[13536]: pam_unix(cron:session): session closed for user root
+Nov 27 20:20:26 debian-armhf sshd[27927]: Received signal 15; terminating.
+Nov 27 20:20:26 debian-armhf sshd[14027]: Server listening on 0.0.0.0 port 22.
+Nov 27 20:20:26 debian-armhf sshd[14027]: Server listening on :: port 22.
+Nov 27 20:30:45 debian-armhf sshd[14027]: Received signal 15; terminating.
+Nov 27 20:30:45 debian-armhf sshd[16986]: Server listening on 0.0.0.0 port 22.
+Nov 27 20:30:45 debian-armhf sshd[16986]: Server listening on :: port 22.
+Nov 27 20:33:09 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 20:33:24 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get dist-upgrade
+Nov 27 20:33:24 debian-armhf sudo: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+Nov 27 20:34:02 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 20:34:11 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt autoremove
+Nov 27 20:34:11 debian-armhf sudo: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+Nov 27 20:35:37 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 20:43:26 debian-armhf sshd[25613]: Accepted password for root from 192.168.1.53 port 51629 ssh2
+Nov 27 20:43:26 debian-armhf sshd[25613]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Nov 27 20:43:27 debian-armhf sshd[25613]: pam_systemd(sshd:session): Failed to create session: Launch helper exited with unknown return code 1
+Nov 27 21:00:50 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/git add .
+Nov 27 21:00:50 debian-armhf sudo: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+Nov 27 21:00:57 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 21:05:31 debian-armhf sshd[25926]: Accepted password for root from 192.168.1.53 port 51814 ssh2
+Nov 27 21:05:31 debian-armhf sshd[25926]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Nov 27 21:05:31 debian-armhf sshd[25926]: pam_systemd(sshd:session): Failed to create session: Launch helper exited with unknown return code 1
+Nov 27 21:17:09 debian-armhf CRON[25965]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 27 21:17:09 debian-armhf CRON[25965]: pam_unix(cron:session): session closed for user root

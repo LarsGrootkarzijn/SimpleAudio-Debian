@@ -1,0 +1,7 @@
+/etc
+/etc/init.d
+/etc/init.d/cgproxy
+/etc/init.d/cgmanager
+/etc/init
+/etc/init/cgproxy.conf
+/etc/init/cgmanager.conf

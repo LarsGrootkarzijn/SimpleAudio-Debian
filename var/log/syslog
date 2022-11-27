@@ -1,0 +1,670 @@
+Jan  1 00:00:18 debian-armhf kernel: imklog 5.8.11, log source = /proc/kmsg started.
+Jan  1 00:00:18 debian-armhf rsyslogd: [origin software="rsyslogd" swVersion="5.8.11" x-pid="1868" x-info="http://www.rsyslog.com"] start
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] Booting Linux on physical CPU 0x0
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] Linux version 5.10.100-g7a7a3af903 (root@Ubuntu) (arm-none-linux-gnueabihf-gcc (GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)) 9.2.1 20191025, GNU ld (GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)) 2.33.1.20191209) #63 PREEMPT Thu Nov 24 22:32:46 CET 2022
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] CPU: ARMv7 Processor [413fc082] revision 2 (ARMv7), cr=10c5387d
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] OF: fdt: Machine model: Lars Board
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] Memory policy: Data cache writeback
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] efi: UEFI not found.
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] cma: Reserved 48 MiB at 0x9c800000
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] Zone ranges:
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000]   Normal   [mem 0x0000000080000000-0x000000009fefffff]
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000]   HighMem  empty
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] Movable zone start for each node
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] Early memory node ranges
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000]   node   0: [mem 0x0000000080000000-0x000000009fefffff]
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000080000000-0x000000009fefffff]
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] On node 0 totalpages: 130816
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000]   Normal zone: 1150 pages used for memmap
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000]   Normal zone: 0 pages reserved
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000]   Normal zone: 130816 pages, LIFO batch:31
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] CPU: All CPU(s) started in SVC mode.
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] AM335X ES2.1 (neon)
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] pcpu-alloc: [0] 0 
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 129666
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] Kernel command line: console=ttyS0,115200n8 drm.debug=7 root=/dev/mmcblk1p4 ro rootfstype=ext4 rootwait
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes, linear)
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes, linear)
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] mem auto-init: stack:off, heap alloc:off, heap free:off
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] Memory: 453268K/523264K available (9216K kernel code, 807K rwdata, 3428K rodata, 1024K init, 294K bss, 20844K reserved, 49152K cma-reserved, 0K highmem)
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] rcu: Preemptible hierarchical RCU implementation.
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] 	Trampoline variant of Tasks RCU enabled.
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] rcu: RCU calculated value of scheduler-enlistment delay is 10 jiffies.
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] NR_IRQS: 16, nr_irqs: 16, preallocated irqs: 16
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] IRQ: Found an INTC at 0x(ptrval) (revision 5.0) with 128 interrupts
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] random: get_random_bytes called from start_kernel+0x30c/0x4c8 with crng_init=0
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] TI gptimer clocksource: always-on /ocp/interconnect@44c00000/segment@200000/target-module@31000
+Jan  1 00:00:18 debian-armhf kernel: [    0.000014] sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 89478484971ns
+Jan  1 00:00:18 debian-armhf kernel: [    0.000043] clocksource: dmtimer: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 79635851949 ns
+Jan  1 00:00:18 debian-armhf kernel: [    0.000550] TI gptimer clockevent: 24000000 Hz at /ocp/interconnect@48000000/segment@0/target-module@40000
+Jan  1 00:00:18 debian-armhf kernel: [    0.002046] Console: colour dummy device 80x30
+Jan  1 00:00:18 debian-armhf kernel: [    0.002151] Calibrating delay loop... 548.86 BogoMIPS (lpj=2744320)
+Jan  1 00:00:18 debian-armhf kernel: [    0.050659] pid_max: default: 32768 minimum: 301
+Jan  1 00:00:18 debian-armhf kernel: [    0.050903] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes, linear)
+Jan  1 00:00:18 debian-armhf kernel: [    0.050930] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes, linear)
+Jan  1 00:00:18 debian-armhf kernel: [    0.052151] CPU: Testing write buffer coherency: ok
+Jan  1 00:00:18 debian-armhf kernel: [    0.052252] CPU0: Spectre v2: using BPIALL workaround
+Jan  1 00:00:18 debian-armhf kernel: [    0.053401] Setting up static identity map for 0x80100000 - 0x80100060
+Jan  1 00:00:18 debian-armhf kernel: [    0.053610] rcu: Hierarchical SRCU implementation.
+Jan  1 00:00:18 debian-armhf kernel: [    0.054590] EFI services will not be available.
+Jan  1 00:00:18 debian-armhf kernel: [    0.055229] devtmpfs: initialized
+Jan  1 00:00:18 debian-armhf kernel: [    0.072232] VFP support v0.3: implementor 41 architecture 3 part 30 variant c rev 3
+Jan  1 00:00:18 debian-armhf kernel: [    0.072601] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+Jan  1 00:00:18 debian-armhf kernel: [    0.072637] futex hash table entries: 256 (order: -1, 3072 bytes, linear)
+Jan  1 00:00:18 debian-armhf kernel: [    0.077039] pinctrl core: initialized pinctrl subsystem
+Jan  1 00:00:18 debian-armhf kernel: [    0.078265] DMI not present or invalid.
+Jan  1 00:00:18 debian-armhf kernel: [    0.078913] NET: Registered protocol family 16
+Jan  1 00:00:18 debian-armhf kernel: [    0.082304] DMA: preallocated 256 KiB pool for atomic coherent allocations
+Jan  1 00:00:18 debian-armhf kernel: [    0.103496] l3-aon-clkctrl:0000:0: failed to disable
+Jan  1 00:00:18 debian-armhf kernel: [    0.105162] thermal_sys: Registered thermal governor 'fair_share'
+Jan  1 00:00:18 debian-armhf kernel: [    0.105179] thermal_sys: Registered thermal governor 'bang_bang'
+Jan  1 00:00:18 debian-armhf kernel: [    0.105201] thermal_sys: Registered thermal governor 'step_wise'
+Jan  1 00:00:18 debian-armhf kernel: [    0.105214] thermal_sys: Registered thermal governor 'user_space'
+Jan  1 00:00:18 debian-armhf kernel: [    1.929580] No ATAGs?
+Jan  1 00:00:18 debian-armhf kernel: [    1.929626] hw-breakpoint: debug architecture 0x4 unsupported.
+Jan  1 00:00:18 debian-armhf kernel: [    1.968960] reg-fixed-voltage fixedregulator0: GPIO lookup for consumer (null)
+Jan  1 00:00:18 debian-armhf kernel: [    1.968983] reg-fixed-voltage fixedregulator0: using device tree for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    1.969038] of_get_named_gpiod_flags: can't parse 'gpios' property of node '/fixedregulator0[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    1.969070] of_get_named_gpiod_flags: can't parse 'gpio' property of node '/fixedregulator0[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    1.969088] reg-fixed-voltage fixedregulator0: using lookup tables for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    1.969103] reg-fixed-voltage fixedregulator0: No GPIO consumer (null) found
+Jan  1 00:00:18 debian-armhf kernel: [    1.970950] iommu: Default domain type: Translated 
+Jan  1 00:00:18 debian-armhf kernel: [    1.974510] mc: Linux media interface: v0.10
+Jan  1 00:00:18 debian-armhf kernel: [    1.974586] videodev: Linux video capture interface: v2.00
+Jan  1 00:00:18 debian-armhf kernel: [    1.974739] pps_core: LinuxPPS API ver. 1 registered
+Jan  1 00:00:18 debian-armhf kernel: [    1.974757] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Jan  1 00:00:18 debian-armhf kernel: [    1.974794] PTP clock support registered
+Jan  1 00:00:18 debian-armhf kernel: [    1.974901] EDAC MC: Ver: 3.0.0
+Jan  1 00:00:18 debian-armhf kernel: [    1.976260] Advanced Linux Sound Architecture Driver Initialized.
+Jan  1 00:00:18 debian-armhf kernel: [    1.977741] clocksource: Switched to clocksource dmtimer
+Jan  1 00:00:18 debian-armhf kernel: [    1.990632] NET: Registered protocol family 2
+Jan  1 00:00:18 debian-armhf kernel: [    1.990926] IP idents hash table entries: 8192 (order: 4, 65536 bytes, linear)
+Jan  1 00:00:18 debian-armhf kernel: [    1.992389] tcp_listen_portaddr_hash hash table entries: 512 (order: 0, 4096 bytes, linear)
+Jan  1 00:00:18 debian-armhf kernel: [    1.992462] TCP established hash table entries: 4096 (order: 2, 16384 bytes, linear)
+Jan  1 00:00:18 debian-armhf kernel: [    1.992535] TCP bind hash table entries: 4096 (order: 2, 16384 bytes, linear)
+Jan  1 00:00:18 debian-armhf kernel: [    1.992604] TCP: Hash tables configured (established 4096 bind 4096)
+Jan  1 00:00:18 debian-armhf kernel: [    1.992756] UDP hash table entries: 256 (order: 0, 4096 bytes, linear)
+Jan  1 00:00:18 debian-armhf kernel: [    1.992793] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes, linear)
+Jan  1 00:00:18 debian-armhf kernel: [    1.992961] NET: Registered protocol family 1
+Jan  1 00:00:18 debian-armhf kernel: [    1.993712] RPC: Registered named UNIX socket transport module.
+Jan  1 00:00:18 debian-armhf kernel: [    1.993736] RPC: Registered udp transport module.
+Jan  1 00:00:18 debian-armhf kernel: [    1.993749] RPC: Registered tcp transport module.
+Jan  1 00:00:18 debian-armhf kernel: [    1.993760] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Jan  1 00:00:18 debian-armhf kernel: [    1.993787] PCI: CLS 0 bytes, default 64
+Jan  1 00:00:18 debian-armhf kernel: [    1.995199] hw perfevents: enabled with armv7_cortex_a8 PMU driver, 5 counters available
+Jan  1 00:00:18 debian-armhf kernel: [    1.997071] Initialise system trusted keyrings
+Jan  1 00:00:18 debian-armhf kernel: [    1.997505] workingset: timestamp_bits=14 max_order=17 bucket_order=3
+Jan  1 00:00:18 debian-armhf kernel: [    2.003791] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Jan  1 00:00:18 debian-armhf kernel: [    2.004924] NFS: Registering the id_resolver key type
+Jan  1 00:00:18 debian-armhf kernel: [    2.004999] Key type id_resolver registered
+Jan  1 00:00:18 debian-armhf kernel: [    2.005014] Key type id_legacy registered
+Jan  1 00:00:18 debian-armhf kernel: [    2.005084] ntfs: driver 2.1.32 [Flags: R/O].
+Jan  1 00:00:18 debian-armhf kernel: [    2.006212] NET: Registered protocol family 38
+Jan  1 00:00:18 debian-armhf kernel: [    2.006244] Key type asymmetric registered
+Jan  1 00:00:18 debian-armhf kernel: [    2.006260] Asymmetric key parser 'x509' registered
+Jan  1 00:00:18 debian-armhf kernel: [    2.006342] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 245)
+Jan  1 00:00:18 debian-armhf kernel: [    2.006362] io scheduler mq-deadline registered
+Jan  1 00:00:18 debian-armhf kernel: [    2.006376] io scheduler kyber registered
+Jan  1 00:00:18 debian-armhf kernel: [    2.477806] random: fast init done
+Jan  1 00:00:18 debian-armhf kernel: [    2.683459] omap-mailbox 480c8000.mailbox: omap mailbox rev 0x400
+Jan  1 00:00:18 debian-armhf kernel: [    2.821256] debugfs: Directory '49000000.dma' with parent 'dmaengine' already present!
+Jan  1 00:00:18 debian-armhf kernel: [    2.821315] edma 49000000.dma: TI EDMA DMA engine driver
+Jan  1 00:00:18 debian-armhf kernel: [    2.852893] pinctrl-single 44e10800.pinmux: 142 pins, size 568
+Jan  1 00:00:18 debian-armhf kernel: [    2.934075] Serial: 8250/16550 driver, 10 ports, IRQ sharing disabled
+Jan  1 00:00:18 debian-armhf kernel: [    2.939482] printk: console [ttyS0] disabled
+Jan  1 00:00:18 debian-armhf kernel: [    2.939554] omap8250 44e09000.serial: GPIO lookup for consumer rs485-term
+Jan  1 00:00:18 debian-armhf kernel: [    2.939567] omap8250 44e09000.serial: using device tree for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    2.939629] of_get_named_gpiod_flags: can't parse 'rs485-term-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@9000/serial@0[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    2.939671] of_get_named_gpiod_flags: can't parse 'rs485-term-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@9000/serial@0[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    2.939693] omap8250 44e09000.serial: using lookup tables for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    2.939708] omap8250 44e09000.serial: No GPIO consumer rs485-term found
+Jan  1 00:00:18 debian-armhf kernel: [    2.939776] 44e09000.serial: ttyS0 at MMIO 0x44e09000 (irq = 20, base_baud = 3000000) is a 8250
+Jan  1 00:00:18 debian-armhf kernel: [    3.575997] printk: console [ttyS0] enabled
+Jan  1 00:00:18 debian-armhf kernel: [    3.581254] pinctrl-single 44e10800.pinmux: Invalid number of rows: 0
+Jan  1 00:00:18 debian-armhf kernel: [    3.587806] pinctrl-single 44e10800.pinmux: no pins entries for uart1_pins
+Jan  1 00:00:18 debian-armhf kernel: [    3.594740] omap8250: probe of 48022000.serial failed with error -22
+Jan  1 00:00:18 debian-armhf kernel: [    3.604564] omap_rng 48310000.rng: Random Number Generator ver. 20
+Jan  1 00:00:18 debian-armhf kernel: [    3.611148] random: crng init done
+Jan  1 00:00:18 debian-armhf kernel: [    3.615551] [drm:drm_core_init] Initialized
+Jan  1 00:00:18 debian-armhf kernel: [    3.617631] [drm:tilcdc_drm_init] init
+Jan  1 00:00:18 debian-armhf kernel: [    3.631668] brd: module loaded
+Jan  1 00:00:18 debian-armhf kernel: [    3.644995] loop: module loaded
+Jan  1 00:00:18 debian-armhf kernel: [    3.653533] spi-nor spi0.0: found m25p64, expected at25df641
+Jan  1 00:00:18 debian-armhf kernel: [    3.659482] spi-nor spi0.0: m25p64 (8192 Kbytes)
+Jan  1 00:00:18 debian-armhf kernel: [    3.664209] 5 fixed-partitions partitions found on MTD device spi0.0
+Jan  1 00:00:18 debian-armhf kernel: [    3.670631] Creating 5 MTD partitions on "spi0.0":
+Jan  1 00:00:18 debian-armhf kernel: [    3.675457] 0x0000007f0000-0x000000800000 : "MAC Address"
+Jan  1 00:00:18 debian-armhf kernel: [    3.681332] mtd mtd0: GPIO lookup for consumer wp
+Jan  1 00:00:18 debian-armhf kernel: [    3.681351] mtd mtd0: using device tree for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    3.681409] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/ethaddr@7F0000[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    3.681456] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/ethaddr@7F0000[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    3.681476] mtd mtd0: using lookup tables for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    3.681490] mtd mtd0: No GPIO consumer wp found
+Jan  1 00:00:18 debian-armhf kernel: [    3.688804] 0x000000100000-0x000000600000 : "Linux Kernel"
+Jan  1 00:00:18 debian-armhf kernel: [    3.694677] mtd mtd1: GPIO lookup for consumer wp
+Jan  1 00:00:18 debian-armhf kernel: [    3.694693] mtd mtd1: using device tree for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    3.694750] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/uImage@100000[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    3.694797] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/uImage@100000[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    3.694814] mtd mtd1: using lookup tables for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    3.694828] mtd mtd1: No GPIO consumer wp found
+Jan  1 00:00:18 debian-armhf kernel: [    3.708712] 0x0000000f0000-0x000000100000 : "U-Boot Environment"
+Jan  1 00:00:18 debian-armhf kernel: [    3.715099] mtd mtd2: GPIO lookup for consumer wp
+Jan  1 00:00:18 debian-armhf kernel: [    3.715115] mtd mtd2: using device tree for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    3.715173] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/ubootenv@F0000[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    3.715220] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/ubootenv@F0000[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    3.715238] mtd mtd2: using lookup tables for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    3.715252] mtd mtd2: No GPIO consumer wp found
+Jan  1 00:00:18 debian-armhf kernel: [    3.728743] 0x000000080000-0x0000000f0000 : "U-Boot"
+Jan  1 00:00:18 debian-armhf kernel: [    3.734078] mtd mtd3: GPIO lookup for consumer wp
+Jan  1 00:00:18 debian-armhf kernel: [    3.734093] mtd mtd3: using device tree for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    3.734151] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/uboot@80000[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    3.734197] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/uboot@80000[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    3.734215] mtd mtd3: using lookup tables for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    3.734229] mtd mtd3: No GPIO consumer wp found
+Jan  1 00:00:18 debian-armhf kernel: [    3.738741] 0x000000000000-0x000000080000 : "U-Boot SPL"
+Jan  1 00:00:18 debian-armhf kernel: [    3.744421] mtd mtd4: GPIO lookup for consumer wp
+Jan  1 00:00:18 debian-armhf kernel: [    3.744438] mtd mtd4: using device tree for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    3.744503] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/spl@0[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    3.744550] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/spl@0[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    3.744569] mtd mtd4: using lookup tables for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    3.744582] mtd mtd4: No GPIO consumer wp found
+Jan  1 00:00:18 debian-armhf kernel: [    3.760961] mdio_bus fixed-0: GPIO lookup for consumer reset
+Jan  1 00:00:18 debian-armhf kernel: [    3.760987] mdio_bus fixed-0: using lookup tables for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    3.761000] mdio_bus fixed-0: No GPIO consumer reset found
+Jan  1 00:00:18 debian-armhf kernel: [    3.767602] mdio_bus 4a101000.mdio: GPIO lookup for consumer reset
+Jan  1 00:00:18 debian-armhf kernel: [    3.767628] mdio_bus 4a101000.mdio: using device tree for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    3.767687] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/interconnect@4a000000/segment@0/target-module@100000/ethernet@0/mdio@1000[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    3.767732] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/interconnect@4a000000/segment@0/target-module@100000/ethernet@0/mdio@1000[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    3.768017] mdio_bus 4a101000.mdio: using lookup tables for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    3.768033] mdio_bus 4a101000.mdio: No GPIO consumer reset found
+Jan  1 00:00:18 debian-armhf kernel: [    3.827819] davinci_mdio 4a101000.mdio: davinci mdio revision 1.6, bus freq 1000000
+Jan  1 00:00:18 debian-armhf kernel: [    3.836897] mdio_bus 4a101000.mdio:01: GPIO lookup for consumer reset
+Jan  1 00:00:18 debian-armhf kernel: [    3.836917] mdio_bus 4a101000.mdio:01: using device tree for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    3.836985] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/interconnect@4a000000/segment@0/target-module@100000/ethernet@0/mdio@1000/ethernet-phy@0[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    3.837034] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/interconnect@4a000000/segment@0/target-module@100000/ethernet@0/mdio@1000/ethernet-phy@0[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    3.837051] mdio_bus 4a101000.mdio:01: using lookup tables for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    3.837066] mdio_bus 4a101000.mdio:01: No GPIO consumer reset found
+Jan  1 00:00:18 debian-armhf kernel: [    3.838256] davinci_mdio 4a101000.mdio: phy[1]: device 4a101000.mdio:01, driver unknown
+Jan  1 00:00:18 debian-armhf kernel: [    3.847111] cpsw 4a100000.ethernet: initialized cpsw ale version 1.4
+Jan  1 00:00:18 debian-armhf kernel: [    3.853664] cpsw 4a100000.ethernet: ALE Table size 1024
+Jan  1 00:00:18 debian-armhf kernel: [    3.859129] cpsw 4a100000.ethernet: cpts: overflow check period 500 (jiffies)
+Jan  1 00:00:18 debian-armhf kernel: [    3.866392] cpsw 4a100000.ethernet: Detected MACID = d0:ff:50:01:21:02
+Jan  1 00:00:18 debian-armhf kernel: [    3.875322] mousedev: PS/2 mouse device common for all mice
+Jan  1 00:00:18 debian-armhf kernel: [    3.881391] i2c /dev entries driver
+Jan  1 00:00:18 debian-armhf kernel: [    3.890365] sdhci: Secure Digital Host Controller Interface driver
+Jan  1 00:00:18 debian-armhf kernel: [    3.896599] sdhci: Copyright(c) Pierre Ossman
+Jan  1 00:00:18 debian-armhf kernel: [    3.903377] sdhci-pltfm: SDHCI platform and OF driver helper
+Jan  1 00:00:18 debian-armhf kernel: [    3.912767] sdhci-omap 48060000.mmc: GPIO lookup for consumer cd
+Jan  1 00:00:18 debian-armhf kernel: [    3.912789] sdhci-omap 48060000.mmc: using device tree for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    3.912833] sdhci-omap 48060000.mmc: No GPIO consumer cd found
+Jan  1 00:00:18 debian-armhf kernel: [    3.913629] sdhci-omap 481d8000.mmc: GPIO lookup for consumer cd
+Jan  1 00:00:18 debian-armhf kernel: [    3.913647] sdhci-omap 481d8000.mmc: using device tree for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    3.913710] of_get_named_gpiod_flags: can't parse 'cd-gpios' property of node '/ocp/interconnect@48000000/segment@100000/target-module@d8000/mmc@0[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    3.913752] of_get_named_gpiod_flags: can't parse 'cd-gpio' property of node '/ocp/interconnect@48000000/segment@100000/target-module@d8000/mmc@0[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    3.913770] sdhci-omap 481d8000.mmc: using lookup tables for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    3.913784] sdhci-omap 481d8000.mmc: No GPIO consumer cd found
+Jan  1 00:00:18 debian-armhf kernel: [    3.913798] sdhci-omap 481d8000.mmc: GPIO lookup for consumer wp
+Jan  1 00:00:18 debian-armhf kernel: [    3.913809] sdhci-omap 481d8000.mmc: using device tree for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    3.913849] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@100000/target-module@d8000/mmc@0[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    3.913887] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@100000/target-module@d8000/mmc@0[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    3.913903] sdhci-omap 481d8000.mmc: using lookup tables for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    3.913915] sdhci-omap 481d8000.mmc: No GPIO consumer wp found
+Jan  1 00:00:18 debian-armhf kernel: [    3.914118] sdhci-omap 481d8000.mmc: supply vqmmc not found, using dummy regulator
+Jan  1 00:00:18 debian-armhf kernel: [    3.923673] ledtrig-cpu: registered to indicate activity on CPUs
+Jan  1 00:00:18 debian-armhf kernel: [    3.938728] omap-aes 53500000.aes: OMAP AES hw accel rev: 3.2
+Jan  1 00:00:18 debian-armhf kernel: [    3.947873] omap-aes 53500000.aes: will run requests pump with realtime priority
+Jan  1 00:00:18 debian-armhf kernel: [    3.975500] omap-sham 53100000.sham: hw accel on OMAP rev 4.3
+Jan  1 00:00:18 debian-armhf kernel: [    3.987842] omap-sham 53100000.sham: will run requests pump with realtime priority
+Jan  1 00:00:18 debian-armhf kernel: [    4.024743] davinci-mcasp 48038000.mcasp: IRQ common not found
+Jan  1 00:00:18 debian-armhf kernel: [    4.033911] NET: Registered protocol family 10
+Jan  1 00:00:18 debian-armhf kernel: [    4.040635] Segment Routing with IPv6
+Jan  1 00:00:18 debian-armhf kernel: [    4.044774] sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+Jan  1 00:00:18 debian-armhf kernel: [    4.051822] NET: Registered protocol family 17
+Jan  1 00:00:18 debian-armhf kernel: [    4.056667] Key type dns_resolver registered
+Jan  1 00:00:18 debian-armhf kernel: [    4.061090] mmc1: SDHCI controller on 481d8000.mmc [481d8000.mmc] using External DMA
+Jan  1 00:00:18 debian-armhf kernel: [    4.069543] NET: Registered protocol family 40
+Jan  1 00:00:18 debian-armhf kernel: [    4.075139] Registering SWP/SWPB emulation handler
+Jan  1 00:00:18 debian-armhf kernel: [    4.080132] omap_voltage_late_init: Voltage driver support not added
+Jan  1 00:00:18 debian-armhf kernel: [    4.087042] Loading compiled-in X.509 certificates
+Jan  1 00:00:18 debian-armhf kernel: [    4.109091] [drm:omap_drm_init] init
+Jan  1 00:00:18 debian-armhf kernel: [    4.110730] gpio gpiochip0: (gpio-0-31): created GPIO range 0->7 ==> 44e10800.pinmux PIN 82->89
+Jan  1 00:00:18 debian-armhf kernel: [    4.110764] gpio gpiochip0: (gpio-0-31): created GPIO range 8->11 ==> 44e10800.pinmux PIN 52->55
+Jan  1 00:00:18 debian-armhf kernel: [    4.110785] gpio gpiochip0: (gpio-0-31): created GPIO range 12->15 ==> 44e10800.pinmux PIN 94->97
+Jan  1 00:00:18 debian-armhf kernel: [    4.110805] gpio gpiochip0: (gpio-0-31): created GPIO range 16->17 ==> 44e10800.pinmux PIN 71->72
+Jan  1 00:00:18 debian-armhf kernel: [    4.110826] gpio gpiochip0: (gpio-0-31): created GPIO range 18->18 ==> 44e10800.pinmux PIN 135->135
+Jan  1 00:00:18 debian-armhf kernel: [    4.110849] gpio gpiochip0: (gpio-0-31): created GPIO range 19->20 ==> 44e10800.pinmux PIN 108->109
+Jan  1 00:00:18 debian-armhf kernel: [    4.110871] gpio gpiochip0: (gpio-0-31): created GPIO range 21->21 ==> 44e10800.pinmux PIN 73->73
+Jan  1 00:00:18 debian-armhf kernel: [    4.110893] gpio gpiochip0: (gpio-0-31): created GPIO range 22->23 ==> 44e10800.pinmux PIN 8->9
+Jan  1 00:00:18 debian-armhf kernel: [    4.110914] gpio gpiochip0: (gpio-0-31): created GPIO range 26->27 ==> 44e10800.pinmux PIN 10->11
+Jan  1 00:00:18 debian-armhf kernel: [    4.110945] gpio gpiochip0: (gpio-0-31): created GPIO range 28->28 ==> 44e10800.pinmux PIN 74->74
+Jan  1 00:00:18 debian-armhf kernel: [    4.110968] gpio gpiochip0: (gpio-0-31): created GPIO range 29->29 ==> 44e10800.pinmux PIN 81->81
+Jan  1 00:00:18 debian-armhf kernel: [    4.110990] gpio gpiochip0: (gpio-0-31): created GPIO range 30->31 ==> 44e10800.pinmux PIN 28->29
+Jan  1 00:00:18 debian-armhf kernel: [    4.111445] gpio gpiochip0: (gpio-0-31): added GPIO chardev (254:0)
+Jan  1 00:00:18 debian-armhf kernel: [    4.111591] gpio gpiochip0: registered GPIOs 0 to 31 on gpio-0-31
+Jan  1 00:00:18 debian-armhf kernel: [    4.111661] OMAP GPIO hardware version 0.1
+Jan  1 00:00:18 debian-armhf kernel: [    4.117226] i2c i2c-0: GPIO lookup for consumer scl
+Jan  1 00:00:18 debian-armhf kernel: [    4.117248] i2c i2c-0: using device tree for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    4.117308] of_get_named_gpiod_flags: can't parse 'scl-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    4.117350] of_get_named_gpiod_flags: can't parse 'scl-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    4.117371] i2c i2c-0: using lookup tables for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    4.117384] i2c i2c-0: No GPIO consumer scl found
+Jan  1 00:00:18 debian-armhf kernel: [    4.117409] i2c i2c-0: GPIO lookup for consumer sda
+Jan  1 00:00:18 debian-armhf kernel: [    4.117419] i2c i2c-0: using device tree for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    4.117458] of_get_named_gpiod_flags: can't parse 'sda-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    4.117496] of_get_named_gpiod_flags: can't parse 'sda-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    4.117510] i2c i2c-0: using lookup tables for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    4.117522] i2c i2c-0: No GPIO consumer sda found
+Jan  1 00:00:18 debian-armhf kernel: [    4.148960] tps65217-pmic: Failed to locate of_node [id: -1]
+Jan  1 00:00:18 debian-armhf kernel: [    4.160032] mmc1: new high speed MMC card at address 0001
+Jan  1 00:00:18 debian-armhf kernel: [    4.166801] mmcblk1: mmc1:0001 MMC04G 3.66 GiB 
+Jan  1 00:00:18 debian-armhf kernel: [    4.172414] mmcblk1boot0: mmc1:0001 MMC04G partition 1 1.00 MiB
+Jan  1 00:00:18 debian-armhf kernel: [    4.179137] mmcblk1boot1: mmc1:0001 MMC04G partition 2 1.00 MiB
+Jan  1 00:00:18 debian-armhf kernel: [    4.185520] mmcblk1rpmb: mmc1:0001 MMC04G partition 3 128 KiB, chardev (244:0)
+Jan  1 00:00:18 debian-armhf kernel: [    4.196764]  mmcblk1: p1 p2 p3 p4
+Jan  1 00:00:18 debian-armhf kernel: [    4.212418] tps65217-bl: Failed to locate of_node [id: -1]
+Jan  1 00:00:18 debian-armhf kernel: [    4.223599] tps65217 0-0024: TPS65217 ID 0xe version 1.2
+Jan  1 00:00:18 debian-armhf kernel: [    4.230782] pca953x 0-0023: GPIO lookup for consumer reset
+Jan  1 00:00:18 debian-armhf kernel: [    4.230805] pca953x 0-0023: using device tree for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    4.230862] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@23[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    4.230907] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@23[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    4.230927] pca953x 0-0023: using lookup tables for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    4.230940] pca953x 0-0023: No GPIO consumer reset found
+Jan  1 00:00:18 debian-armhf kernel: [    4.230982] pca953x 0-0023: supply vcc not found, using dummy regulator
+Jan  1 00:00:18 debian-armhf kernel: [    4.237936] pca953x 0-0023: using no AI
+Jan  1 00:00:18 debian-armhf kernel: [    4.242252] gpiochip_find_base: found new base at 504
+Jan  1 00:00:18 debian-armhf kernel: [    4.243107] gpio gpiochip1: (0-0023): added GPIO chardev (254:1)
+Jan  1 00:00:18 debian-armhf kernel: [    4.243238] gpio gpiochip1: registered GPIOs 504 to 511 on 0-0023
+Jan  1 00:00:18 debian-armhf kernel: [    4.244020] pca953x 0-0022: GPIO lookup for consumer reset
+Jan  1 00:00:18 debian-armhf kernel: [    4.244038] pca953x 0-0022: using device tree for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    4.244092] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@22[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    4.244136] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@22[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    4.244153] pca953x 0-0022: using lookup tables for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    4.244167] pca953x 0-0022: No GPIO consumer reset found
+Jan  1 00:00:18 debian-armhf kernel: [    4.244201] pca953x 0-0022: supply vcc not found, using dummy regulator
+Jan  1 00:00:18 debian-armhf kernel: [    4.251235] pca953x 0-0022: using no AI
+Jan  1 00:00:18 debian-armhf kernel: [    4.255533] gpiochip_find_base: found new base at 496
+Jan  1 00:00:18 debian-armhf kernel: [    4.256316] gpio gpiochip2: (0-0022): added GPIO chardev (254:2)
+Jan  1 00:00:18 debian-armhf kernel: [    4.256438] gpio gpiochip2: registered GPIOs 496 to 503 on 0-0022
+Jan  1 00:00:18 debian-armhf kernel: [    4.257105] pca953x 0-0020: GPIO lookup for consumer reset
+Jan  1 00:00:18 debian-armhf kernel: [    4.257122] pca953x 0-0020: using device tree for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    4.257174] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@20[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    4.257218] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@20[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    4.257236] pca953x 0-0020: using lookup tables for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    4.257249] pca953x 0-0020: No GPIO consumer reset found
+Jan  1 00:00:18 debian-armhf kernel: [    4.257282] pca953x 0-0020: supply vcc not found, using dummy regulator
+Jan  1 00:00:18 debian-armhf kernel: [    4.264261] pca953x 0-0020: using no AI
+Jan  1 00:00:18 debian-armhf kernel: [    4.268619] gpiochip_find_base: found new base at 488
+Jan  1 00:00:18 debian-armhf kernel: [    4.269474] gpio gpiochip3: (0-0020): added GPIO chardev (254:3)
+Jan  1 00:00:18 debian-armhf kernel: [    4.269601] gpio gpiochip3: registered GPIOs 488 to 495 on 0-0020
+Jan  1 00:00:18 debian-armhf kernel: [    4.269848] omap_i2c 44e0b000.i2c: bus 0 rev0.11 at 100 kHz
+Jan  1 00:00:18 debian-armhf kernel: [    4.276194] gpio gpiochip4: (gpio-32-63): created GPIO range 0->7 ==> 44e10800.pinmux PIN 0->7
+Jan  1 00:00:18 debian-armhf kernel: [    4.276222] gpio gpiochip4: (gpio-32-63): created GPIO range 8->11 ==> 44e10800.pinmux PIN 90->93
+Jan  1 00:00:18 debian-armhf kernel: [    4.276243] gpio gpiochip4: (gpio-32-63): created GPIO range 12->27 ==> 44e10800.pinmux PIN 12->27
+Jan  1 00:00:18 debian-armhf kernel: [    4.276262] gpio gpiochip4: (gpio-32-63): created GPIO range 28->31 ==> 44e10800.pinmux PIN 30->33
+Jan  1 00:00:18 debian-armhf kernel: [    4.276616] gpio gpiochip4: (gpio-32-63): added GPIO chardev (254:4)
+Jan  1 00:00:18 debian-armhf kernel: [    4.276742] gpio gpiochip4: registered GPIOs 32 to 63 on gpio-32-63
+Jan  1 00:00:18 debian-armhf kernel: [    4.277241] gpio gpiochip5: (gpio-64-95): created GPIO range 0->17 ==> 44e10800.pinmux PIN 34->51
+Jan  1 00:00:18 debian-armhf kernel: [    4.277267] gpio gpiochip5: (gpio-64-95): created GPIO range 18->21 ==> 44e10800.pinmux PIN 77->80
+Jan  1 00:00:18 debian-armhf kernel: [    4.277288] gpio gpiochip5: (gpio-64-95): created GPIO range 22->31 ==> 44e10800.pinmux PIN 56->65
+Jan  1 00:00:18 debian-armhf kernel: [    4.277607] gpio gpiochip5: (gpio-64-95): added GPIO chardev (254:5)
+Jan  1 00:00:18 debian-armhf kernel: [    4.277724] gpio gpiochip5: registered GPIOs 64 to 95 on gpio-64-95
+Jan  1 00:00:18 debian-armhf kernel: [    4.278263] gpio gpiochip6: (gpio-96-127): created GPIO range 0->4 ==> 44e10800.pinmux PIN 66->70
+Jan  1 00:00:18 debian-armhf kernel: [    4.278291] gpio gpiochip6: (gpio-96-127): created GPIO range 5->6 ==> 44e10800.pinmux PIN 98->99
+Jan  1 00:00:18 debian-armhf kernel: [    4.278310] gpio gpiochip6: (gpio-96-127): created GPIO range 7->8 ==> 44e10800.pinmux PIN 75->76
+Jan  1 00:00:18 debian-armhf kernel: [    4.278331] gpio gpiochip6: (gpio-96-127): created GPIO range 13->13 ==> 44e10800.pinmux PIN 141->141
+Jan  1 00:00:18 debian-armhf kernel: [    4.278351] gpio gpiochip6: (gpio-96-127): created GPIO range 14->21 ==> 44e10800.pinmux PIN 100->107
+Jan  1 00:00:18 debian-armhf kernel: [    4.278674] gpio gpiochip6: (gpio-96-127): added GPIO chardev (254:6)
+Jan  1 00:00:18 debian-armhf kernel: [    4.278795] gpio gpiochip6: registered GPIOs 96 to 127 on gpio-96-127
+Jan  1 00:00:18 debian-armhf kernel: [    4.289526] omap_reset_deassert: timedout waiting for gfx:0
+Jan  1 00:00:18 debian-armhf kernel: [    4.295232] ti-sysc: probe of 5600fe00.target-module failed with error -110
+Jan  1 00:00:18 debian-armhf kernel: [    4.310024] cpufreq: cpufreq_online: CPU0: Running at unlisted initial frequency: 550000 KHz, changing to: 600000 KHz
+Jan  1 00:00:18 debian-armhf kernel: [    4.327181] sdhci-omap 48060000.mmc: GPIO lookup for consumer cd
+Jan  1 00:00:18 debian-armhf kernel: [    4.327198] sdhci-omap 48060000.mmc: using device tree for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    4.327259] of_get_named_gpiod_flags: parsed 'cd-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@60000/mmc@0[0]' - status (0)
+Jan  1 00:00:18 debian-armhf kernel: [    4.327336] gpio gpiochip0: Persistence not supported for GPIO 6
+Jan  1 00:00:18 debian-armhf kernel: [    4.327357] omap_gpio 44e07000.gpio: Could not set line 6 debounce to 200000 microseconds (-22)
+Jan  1 00:00:18 debian-armhf kernel: [    4.336697] of_get_named_gpiod_flags: parsed 'gpios' property of node '/leds/led2[0]' - status (0)
+Jan  1 00:00:18 debian-armhf kernel: [    4.336775] gpio gpiochip4: Persistence not supported for GPIO 21
+Jan  1 00:00:18 debian-armhf kernel: [    4.336786] gpio-53 (?): no flags found for gpios
+Jan  1 00:00:18 debian-armhf kernel: [    4.337002] of_get_named_gpiod_flags: parsed 'gpios' property of node '/leds/led3[0]' - status (0)
+Jan  1 00:00:18 debian-armhf kernel: [    4.337020] gpio gpiochip4: Persistence not supported for GPIO 22
+Jan  1 00:00:18 debian-armhf kernel: [    4.337028] gpio-54 (?): no flags found for gpios
+Jan  1 00:00:18 debian-armhf kernel: [    4.337125] of_get_named_gpiod_flags: parsed 'gpios' property of node '/leds/led4[0]' - status (0)
+Jan  1 00:00:18 debian-armhf kernel: [    4.337137] gpio gpiochip4: Persistence not supported for GPIO 23
+Jan  1 00:00:18 debian-armhf kernel: [    4.337144] gpio-55 (?): no flags found for gpios
+Jan  1 00:00:18 debian-armhf kernel: [    4.337246] of_get_named_gpiod_flags: parsed 'gpios' property of node '/leds/led5[0]' - status (0)
+Jan  1 00:00:18 debian-armhf kernel: [    4.337259] gpio gpiochip4: Persistence not supported for GPIO 24
+Jan  1 00:00:18 debian-armhf kernel: [    4.337266] gpio-56 (?): no flags found for gpios
+Jan  1 00:00:18 debian-armhf kernel: [    4.338300] of_get_named_gpiod_flags: can't parse 'simple-audio-card,hp-det-gpio' property of node '/sound[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    4.338326] of_get_named_gpiod_flags: can't parse 'simple-audio-card,mic-det-gpio' property of node '/sound[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    4.338610] sdhci-omap 48060000.mmc: Got CD GPIO
+Jan  1 00:00:18 debian-armhf kernel: [    4.343333] sdhci-omap 48060000.mmc: GPIO lookup for consumer wp
+Jan  1 00:00:18 debian-armhf kernel: [    4.343342] sdhci-omap 48060000.mmc: using device tree for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    4.343376] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@60000/mmc@0[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    4.343401] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@60000/mmc@0[0]'
+Jan  1 00:00:18 debian-armhf kernel: [    4.343414] sdhci-omap 48060000.mmc: using lookup tables for GPIO lookup
+Jan  1 00:00:18 debian-armhf kernel: [    4.343423] sdhci-omap 48060000.mmc: No GPIO consumer wp found
+Jan  1 00:00:18 debian-armhf kernel: [    4.343602] sdhci-omap 48060000.mmc: supply vqmmc not found, using dummy regulator
+Jan  1 00:00:18 debian-armhf kernel: [    4.361188] ALSA device list:
+Jan  1 00:00:18 debian-armhf kernel: [    4.364198]   #0: Simple Audio AM335x Roomplayer
+Jan  1 00:00:18 debian-armhf kernel: [    4.440806] mmc0: SDHCI controller on 48060000.mmc [48060000.mmc] using External DMA
+Jan  1 00:00:18 debian-armhf kernel: [    4.491629] EXT4-fs (mmcblk1p4): mounted filesystem with ordered data mode. Opts: (null)
+Jan  1 00:00:18 debian-armhf kernel: [    4.499966] VFS: Mounted root (ext4 filesystem) readonly on device 179:4.
+Jan  1 00:00:18 debian-armhf kernel: [    4.526849] devtmpfs: mounted
+Jan  1 00:00:18 debian-armhf kernel: [    4.531389] Freeing unused kernel memory: 1024K
+Jan  1 00:00:18 debian-armhf kernel: [    4.536423] Run /sbin/init as init process
+Jan  1 00:00:18 debian-armhf kernel: [    4.540561]   with arguments:
+Jan  1 00:00:18 debian-armhf kernel: [    4.540568]     /sbin/init
+Jan  1 00:00:18 debian-armhf kernel: [    4.540573]   with environment:
+Jan  1 00:00:18 debian-armhf kernel: [    4.540578]     HOME=/
+Jan  1 00:00:18 debian-armhf kernel: [    4.540582]     TERM=linux
+Jan  1 00:00:18 debian-armhf kernel: [   10.208462] EXT4-fs (mmcblk1p4): re-mounted. Opts: (null)
+Jan  1 00:00:18 debian-armhf kernel: [   10.465094] EXT4-fs (mmcblk1p4): re-mounted. Opts: errors=remount-ro
+Jan  1 00:00:18 debian-armhf kernel: [   15.412200] cpsw 4a100000.ethernet: initializing cpsw version 1.12 (0)
+Jan  1 00:00:18 debian-armhf kernel: [   15.424245] Generic PHY 4a101000.mdio:01: attached PHY driver [Generic PHY] (mii_bus:phy_addr=4a101000.mdio:01, irq=POLL)
+Jan  1 00:00:18 debian-armhf kernel: [   15.437033] cpsw 4a100000.ethernet eth0: Link is Up - 100Mbps/Full - flow control off
+Jan  1 00:00:19 debian-armhf /usr/sbin/cron[1917]: (CRON) INFO (pidfile fd = 3)
+Jan  1 00:00:19 debian-armhf /usr/sbin/cron[1920]: (CRON) STARTUP (fork ok)
+Jan  1 00:00:19 debian-armhf /usr/sbin/cron[1920]: (CRON) INFO (Running @reboot jobs)
+Nov 27 17:48:17 debian-armhf ntpdate[1645]: step time server 94.198.159.15 offset 1669571268.751047 sec
+Nov 27 17:48:32 debian-armhf ntpdate[2013]: adjust time server 77.162.217.135 offset 0.000233 sec
+Nov 27 17:49:37 debian-armhf init: Re-reading inittab
+Nov 27 18:17:01 debian-armhf /USR/SBIN/CRON[7274]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 27 18:22:53 debian-armhf /usr/sbin/cron[8162]: (CRON) INFO (pidfile fd = 4)
+Nov 27 18:22:53 debian-armhf /usr/sbin/cron[8163]: (CRON) STARTUP (fork ok)
+Nov 27 18:22:53 debian-armhf /usr/sbin/cron[8163]: (CRON) INFO (Skipping @reboot jobs -- not system startup)
+Nov 27 18:22:53 debian-armhf init: Trying to re-exec init
+Nov 27 18:31:33 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 18:31:34 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 18:31:34 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 18:31:34 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 18:31:34 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 18:31:34 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 18:31:40 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 18:31:40 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 18:31:40 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 18:31:40 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 18:31:40 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 18:33:54 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 18:39:10 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 18:39:10 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 18:44:12 debian-armhf cron[2925]: (CRON) INFO (pidfile fd = 3)
+Nov 27 18:44:12 debian-armhf cron[2926]: (CRON) STARTUP (fork ok)
+Nov 27 18:44:12 debian-armhf cron[2926]: (CRON) INFO (Skipping @reboot jobs -- not system startup)
+Nov 27 18:44:20 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 18:45:30 debian-armhf rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="3496" x-info="http://www.rsyslog.com"] start
+Nov 27 18:45:32 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 18:55:32 debian-armhf cron[8755]: (CRON) INFO (pidfile fd = 3)
+Nov 27 18:55:32 debian-armhf cron[8756]: (CRON) STARTUP (fork ok)
+Nov 27 18:55:32 debian-armhf cron[8756]: (CRON) INFO (Skipping @reboot jobs -- not system startup)
+Nov 27 19:07:57 debian-armhf cron[13789]: (CRON) INFO (pidfile fd = 4)
+Nov 27 19:07:57 debian-armhf cron[13790]: (CRON) STARTUP (fork ok)
+Nov 27 19:07:57 debian-armhf cron[13790]: (CRON) INFO (Skipping @reboot jobs -- not system startup)
+Nov 27 19:07:57 debian-armhf init: Trying to re-exec init
+Nov 27 19:08:25 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:08:25 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:08:25 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:08:28 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:08:28 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:08:28 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:08:28 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:08:28 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:08:28 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:08:28 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:08:28 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:08:28 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:08:28 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:08:28 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:46 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:46 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:46 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:46 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:46 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:46 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:46 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:48 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:48 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:48 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:48 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:48 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:48 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:48 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:52 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:52 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:52 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:52 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:52 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:52 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:52 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:52 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:52 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:52 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:52 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:52 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:52 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:52 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:52 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:52 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:52 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:52 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:52 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:52 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:52 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:52 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:52 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:52 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:52 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:52 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:12:52 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:15:29 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:15:29 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:15:29 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:15:29 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:15:29 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:15:29 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:15:29 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:15:29 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:15:29 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:17:01 debian-armhf CRON[27350]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 27 19:17:01 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:17:05 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:18:38 debian-armhf rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="3496" x-info="http://www.rsyslog.com"] exiting on signal 15.
+Nov 27 19:18:39 debian-armhf liblogging-stdlog:  [origin software="rsyslogd" swVersion="8.24.0" x-pid="27925" x-info="http://www.rsyslog.com"] start
+Nov 27 19:19:39 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:19:39 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:19:40 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:19:40 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:19:40 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:19:40 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:19:40 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:19:40 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:19:53 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:24:06 debian-armhf cron[29439]: (CRON) INFO (pidfile fd = 4)
+Nov 27 19:24:06 debian-armhf cron[29440]: (CRON) STARTUP (fork ok)
+Nov 27 19:24:06 debian-armhf cron[29440]: (CRON) INFO (Skipping @reboot jobs -- not system startup)
+Nov 27 19:31:50 debian-armhf cron[4285]: (CRON) INFO (pidfile fd = 4)
+Nov 27 19:31:50 debian-armhf cron[4286]: (CRON) STARTUP (fork ok)
+Nov 27 19:31:50 debian-armhf cron[4286]: (CRON) INFO (Skipping @reboot jobs -- not system startup)
+Nov 27 19:31:50 debian-armhf init: Trying to re-exec init
+Nov 27 19:34:02 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:34:02 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:34:02 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:22 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.login1' (using servicehelper)
+Nov 27 19:36:22 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.systemd1' (using servicehelper)
+Nov 27 19:36:22 debian-armhf dbus[1948]: [system] Activated service 'org.freedesktop.systemd1' failed: Launch helper exited with unknown return code 1
+Nov 27 19:36:22 debian-armhf dbus[1948]: [system] Activated service 'org.freedesktop.login1' failed: Launch helper exited with unknown return code 1
+Nov 27 19:36:34 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:34 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:35 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:35 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:35 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:35 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:35 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:35 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:35 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:35 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:35 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:35 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:35 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:36 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:44 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:44 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:44 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:47 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:47 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:47 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:47 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:49 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:49 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:55 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:55 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:55 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:55 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:56 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:56 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:36:56 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:37:23 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.login1' (using servicehelper)
+Nov 27 19:37:23 debian-armhf dbus[1948]: [system] Activated service 'org.freedesktop.login1' failed: Launch helper exited with unknown return code 1
+Nov 27 19:38:13 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.login1' (using servicehelper)
+Nov 27 19:38:13 debian-armhf dbus[1948]: [system] Activated service 'org.freedesktop.login1' failed: Launch helper exited with unknown return code 1
+Nov 27 19:38:19 debian-armhf cron[5489]: (CRON) INFO (pidfile fd = 3)
+Nov 27 19:38:19 debian-armhf cron[5490]: (CRON) STARTUP (fork ok)
+Nov 27 19:38:19 debian-armhf cron[5490]: (CRON) INFO (Skipping @reboot jobs -- not system startup)
+Nov 27 19:39:23 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:39:42 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.login1' (using servicehelper)
+Nov 27 19:39:42 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.systemd1' (using servicehelper)
+Nov 27 19:40:07 debian-armhf dbus[1948]: [system] Failed to activate service 'org.freedesktop.login1': timed out
+Nov 27 19:40:07 debian-armhf dbus[1948]: [system] Failed to activate service 'org.freedesktop.systemd1': timed out
+Nov 27 19:43:34 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.login1' (using servicehelper)
+Nov 27 19:43:34 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.systemd1' (using servicehelper)
+Nov 27 19:43:59 debian-armhf dbus[1948]: [system] Failed to activate service 'org.freedesktop.login1': timed out
+Nov 27 19:43:59 debian-armhf dbus[1948]: [system] Failed to activate service 'org.freedesktop.systemd1': timed out
+Nov 27 19:44:16 debian-armhf rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="10336" x-info="https://www.rsyslog.com"] start
+Nov 27 19:47:01 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.login1' (using servicehelper)
+Nov 27 19:47:01 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.systemd1' (using servicehelper)
+Nov 27 19:47:26 debian-armhf dbus[1948]: [system] Failed to activate service 'org.freedesktop.login1': timed out
+Nov 27 19:47:26 debian-armhf dbus[1948]: [system] Failed to activate service 'org.freedesktop.systemd1': timed out
+Nov 27 19:51:01 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.login1' (using servicehelper)
+Nov 27 19:51:01 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.systemd1' (using servicehelper)
+Nov 27 19:51:26 debian-armhf dbus[1948]: [system] Failed to activate service 'org.freedesktop.login1': timed out
+Nov 27 19:51:26 debian-armhf dbus[1948]: [system] Failed to activate service 'org.freedesktop.systemd1': timed out
+Nov 27 19:52:03 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.login1' (using servicehelper)
+Nov 27 19:52:03 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.systemd1' (using servicehelper)
+Nov 27 19:52:28 debian-armhf dbus[1948]: [system] Failed to activate service 'org.freedesktop.login1': timed out
+Nov 27 19:52:28 debian-armhf dbus[1948]: [system] Failed to activate service 'org.freedesktop.systemd1': timed out
+Nov 27 19:55:44 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:55:46 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:55:46 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:55:47 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:55:47 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:55:48 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:55:48 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:55:48 debian-armhf dbus[1948]: [system] Reloaded configuration
+Nov 27 19:55:55 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:56:08 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.systemd1' (using servicehelper)
+Nov 27 19:56:33 debian-armhf dbus[1948]: [system] Failed to activate service 'org.freedesktop.systemd1': timed out
+Nov 27 19:56:33 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.systemd1' (using servicehelper)
+Nov 27 19:56:58 debian-armhf dbus[1948]: [system] Failed to activate service 'org.freedesktop.systemd1': timed out
+Nov 27 19:56:59 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.systemd1' (using servicehelper)
+Nov 27 19:57:24 debian-armhf dbus[1948]: [system] Failed to activate service 'org.freedesktop.systemd1': timed out
+Nov 27 19:57:24 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.systemd1' (using servicehelper)
+Nov 27 19:57:50 debian-armhf dbus[1948]: [system] Failed to activate service 'org.freedesktop.systemd1': timed out
+Nov 27 19:58:18 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:58:18 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 19:59:34 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:01:03 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.systemd1' (using servicehelper)
+Nov 27 20:01:28 debian-armhf dbus[1948]: [system] Failed to activate service 'org.freedesktop.systemd1': timed out
+Nov 27 20:02:50 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.systemd1' (using servicehelper)
+Nov 27 20:03:15 debian-armhf dbus[1948]: [system] Failed to activate service 'org.freedesktop.systemd1': timed out
+Nov 27 20:03:41 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.login1' (using servicehelper)
+Nov 27 20:03:41 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.systemd1' (using servicehelper)
+Nov 27 20:04:06 debian-armhf dbus[1948]: [system] Failed to activate service 'org.freedesktop.login1': timed out
+Nov 27 20:04:06 debian-armhf dbus[1948]: [system] Failed to activate service 'org.freedesktop.systemd1': timed out
+Nov 27 20:08:05 debian-armhf cron[32421]: (CRON) INFO (pidfile fd = 4)
+Nov 27 20:08:05 debian-armhf cron[32422]: (CRON) STARTUP (fork ok)
+Nov 27 20:08:05 debian-armhf cron[32422]: (CRON) INFO (Skipping @reboot jobs -- not system startup)
+Nov 27 20:13:27 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:14:29 debian-armhf cron[2377]: (CRON) INFO (pidfile fd = 3)
+Nov 27 20:14:29 debian-armhf cron[2378]: (CRON) STARTUP (fork ok)
+Nov 27 20:14:29 debian-armhf cron[2378]: (CRON) INFO (Skipping @reboot jobs -- not system startup)
+Nov 27 20:17:01 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.systemd1' (using servicehelper)
+Nov 27 20:17:26 debian-armhf dbus[1948]: [system] Failed to activate service 'org.freedesktop.systemd1': timed out
+Nov 27 20:17:26 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.systemd1' (using servicehelper)
+Nov 27 20:17:26 debian-armhf CRON[13546]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 27 20:17:52 debian-armhf dbus[1948]: [system] Failed to activate service 'org.freedesktop.systemd1': timed out
+Nov 27 20:18:32 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.login1' (using servicehelper)
+Nov 27 20:18:32 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.systemd1' (using servicehelper)
+Nov 27 20:18:57 debian-armhf dbus[1948]: [system] Failed to activate service 'org.freedesktop.login1': timed out
+Nov 27 20:18:57 debian-armhf dbus[1948]: [system] Failed to activate service 'org.freedesktop.systemd1': timed out
+Nov 27 20:20:26 debian-armhf cron[14110]: (CRON) INFO (pidfile fd = 4)
+Nov 27 20:20:26 debian-armhf cron[14111]: (CRON) STARTUP (fork ok)
+Nov 27 20:20:26 debian-armhf cron[14111]: (CRON) INFO (Skipping @reboot jobs -- not system startup)
+Nov 27 20:21:37 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:37 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:37 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:37 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:37 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:37 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:37 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:39 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:39 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:39 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:39 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:39 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:39 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:39 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:39 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:39 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:39 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:39 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:39 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:39 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:39 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:39 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:39 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:39 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:39 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:39 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:40 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:40 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:40 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:40 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:40 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:40 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:40 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:21:40 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:27:37 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:27:37 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:27:37 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:27:37 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:27:37 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:28:39 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:28:41 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:28:42 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:28:42 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:28:42 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:28:42 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:28:42 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:28:42 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:28:42 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:28:53 debian-armhf rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="16024" x-info="https://www.rsyslog.com"] start
+Nov 27 20:29:41 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:29:41 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:33:04 debian-armhf dbus[1948]: [system] Unable to reload configuration: Failed to open "/etc/dbus-1/system.conf": No such file or directory
+Nov 27 20:34:19 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.login1' (using servicehelper)
+Nov 27 20:34:19 debian-armhf dbus[1948]: [system] Activated service 'org.freedesktop.login1' failed: Launch helper exited with unknown return code 1
+Nov 27 20:36:35 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.login1' (using servicehelper)
+Nov 27 20:36:35 debian-armhf dbus[1948]: [system] Activated service 'org.freedesktop.login1' failed: Launch helper exited with unknown return code 1
+Nov 27 20:36:58 debian-armhf init: Trying to re-exec init
+Nov 27 20:37:42 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.login1' (using servicehelper)
+Nov 27 20:37:42 debian-armhf dbus[1948]: [system] Activated service 'org.freedesktop.login1' failed: Launch helper exited with unknown return code 1
+Nov 27 20:38:47 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.login1' (using servicehelper)
+Nov 27 20:38:48 debian-armhf dbus[1948]: [system] Activated service 'org.freedesktop.login1' failed: Launch helper exited with unknown return code 1
+Nov 27 20:43:27 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.login1' (using servicehelper)
+Nov 27 20:43:27 debian-armhf dbus[1948]: [system] Activated service 'org.freedesktop.login1' failed: Launch helper exited with unknown return code 1
+Nov 27 21:05:31 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.login1' (using servicehelper)
+Nov 27 21:05:31 debian-armhf dbus[1948]: [system] Activated service 'org.freedesktop.login1' failed: Launch helper exited with unknown return code 1
+Nov 27 21:17:09 debian-armhf CRON[25969]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)

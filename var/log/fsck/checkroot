@@ -1,0 +1,8 @@
+Log of fsck -C -a -t ext4 /run/rootdev 
+Thu Jan  1 00:00:10 1970
+
+fsck from util-linux 2.20.1
+/run/rootdev: clean, 23435/188048 files, 125871/751000 blocks
+
+Thu Jan  1 00:00:10 1970
+----------------

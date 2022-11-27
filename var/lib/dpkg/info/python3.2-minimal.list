@@ -1,0 +1,8 @@
+/usr
+/usr/lib
+/usr/lib/python3.2
+/usr/lib/python3.2/encodings
+/usr/lib/python3.2/logging
+/etc
+/etc/python3.2
+/etc/python3.2/sitecustomize.py

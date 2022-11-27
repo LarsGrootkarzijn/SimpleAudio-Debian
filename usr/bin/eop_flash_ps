@@ -1,0 +1,215 @@
+#!/bin/sh
+#
+# File: eop_flash_ps
+#
+# Description:	This script, when called will program the Roomplayer's
+#               EoP hardware (User config only) with the supplied pre-
+#               scaler. It uses the Atheros utilities to extract the EoP
+#               module's PIB, apply the new prescaler and flash. If the 
+#               EoP module's USER string already matches the prescaler 
+#               about to be flashed and the prescaler values themselves 
+#               are the same then the WHILE LED is flashed for 2 seconds
+#               and then the script exits. If programming is successful
+#               the WHITE LED is flashed x times - where x is the 
+#               prescaler value used. If programming fails, the RED LED 
+#               is flashed x times. Either way the script then exits.
+#
+# Expects:      All Atheros utilities should be in /usr/bin
+#               All .ps files in /opt/SimpleAudio/plc-config/
+#
+# Notes:        This script was previoulsy implemented as a 'c' program 
+#               and has been converted to a script to make it quicker
+#               easier to maintain. v2.00 is the first script version
+#
+# Versions:     v1.00A - Initial version
+#               v1.01A - Changed /saDbase/simpleaudio directory to
+#                        /home/root/ as /saDbase/simpleaudio not created
+#                        at first run after flash
+#               v1.01B - Changes to use /opt/SimpleAudio/plc-config as
+#                        temp directory
+#               v2.00  - Converted to a script and improved the checking
+#                        of the currently programmed prescaler value.
+#               v2.01  - Changed user string to newer format and detect
+#                        newer modules and don't program them
+#
+
+ETH=eth0
+PLC="/opt/SimpleAudio/plc-config"
+USERPRE="INT6400/1400 WA_NA"
+USERNEW="AR6400"
+WHITE_LED=250
+RED_LED=242
+BRIGHT=1
+DIM=0
+
+# 
+# Function:		set_led()
+# 
+# Description:	Set a GPIO connected LED
+#
+# Inputs:		$1 - GPIO number
+#               $2 - Value to set
+#
+set_led() {
+	if [ ! -e /sys/class/gpio/gpio${1} ]; then
+		echo ${1} > /sys/class/gpio/export
+	fi
+	echo out > /sys/class/gpio/gpio${1}/direction
+	echo ${2} > /sys/class/gpio/gpio${1}/value
+}
+
+# 
+# Function:		flash_led()
+# 
+# Description:	flash a gpio connected LED on then off with a one second
+#				delay after each event a specified number of times
+#
+# Inputs:		$1 - GPIO number
+#				$2 - number of flashes
+#
+flash_led() {
+	n=0
+	while [ $n -lt ${2} ]; do
+		set_led ${1} 1
+		sleep 1
+		set_led ${1} 0
+		sleep 1
+		let n++
+	done
+}
+
+# 
+# Function:		program_new_prescaler()
+# 
+# Description:	program a new prescaler to the EOP module
+#
+# Inputs:		$1 - which prescaler to use
+#
+program_new_prescaler() {
+	# Copy the Current PIB file to a new PIB file which can modified and pushed back
+	echo "About to copy the EoP module's PIB file"
+	cp ${PLC}/current.PIB ${PLC}/new.PIB
+	
+	# Modify this new PIB file with the correct pre-scaler
+	echo "About to apply new Prescaler to copied PIB file"
+	psin ${PLC}/new.PIB < ${PLC}/${1}.ps
+	
+	# Modify the user string to show the prescaler has changed
+	echo "About to apply new USER string to new PIB file"
+	modpib -U "${USERPRE}" ${PLC}/new.PIB
+	
+	# Get the EoP Modules DAK - This is used when flashing the new Prescaler
+	echo "About to Read EoP module's DAK"
+	DAK=`int6kid -i ${ETH} -D ${MAC}`
+	echo "DAK: ${DAK}"
+	
+	# Push New PIB file, prescaler / user string to EoP module
+	echo "About to Push New PIB file, prescaler / user string to EoP module"
+	int6k -i ${ETH} -C 2 -P ${PLC}/new.PIB -D ${DAK} ${MAC}
+	
+	# Wait for the programming to complete
+	echo "Waiting 3 seconds........."
+	sleep 3
+	
+	# Reset the EOP module
+	echo "About to RESET the EoP module"
+	int6k -i ${ETH} -R ${MAC}
+	
+	# Wait for the reset to complete
+	echo "Waiting 3 seconds........."
+	sleep 3
+	
+	# Get the EoP Modules current USER Information. Has prescaler been set as expected?
+	echo "About to Read EoP module's USER string"
+	USER=`int6kid -i ${ETH} -Un ${MAC}`
+	echo "User String: ${USER}"
+	if [ "${USER}" == "${USERPRE}" ]; then
+		echo "* SUCCESS: Pre-scaler Flashing SUCCESS *********"
+		flash_led ${WHITE_LED} ${1}
+	else
+		echo "* FAILURE: Pre-scaler Flashing FAILURE *********"
+		flash_led ${RED_LED} ${1}
+	fi
+	
+	echo "EOP MODULE Flashing Complete"
+	
+	# Read back the EOP module information
+	int6k -i ${ETH} -Im ${MAC}
+}
+
+# 
+# Function:		check_prescaler()
+# 
+# Description:	checks if the prescaler value just extracted from the 
+#               EOP module is the same as the requested prescaler.
+#
+# Inputs:		$1 - requested prescaler
+#
+check_prescaler() {
+	# Extract the prescaler data and sanitise it
+	echo "About to extract prescaler data from current PIB file" 
+	psout ${PLC}/current.PIB | tr -d ' \r\n' | tr [:lower:] [:upper:] > ${PLC}/current.pss
+	
+	# Sanitise the nominated prescaler file 
+	tr -d ' \r\n' < ${PLC}/${1}.ps | tr [:lower:] [:upper:] > ${PLC}/nominated.pss
+	
+	# Compare new and current prescaler values
+	echo "About to compare new and current prescaler values"
+	if cmp -s ${PLC}/current.pss ${PLC}/nominated.pss; then
+		echo "Prescaler values match - will flash WHITE LED for 2 seconds and then exit"
+		set_led ${WHITE_LED} 1
+		sleep 2
+		set_led ${WHITE_LED} 0
+		return 1;
+	else
+		echo "Prescaler values do not match - will program new prescaler"
+		return 0;
+	fi
+}
+
+# 
+# Main script starts here 
+#
+
+echo "* SIMPLE AUDIO EOP MODULE PRESCALER MODIFICATION v2.00 - Setting Prescaler ${1}"
+echo "* Will flash WHITE LED ${1} times"
+
+# Delete any previous files generated by running this utility previously.
+echo "About to Delete any old Transfer files"
+rm -f ${PLC}/*.PIB ${PLC}/*.pss
+
+# Get the EoP Modules MAC Address - this is used to get other information...
+echo "About to Read EoP module's Mac address"
+MACREAD=`int6kid -i ${ETH} -A`
+MAC=${MACREAD:0:17}
+echo "Mac address: ${MAC}"
+
+# Get the EoP Modules current USER Information.
+echo "About to Read EoP module's USER string"
+USER=`int6kid -i ${ETH} -U ${MAC}`
+echo "User string: ${USER}"
+
+# Get the EoP Modules Current PIB file
+echo "About to Extract the EoP module's PIB file"
+int6k -i ${ETH} -p ${PLC}/current.PIB ${MAC}
+
+# Check if the USER string mathes the newer modules
+echo "About to check if USER string matches newer module (AR6400*)"
+if [ "${USER:0:6}" == "${USERNEW}" ]; then
+    echo "USER string matches a newer module. Prescaler will not be programmed or checked"
+else
+    echo "About to check if USER string matches a previoulsy programmed older module (INT6400/1400 WA_NA)"
+    if [ "${USER}" != "${USERPRE}" ]; then
+        echo "USER string does not match: ${USER}"
+        echo "Will program new prescaler"
+        program_new_prescaler ${1}
+    else
+        echo "USER string matches - will now check prescaler values"
+        if check_prescaler ${1}; then
+            echo "PRESCALERS DO NOT MATCH"
+            program_new_prescaler ${1}
+        else
+            echo "PRESCALERS MATCH"
+        fi
+    fi
+fi

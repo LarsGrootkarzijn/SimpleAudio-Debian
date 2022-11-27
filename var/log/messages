@@ -1,0 +1,185 @@
+Jan  1 00:00:18 debian-armhf kernel: imklog 5.8.11, log source = /proc/kmsg started.
+Jan  1 00:00:18 debian-armhf rsyslogd: [origin software="rsyslogd" swVersion="5.8.11" x-pid="1868" x-info="http://www.rsyslog.com"] start
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] Booting Linux on physical CPU 0x0
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] Linux version 5.10.100-g7a7a3af903 (root@Ubuntu) (arm-none-linux-gnueabihf-gcc (GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)) 9.2.1 20191025, GNU ld (GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)) 2.33.1.20191209) #63 PREEMPT Thu Nov 24 22:32:46 CET 2022
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] CPU: ARMv7 Processor [413fc082] revision 2 (ARMv7), cr=10c5387d
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] OF: fdt: Machine model: Lars Board
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] Memory policy: Data cache writeback
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] efi: UEFI not found.
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] cma: Reserved 48 MiB at 0x9c800000
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] Zone ranges:
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000]   Normal   [mem 0x0000000080000000-0x000000009fefffff]
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000]   HighMem  empty
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] Movable zone start for each node
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] Early memory node ranges
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000]   node   0: [mem 0x0000000080000000-0x000000009fefffff]
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000080000000-0x000000009fefffff]
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] CPU: All CPU(s) started in SVC mode.
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] AM335X ES2.1 (neon)
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 129666
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] Kernel command line: console=ttyS0,115200n8 drm.debug=7 root=/dev/mmcblk1p4 ro rootfstype=ext4 rootwait
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes, linear)
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes, linear)
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] mem auto-init: stack:off, heap alloc:off, heap free:off
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] Memory: 453268K/523264K available (9216K kernel code, 807K rwdata, 3428K rodata, 1024K init, 294K bss, 20844K reserved, 49152K cma-reserved, 0K highmem)
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] rcu: Preemptible hierarchical RCU implementation.
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] 	Trampoline variant of Tasks RCU enabled.
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] rcu: RCU calculated value of scheduler-enlistment delay is 10 jiffies.
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] NR_IRQS: 16, nr_irqs: 16, preallocated irqs: 16
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] IRQ: Found an INTC at 0x(ptrval) (revision 5.0) with 128 interrupts
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] random: get_random_bytes called from start_kernel+0x30c/0x4c8 with crng_init=0
+Jan  1 00:00:18 debian-armhf kernel: [    0.000000] TI gptimer clocksource: always-on /ocp/interconnect@44c00000/segment@200000/target-module@31000
+Jan  1 00:00:18 debian-armhf kernel: [    0.000014] sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 89478484971ns
+Jan  1 00:00:18 debian-armhf kernel: [    0.000043] clocksource: dmtimer: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 79635851949 ns
+Jan  1 00:00:18 debian-armhf kernel: [    0.000550] TI gptimer clockevent: 24000000 Hz at /ocp/interconnect@48000000/segment@0/target-module@40000
+Jan  1 00:00:18 debian-armhf kernel: [    0.002046] Console: colour dummy device 80x30
+Jan  1 00:00:18 debian-armhf kernel: [    0.002151] Calibrating delay loop... 548.86 BogoMIPS (lpj=2744320)
+Jan  1 00:00:18 debian-armhf kernel: [    0.050659] pid_max: default: 32768 minimum: 301
+Jan  1 00:00:18 debian-armhf kernel: [    0.050903] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes, linear)
+Jan  1 00:00:18 debian-armhf kernel: [    0.050930] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes, linear)
+Jan  1 00:00:18 debian-armhf kernel: [    0.052151] CPU: Testing write buffer coherency: ok
+Jan  1 00:00:18 debian-armhf kernel: [    0.052252] CPU0: Spectre v2: using BPIALL workaround
+Jan  1 00:00:18 debian-armhf kernel: [    0.053401] Setting up static identity map for 0x80100000 - 0x80100060
+Jan  1 00:00:18 debian-armhf kernel: [    0.053610] rcu: Hierarchical SRCU implementation.
+Jan  1 00:00:18 debian-armhf kernel: [    0.054590] EFI services will not be available.
+Jan  1 00:00:18 debian-armhf kernel: [    0.055229] devtmpfs: initialized
+Jan  1 00:00:18 debian-armhf kernel: [    0.072232] VFP support v0.3: implementor 41 architecture 3 part 30 variant c rev 3
+Jan  1 00:00:18 debian-armhf kernel: [    0.072601] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+Jan  1 00:00:18 debian-armhf kernel: [    0.072637] futex hash table entries: 256 (order: -1, 3072 bytes, linear)
+Jan  1 00:00:18 debian-armhf kernel: [    0.077039] pinctrl core: initialized pinctrl subsystem
+Jan  1 00:00:18 debian-armhf kernel: [    0.078265] DMI not present or invalid.
+Jan  1 00:00:18 debian-armhf kernel: [    0.078913] NET: Registered protocol family 16
+Jan  1 00:00:18 debian-armhf kernel: [    0.082304] DMA: preallocated 256 KiB pool for atomic coherent allocations
+Jan  1 00:00:18 debian-armhf kernel: [    0.105162] thermal_sys: Registered thermal governor 'fair_share'
+Jan  1 00:00:18 debian-armhf kernel: [    0.105179] thermal_sys: Registered thermal governor 'bang_bang'
+Jan  1 00:00:18 debian-armhf kernel: [    0.105201] thermal_sys: Registered thermal governor 'step_wise'
+Jan  1 00:00:18 debian-armhf kernel: [    0.105214] thermal_sys: Registered thermal governor 'user_space'
+Jan  1 00:00:18 debian-armhf kernel: [    1.929580] No ATAGs?
+Jan  1 00:00:18 debian-armhf kernel: [    1.929626] hw-breakpoint: debug architecture 0x4 unsupported.
+Jan  1 00:00:18 debian-armhf kernel: [    1.970950] iommu: Default domain type: Translated 
+Jan  1 00:00:18 debian-armhf kernel: [    1.974510] mc: Linux media interface: v0.10
+Jan  1 00:00:18 debian-armhf kernel: [    1.974586] videodev: Linux video capture interface: v2.00
+Jan  1 00:00:18 debian-armhf kernel: [    1.974739] pps_core: LinuxPPS API ver. 1 registered
+Jan  1 00:00:18 debian-armhf kernel: [    1.974757] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Jan  1 00:00:18 debian-armhf kernel: [    1.974794] PTP clock support registered
+Jan  1 00:00:18 debian-armhf kernel: [    1.974901] EDAC MC: Ver: 3.0.0
+Jan  1 00:00:18 debian-armhf kernel: [    1.976260] Advanced Linux Sound Architecture Driver Initialized.
+Jan  1 00:00:18 debian-armhf kernel: [    1.977741] clocksource: Switched to clocksource dmtimer
+Jan  1 00:00:18 debian-armhf kernel: [    1.990632] NET: Registered protocol family 2
+Jan  1 00:00:18 debian-armhf kernel: [    1.990926] IP idents hash table entries: 8192 (order: 4, 65536 bytes, linear)
+Jan  1 00:00:18 debian-armhf kernel: [    1.992389] tcp_listen_portaddr_hash hash table entries: 512 (order: 0, 4096 bytes, linear)
+Jan  1 00:00:18 debian-armhf kernel: [    1.992462] TCP established hash table entries: 4096 (order: 2, 16384 bytes, linear)
+Jan  1 00:00:18 debian-armhf kernel: [    1.992535] TCP bind hash table entries: 4096 (order: 2, 16384 bytes, linear)
+Jan  1 00:00:18 debian-armhf kernel: [    1.992604] TCP: Hash tables configured (established 4096 bind 4096)
+Jan  1 00:00:18 debian-armhf kernel: [    1.992756] UDP hash table entries: 256 (order: 0, 4096 bytes, linear)
+Jan  1 00:00:18 debian-armhf kernel: [    1.992793] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes, linear)
+Jan  1 00:00:18 debian-armhf kernel: [    1.992961] NET: Registered protocol family 1
+Jan  1 00:00:18 debian-armhf kernel: [    1.993712] RPC: Registered named UNIX socket transport module.
+Jan  1 00:00:18 debian-armhf kernel: [    1.993736] RPC: Registered udp transport module.
+Jan  1 00:00:18 debian-armhf kernel: [    1.993749] RPC: Registered tcp transport module.
+Jan  1 00:00:18 debian-armhf kernel: [    1.993760] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Jan  1 00:00:18 debian-armhf kernel: [    1.993787] PCI: CLS 0 bytes, default 64
+Jan  1 00:00:18 debian-armhf kernel: [    1.995199] hw perfevents: enabled with armv7_cortex_a8 PMU driver, 5 counters available
+Jan  1 00:00:18 debian-armhf kernel: [    1.997071] Initialise system trusted keyrings
+Jan  1 00:00:18 debian-armhf kernel: [    1.997505] workingset: timestamp_bits=14 max_order=17 bucket_order=3
+Jan  1 00:00:18 debian-armhf kernel: [    2.003791] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Jan  1 00:00:18 debian-armhf kernel: [    2.004924] NFS: Registering the id_resolver key type
+Jan  1 00:00:18 debian-armhf kernel: [    2.004999] Key type id_resolver registered
+Jan  1 00:00:18 debian-armhf kernel: [    2.005014] Key type id_legacy registered
+Jan  1 00:00:18 debian-armhf kernel: [    2.005084] ntfs: driver 2.1.32 [Flags: R/O].
+Jan  1 00:00:18 debian-armhf kernel: [    2.006212] NET: Registered protocol family 38
+Jan  1 00:00:18 debian-armhf kernel: [    2.006244] Key type asymmetric registered
+Jan  1 00:00:18 debian-armhf kernel: [    2.006260] Asymmetric key parser 'x509' registered
+Jan  1 00:00:18 debian-armhf kernel: [    2.006342] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 245)
+Jan  1 00:00:18 debian-armhf kernel: [    2.006362] io scheduler mq-deadline registered
+Jan  1 00:00:18 debian-armhf kernel: [    2.006376] io scheduler kyber registered
+Jan  1 00:00:18 debian-armhf kernel: [    2.477806] random: fast init done
+Jan  1 00:00:18 debian-armhf kernel: [    2.683459] omap-mailbox 480c8000.mailbox: omap mailbox rev 0x400
+Jan  1 00:00:18 debian-armhf kernel: [    2.821315] edma 49000000.dma: TI EDMA DMA engine driver
+Jan  1 00:00:18 debian-armhf kernel: [    2.852893] pinctrl-single 44e10800.pinmux: 142 pins, size 568
+Jan  1 00:00:18 debian-armhf kernel: [    2.934075] Serial: 8250/16550 driver, 10 ports, IRQ sharing disabled
+Jan  1 00:00:18 debian-armhf kernel: [    2.939482] printk: console [ttyS0] disabled
+Jan  1 00:00:18 debian-armhf kernel: [    2.939776] 44e09000.serial: ttyS0 at MMIO 0x44e09000 (irq = 20, base_baud = 3000000) is a 8250
+Jan  1 00:00:18 debian-armhf kernel: [    3.575997] printk: console [ttyS0] enabled
+Jan  1 00:00:18 debian-armhf kernel: [    3.594740] omap8250: probe of 48022000.serial failed with error -22
+Jan  1 00:00:18 debian-armhf kernel: [    3.604564] omap_rng 48310000.rng: Random Number Generator ver. 20
+Jan  1 00:00:18 debian-armhf kernel: [    3.611148] random: crng init done
+Jan  1 00:00:18 debian-armhf kernel: [    3.631668] brd: module loaded
+Jan  1 00:00:18 debian-armhf kernel: [    3.644995] loop: module loaded
+Jan  1 00:00:18 debian-armhf kernel: [    3.653533] spi-nor spi0.0: found m25p64, expected at25df641
+Jan  1 00:00:18 debian-armhf kernel: [    3.659482] spi-nor spi0.0: m25p64 (8192 Kbytes)
+Jan  1 00:00:18 debian-armhf kernel: [    3.664209] 5 fixed-partitions partitions found on MTD device spi0.0
+Jan  1 00:00:18 debian-armhf kernel: [    3.670631] Creating 5 MTD partitions on "spi0.0":
+Jan  1 00:00:18 debian-armhf kernel: [    3.675457] 0x0000007f0000-0x000000800000 : "MAC Address"
+Jan  1 00:00:18 debian-armhf kernel: [    3.688804] 0x000000100000-0x000000600000 : "Linux Kernel"
+Jan  1 00:00:18 debian-armhf kernel: [    3.708712] 0x0000000f0000-0x000000100000 : "U-Boot Environment"
+Jan  1 00:00:18 debian-armhf kernel: [    3.728743] 0x000000080000-0x0000000f0000 : "U-Boot"
+Jan  1 00:00:18 debian-armhf kernel: [    3.738741] 0x000000000000-0x000000080000 : "U-Boot SPL"
+Jan  1 00:00:18 debian-armhf kernel: [    3.827819] davinci_mdio 4a101000.mdio: davinci mdio revision 1.6, bus freq 1000000
+Jan  1 00:00:18 debian-armhf kernel: [    3.838256] davinci_mdio 4a101000.mdio: phy[1]: device 4a101000.mdio:01, driver unknown
+Jan  1 00:00:18 debian-armhf kernel: [    3.847111] cpsw 4a100000.ethernet: initialized cpsw ale version 1.4
+Jan  1 00:00:18 debian-armhf kernel: [    3.853664] cpsw 4a100000.ethernet: ALE Table size 1024
+Jan  1 00:00:18 debian-armhf kernel: [    3.859129] cpsw 4a100000.ethernet: cpts: overflow check period 500 (jiffies)
+Jan  1 00:00:18 debian-armhf kernel: [    3.866392] cpsw 4a100000.ethernet: Detected MACID = d0:ff:50:01:21:02
+Jan  1 00:00:18 debian-armhf kernel: [    3.875322] mousedev: PS/2 mouse device common for all mice
+Jan  1 00:00:18 debian-armhf kernel: [    3.881391] i2c /dev entries driver
+Jan  1 00:00:18 debian-armhf kernel: [    3.890365] sdhci: Secure Digital Host Controller Interface driver
+Jan  1 00:00:18 debian-armhf kernel: [    3.896599] sdhci: Copyright(c) Pierre Ossman
+Jan  1 00:00:18 debian-armhf kernel: [    3.903377] sdhci-pltfm: SDHCI platform and OF driver helper
+Jan  1 00:00:18 debian-armhf kernel: [    3.914118] sdhci-omap 481d8000.mmc: supply vqmmc not found, using dummy regulator
+Jan  1 00:00:18 debian-armhf kernel: [    3.923673] ledtrig-cpu: registered to indicate activity on CPUs
+Jan  1 00:00:18 debian-armhf kernel: [    3.938728] omap-aes 53500000.aes: OMAP AES hw accel rev: 3.2
+Jan  1 00:00:18 debian-armhf kernel: [    3.947873] omap-aes 53500000.aes: will run requests pump with realtime priority
+Jan  1 00:00:18 debian-armhf kernel: [    3.975500] omap-sham 53100000.sham: hw accel on OMAP rev 4.3
+Jan  1 00:00:18 debian-armhf kernel: [    3.987842] omap-sham 53100000.sham: will run requests pump with realtime priority
+Jan  1 00:00:18 debian-armhf kernel: [    4.033911] NET: Registered protocol family 10
+Jan  1 00:00:18 debian-armhf kernel: [    4.040635] Segment Routing with IPv6
+Jan  1 00:00:18 debian-armhf kernel: [    4.044774] sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+Jan  1 00:00:18 debian-armhf kernel: [    4.051822] NET: Registered protocol family 17
+Jan  1 00:00:18 debian-armhf kernel: [    4.056667] Key type dns_resolver registered
+Jan  1 00:00:18 debian-armhf kernel: [    4.061090] mmc1: SDHCI controller on 481d8000.mmc [481d8000.mmc] using External DMA
+Jan  1 00:00:18 debian-armhf kernel: [    4.069543] NET: Registered protocol family 40
+Jan  1 00:00:18 debian-armhf kernel: [    4.075139] Registering SWP/SWPB emulation handler
+Jan  1 00:00:18 debian-armhf kernel: [    4.087042] Loading compiled-in X.509 certificates
+Jan  1 00:00:18 debian-armhf kernel: [    4.111661] OMAP GPIO hardware version 0.1
+Jan  1 00:00:18 debian-armhf kernel: [    4.148960] tps65217-pmic: Failed to locate of_node [id: -1]
+Jan  1 00:00:18 debian-armhf kernel: [    4.160032] mmc1: new high speed MMC card at address 0001
+Jan  1 00:00:18 debian-armhf kernel: [    4.166801] mmcblk1: mmc1:0001 MMC04G 3.66 GiB 
+Jan  1 00:00:18 debian-armhf kernel: [    4.172414] mmcblk1boot0: mmc1:0001 MMC04G partition 1 1.00 MiB
+Jan  1 00:00:18 debian-armhf kernel: [    4.179137] mmcblk1boot1: mmc1:0001 MMC04G partition 2 1.00 MiB
+Jan  1 00:00:18 debian-armhf kernel: [    4.185520] mmcblk1rpmb: mmc1:0001 MMC04G partition 3 128 KiB, chardev (244:0)
+Jan  1 00:00:18 debian-armhf kernel: [    4.196764]  mmcblk1: p1 p2 p3 p4
+Jan  1 00:00:18 debian-armhf kernel: [    4.212418] tps65217-bl: Failed to locate of_node [id: -1]
+Jan  1 00:00:18 debian-armhf kernel: [    4.223599] tps65217 0-0024: TPS65217 ID 0xe version 1.2
+Jan  1 00:00:18 debian-armhf kernel: [    4.230982] pca953x 0-0023: supply vcc not found, using dummy regulator
+Jan  1 00:00:18 debian-armhf kernel: [    4.237936] pca953x 0-0023: using no AI
+Jan  1 00:00:18 debian-armhf kernel: [    4.244201] pca953x 0-0022: supply vcc not found, using dummy regulator
+Jan  1 00:00:18 debian-armhf kernel: [    4.251235] pca953x 0-0022: using no AI
+Jan  1 00:00:18 debian-armhf kernel: [    4.257282] pca953x 0-0020: supply vcc not found, using dummy regulator
+Jan  1 00:00:18 debian-armhf kernel: [    4.264261] pca953x 0-0020: using no AI
+Jan  1 00:00:18 debian-armhf kernel: [    4.269848] omap_i2c 44e0b000.i2c: bus 0 rev0.11 at 100 kHz
+Jan  1 00:00:18 debian-armhf kernel: [    4.295232] ti-sysc: probe of 5600fe00.target-module failed with error -110
+Jan  1 00:00:18 debian-armhf kernel: [    4.310024] cpufreq: cpufreq_online: CPU0: Running at unlisted initial frequency: 550000 KHz, changing to: 600000 KHz
+Jan  1 00:00:18 debian-armhf kernel: [    4.327357] omap_gpio 44e07000.gpio: Could not set line 6 debounce to 200000 microseconds (-22)
+Jan  1 00:00:18 debian-armhf kernel: [    4.338610] sdhci-omap 48060000.mmc: Got CD GPIO
+Jan  1 00:00:18 debian-armhf kernel: [    4.343602] sdhci-omap 48060000.mmc: supply vqmmc not found, using dummy regulator
+Jan  1 00:00:18 debian-armhf kernel: [    4.361188] ALSA device list:
+Jan  1 00:00:18 debian-armhf kernel: [    4.364198]   #0: Simple Audio AM335x Roomplayer
+Jan  1 00:00:18 debian-armhf kernel: [    4.440806] mmc0: SDHCI controller on 48060000.mmc [48060000.mmc] using External DMA
+Jan  1 00:00:18 debian-armhf kernel: [    4.491629] EXT4-fs (mmcblk1p4): mounted filesystem with ordered data mode. Opts: (null)
+Jan  1 00:00:18 debian-armhf kernel: [    4.499966] VFS: Mounted root (ext4 filesystem) readonly on device 179:4.
+Jan  1 00:00:18 debian-armhf kernel: [    4.526849] devtmpfs: mounted
+Jan  1 00:00:18 debian-armhf kernel: [    4.531389] Freeing unused kernel memory: 1024K
+Jan  1 00:00:18 debian-armhf kernel: [    4.536423] Run /sbin/init as init process
+Jan  1 00:00:18 debian-armhf kernel: [   10.208462] EXT4-fs (mmcblk1p4): re-mounted. Opts: (null)
+Jan  1 00:00:18 debian-armhf kernel: [   10.465094] EXT4-fs (mmcblk1p4): re-mounted. Opts: errors=remount-ro
+Jan  1 00:00:18 debian-armhf kernel: [   15.412200] cpsw 4a100000.ethernet: initializing cpsw version 1.12 (0)
+Jan  1 00:00:18 debian-armhf kernel: [   15.424245] Generic PHY 4a101000.mdio:01: attached PHY driver [Generic PHY] (mii_bus:phy_addr=4a101000.mdio:01, irq=POLL)
+Jan  1 00:00:18 debian-armhf kernel: [   15.437033] cpsw 4a100000.ethernet eth0: Link is Up - 100Mbps/Full - flow control off
+Nov 27 18:45:30 debian-armhf rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="3496" x-info="http://www.rsyslog.com"] start
+Nov 27 19:18:38 debian-armhf rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="3496" x-info="http://www.rsyslog.com"] exiting on signal 15.
+Nov 27 19:18:39 debian-armhf liblogging-stdlog:  [origin software="rsyslogd" swVersion="8.24.0" x-pid="27925" x-info="http://www.rsyslog.com"] start
+Nov 27 19:44:16 debian-armhf rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="10336" x-info="https://www.rsyslog.com"] start
+Nov 27 20:28:53 debian-armhf rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="16024" x-info="https://www.rsyslog.com"] start

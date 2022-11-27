@@ -1,0 +1,10 @@
+TARGETS = udev cgmanager cgproxy plymouth resolvconf brightness urandom nftables sendsigs rsyslog umountnfs.sh hwclock.sh networking umountfs umountroot halt reboot
+sendsigs: plymouth
+rsyslog: sendsigs
+umountnfs.sh: rsyslog sendsigs plymouth
+hwclock.sh: rsyslog
+networking: umountnfs.sh nftables
+umountfs: networking umountnfs.sh hwclock.sh resolvconf plymouth brightness urandom nftables
+umountroot: umountfs udev
+halt: umountroot
+reboot: umountroot

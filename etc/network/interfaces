@@ -1,0 +1,16 @@
+# interfaces(5) file used by ifup(8) and ifdown(8)
+
+# loopback network interface
+auto lo
+iface lo inet loopback
+
+# primary network interface
+auto eth0
+iface eth0 inet dhcp
+#hwaddress ether DE:AD:BE:EF:CA:FE
+
+# wireless network interface
+#auto wlan0
+#iface wlan0 inet dhcp
+#   wpa-ssid "my_wifi_name"
+#   wpa-psk  "my_wifi_pass"

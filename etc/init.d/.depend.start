@@ -1,0 +1,10 @@
+TARGETS = killprocs console-setup.sh cgmanager rsyslog single bootlogs sudo cgproxy cron dbus rmnologin ssh plymouth rc.local
+INTERACTIVE = console-setup.sh
+single: killprocs
+cgproxy: cgmanager
+cron: rsyslog
+dbus: rsyslog
+rmnologin: sudo
+ssh: rsyslog
+plymouth: cgproxy cron dbus rmnologin ssh bootlogs console-setup.sh
+rc.local: cgproxy cron dbus rmnologin ssh bootlogs console-setup.sh
