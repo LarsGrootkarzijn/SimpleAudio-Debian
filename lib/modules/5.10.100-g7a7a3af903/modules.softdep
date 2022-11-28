@@ -1,5 +1,4 @@
 # Soft dependencies extracted from modules themselves.
-# Copy, with a .conf extension, to /etc/modprobe.d to use it with modprobe.
 softdep cifs gcm
 softdep cifs ccm
 softdep cifs aead2

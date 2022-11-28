@@ -1,0 +1,13 @@
+I:17269205
+E:ID_NET_NAMING_SCHEME=v247
+E:ID_NET_NAME_MAC=enxd0ff50012102
+E:ID_OUI_FROM_DATABASE=Texas Instruments
+E:ID_PATH=platform-4a100000.ethernet
+E:ID_PATH_TAG=platform-4a100000_ethernet
+E:ID_NET_DRIVER=cpsw
+E:ID_NET_LINK_FILE=/lib/systemd/network/99-default.link
+E:ID_NET_NAME=eth0
+E:SYSTEMD_ALIAS=/sys/subsystem/net/devices/eth0
+G:systemd
+Q:systemd
+V:1

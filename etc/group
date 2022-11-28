@@ -50,3 +50,4 @@ systemd-network:x:109:
 systemd-resolve:x:110:
 kvm:x:111:
 render:x:112:
+systemd-coredump:x:999:

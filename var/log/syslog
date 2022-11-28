@@ -668,3 +668,991 @@ Nov 27 20:43:27 debian-armhf dbus[1948]: [system] Activated service 'org.freedes
 Nov 27 21:05:31 debian-armhf dbus[1948]: [system] Activating service name='org.freedesktop.login1' (using servicehelper)
 Nov 27 21:05:31 debian-armhf dbus[1948]: [system] Activated service 'org.freedesktop.login1' failed: Launch helper exited with unknown return code 1
 Nov 27 21:17:09 debian-armhf CRON[25969]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] Booting Linux on physical CPU 0x0
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] Linux version 5.10.100-g7a7a3af903 (root@Ubuntu) (arm-none-linux-gnueabihf-gcc (GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)) 9.2.1 20191025, GNU ld (GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)) 2.33.1.20191209) #63 PREEMPT Thu Nov 24 22:32:46 CET 2022
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] CPU: ARMv7 Processor [413fc082] revision 2 (ARMv7), cr=10c5387d
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] OF: fdt: Machine model: Lars Board
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] Memory policy: Data cache writeback
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] efi: UEFI not found.
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] cma: Reserved 48 MiB at 0x9c800000
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] Zone ranges:
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000]   Normal   [mem 0x0000000080000000-0x000000009fefffff]
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000]   HighMem  empty
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] Movable zone start for each node
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] Early memory node ranges
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000]   node   0: [mem 0x0000000080000000-0x000000009fefffff]
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000080000000-0x000000009fefffff]
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] On node 0 totalpages: 130816
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000]   Normal zone: 1150 pages used for memmap
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000]   Normal zone: 0 pages reserved
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000]   Normal zone: 130816 pages, LIFO batch:31
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] CPU: All CPU(s) started in SVC mode.
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] AM335X ES2.1 (neon)
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] pcpu-alloc: [0] 0 
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 129666
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] Kernel command line: console=ttyS0,115200n8 drm.debug=7 root=/dev/mmcblk1p4 ro rootfstype=ext4 rootwait
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes, linear)
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes, linear)
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] mem auto-init: stack:off, heap alloc:off, heap free:off
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] Memory: 453268K/523264K available (9216K kernel code, 807K rwdata, 3428K rodata, 1024K init, 294K bss, 20844K reserved, 49152K cma-reserved, 0K highmem)
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] rcu: Preemptible hierarchical RCU implementation.
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] 	Trampoline variant of Tasks RCU enabled.
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] rcu: RCU calculated value of scheduler-enlistment delay is 10 jiffies.
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] NR_IRQS: 16, nr_irqs: 16, preallocated irqs: 16
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] IRQ: Found an INTC at 0x(ptrval) (revision 5.0) with 128 interrupts
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] random: get_random_bytes called from start_kernel+0x30c/0x4c8 with crng_init=0
+Nov 28 17:17:51 debian-armhf kernel: [    0.000000] TI gptimer clocksource: always-on /ocp/interconnect@44c00000/segment@200000/target-module@31000
+Nov 28 17:17:51 debian-armhf kernel: [    0.000015] sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 89478484971ns
+Nov 28 17:17:51 debian-armhf kernel: [    0.000043] clocksource: dmtimer: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 79635851949 ns
+Nov 28 17:17:51 debian-armhf kernel: [    0.000545] TI gptimer clockevent: 24000000 Hz at /ocp/interconnect@48000000/segment@0/target-module@40000
+Nov 28 17:17:51 debian-armhf kernel: [    0.002029] Console: colour dummy device 80x30
+Nov 28 17:17:51 debian-armhf kernel: [    0.002136] Calibrating delay loop... 548.86 BogoMIPS (lpj=2744320)
+Nov 28 17:17:51 debian-armhf kernel: [    0.050655] pid_max: default: 32768 minimum: 301
+Nov 28 17:17:51 debian-armhf kernel: [    0.050896] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes, linear)
+Nov 28 17:17:51 debian-armhf kernel: [    0.050923] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes, linear)
+Nov 28 17:17:51 debian-armhf kernel: [    0.052154] CPU: Testing write buffer coherency: ok
+Nov 28 17:17:51 debian-armhf kernel: [    0.052254] CPU0: Spectre v2: using BPIALL workaround
+Nov 28 17:17:51 debian-armhf kernel: [    0.053403] Setting up static identity map for 0x80100000 - 0x80100060
+Nov 28 17:17:51 debian-armhf kernel: [    0.053613] rcu: Hierarchical SRCU implementation.
+Nov 28 17:17:51 debian-armhf kernel: [    0.054594] EFI services will not be available.
+Nov 28 17:17:51 debian-armhf kernel: [    0.055214] devtmpfs: initialized
+Nov 28 17:17:51 debian-armhf kernel: [    0.072258] VFP support v0.3: implementor 41 architecture 3 part 30 variant c rev 3
+Nov 28 17:17:51 debian-armhf kernel: [    0.072633] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+Nov 28 17:17:51 debian-armhf kernel: [    0.072668] futex hash table entries: 256 (order: -1, 3072 bytes, linear)
+Nov 28 17:17:51 debian-armhf kernel: [    0.077084] pinctrl core: initialized pinctrl subsystem
+Nov 28 17:17:51 debian-armhf kernel: [    0.078313] DMI not present or invalid.
+Nov 28 17:17:51 debian-armhf kernel: [    0.078958] NET: Registered protocol family 16
+Nov 28 17:17:51 debian-armhf kernel: [    0.082318] DMA: preallocated 256 KiB pool for atomic coherent allocations
+Nov 28 17:17:51 debian-armhf kernel: [    0.103495] l3-aon-clkctrl:0000:0: failed to disable
+Nov 28 17:17:51 debian-armhf kernel: [    0.105174] thermal_sys: Registered thermal governor 'fair_share'
+Nov 28 17:17:51 debian-armhf kernel: [    0.105192] thermal_sys: Registered thermal governor 'bang_bang'
+Nov 28 17:17:51 debian-armhf kernel: [    0.105211] thermal_sys: Registered thermal governor 'step_wise'
+Nov 28 17:17:51 debian-armhf kernel: [    0.105224] thermal_sys: Registered thermal governor 'user_space'
+Nov 28 17:17:51 debian-armhf kernel: [    1.930207] No ATAGs?
+Nov 28 17:17:51 debian-armhf kernel: [    1.930253] hw-breakpoint: debug architecture 0x4 unsupported.
+Nov 28 17:17:51 debian-armhf kernel: [    1.969561] reg-fixed-voltage fixedregulator0: GPIO lookup for consumer (null)
+Nov 28 17:17:51 debian-armhf kernel: [    1.969583] reg-fixed-voltage fixedregulator0: using device tree for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    1.969638] of_get_named_gpiod_flags: can't parse 'gpios' property of node '/fixedregulator0[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    1.969668] of_get_named_gpiod_flags: can't parse 'gpio' property of node '/fixedregulator0[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    1.969686] reg-fixed-voltage fixedregulator0: using lookup tables for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    1.969701] reg-fixed-voltage fixedregulator0: No GPIO consumer (null) found
+Nov 28 17:17:51 debian-armhf kernel: [    1.971572] iommu: Default domain type: Translated 
+Nov 28 17:17:51 debian-armhf kernel: [    1.975103] mc: Linux media interface: v0.10
+Nov 28 17:17:51 debian-armhf kernel: [    1.975178] videodev: Linux video capture interface: v2.00
+Nov 28 17:17:51 debian-armhf kernel: [    1.975325] pps_core: LinuxPPS API ver. 1 registered
+Nov 28 17:17:51 debian-armhf kernel: [    1.975342] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Nov 28 17:17:51 debian-armhf kernel: [    1.975377] PTP clock support registered
+Nov 28 17:17:51 debian-armhf kernel: [    1.975481] EDAC MC: Ver: 3.0.0
+Nov 28 17:17:51 debian-armhf kernel: [    1.976836] Advanced Linux Sound Architecture Driver Initialized.
+Nov 28 17:17:51 debian-armhf kernel: [    1.978319] clocksource: Switched to clocksource dmtimer
+Nov 28 17:17:51 debian-armhf kernel: [    1.991190] NET: Registered protocol family 2
+Nov 28 17:17:51 debian-armhf kernel: [    1.991488] IP idents hash table entries: 8192 (order: 4, 65536 bytes, linear)
+Nov 28 17:17:51 debian-armhf kernel: [    1.992966] tcp_listen_portaddr_hash hash table entries: 512 (order: 0, 4096 bytes, linear)
+Nov 28 17:17:51 debian-armhf kernel: [    1.993041] TCP established hash table entries: 4096 (order: 2, 16384 bytes, linear)
+Nov 28 17:17:51 debian-armhf kernel: [    1.993115] TCP bind hash table entries: 4096 (order: 2, 16384 bytes, linear)
+Nov 28 17:17:51 debian-armhf kernel: [    1.993184] TCP: Hash tables configured (established 4096 bind 4096)
+Nov 28 17:17:51 debian-armhf kernel: [    1.993331] UDP hash table entries: 256 (order: 0, 4096 bytes, linear)
+Nov 28 17:17:51 debian-armhf kernel: [    1.993367] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes, linear)
+Nov 28 17:17:51 debian-armhf kernel: [    1.993535] NET: Registered protocol family 1
+Nov 28 17:17:51 debian-armhf kernel: [    1.994281] RPC: Registered named UNIX socket transport module.
+Nov 28 17:17:51 debian-armhf kernel: [    1.994304] RPC: Registered udp transport module.
+Nov 28 17:17:51 debian-armhf kernel: [    1.994316] RPC: Registered tcp transport module.
+Nov 28 17:17:51 debian-armhf kernel: [    1.994328] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Nov 28 17:17:51 debian-armhf kernel: [    1.994354] PCI: CLS 0 bytes, default 64
+Nov 28 17:17:51 debian-armhf kernel: [    1.995774] hw perfevents: enabled with armv7_cortex_a8 PMU driver, 5 counters available
+Nov 28 17:17:51 debian-armhf kernel: [    1.997641] Initialise system trusted keyrings
+Nov 28 17:17:51 debian-armhf kernel: [    1.998074] workingset: timestamp_bits=14 max_order=17 bucket_order=3
+Nov 28 17:17:51 debian-armhf kernel: [    2.004366] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Nov 28 17:17:51 debian-armhf kernel: [    2.005511] NFS: Registering the id_resolver key type
+Nov 28 17:17:51 debian-armhf kernel: [    2.005582] Key type id_resolver registered
+Nov 28 17:17:51 debian-armhf kernel: [    2.005597] Key type id_legacy registered
+Nov 28 17:17:51 debian-armhf kernel: [    2.005664] ntfs: driver 2.1.32 [Flags: R/O].
+Nov 28 17:17:51 debian-armhf kernel: [    2.006790] NET: Registered protocol family 38
+Nov 28 17:17:51 debian-armhf kernel: [    2.006822] Key type asymmetric registered
+Nov 28 17:17:51 debian-armhf kernel: [    2.006839] Asymmetric key parser 'x509' registered
+Nov 28 17:17:51 debian-armhf kernel: [    2.006922] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 245)
+Nov 28 17:17:51 debian-armhf kernel: [    2.006942] io scheduler mq-deadline registered
+Nov 28 17:17:51 debian-armhf kernel: [    2.006957] io scheduler kyber registered
+Nov 28 17:17:51 debian-armhf kernel: [    2.478384] random: fast init done
+Nov 28 17:17:51 debian-armhf kernel: [    2.684042] omap-mailbox 480c8000.mailbox: omap mailbox rev 0x400
+Nov 28 17:17:51 debian-armhf kernel: [    2.822041] debugfs: Directory '49000000.dma' with parent 'dmaengine' already present!
+Nov 28 17:17:51 debian-armhf kernel: [    2.822099] edma 49000000.dma: TI EDMA DMA engine driver
+Nov 28 17:17:51 debian-armhf kernel: [    2.853640] pinctrl-single 44e10800.pinmux: 142 pins, size 568
+Nov 28 17:17:51 debian-armhf kernel: [    2.934733] Serial: 8250/16550 driver, 10 ports, IRQ sharing disabled
+Nov 28 17:17:51 debian-armhf kernel: [    2.940121] printk: console [ttyS0] disabled
+Nov 28 17:17:51 debian-armhf kernel: [    2.940195] omap8250 44e09000.serial: GPIO lookup for consumer rs485-term
+Nov 28 17:17:51 debian-armhf kernel: [    2.940207] omap8250 44e09000.serial: using device tree for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    2.940271] of_get_named_gpiod_flags: can't parse 'rs485-term-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@9000/serial@0[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    2.940314] of_get_named_gpiod_flags: can't parse 'rs485-term-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@9000/serial@0[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    2.940336] omap8250 44e09000.serial: using lookup tables for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    2.940350] omap8250 44e09000.serial: No GPIO consumer rs485-term found
+Nov 28 17:17:51 debian-armhf kernel: [    2.940418] 44e09000.serial: ttyS0 at MMIO 0x44e09000 (irq = 20, base_baud = 3000000) is a 8250
+Nov 28 17:17:51 debian-armhf kernel: [    3.576649] printk: console [ttyS0] enabled
+Nov 28 17:17:51 debian-armhf kernel: [    3.581912] pinctrl-single 44e10800.pinmux: Invalid number of rows: 0
+Nov 28 17:17:51 debian-armhf kernel: [    3.588457] pinctrl-single 44e10800.pinmux: no pins entries for uart1_pins
+Nov 28 17:17:51 debian-armhf kernel: [    3.595392] omap8250: probe of 48022000.serial failed with error -22
+Nov 28 17:17:51 debian-armhf kernel: [    3.605212] omap_rng 48310000.rng: Random Number Generator ver. 20
+Nov 28 17:17:51 debian-armhf kernel: [    3.611797] random: crng init done
+Nov 28 17:17:51 debian-armhf kernel: [    3.616191] [drm:drm_core_init] Initialized
+Nov 28 17:17:51 debian-armhf kernel: [    3.618269] [drm:tilcdc_drm_init] init
+Nov 28 17:17:51 debian-armhf kernel: [    3.632295] brd: module loaded
+Nov 28 17:17:51 debian-armhf kernel: [    3.645696] loop: module loaded
+Nov 28 17:17:51 debian-armhf kernel: [    3.654222] spi-nor spi0.0: found m25p64, expected at25df641
+Nov 28 17:17:51 debian-armhf kernel: [    3.660170] spi-nor spi0.0: m25p64 (8192 Kbytes)
+Nov 28 17:17:51 debian-armhf kernel: [    3.664896] 5 fixed-partitions partitions found on MTD device spi0.0
+Nov 28 17:17:51 debian-armhf kernel: [    3.671321] Creating 5 MTD partitions on "spi0.0":
+Nov 28 17:17:51 debian-armhf kernel: [    3.676146] 0x0000007f0000-0x000000800000 : "MAC Address"
+Nov 28 17:17:51 debian-armhf kernel: [    3.682010] mtd mtd0: GPIO lookup for consumer wp
+Nov 28 17:17:51 debian-armhf kernel: [    3.682027] mtd mtd0: using device tree for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    3.682088] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/ethaddr@7F0000[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    3.682135] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/ethaddr@7F0000[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    3.682154] mtd mtd0: using lookup tables for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    3.682168] mtd mtd0: No GPIO consumer wp found
+Nov 28 17:17:51 debian-armhf kernel: [    3.689399] 0x000000100000-0x000000600000 : "Linux Kernel"
+Nov 28 17:17:51 debian-armhf kernel: [    3.695272] mtd mtd1: GPIO lookup for consumer wp
+Nov 28 17:17:51 debian-armhf kernel: [    3.695288] mtd mtd1: using device tree for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    3.695346] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/uImage@100000[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    3.695393] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/uImage@100000[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    3.695411] mtd mtd1: using lookup tables for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    3.695425] mtd mtd1: No GPIO consumer wp found
+Nov 28 17:17:51 debian-armhf kernel: [    3.709304] 0x0000000f0000-0x000000100000 : "U-Boot Environment"
+Nov 28 17:17:51 debian-armhf kernel: [    3.715686] mtd mtd2: GPIO lookup for consumer wp
+Nov 28 17:17:51 debian-armhf kernel: [    3.715703] mtd mtd2: using device tree for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    3.715760] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/ubootenv@F0000[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    3.715807] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/ubootenv@F0000[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    3.715825] mtd mtd2: using lookup tables for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    3.715839] mtd mtd2: No GPIO consumer wp found
+Nov 28 17:17:51 debian-armhf kernel: [    3.729322] 0x000000080000-0x0000000f0000 : "U-Boot"
+Nov 28 17:17:51 debian-armhf kernel: [    3.734650] mtd mtd3: GPIO lookup for consumer wp
+Nov 28 17:17:51 debian-armhf kernel: [    3.734666] mtd mtd3: using device tree for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    3.734723] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/uboot@80000[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    3.734769] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/uboot@80000[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    3.734786] mtd mtd3: using lookup tables for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    3.734801] mtd mtd3: No GPIO consumer wp found
+Nov 28 17:17:51 debian-armhf kernel: [    3.739305] 0x000000000000-0x000000080000 : "U-Boot SPL"
+Nov 28 17:17:51 debian-armhf kernel: [    3.744975] mtd mtd4: GPIO lookup for consumer wp
+Nov 28 17:17:51 debian-armhf kernel: [    3.744992] mtd mtd4: using device tree for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    3.745057] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/spl@0[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    3.745104] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/spl@0[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    3.745122] mtd mtd4: using lookup tables for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    3.745136] mtd mtd4: No GPIO consumer wp found
+Nov 28 17:17:51 debian-armhf kernel: [    3.761521] mdio_bus fixed-0: GPIO lookup for consumer reset
+Nov 28 17:17:51 debian-armhf kernel: [    3.761546] mdio_bus fixed-0: using lookup tables for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    3.761560] mdio_bus fixed-0: No GPIO consumer reset found
+Nov 28 17:17:51 debian-armhf kernel: [    3.768182] mdio_bus 4a101000.mdio: GPIO lookup for consumer reset
+Nov 28 17:17:51 debian-armhf kernel: [    3.768208] mdio_bus 4a101000.mdio: using device tree for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    3.768269] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/interconnect@4a000000/segment@0/target-module@100000/ethernet@0/mdio@1000[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    3.768312] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/interconnect@4a000000/segment@0/target-module@100000/ethernet@0/mdio@1000[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    3.768600] mdio_bus 4a101000.mdio: using lookup tables for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    3.768616] mdio_bus 4a101000.mdio: No GPIO consumer reset found
+Nov 28 17:17:51 debian-armhf kernel: [    3.828393] davinci_mdio 4a101000.mdio: davinci mdio revision 1.6, bus freq 1000000
+Nov 28 17:17:51 debian-armhf kernel: [    3.837459] mdio_bus 4a101000.mdio:01: GPIO lookup for consumer reset
+Nov 28 17:17:51 debian-armhf kernel: [    3.837480] mdio_bus 4a101000.mdio:01: using device tree for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    3.837546] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/interconnect@4a000000/segment@0/target-module@100000/ethernet@0/mdio@1000/ethernet-phy@0[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    3.837595] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/interconnect@4a000000/segment@0/target-module@100000/ethernet@0/mdio@1000/ethernet-phy@0[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    3.837612] mdio_bus 4a101000.mdio:01: using lookup tables for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    3.837626] mdio_bus 4a101000.mdio:01: No GPIO consumer reset found
+Nov 28 17:17:51 debian-armhf kernel: [    3.838816] davinci_mdio 4a101000.mdio: phy[1]: device 4a101000.mdio:01, driver unknown
+Nov 28 17:17:51 debian-armhf kernel: [    3.847666] cpsw 4a100000.ethernet: initialized cpsw ale version 1.4
+Nov 28 17:17:51 debian-armhf kernel: [    3.854221] cpsw 4a100000.ethernet: ALE Table size 1024
+Nov 28 17:17:51 debian-armhf kernel: [    3.859685] cpsw 4a100000.ethernet: cpts: overflow check period 500 (jiffies)
+Nov 28 17:17:51 debian-armhf kernel: [    3.866949] cpsw 4a100000.ethernet: Detected MACID = d0:ff:50:01:21:02
+Nov 28 17:17:51 debian-armhf kernel: [    3.875860] mousedev: PS/2 mouse device common for all mice
+Nov 28 17:17:51 debian-armhf kernel: [    3.881934] i2c /dev entries driver
+Nov 28 17:17:51 debian-armhf kernel: [    3.890948] sdhci: Secure Digital Host Controller Interface driver
+Nov 28 17:17:51 debian-armhf kernel: [    3.897182] sdhci: Copyright(c) Pierre Ossman
+Nov 28 17:17:51 debian-armhf kernel: [    3.903932] sdhci-pltfm: SDHCI platform and OF driver helper
+Nov 28 17:17:51 debian-armhf kernel: [    3.913313] sdhci-omap 48060000.mmc: GPIO lookup for consumer cd
+Nov 28 17:17:51 debian-armhf kernel: [    3.913336] sdhci-omap 48060000.mmc: using device tree for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    3.913377] sdhci-omap 48060000.mmc: No GPIO consumer cd found
+Nov 28 17:17:51 debian-armhf kernel: [    3.914173] sdhci-omap 481d8000.mmc: GPIO lookup for consumer cd
+Nov 28 17:17:51 debian-armhf kernel: [    3.914193] sdhci-omap 481d8000.mmc: using device tree for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    3.914254] of_get_named_gpiod_flags: can't parse 'cd-gpios' property of node '/ocp/interconnect@48000000/segment@100000/target-module@d8000/mmc@0[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    3.914296] of_get_named_gpiod_flags: can't parse 'cd-gpio' property of node '/ocp/interconnect@48000000/segment@100000/target-module@d8000/mmc@0[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    3.914314] sdhci-omap 481d8000.mmc: using lookup tables for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    3.914328] sdhci-omap 481d8000.mmc: No GPIO consumer cd found
+Nov 28 17:17:51 debian-armhf kernel: [    3.914342] sdhci-omap 481d8000.mmc: GPIO lookup for consumer wp
+Nov 28 17:17:51 debian-armhf kernel: [    3.914353] sdhci-omap 481d8000.mmc: using device tree for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    3.914392] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@100000/target-module@d8000/mmc@0[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    3.914430] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@100000/target-module@d8000/mmc@0[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    3.914446] sdhci-omap 481d8000.mmc: using lookup tables for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    3.914458] sdhci-omap 481d8000.mmc: No GPIO consumer wp found
+Nov 28 17:17:51 debian-armhf kernel: [    3.914662] sdhci-omap 481d8000.mmc: supply vqmmc not found, using dummy regulator
+Nov 28 17:17:51 debian-armhf kernel: [    3.924229] ledtrig-cpu: registered to indicate activity on CPUs
+Nov 28 17:17:51 debian-armhf kernel: [    3.939306] omap-aes 53500000.aes: OMAP AES hw accel rev: 3.2
+Nov 28 17:17:51 debian-armhf kernel: [    3.948453] omap-aes 53500000.aes: will run requests pump with realtime priority
+Nov 28 17:17:51 debian-armhf kernel: [    3.976051] omap-sham 53100000.sham: hw accel on OMAP rev 4.3
+Nov 28 17:17:51 debian-armhf kernel: [    3.988415] omap-sham 53100000.sham: will run requests pump with realtime priority
+Nov 28 17:17:51 debian-armhf kernel: [    4.025335] davinci-mcasp 48038000.mcasp: IRQ common not found
+Nov 28 17:17:51 debian-armhf kernel: [    4.034481] NET: Registered protocol family 10
+Nov 28 17:17:51 debian-armhf kernel: [    4.041223] Segment Routing with IPv6
+Nov 28 17:17:51 debian-armhf kernel: [    4.045340] sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+Nov 28 17:17:51 debian-armhf kernel: [    4.052398] NET: Registered protocol family 17
+Nov 28 17:17:51 debian-armhf kernel: [    4.057240] Key type dns_resolver registered
+Nov 28 17:17:51 debian-armhf kernel: [    4.061663] mmc1: SDHCI controller on 481d8000.mmc [481d8000.mmc] using External DMA
+Nov 28 17:17:51 debian-armhf kernel: [    4.070107] NET: Registered protocol family 40
+Nov 28 17:17:51 debian-armhf kernel: [    4.075697] Registering SWP/SWPB emulation handler
+Nov 28 17:17:51 debian-armhf kernel: [    4.080687] omap_voltage_late_init: Voltage driver support not added
+Nov 28 17:17:51 debian-armhf kernel: [    4.087598] Loading compiled-in X.509 certificates
+Nov 28 17:17:51 debian-armhf kernel: [    4.109678] [drm:omap_drm_init] init
+Nov 28 17:17:51 debian-armhf kernel: [    4.111322] gpio gpiochip0: (gpio-0-31): created GPIO range 0->7 ==> 44e10800.pinmux PIN 82->89
+Nov 28 17:17:51 debian-armhf kernel: [    4.111355] gpio gpiochip0: (gpio-0-31): created GPIO range 8->11 ==> 44e10800.pinmux PIN 52->55
+Nov 28 17:17:51 debian-armhf kernel: [    4.111376] gpio gpiochip0: (gpio-0-31): created GPIO range 12->15 ==> 44e10800.pinmux PIN 94->97
+Nov 28 17:17:51 debian-armhf kernel: [    4.111395] gpio gpiochip0: (gpio-0-31): created GPIO range 16->17 ==> 44e10800.pinmux PIN 71->72
+Nov 28 17:17:51 debian-armhf kernel: [    4.111416] gpio gpiochip0: (gpio-0-31): created GPIO range 18->18 ==> 44e10800.pinmux PIN 135->135
+Nov 28 17:17:51 debian-armhf kernel: [    4.111438] gpio gpiochip0: (gpio-0-31): created GPIO range 19->20 ==> 44e10800.pinmux PIN 108->109
+Nov 28 17:17:51 debian-armhf kernel: [    4.111460] gpio gpiochip0: (gpio-0-31): created GPIO range 21->21 ==> 44e10800.pinmux PIN 73->73
+Nov 28 17:17:51 debian-armhf kernel: [    4.111481] gpio gpiochip0: (gpio-0-31): created GPIO range 22->23 ==> 44e10800.pinmux PIN 8->9
+Nov 28 17:17:51 debian-armhf kernel: [    4.111503] gpio gpiochip0: (gpio-0-31): created GPIO range 26->27 ==> 44e10800.pinmux PIN 10->11
+Nov 28 17:17:51 debian-armhf kernel: [    4.111536] gpio gpiochip0: (gpio-0-31): created GPIO range 28->28 ==> 44e10800.pinmux PIN 74->74
+Nov 28 17:17:51 debian-armhf kernel: [    4.111559] gpio gpiochip0: (gpio-0-31): created GPIO range 29->29 ==> 44e10800.pinmux PIN 81->81
+Nov 28 17:17:51 debian-armhf kernel: [    4.111581] gpio gpiochip0: (gpio-0-31): created GPIO range 30->31 ==> 44e10800.pinmux PIN 28->29
+Nov 28 17:17:51 debian-armhf kernel: [    4.112036] gpio gpiochip0: (gpio-0-31): added GPIO chardev (254:0)
+Nov 28 17:17:51 debian-armhf kernel: [    4.112179] gpio gpiochip0: registered GPIOs 0 to 31 on gpio-0-31
+Nov 28 17:17:51 debian-armhf kernel: [    4.112250] OMAP GPIO hardware version 0.1
+Nov 28 17:17:51 debian-armhf kernel: [    4.117824] i2c i2c-0: GPIO lookup for consumer scl
+Nov 28 17:17:51 debian-armhf kernel: [    4.117846] i2c i2c-0: using device tree for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    4.117904] of_get_named_gpiod_flags: can't parse 'scl-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    4.117944] of_get_named_gpiod_flags: can't parse 'scl-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    4.117965] i2c i2c-0: using lookup tables for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    4.117978] i2c i2c-0: No GPIO consumer scl found
+Nov 28 17:17:51 debian-armhf kernel: [    4.118003] i2c i2c-0: GPIO lookup for consumer sda
+Nov 28 17:17:51 debian-armhf kernel: [    4.118013] i2c i2c-0: using device tree for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    4.118053] of_get_named_gpiod_flags: can't parse 'sda-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    4.118091] of_get_named_gpiod_flags: can't parse 'sda-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    4.118105] i2c i2c-0: using lookup tables for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    4.118117] i2c i2c-0: No GPIO consumer sda found
+Nov 28 17:17:51 debian-armhf kernel: [    4.149529] tps65217-pmic: Failed to locate of_node [id: -1]
+Nov 28 17:17:51 debian-armhf kernel: [    4.160623] mmc1: new high speed MMC card at address 0001
+Nov 28 17:17:51 debian-armhf kernel: [    4.167538] mmcblk1: mmc1:0001 MMC04G 3.66 GiB 
+Nov 28 17:17:51 debian-armhf kernel: [    4.173032] mmcblk1boot0: mmc1:0001 MMC04G partition 1 1.00 MiB
+Nov 28 17:17:51 debian-armhf kernel: [    4.179768] mmcblk1boot1: mmc1:0001 MMC04G partition 2 1.00 MiB
+Nov 28 17:17:51 debian-armhf kernel: [    4.186146] mmcblk1rpmb: mmc1:0001 MMC04G partition 3 128 KiB, chardev (244:0)
+Nov 28 17:17:51 debian-armhf kernel: [    4.197388]  mmcblk1: p1 p2 p3 p4
+Nov 28 17:17:51 debian-armhf kernel: [    4.212994] tps65217-bl: Failed to locate of_node [id: -1]
+Nov 28 17:17:51 debian-armhf kernel: [    4.224174] tps65217 0-0024: TPS65217 ID 0xe version 1.2
+Nov 28 17:17:51 debian-armhf kernel: [    4.231364] pca953x 0-0023: GPIO lookup for consumer reset
+Nov 28 17:17:51 debian-armhf kernel: [    4.231386] pca953x 0-0023: using device tree for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    4.231443] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@23[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    4.231488] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@23[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    4.231508] pca953x 0-0023: using lookup tables for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    4.231522] pca953x 0-0023: No GPIO consumer reset found
+Nov 28 17:17:51 debian-armhf kernel: [    4.231563] pca953x 0-0023: supply vcc not found, using dummy regulator
+Nov 28 17:17:51 debian-armhf kernel: [    4.238512] pca953x 0-0023: using no AI
+Nov 28 17:17:51 debian-armhf kernel: [    4.242824] gpiochip_find_base: found new base at 504
+Nov 28 17:17:51 debian-armhf kernel: [    4.243676] gpio gpiochip1: (0-0023): added GPIO chardev (254:1)
+Nov 28 17:17:51 debian-armhf kernel: [    4.243807] gpio gpiochip1: registered GPIOs 504 to 511 on 0-0023
+Nov 28 17:17:51 debian-armhf kernel: [    4.244580] pca953x 0-0022: GPIO lookup for consumer reset
+Nov 28 17:17:51 debian-armhf kernel: [    4.244596] pca953x 0-0022: using device tree for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    4.244648] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@22[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    4.244692] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@22[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    4.244711] pca953x 0-0022: using lookup tables for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    4.244724] pca953x 0-0022: No GPIO consumer reset found
+Nov 28 17:17:51 debian-armhf kernel: [    4.244759] pca953x 0-0022: supply vcc not found, using dummy regulator
+Nov 28 17:17:51 debian-armhf kernel: [    4.251796] pca953x 0-0022: using no AI
+Nov 28 17:17:51 debian-armhf kernel: [    4.256095] gpiochip_find_base: found new base at 496
+Nov 28 17:17:51 debian-armhf kernel: [    4.256879] gpio gpiochip2: (0-0022): added GPIO chardev (254:2)
+Nov 28 17:17:51 debian-armhf kernel: [    4.257004] gpio gpiochip2: registered GPIOs 496 to 503 on 0-0022
+Nov 28 17:17:51 debian-armhf kernel: [    4.257671] pca953x 0-0020: GPIO lookup for consumer reset
+Nov 28 17:17:51 debian-armhf kernel: [    4.257688] pca953x 0-0020: using device tree for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    4.257738] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@20[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    4.257782] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@20[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    4.257800] pca953x 0-0020: using lookup tables for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    4.257813] pca953x 0-0020: No GPIO consumer reset found
+Nov 28 17:17:51 debian-armhf kernel: [    4.257845] pca953x 0-0020: supply vcc not found, using dummy regulator
+Nov 28 17:17:51 debian-armhf kernel: [    4.264821] pca953x 0-0020: using no AI
+Nov 28 17:17:51 debian-armhf kernel: [    4.269177] gpiochip_find_base: found new base at 488
+Nov 28 17:17:51 debian-armhf kernel: [    4.270038] gpio gpiochip3: (0-0020): added GPIO chardev (254:3)
+Nov 28 17:17:51 debian-armhf kernel: [    4.270166] gpio gpiochip3: registered GPIOs 488 to 495 on 0-0020
+Nov 28 17:17:51 debian-armhf kernel: [    4.270418] omap_i2c 44e0b000.i2c: bus 0 rev0.11 at 100 kHz
+Nov 28 17:17:51 debian-armhf kernel: [    4.276747] gpio gpiochip4: (gpio-32-63): created GPIO range 0->7 ==> 44e10800.pinmux PIN 0->7
+Nov 28 17:17:51 debian-armhf kernel: [    4.276776] gpio gpiochip4: (gpio-32-63): created GPIO range 8->11 ==> 44e10800.pinmux PIN 90->93
+Nov 28 17:17:51 debian-armhf kernel: [    4.276796] gpio gpiochip4: (gpio-32-63): created GPIO range 12->27 ==> 44e10800.pinmux PIN 12->27
+Nov 28 17:17:51 debian-armhf kernel: [    4.276815] gpio gpiochip4: (gpio-32-63): created GPIO range 28->31 ==> 44e10800.pinmux PIN 30->33
+Nov 28 17:17:51 debian-armhf kernel: [    4.277177] gpio gpiochip4: (gpio-32-63): added GPIO chardev (254:4)
+Nov 28 17:17:51 debian-armhf kernel: [    4.277298] gpio gpiochip4: registered GPIOs 32 to 63 on gpio-32-63
+Nov 28 17:17:51 debian-armhf kernel: [    4.277796] gpio gpiochip5: (gpio-64-95): created GPIO range 0->17 ==> 44e10800.pinmux PIN 34->51
+Nov 28 17:17:51 debian-armhf kernel: [    4.277823] gpio gpiochip5: (gpio-64-95): created GPIO range 18->21 ==> 44e10800.pinmux PIN 77->80
+Nov 28 17:17:51 debian-armhf kernel: [    4.277843] gpio gpiochip5: (gpio-64-95): created GPIO range 22->31 ==> 44e10800.pinmux PIN 56->65
+Nov 28 17:17:51 debian-armhf kernel: [    4.278157] gpio gpiochip5: (gpio-64-95): added GPIO chardev (254:5)
+Nov 28 17:17:51 debian-armhf kernel: [    4.278278] gpio gpiochip5: registered GPIOs 64 to 95 on gpio-64-95
+Nov 28 17:17:51 debian-armhf kernel: [    4.278806] gpio gpiochip6: (gpio-96-127): created GPIO range 0->4 ==> 44e10800.pinmux PIN 66->70
+Nov 28 17:17:51 debian-armhf kernel: [    4.278833] gpio gpiochip6: (gpio-96-127): created GPIO range 5->6 ==> 44e10800.pinmux PIN 98->99
+Nov 28 17:17:51 debian-armhf kernel: [    4.278852] gpio gpiochip6: (gpio-96-127): created GPIO range 7->8 ==> 44e10800.pinmux PIN 75->76
+Nov 28 17:17:51 debian-armhf kernel: [    4.278873] gpio gpiochip6: (gpio-96-127): created GPIO range 13->13 ==> 44e10800.pinmux PIN 141->141
+Nov 28 17:17:51 debian-armhf kernel: [    4.278893] gpio gpiochip6: (gpio-96-127): created GPIO range 14->21 ==> 44e10800.pinmux PIN 100->107
+Nov 28 17:17:51 debian-armhf kernel: [    4.279212] gpio gpiochip6: (gpio-96-127): added GPIO chardev (254:6)
+Nov 28 17:17:51 debian-armhf kernel: [    4.279330] gpio gpiochip6: registered GPIOs 96 to 127 on gpio-96-127
+Nov 28 17:17:51 debian-armhf kernel: [    4.290061] omap_reset_deassert: timedout waiting for gfx:0
+Nov 28 17:17:51 debian-armhf kernel: [    4.295770] ti-sysc: probe of 5600fe00.target-module failed with error -110
+Nov 28 17:17:51 debian-armhf kernel: [    4.310624] cpufreq: cpufreq_online: CPU0: Running at unlisted initial frequency: 550000 KHz, changing to: 600000 KHz
+Nov 28 17:17:51 debian-armhf kernel: [    4.327727] sdhci-omap 48060000.mmc: GPIO lookup for consumer cd
+Nov 28 17:17:51 debian-armhf kernel: [    4.327743] sdhci-omap 48060000.mmc: using device tree for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    4.327804] of_get_named_gpiod_flags: parsed 'cd-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@60000/mmc@0[0]' - status (0)
+Nov 28 17:17:51 debian-armhf kernel: [    4.327879] gpio gpiochip0: Persistence not supported for GPIO 6
+Nov 28 17:17:51 debian-armhf kernel: [    4.327900] omap_gpio 44e07000.gpio: Could not set line 6 debounce to 200000 microseconds (-22)
+Nov 28 17:17:51 debian-armhf kernel: [    4.337234] of_get_named_gpiod_flags: parsed 'gpios' property of node '/leds/led2[0]' - status (0)
+Nov 28 17:17:51 debian-armhf kernel: [    4.337315] gpio gpiochip4: Persistence not supported for GPIO 21
+Nov 28 17:17:51 debian-armhf kernel: [    4.337325] gpio-53 (?): no flags found for gpios
+Nov 28 17:17:51 debian-armhf kernel: [    4.337547] of_get_named_gpiod_flags: parsed 'gpios' property of node '/leds/led3[0]' - status (0)
+Nov 28 17:17:51 debian-armhf kernel: [    4.337564] gpio gpiochip4: Persistence not supported for GPIO 22
+Nov 28 17:17:51 debian-armhf kernel: [    4.337571] gpio-54 (?): no flags found for gpios
+Nov 28 17:17:51 debian-armhf kernel: [    4.337666] of_get_named_gpiod_flags: parsed 'gpios' property of node '/leds/led4[0]' - status (0)
+Nov 28 17:17:51 debian-armhf kernel: [    4.337677] gpio gpiochip4: Persistence not supported for GPIO 23
+Nov 28 17:17:51 debian-armhf kernel: [    4.337684] gpio-55 (?): no flags found for gpios
+Nov 28 17:17:51 debian-armhf kernel: [    4.337785] of_get_named_gpiod_flags: parsed 'gpios' property of node '/leds/led5[0]' - status (0)
+Nov 28 17:17:51 debian-armhf kernel: [    4.337798] gpio gpiochip4: Persistence not supported for GPIO 24
+Nov 28 17:17:51 debian-armhf kernel: [    4.337804] gpio-56 (?): no flags found for gpios
+Nov 28 17:17:51 debian-armhf kernel: [    4.338844] of_get_named_gpiod_flags: can't parse 'simple-audio-card,hp-det-gpio' property of node '/sound[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    4.338870] of_get_named_gpiod_flags: can't parse 'simple-audio-card,mic-det-gpio' property of node '/sound[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    4.339155] sdhci-omap 48060000.mmc: Got CD GPIO
+Nov 28 17:17:51 debian-armhf kernel: [    4.343877] sdhci-omap 48060000.mmc: GPIO lookup for consumer wp
+Nov 28 17:17:51 debian-armhf kernel: [    4.343886] sdhci-omap 48060000.mmc: using device tree for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    4.343923] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@60000/mmc@0[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    4.343947] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@60000/mmc@0[0]'
+Nov 28 17:17:51 debian-armhf kernel: [    4.343961] sdhci-omap 48060000.mmc: using lookup tables for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [    4.343970] sdhci-omap 48060000.mmc: No GPIO consumer wp found
+Nov 28 17:17:51 debian-armhf kernel: [    4.344216] sdhci-omap 48060000.mmc: supply vqmmc not found, using dummy regulator
+Nov 28 17:17:51 debian-armhf kernel: [    4.361767] ALSA device list:
+Nov 28 17:17:51 debian-armhf kernel: [    4.364774]   #0: Simple Audio AM335x Roomplayer
+Nov 28 17:17:51 debian-armhf kernel: [    4.416203] mmc0: SDHCI controller on 48060000.mmc [48060000.mmc] using External DMA
+Nov 28 17:17:51 debian-armhf kernel: [    4.466141] EXT4-fs (mmcblk1p4): mounted filesystem with ordered data mode. Opts: (null)
+Nov 28 17:17:51 debian-armhf kernel: [    4.474501] VFS: Mounted root (ext4 filesystem) readonly on device 179:4.
+Nov 28 17:17:51 debian-armhf kernel: [    4.506663] devtmpfs: mounted
+Nov 28 17:17:51 debian-armhf kernel: [    4.511206] Freeing unused kernel memory: 1024K
+Nov 28 17:17:51 debian-armhf kernel: [    4.516236] Run /sbin/init as init process
+Nov 28 17:17:51 debian-armhf kernel: [    4.520420]   with arguments:
+Nov 28 17:17:51 debian-armhf kernel: [    4.520428]     /sbin/init
+Nov 28 17:17:51 debian-armhf kernel: [    4.520434]   with environment:
+Nov 28 17:17:51 debian-armhf kernel: [    4.520439]     HOME=/
+Nov 28 17:17:51 debian-armhf kernel: [    4.520444]     TERM=linux
+Nov 28 17:17:51 debian-armhf kernel: [    8.638491] cryptd: max_cpu_qlen set to 1000
+Nov 28 17:17:51 debian-armhf kernel: [    9.245997] FS-Cache: Loaded
+Nov 28 17:17:51 debian-armhf kernel: [    9.459314] Key type cifs.idmap registered
+Nov 28 17:17:51 debian-armhf kernel: [    9.475126] EXT4-fs (mmcblk1p4): re-mounted. Opts: errors=remount-ro
+Nov 28 17:17:51 debian-armhf kernel: [   10.469858] SCSI subsystem initialized
+Nov 28 17:17:51 debian-armhf kernel: [   10.572725] 
+Nov 28 17:17:51 debian-armhf kernel: [   10.575494] =================================================
+Nov 28 17:17:51 debian-armhf kernel: [   10.638569] mtd_oobtest: Please specify a valid mtd-device via module parameter
+Nov 28 17:17:51 debian-armhf kernel: [   10.645941] mtd_oobtest: CAREFUL: This test wipes all data on the specified MTD device!
+Nov 28 17:17:51 debian-armhf kernel: [   10.847244] 
+Nov 28 17:17:51 debian-armhf kernel: [   10.858484] =================================================
+Nov 28 17:17:51 debian-armhf kernel: [   10.864283] mtd_pagetest: Please specify a valid mtd-device via module parameter
+Nov 28 17:17:51 debian-armhf kernel: [   10.918630] mtd_pagetest: CAREFUL: This test wipes all data on the specified MTD device!
+Nov 28 17:17:51 debian-armhf kernel: [   11.021630] 
+Nov 28 17:17:51 debian-armhf kernel: [   11.023158] =================================================
+Nov 28 17:17:51 debian-armhf kernel: [   11.038517] mtd_readtest: Please specify a valid mtd-device via module parameter
+Nov 28 17:17:51 debian-armhf kernel: [   11.122627] 
+Nov 28 17:17:51 debian-armhf kernel: [   11.125220] =================================================
+Nov 28 17:17:51 debian-armhf kernel: [   11.144620] mtd_speedtest: Please specify a valid mtd-device via module parameter
+Nov 28 17:17:51 debian-armhf kernel: [   11.177114] mtd_speedtest: CAREFUL: This test wipes all data on the specified MTD device!
+Nov 28 17:17:51 debian-armhf kernel: [   11.320317] 
+Nov 28 17:17:51 debian-armhf kernel: [   11.321844] =================================================
+Nov 28 17:17:51 debian-armhf kernel: [   11.327614] mtd_stresstest: Please specify a valid mtd-device via module parameter
+Nov 28 17:17:51 debian-armhf kernel: [   11.445557] mtd_stresstest: CAREFUL: This test wipes all data on the specified MTD device!
+Nov 28 17:17:51 debian-armhf kernel: [   12.731394] 
+Nov 28 17:17:51 debian-armhf kernel: [   12.732920] =================================================
+Nov 28 17:17:51 debian-armhf kernel: [   12.824846] mtd_subpagetest: Please specify a valid mtd-device via module parameter
+Nov 28 17:17:51 debian-armhf kernel: [   12.918537] mtd_subpagetest: CAREFUL: This test wipes all data on the specified MTD device!
+Nov 28 17:17:51 debian-armhf kernel: [   13.111740] omap_rtc 44e3e000.rtc: already running
+Nov 28 17:17:51 debian-armhf kernel: [   13.149088] omap_wdt: OMAP Watchdog Timer Rev 0x01: initial timeout 60 sec
+Nov 28 17:17:51 debian-armhf kernel: [   13.179609] omap_rtc 44e3e000.rtc: char device (253:0)
+Nov 28 17:17:51 debian-armhf kernel: [   13.179641] omap_rtc 44e3e000.rtc: registered as rtc0
+Nov 28 17:17:51 debian-armhf kernel: [   13.271040] omap_rtc 44e3e000.rtc: setting system clock to 2000-01-01T00:00:00 UTC (946684800)
+Nov 28 17:17:51 debian-armhf kernel: [   13.293146] 
+Nov 28 17:17:51 debian-armhf kernel: [   13.294671] =================================================
+Nov 28 17:17:51 debian-armhf kernel: [   13.393192] mtd_torturetest: Warning: this program is trying to wear out your flash, stop it if this is not wanted.
+Nov 28 17:17:51 debian-armhf kernel: [   13.432344] omap_rtc 44e3e000.rtc: GPIO lookup for consumer wp
+Nov 28 17:17:51 debian-armhf kernel: [   13.432361] omap_rtc 44e3e000.rtc: using device tree for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [   13.432421] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@3e000/rtc@0[0]'
+Nov 28 17:17:51 debian-armhf kernel: [   13.432446] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@3e000/rtc@0[0]'
+Nov 28 17:17:51 debian-armhf kernel: [   13.432462] omap_rtc 44e3e000.rtc: using lookup tables for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [   13.432471] omap_rtc 44e3e000.rtc: No GPIO consumer wp found
+Nov 28 17:17:51 debian-armhf kernel: [   13.546813] mtd_torturetest: Please specify a valid mtd-device via module parameter
+Nov 28 17:17:51 debian-armhf kernel: [   13.643492] mtd_torturetest: CAREFUL: This test wipes all data on the specified MTD device!
+Nov 28 17:17:51 debian-armhf kernel: [   14.941231] 
+Nov 28 17:17:51 debian-armhf kernel: [   14.941253] ==================================================
+Nov 28 17:17:51 debian-armhf kernel: [   15.002993] mtd_nandbiterrs: MTD device: 0
+Nov 28 17:17:51 debian-armhf kernel: [   15.007138] mtd_nandbiterrs: this test requires NAND flash
+Nov 28 17:17:51 debian-armhf kernel: [   15.442857] am335x-phy-driver 47401300.usb-phy: GPIO lookup for consumer reset
+Nov 28 17:17:51 debian-armhf kernel: [   15.442879] am335x-phy-driver 47401300.usb-phy: using device tree for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [   15.442940] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/target-module@47400000/usb-phy@1300[0]'
+Nov 28 17:17:51 debian-armhf kernel: [   15.442962] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/target-module@47400000/usb-phy@1300[0]'
+Nov 28 17:17:51 debian-armhf kernel: [   15.442978] am335x-phy-driver 47401300.usb-phy: using lookup tables for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [   15.442987] am335x-phy-driver 47401300.usb-phy: No GPIO consumer reset found
+Nov 28 17:17:51 debian-armhf kernel: [   15.442995] am335x-phy-driver 47401300.usb-phy: GPIO lookup for consumer vbus-detect
+Nov 28 17:17:51 debian-armhf kernel: [   15.443001] am335x-phy-driver 47401300.usb-phy: using device tree for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [   15.443020] of_get_named_gpiod_flags: can't parse 'vbus-detect-gpios' property of node '/ocp/target-module@47400000/usb-phy@1300[0]'
+Nov 28 17:17:51 debian-armhf kernel: [   15.443039] of_get_named_gpiod_flags: can't parse 'vbus-detect-gpio' property of node '/ocp/target-module@47400000/usb-phy@1300[0]'
+Nov 28 17:17:51 debian-armhf kernel: [   15.443048] am335x-phy-driver 47401300.usb-phy: using lookup tables for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [   15.443055] am335x-phy-driver 47401300.usb-phy: No GPIO consumer vbus-detect found
+Nov 28 17:17:51 debian-armhf kernel: [   15.444688] am335x-phy-driver 47401300.usb-phy: supply vcc not found, using dummy regulator
+Nov 28 17:17:51 debian-armhf kernel: [   15.537457] usbcore: registered new interface driver usbfs
+Nov 28 17:17:51 debian-armhf kernel: [   15.554719] am335x-phy-driver 47401b00.usb-phy: GPIO lookup for consumer reset
+Nov 28 17:17:51 debian-armhf kernel: [   15.554743] am335x-phy-driver 47401b00.usb-phy: using device tree for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [   15.554791] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/target-module@47400000/usb-phy@1b00[0]'
+Nov 28 17:17:51 debian-armhf kernel: [   15.554814] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/target-module@47400000/usb-phy@1b00[0]'
+Nov 28 17:17:51 debian-armhf kernel: [   15.554828] am335x-phy-driver 47401b00.usb-phy: using lookup tables for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [   15.554838] am335x-phy-driver 47401b00.usb-phy: No GPIO consumer reset found
+Nov 28 17:17:51 debian-armhf kernel: [   15.554846] am335x-phy-driver 47401b00.usb-phy: GPIO lookup for consumer vbus-detect
+Nov 28 17:17:51 debian-armhf kernel: [   15.554852] am335x-phy-driver 47401b00.usb-phy: using device tree for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [   15.554871] of_get_named_gpiod_flags: can't parse 'vbus-detect-gpios' property of node '/ocp/target-module@47400000/usb-phy@1b00[0]'
+Nov 28 17:17:51 debian-armhf kernel: [   15.554890] of_get_named_gpiod_flags: can't parse 'vbus-detect-gpio' property of node '/ocp/target-module@47400000/usb-phy@1b00[0]'
+Nov 28 17:17:51 debian-armhf kernel: [   15.554899] am335x-phy-driver 47401b00.usb-phy: using lookup tables for GPIO lookup
+Nov 28 17:17:51 debian-armhf kernel: [   15.554907] am335x-phy-driver 47401b00.usb-phy: No GPIO consumer vbus-detect found
+Nov 28 17:17:51 debian-armhf kernel: [   15.555029] am335x-phy-driver 47401b00.usb-phy: supply vcc not found, using dummy regulator
+Nov 28 17:17:51 debian-armhf kernel: [   15.627643] usbcore: registered new interface driver hub
+Nov 28 17:17:51 debian-armhf kernel: [   15.680220] usbcore: registered new device driver usb
+Nov 28 17:17:51 debian-armhf kernel: [   15.877872] musb-hdrc musb-hdrc.0: MUSB HDRC host driver
+Nov 28 17:17:51 debian-armhf kernel: [   15.915118] e1000: Intel(R) PRO/1000 Network Driver
+Nov 28 17:17:51 debian-armhf kernel: [   15.948444] musb-hdrc musb-hdrc.0: new USB bus registered, assigned bus number 1
+Nov 28 17:17:51 debian-armhf kernel: [   15.969334] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Nov 28 17:17:51 debian-armhf kernel: [   15.979395] hub 1-0:1.0: USB hub found
+Nov 28 17:17:51 debian-armhf kernel: [   16.006475] hub 1-0:1.0: 1 port detected
+Nov 28 17:17:51 debian-armhf kernel: [   16.044923] e1000e: Intel(R) PRO/1000 Network Driver
+Nov 28 17:17:51 debian-armhf kernel: [   16.071608] musb-hdrc musb-hdrc.1: MUSB HDRC host driver
+Nov 28 17:17:51 debian-armhf kernel: [   16.076994] musb-hdrc musb-hdrc.1: new USB bus registered, assigned bus number 2
+Nov 28 17:17:51 debian-armhf kernel: [   16.108477] e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
+Nov 28 17:17:51 debian-armhf kernel: [   16.144532] hub 2-0:1.0: USB hub found
+Nov 28 17:17:51 debian-armhf kernel: [   16.167507] CAN device driver interface
+Nov 28 17:17:51 debian-armhf kernel: [   16.172385] hub 2-0:1.0: 1 port detected
+Nov 28 17:17:51 debian-armhf kernel: [   16.298819] pegasus: v0.9.3 (2013/04/25), Pegasus/Pegasus II USB Ethernet driver
+Nov 28 17:17:51 debian-armhf kernel: [   16.306427] usbcore: registered new interface driver pegasus
+Nov 28 17:17:51 debian-armhf kernel: [   16.381292] musb-hdrc musb-hdrc.1: VBUS_ERROR in a_wait_vrise (81, <SessEnd), retry #1, port1 00000104
+Nov 28 17:17:51 debian-armhf kernel: [   16.392543] usbcore: registered new interface driver r8152
+Nov 28 17:17:51 debian-armhf kernel: [   16.486327] usbcore: registered new interface driver asix
+Nov 28 17:17:51 debian-armhf kernel: [   16.527560] usbcore: registered new interface driver ax88179_178a
+Nov 28 17:17:51 debian-armhf kernel: [   16.533836] musb-hdrc musb-hdrc.1: VBUS_ERROR in a_wait_vrise (81, <SessEnd), retry #2, port1 00000104
+Nov 28 17:17:51 debian-armhf kernel: [   16.596398] usbcore: registered new interface driver cdc_ether
+Nov 28 17:17:51 debian-armhf kernel: [   16.629493] usbcore: registered new interface driver smsc75xx
+Nov 28 17:17:51 debian-armhf kernel: [   16.685767] usbcore: registered new interface driver smsc95xx
+Nov 28 17:17:51 debian-armhf kernel: [   16.691597] musb-hdrc musb-hdrc.1: VBUS_ERROR in a_wait_vrise (81, <SessEnd), retry #3, port1 00000104
+Nov 28 17:17:51 debian-armhf kernel: [   16.720875] usb 1-1: new high-speed USB device number 2 using musb-hdrc
+Nov 28 17:17:51 debian-armhf kernel: [   16.746177] usbcore: registered new interface driver net1080
+Nov 28 17:17:51 debian-armhf kernel: [   16.802328] usbcore: registered new interface driver cdc_subset
+Nov 28 17:17:51 debian-armhf kernel: [   16.838567] musb-hdrc musb-hdrc.1: VBUS_ERROR in a_wait_vrise (80, <SessEnd), retry #3, port1 0008010c
+Nov 28 17:17:51 debian-armhf kernel: [   16.897077] usbcore: registered new interface driver cdc_ncm
+Nov 28 17:17:51 debian-armhf kernel: [   17.009094] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Nov 28 17:17:51 debian-armhf kernel: [   17.095671] ehci-pci: EHCI PCI platform driver
+Nov 28 17:17:51 debian-armhf kernel: [   17.125445] ehci-platform: EHCI generic platform driver
+Nov 28 17:17:51 debian-armhf kernel: [   17.187354] ehci-omap: OMAP-EHCI Host Controller driver
+Nov 28 17:17:51 debian-armhf kernel: [   17.268754] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Nov 28 17:17:51 debian-armhf kernel: [   17.351153] ohci-pci: OHCI PCI platform driver
+Nov 28 17:17:51 debian-armhf kernel: [   17.409582] ohci-platform: OHCI generic platform driver
+Nov 28 17:17:51 debian-armhf kernel: [   17.926693] usbcore: registered new interface driver cdc_acm
+Nov 28 17:17:51 debian-armhf kernel: [   18.022390] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+Nov 28 17:17:51 debian-armhf kernel: [   18.164852] usb-storage 1-1:1.0: USB Mass Storage device detected
+Nov 28 17:17:51 debian-armhf kernel: [   18.261297] scsi host0: usb-storage 1-1:1.0
+Nov 28 17:17:51 debian-armhf kernel: [   18.283600] usbcore: registered new interface driver usb-storage
+Nov 28 17:17:51 debian-armhf kernel: [   18.420619] usbcore: registered new interface driver usbtest
+Nov 28 17:17:51 debian-armhf kernel: [   19.342671] udc-core: couldn't find an available UDC - added [zero] to list of pending drivers
+Nov 28 17:17:51 debian-armhf kernel: [   19.434934] udc-core: couldn't find an available UDC - added [g_audio] to list of pending drivers
+Nov 28 17:17:51 debian-armhf kernel: [   19.543115] udc-core: couldn't find an available UDC - added [g_ether] to list of pending drivers
+Nov 28 17:17:51 debian-armhf kernel: [   19.655893] gadgetfs: USB Gadget filesystem, version 24 Aug 2004
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'aes_arm'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'aes_arm_bs'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'sha1_arm'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'sha1_arm_neon'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'sha256_arm'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'sha512_arm'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Failed to insert module 'aes_arm_ce': No such device
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Failed to insert module 'sha1_arm_ce': No such device
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Failed to insert module 'sha2_arm_ce': No such device
+Nov 28 17:17:51 debian-armhf systemd-fsck[132]: /dev/mmcblk1p4: Superblock last mount time is in the future.
+Nov 28 17:17:51 debian-armhf systemd-fsck[132]: #011(by less than a day, probably due to the hardware clock being incorrectly set)
+Nov 28 17:17:51 debian-armhf systemd-fsck[132]: /dev/mmcblk1p4: clean, 28813/188048 files, 514204/751000 blocks
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ghash_arm_ce'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'fscache'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'cifs'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Failed to insert module 'efivarfs': No such device
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'seqiv'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'echainiv'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'cmac'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'md4'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ccm'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'des_generic'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'arc4'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'authenc'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'authencesn'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'drbg'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'jitterentropy_rng'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Failed to insert module 'tcrypt': Resource temporarily unavailable
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'algif_hash'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'algif_skcipher'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ecc'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ecdh_generic'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'crc_ccitt'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'crc_itu_t'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'crc7'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'libcrc32c'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ts_kmp'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ts_bm'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ts_fsm'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'gpio_pisosr'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'gpio_tpic2810'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'pwm_fsl_ftm'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ti_am335x_tscadc'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'axp20x'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'axp20x_i2c'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'scsi_mod'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'sd_mod'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'sr_mod'
+Nov 28 17:17:51 debian-armhf systemd[1]: Starting Flush Journal to Persistent Storage...
+Nov 28 17:17:51 debian-armhf systemd[1]: Finished Create Static Device Nodes in /dev.
+Nov 28 17:17:51 debian-armhf systemd[1]: Reached target Local File Systems (Pre).
+Nov 28 17:17:51 debian-armhf systemd[1]: Starting Rule-based Manager for Device Events and Files...
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Failed to insert module 'mtd_oobtest': Invalid argument
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Failed to insert module 'mtd_pagetest': Invalid argument
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Failed to insert module 'mtd_readtest': Invalid argument
+Nov 28 17:17:51 debian-armhf systemd[1]: Started Rule-based Manager for Device Events and Files.
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Failed to insert module 'mtd_speedtest': Invalid argument
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Failed to insert module 'mtd_stresstest': Invalid argument
+Nov 28 17:17:51 debian-armhf systemd[1]: Finished Flush Journal to Persistent Storage.
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Failed to insert module 'mtd_subpagetest': Invalid argument
+Nov 28 17:17:51 debian-armhf systemd[1]: Found device /dev/ttyS0.
+Nov 28 17:17:51 debian-armhf systemd[1]: Finished Coldplug All udev Devices.
+Nov 28 17:17:51 debian-armhf systemd[1]: Starting Helper to synchronize boot up for ifupdown...
+Nov 28 17:17:51 debian-armhf systemd[1]: Starting Show Plymouth Boot Screen...
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Failed to insert module 'mtd_torturetest': Invalid argument
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'mtd_nandecctest'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Failed to insert module 'mtd_nandbiterrs': No such device
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'spidev'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'spi_bitbang'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'spi_gpio'
+Nov 28 17:17:51 debian-armhf systemd[1]: Received SIGRTMIN+20 from PID 216 (plymouthd).
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'phylink'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'tg3'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'e1000'
+Nov 28 17:17:51 debian-armhf systemd[1]: Started Show Plymouth Boot Screen.
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'e1000e'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'skge'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'can_dev'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'rcar_can'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'mcp251x'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'c_can'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'c_can_platform'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'pegasus'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'r8152'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'asix'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ax88179_178a'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'cdc_ether'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'smsc75xx'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'smsc95xx'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'net1080'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'cdc_subset'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'cdc_ncm'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'phy_gpio_vbus_usb'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'phy_isp1301'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ehci_hcd'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ehci_pci'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ehci_platform'
+Nov 28 17:17:51 debian-armhf systemd-udevd[198]: Using default interface naming scheme 'v247'.
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ehci_omap'
+Nov 28 17:17:51 debian-armhf systemd-udevd[198]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ohci_hcd'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ohci_pci'
+Nov 28 17:17:51 debian-armhf systemd[1]: Found device /dev/mmcblk1p1.
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ohci_platform'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'xhci_hcd'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'xhci_pci'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'xhci_plat_hcd'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'r8a66597_hcd'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'dwc3'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'dwc3_omap'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'dwc3_haps'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'dwc3_of_simple'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'isp1760'
+Nov 28 17:17:51 debian-armhf systemd-udevd[188]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov 28 17:17:51 debian-armhf systemd-udevd[192]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'cdc_acm'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'usb_storage'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'usbserial'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'usbtest'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'omap2430'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'am35x'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'libcomposite'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_acm'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_ss_lb'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_serial'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_obex'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'u_ether'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_ncm'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_ecm'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_eem'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_ecm_subset'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_rndis'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_mass_storage'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_fs'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'u_audio'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_uac1'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_uac2'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_uvc'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_midi'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_hid'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_printer'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'g_zero'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'g_audio'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'g_ether'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'gadgetfs'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'g_ffs'
+Nov 28 17:17:51 debian-armhf kernel: [   19.728278] file system registered
+Nov 28 17:17:51 debian-armhf kernel: [   19.799728] udc-core: couldn't find an available UDC - added [g_mass_storage] to list of pending drivers
+Nov 28 17:17:51 debian-armhf kernel: [   19.900626] udc-core: couldn't find an available UDC - added [g_serial] to list of pending drivers
+Nov 28 17:17:51 debian-armhf kernel: [   20.006150] udc-core: couldn't find an available UDC - added [printer] to list of pending drivers
+Nov 28 17:17:51 debian-armhf kernel: [   20.118933] udc-core: couldn't find an available UDC - added [MIDI Gadget] to list of pending drivers
+Nov 28 17:17:51 debian-armhf kernel: [   20.200650] scsi 0:0:0:0: Direct-Access     Philips  USB Flash Drive  PMAP PQ: 0 ANSI: 4
+Nov 28 17:17:51 debian-armhf kernel: [   20.242420] udc-core: couldn't find an available UDC - added [g_cdc] to list of pending drivers
+Nov 28 17:17:51 debian-armhf kernel: [   20.276505] sd 0:0:0:0: [sda] 30322688 512-byte logical blocks: (15.5 GB/14.5 GiB)
+Nov 28 17:17:51 debian-armhf kernel: [   20.341799] sd 0:0:0:0: [sda] Write Protect is off
+Nov 28 17:17:51 debian-armhf kernel: [   20.346641] sd 0:0:0:0: [sda] Mode Sense: 23 00 00 00
+Nov 28 17:17:51 debian-armhf kernel: [   20.391343] sd 0:0:0:0: [sda] No Caching mode page found
+Nov 28 17:17:51 debian-armhf kernel: [   20.396712] sd 0:0:0:0: [sda] Assuming drive cache: write through
+Nov 28 17:17:51 debian-armhf kernel: [   20.495065] udc-core: couldn't find an available UDC - added [dbgp] to list of pending drivers
+Nov 28 17:17:51 debian-armhf kernel: [   20.545911]  sda: sda1
+Nov 28 17:17:51 debian-armhf kernel: [   20.566800] sd 0:0:0:0: [sda] Attached SCSI removable disk
+Nov 28 17:17:51 debian-armhf kernel: [   20.620009] udc-core: couldn't find an available UDC - added [g_multi] to list of pending drivers
+Nov 28 17:17:51 debian-armhf kernel: [   20.735533] udc-core: couldn't find an available UDC - added [g_webcam] to list of pending drivers
+Nov 28 17:17:51 debian-armhf kernel: [   20.849801] udc-core: couldn't find an available UDC - added [g_ncm] to list of pending drivers
+Nov 28 17:17:51 debian-armhf kernel: [   20.939853] udc-core: couldn't find an available UDC - added [g_acm_ms] to list of pending drivers
+Nov 28 17:17:51 debian-armhf kernel: [   21.872779] usbcore: registered new interface driver uvcvideo
+Nov 28 17:17:51 debian-armhf kernel: [   21.956474] USB Video Class driver (1.1.1)
+Nov 28 17:17:51 debian-armhf kernel: [   22.022102] gspca_main: v2.14.0 registered
+Nov 28 17:17:51 debian-armhf kernel: [   22.097248] vivid-000: using single planar format API
+Nov 28 17:17:51 debian-armhf kernel: [   22.238091] vivid-000: V4L2 capture device registered as video0
+Nov 28 17:17:51 debian-armhf kernel: [   22.278966] vivid-000: V4L2 output device registered as video1
+Nov 28 17:17:51 debian-armhf kernel: [   22.326602] vivid-000: V4L2 capture device registered as vbi0, supports raw and sliced VBI
+Nov 28 17:17:51 debian-armhf kernel: [   22.395928] vivid-000: V4L2 output device registered as vbi1, supports raw and sliced VBI
+Nov 28 17:17:51 debian-armhf kernel: [   22.463181] vivid-000: V4L2 capture device registered as swradio0
+Nov 28 17:17:51 debian-armhf kernel: [   22.519539] vivid-000: V4L2 receiver device registered as radio0
+Nov 28 17:17:51 debian-armhf kernel: [   22.559368] vivid-000: V4L2 transmitter device registered as radio1
+Nov 28 17:17:51 debian-armhf kernel: [   22.643160] vivid-000: V4L2 metadata capture device registered as video2
+Nov 28 17:17:51 debian-armhf kernel: [   22.689649] vivid-000: V4L2 metadata output device registered as video3
+Nov 28 17:17:51 debian-armhf kernel: [   22.776333] vivid-000: V4L2 touch capture device registered as v4l-touch0
+Nov 28 17:17:51 debian-armhf kernel: [   23.228552] usbcore: registered new interface driver usbhid
+Nov 28 17:17:51 debian-armhf kernel: [   23.234179] usbhid: USB HID core driver
+Nov 28 17:17:51 debian-armhf kernel: [   23.411963] libata version 3.00 loaded.
+Nov 28 17:17:51 debian-armhf kernel: [   23.552144] Driver for 1-wire Dallas network protocol.
+Nov 28 17:17:51 debian-armhf kernel: [   23.798528] usbcore: registered new interface driver snd-usb-audio
+Nov 28 17:17:51 debian-armhf kernel: [   23.906987] GACT probability on
+Nov 28 17:17:51 debian-armhf kernel: [   23.938068] Mirror/redirect action on
+Nov 28 17:17:51 debian-armhf kernel: [   23.994202] Simple TC action Loaded
+Nov 28 17:17:51 debian-armhf kernel: [   24.223248] netem: version 1.3
+Nov 28 17:17:51 debian-armhf kernel: [   24.333095] u32 classifier
+Nov 28 17:17:51 debian-armhf kernel: [   24.335843]     input device check on
+Nov 28 17:17:51 debian-armhf kernel: [   24.369254]     Actions configured
+Nov 28 17:17:51 debian-armhf kernel: [   25.128970] Initializing XFRM netlink socket
+Nov 28 17:17:51 debian-armhf kernel: [   25.217901] mip6: Mobile IPv6
+Nov 28 17:17:51 debian-armhf kernel: [   25.300263] 8021q: 802.1Q VLAN Support v1.8
+Nov 28 17:17:51 debian-armhf kernel: [   25.356918] NET: Registered protocol family 15
+Nov 28 17:17:51 debian-armhf kernel: [   25.704955] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+Nov 28 17:17:51 debian-armhf kernel: [   25.769746] Bridge firewalling registered
+Nov 28 17:17:51 debian-armhf kernel: [   26.877581] FAT-fs (mmcblk1p1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+Nov 28 17:17:51 debian-armhf kernel: [   28.621126] cpsw 4a100000.ethernet: initializing cpsw version 1.12 (0)
+Nov 28 17:17:51 debian-armhf kernel: [   28.699009] Generic PHY 4a101000.mdio:01: attached PHY driver [Generic PHY] (mii_bus:phy_addr=4a101000.mdio:01, irq=POLL)
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'g_mass_storage'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'g_serial'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'g_printer'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'g_midi'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'g_cdc'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Failed to insert module 'g_hid': No such device
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'g_dbgp'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'g_multi'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'g_webcam'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'g_ncm'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'g_acm_ms'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'matrix_keypad'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'qt1070'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'samsung_keypad'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'cyapatp'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'atmel_mxt_ts'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'edt_ft5x06'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'goodix'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'mms114'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'pixcir_i2c_ts'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'st1232'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ti_am335x_tsc'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'adxl34x'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'adxl34x_i2c'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'adxl34x_spi'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'gpio_decoder'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'axp20x_pek'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'input_polldev'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'rtc_ds1307'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Failed to insert module 'rtc_efi': No such device
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'rtc_palmas'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'rtc_tps6586x'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'rtc_tps65910'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'i2c_emev2'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'v4l2_tpg'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'uvcvideo'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'gspca_main'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'vivid'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'axp20x_usb_power'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'max17040_battery'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'max17042_battery'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ina2xx'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ntc_thermistor'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'pwm_fan'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'led_class_flash'
+Nov 28 17:17:51 debian-armhf systemd[1]: Finished Helper to synchronize boot up for ifupdown.
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Failed to insert module 'capsule_loader': No such device
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'usbhid'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'extcon_palmas'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'extcon_usb_gpio'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ti_am335x_adc'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'vf610_adc'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'cm36651'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'libata'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ahci'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ahci_platform'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'sata_mv'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'uio'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'omap_hdq'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'rpmsg_core'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'virtio_rpmsg_bus'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'rpmsg_kdrv'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'rpmsg_kdrv_switch'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'snd_hwdep'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'snd_usb_audio'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'snd_soc_fsl_sai'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'p8022'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'psnap'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'stp'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'act_police'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'act_gact'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'act_mirred'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'act_ipt'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'act_nat'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'act_pedit'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'act_simple'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'act_skbedit'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'act_csum'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'sch_cbq'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'sch_htb'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'sch_hfsc'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'sch_red'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'sch_gred'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'sch_ingress'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'sch_dsmark'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'sch_sfb'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'sch_sfq'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'sch_tbf'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'sch_teql'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'sch_prio'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'sch_multiq'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'sch_netem'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'sch_drr'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'sch_mqprio'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'sch_choke'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'sch_qfq'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'sch_codel'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'sch_fq_codel'
+Nov 28 17:17:51 debian-armhf systemd-udevd[192]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'cls_u32'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'cls_route'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'cls_fw'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'cls_rsvp'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'cls_tcindex'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'cls_rsvp6'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'cls_basic'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'cls_flow'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'em_cmp'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'em_nbyte'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'em_u32'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'em_meta'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'em_text'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'nf_conntrack'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'nf_nat'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'nf_synproxy_core'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'xt_mark'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'xt_nat'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'xt_CLASSIFY'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'xt_MASQUERADE'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'xt_IDLETIMER'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'xt_comment'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'xt_cpu'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'xt_iprange'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'xt_length'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'xt_limit'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'xt_mac'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'xt_multiport'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'xt_pkttype'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'xt_policy'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'xt_sctp'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'xt_socket'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'iptable_filter'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'iptable_nat'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ipt_SYNPROXY'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'arp_tables'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'arpt_mangle'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'arptable_filter'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ah4'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'esp4'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ipcomp'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'xfrm4_tunnel'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'xfrm_user'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ah6'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'esp6'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ipcomp6'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'mip6'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ip6_tunnel'
+Nov 28 17:17:51 debian-armhf systemd-udevd[192]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov 28 17:17:51 debian-armhf systemd-udevd[192]: Using default interface naming scheme 'v247'.
+Nov 28 17:17:51 debian-armhf systemd-udevd[192]: ip6tnl0: Could not set Alias=, MACAddress= or MTU=, ignoring: Invalid argument
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module '8021q'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'af_key'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ebtables'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ebtable_broute'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ebtable_filter'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ebtable_nat'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_802_3'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_among'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_arp'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_ip'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_ip6'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_limit'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_mark_m'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_pkttype'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_stp'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_vlan'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_arpreply'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_mark'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_dnat'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_redirect'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_snat'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_log'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_nflog'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'bridge'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'br_netfilter'
+Nov 28 17:17:51 debian-armhf systemd-modules-load[130]: Inserted module 'dsa_core'
+Nov 28 17:17:51 debian-armhf systemd[1]: systemd-modules-load.service: Main process exited, code=exited, status=1/FAILURE
+Nov 28 17:17:51 debian-armhf systemd[1]: systemd-modules-load.service: Failed with result 'exit-code'.
+Nov 28 17:17:51 debian-armhf systemd[1]: Failed to start Load Kernel Modules.
+Nov 28 17:17:51 debian-armhf systemd[1]: systemd-modules-load.service: Consumed 1.957s CPU time.
+Nov 28 17:17:51 debian-armhf systemd[1]: Condition check resulted in Dispatch Password Requests to Console Directory Watch being skipped.
+Nov 28 17:17:51 debian-armhf systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Nov 28 17:17:51 debian-armhf systemd[1]: Reached target Local Encrypted Volumes.
+Nov 28 17:17:51 debian-armhf systemd[1]: Reached target Paths.
+Nov 28 17:17:51 debian-armhf systemd[1]: Reached target Sound Card.
+Nov 28 17:17:51 debian-armhf systemd[1]: Mounting /boot/uboot...
+Nov 28 17:17:51 debian-armhf systemd[1]: Starting Apply Kernel Variables...
+Nov 28 17:17:51 debian-armhf systemd[1]: Mounted /boot/uboot.
+Nov 28 17:17:51 debian-armhf systemd[1]: Reached target Local File Systems.
+Nov 28 17:17:51 debian-armhf systemd[1]: Starting Set console font and keymap...
+Nov 28 17:17:51 debian-armhf systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Nov 28 17:17:51 debian-armhf systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+Nov 28 17:17:51 debian-armhf systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+Nov 28 17:17:51 debian-armhf systemd[1]: Starting Create Volatile Files and Directories...
+Nov 28 17:17:51 debian-armhf systemd[1]: Finished Apply Kernel Variables.
+Nov 28 17:17:51 debian-armhf systemd[1]: Finished Set console font and keymap.
+Nov 28 17:17:51 debian-armhf systemd[1]: Finished Tell Plymouth To Write Out Runtime Data.
+Nov 28 17:17:51 debian-armhf systemd[1]: Received SIGRTMIN+20 from PID 216 (plymouthd).
+Nov 28 17:17:51 debian-armhf systemd[1]: Starting Raise network interfaces...
+Nov 28 17:17:51 debian-armhf systemd[1]: Finished Create Volatile Files and Directories.
+Nov 28 17:17:51 debian-armhf systemd[1]: Starting Network Time Synchronization...
+Nov 28 17:17:51 debian-armhf systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Nov 28 17:17:51 debian-armhf systemd[1]: Finished Update UTMP about System Boot/Shutdown.
+Nov 28 17:17:51 debian-armhf systemd-timesyncd[276]: System clock time unset or jumped backwards, restoring from recorded timestamp: Mon 2022-11-28 17:17:51 UTC
+Nov 28 17:17:51 debian-armhf systemd[1]: Started Network Time Synchronization.
+Nov 28 17:17:51 debian-armhf systemd[1]: Reached target System Initialization.
+Nov 28 17:17:51 debian-armhf cron[316]: (CRON) INFO (pidfile fd = 3)
+Nov 28 17:17:51 debian-armhf systemd[1]: Started Daily Cleanup of Temporary Directories.
+Nov 28 17:17:51 debian-armhf systemd[1]: Reached target System Time Set.
+Nov 28 17:17:51 debian-armhf systemd[1]: Reached target System Time Synchronized.
+Nov 28 17:17:51 debian-armhf systemd[1]: Started Daily apt download activities.
+Nov 28 17:17:51 debian-armhf systemd[1]: Started Daily apt upgrade and clean activities.
+Nov 28 17:17:51 debian-armhf systemd[1]: Started Periodic ext4 Online Metadata Check for All Filesystems.
+Nov 28 17:17:51 debian-armhf systemd[1]: Started Daily rotation of log files.
+Nov 28 17:17:51 debian-armhf systemd[1]: Started Daily man-db regeneration.
+Nov 28 17:17:51 debian-armhf systemd[1]: Reached target Timers.
+Nov 28 17:17:51 debian-armhf systemd[1]: Listening on D-Bus System Message Bus Socket.
+Nov 28 17:17:51 debian-armhf systemd[1]: Reached target Sockets.
+Nov 28 17:17:51 debian-armhf systemd[1]: Reached target Basic System.
+Nov 28 17:17:51 debian-armhf systemd[1]: Started Regular background program processing daemon.
+Nov 28 17:17:51 debian-armhf systemd[1]: Started D-Bus System Message Bus.
+Nov 28 17:17:51 debian-armhf systemd[1]: Starting Remove Stale Online ext4 Metadata Check Snapshots...
+Nov 28 17:17:51 debian-armhf systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Nov 28 17:17:51 debian-armhf systemd[1]: Starting System Logging Service...
+Nov 28 17:17:51 debian-armhf systemd[1]: Starting User Login Management...
+Nov 28 17:17:51 debian-armhf systemd[1]: Starting WPA supplicant...
+Nov 28 17:17:51 debian-armhf dhclient[313]: Internet Systems Consortium DHCP Client 4.4.1
+Nov 28 17:17:51 debian-armhf dhclient[313]: Copyright 2004-2018 Internet Systems Consortium.
+Nov 28 17:17:51 debian-armhf kernel: [   28.766850] cpsw 4a100000.ethernet eth0: Link is Up - 100Mbps/Full - flow control off
+Nov 28 17:17:51 debian-armhf ifup[313]: Internet Systems Consortium DHCP Client 4.4.1
+Nov 28 17:17:51 debian-armhf ifup[313]: Copyright 2004-2018 Internet Systems Consortium.
+Nov 28 17:17:51 debian-armhf ifup[313]: All rights reserved.
+Nov 28 17:17:51 debian-armhf ifup[313]: For info, please visit https://www.isc.org/software/dhcp/
+Nov 28 17:17:51 debian-armhf dhclient[313]: All rights reserved.
+Nov 28 17:17:51 debian-armhf dhclient[313]: For info, please visit https://www.isc.org/software/dhcp/
+Nov 28 17:17:51 debian-armhf dhclient[313]: 
+Nov 28 17:17:51 debian-armhf cron[316]: (CRON) INFO (Running @reboot jobs)
+Nov 28 17:17:51 debian-armhf systemd[1]: Started System Logging Service.
+Nov 28 17:17:51 debian-armhf rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2102.0]
+Nov 28 17:17:51 debian-armhf rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="320" x-info="https://www.rsyslog.com"] start
+Nov 28 17:17:51 debian-armhf kernel: [   28.814068] 8021q: adding VLAN 0 to HW filter on device eth0
+Nov 28 17:17:52 debian-armhf dhclient[313]: Listening on LPF/eth0/d0:ff:50:01:21:02
+Nov 28 17:17:52 debian-armhf ifup[313]: Listening on LPF/eth0/d0:ff:50:01:21:02
+Nov 28 17:17:52 debian-armhf ifup[313]: Sending on   LPF/eth0/d0:ff:50:01:21:02
+Nov 28 17:17:52 debian-armhf ifup[313]: Sending on   Socket/fallback
+Nov 28 17:17:52 debian-armhf ifup[313]: DHCPREQUEST for 192.168.1.9 on eth0 to 255.255.255.255 port 67
+Nov 28 17:17:52 debian-armhf dhclient[313]: Sending on   LPF/eth0/d0:ff:50:01:21:02
+Nov 28 17:17:52 debian-armhf dhclient[313]: Sending on   Socket/fallback
+Nov 28 17:17:52 debian-armhf dhclient[313]: DHCPREQUEST for 192.168.1.9 on eth0 to 255.255.255.255 port 67
+Nov 28 17:17:52 debian-armhf systemd[1]: Started User Login Management.
+Nov 28 17:17:52 debian-armhf wpa_supplicant[322]: Successfully initialized wpa_supplicant
+Nov 28 17:17:52 debian-armhf systemd[1]: Started WPA supplicant.
+Nov 28 17:17:52 debian-armhf systemd[1]: e2scrub_reap.service: Succeeded.
+Nov 28 17:17:52 debian-armhf systemd[1]: Finished Remove Stale Online ext4 Metadata Check Snapshots.
+Nov 28 17:17:53 debian-armhf dhclient[313]: DHCPACK of 192.168.1.9 from 192.168.1.1
+Nov 28 17:17:53 debian-armhf ifup[313]: DHCPACK of 192.168.1.9 from 192.168.1.1
+Nov 28 17:17:54 debian-armhf dhclient[313]: bound to 192.168.1.9 -- renewal in 36933 seconds.
+Nov 28 17:17:54 debian-armhf ifup[313]: bound to 192.168.1.9 -- renewal in 36933 seconds.
+Nov 28 17:17:54 debian-armhf systemd[1]: Finished Raise network interfaces.
+Nov 28 17:17:54 debian-armhf systemd[1]: Reached target Network.
+Nov 28 17:17:54 debian-armhf systemd[1]: Starting /etc/rc.local Compatibility...
+Nov 28 17:17:54 debian-armhf systemd[1]: Starting OpenBSD Secure Shell server...
+Nov 28 17:17:54 debian-armhf systemd[1]: Starting Permit User Sessions...
+Nov 28 17:17:54 debian-armhf systemd[1]: Started /etc/rc.local Compatibility.
+Nov 28 17:17:54 debian-armhf systemd[1]: Finished Permit User Sessions.
+Nov 28 17:17:54 debian-armhf systemd[1]: Starting Hold until boot process finishes up...
+Nov 28 17:17:54 debian-armhf systemd[1]: Starting Terminate Plymouth Boot Screen...
+Nov 28 17:17:54 debian-armhf systemd[1]: Received SIGRTMIN+21 from PID 216 (plymouthd).
+Nov 28 17:17:54 debian-armhf systemd[1]: Received SIGRTMIN+21 from PID 216 (plymouthd).
+Nov 28 17:17:54 debian-armhf systemd[1]: Finished Terminate Plymouth Boot Screen.
+Nov 28 17:17:54 debian-armhf systemd[1]: Finished Hold until boot process finishes up.
+Nov 28 17:17:54 debian-armhf systemd[1]: Started Getty on tty1.
+Nov 28 17:17:54 debian-armhf systemd[1]: Started Serial Getty on ttyS0.
+Nov 28 17:17:54 debian-armhf systemd[1]: Reached target Login Prompts.
+Nov 28 17:17:54 debian-armhf systemd[1]: Started OpenBSD Secure Shell server.
+Nov 28 17:17:55 debian-armhf systemd[1]: Reached target Multi-User System.
+Nov 28 17:17:55 debian-armhf systemd[1]: Reached target Graphical Interface.
+Nov 28 17:17:55 debian-armhf systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Nov 28 17:17:55 debian-armhf systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Nov 28 17:17:55 debian-armhf systemd[1]: Finished Update UTMP about System Runlevel Changes.
+Nov 28 17:17:55 debian-armhf systemd[1]: Startup finished in 5.137s (kernel) + 26.934s (userspace) = 32.072s.
+Nov 28 17:18:02 debian-armhf systemd[1]: systemd-fsckd.service: Succeeded.
+Nov 28 17:18:21 debian-armhf systemd[1]: Created slice User Slice of UID 0.
+Nov 28 17:18:21 debian-armhf systemd[1]: Starting User Runtime Directory /run/user/0...
+Nov 28 17:18:21 debian-armhf systemd[1]: Finished User Runtime Directory /run/user/0.
+Nov 28 17:18:21 debian-armhf systemd[1]: Starting User Manager for UID 0...
+Nov 28 17:18:25 debian-armhf systemd[408]: Queued start job for default target Main User Target.
+Nov 28 17:18:25 debian-armhf systemd[408]: Created slice User Application Slice.
+Nov 28 17:18:25 debian-armhf systemd[408]: Reached target Paths.
+Nov 28 17:18:25 debian-armhf systemd[408]: Reached target Timers.
+Nov 28 17:18:25 debian-armhf systemd[408]: Listening on GnuPG network certificate management daemon.
+Nov 28 17:18:25 debian-armhf systemd[408]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Nov 28 17:18:25 debian-armhf systemd[408]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Nov 28 17:18:25 debian-armhf systemd[408]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Nov 28 17:18:25 debian-armhf systemd[408]: Listening on GnuPG cryptographic agent and passphrase cache.
+Nov 28 17:18:25 debian-armhf systemd[408]: Reached target Sockets.
+Nov 28 17:18:25 debian-armhf systemd[408]: Reached target Basic System.
+Nov 28 17:18:25 debian-armhf systemd[1]: Started User Manager for UID 0.
+Nov 28 17:18:25 debian-armhf systemd[408]: Reached target Main User Target.
+Nov 28 17:18:25 debian-armhf systemd[408]: Startup finished in 3.552s.
+Nov 28 17:18:25 debian-armhf systemd[1]: Started Session c1 of user root.
+Nov 28 17:18:31 debian-armhf systemd-timesyncd[276]: Timed out waiting for reply from 162.159.200.123:123 (2.debian.pool.ntp.org).
+Nov 28 17:18:41 debian-armhf systemd-timesyncd[276]: Timed out waiting for reply from 154.51.12.220:123 (2.debian.pool.ntp.org).
+Nov 28 17:19:37 debian-armhf systemd-timesyncd[276]: Initial synchronization to time server 77.171.247.180:123 (2.debian.pool.ntp.org).

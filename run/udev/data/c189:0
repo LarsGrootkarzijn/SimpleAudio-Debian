@@ -1,0 +1,21 @@
+I:21675431
+E:ID_VENDOR=Linux_5.10.100-g7a7a3af903_musb-hcd
+E:ID_VENDOR_ENC=Linux\x205.10.100-g7a7a3af903\x20musb-hcd
+E:ID_VENDOR_ID=1d6b
+E:ID_MODEL=MUSB_HDRC_host_driver
+E:ID_MODEL_ENC=MUSB\x20HDRC\x20host\x20driver
+E:ID_MODEL_ID=0002
+E:ID_REVISION=0510
+E:ID_SERIAL=Linux_5.10.100-g7a7a3af903_musb-hcd_MUSB_HDRC_host_driver_musb-hdrc.0
+E:ID_SERIAL_SHORT=musb-hdrc.0
+E:ID_BUS=usb
+E:ID_USB_INTERFACES=:090000:
+E:ID_VENDOR_FROM_DATABASE=Linux Foundation
+E:ID_AUTOSUSPEND=1
+E:ID_MODEL_FROM_DATABASE=2.0 root hub
+E:ID_PATH=platform-musb-hdrc.0
+E:ID_PATH_TAG=platform-musb-hdrc_0
+E:ID_FOR_SEAT=usb-platform-musb-hdrc_0
+G:seat
+Q:seat
+V:1

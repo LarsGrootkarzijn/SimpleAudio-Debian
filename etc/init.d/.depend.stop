@@ -4,7 +4,7 @@ rsyslog: sendsigs
 umountnfs.sh: rsyslog sendsigs plymouth
 hwclock.sh: rsyslog
 networking: umountnfs.sh nftables
-umountfs: networking umountnfs.sh hwclock.sh resolvconf plymouth brightness urandom nftables
+umountfs: networking umountnfs.sh hwclock.sh resolvconf plymouth brightness nftables urandom
 umountroot: umountfs udev
 halt: umountroot
 reboot: umountroot

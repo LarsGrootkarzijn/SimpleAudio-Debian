@@ -5255,3 +5255,87 @@ Setting up git-man (1:2.30.2-1) ...
 Setting up git (1:2.30.2-1) ...
 Processing triggers for man-db (2.9.4-2) ...
 Log ended: 2022-11-27  20:39:42
+
+Log started: 2022-11-28  16:58:39
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 21858 files and directories currently installed.)
+Preparing to unpack .../libc6_2.31-13+deb11u5_armhf.deb ...
+Unpacking libc6:armhf (2.31-13+deb11u5) over (2.31-13+deb11u4) ...
+Setting up libc6:armhf (2.31-13+deb11u5) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 21858 files and directories currently installed.)
+Preparing to unpack .../libc-bin_2.31-13+deb11u5_armhf.deb ...
+Unpacking libc-bin (2.31-13+deb11u5) over (2.31-13+deb11u4) ...
+Setting up libc-bin (2.31-13+deb11u5) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 21858 files and directories currently installed.)
+Preparing to unpack .../dbus_1.12.24-0+deb11u1_armhf.deb ...
+Unpacking dbus (1.12.24-0+deb11u1) over (1.12.20-2) ...
+Preparing to unpack .../libdbus-1-3_1.12.24-0+deb11u1_armhf.deb ...
+Unpacking libdbus-1-3:armhf (1.12.24-0+deb11u1) over (1.12.20-2) ...
+Preparing to unpack .../libexpat1_2.2.10-2+deb11u5_armhf.deb ...
+Unpacking libexpat1:armhf (2.2.10-2+deb11u5) over (2.2.10-2+deb11u3) ...
+Preparing to unpack .../libk5crypto3_1.18.3-6+deb11u3_armhf.deb ...
+Unpacking libk5crypto3:armhf (1.18.3-6+deb11u3) over (1.18.3-6+deb11u2) ...
+Setting up libk5crypto3:armhf (1.18.3-6+deb11u3) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 21858 files and directories currently installed.)
+Preparing to unpack .../libkrb5support0_1.18.3-6+deb11u3_armhf.deb ...
+Unpacking libkrb5support0:armhf (1.18.3-6+deb11u3) over (1.18.3-6+deb11u2) ...
+Setting up libkrb5support0:armhf (1.18.3-6+deb11u3) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 21858 files and directories currently installed.)
+Preparing to unpack .../libkrb5-3_1.18.3-6+deb11u3_armhf.deb ...
+Unpacking libkrb5-3:armhf (1.18.3-6+deb11u3) over (1.18.3-6+deb11u2) ...
+Setting up libkrb5-3:armhf (1.18.3-6+deb11u3) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 21858 files and directories currently installed.)
+Preparing to unpack .../libgssapi-krb5-2_1.18.3-6+deb11u3_armhf.deb ...
+Unpacking libgssapi-krb5-2:armhf (1.18.3-6+deb11u3) over (1.18.3-6+deb11u2) ...
+Setting up libgssapi-krb5-2:armhf (1.18.3-6+deb11u3) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 21858 files and directories currently installed.)
+Preparing to unpack .../0-tzdata_2021a-1+deb11u8_all.deb ...
+Unpacking tzdata (2021a-1+deb11u8) over (2021a-1+deb11u5) ...
+Preparing to unpack .../1-isc-dhcp-client_4.4.1-2.3+deb11u1_armhf.deb ...
+Unpacking isc-dhcp-client (4.4.1-2.3+deb11u1) over (4.4.1-2.3) ...
+Preparing to unpack .../2-isc-dhcp-common_4.4.1-2.3+deb11u1_armhf.deb ...
+Unpacking isc-dhcp-common (4.4.1-2.3+deb11u1) over (4.4.1-2.3) ...
+Preparing to unpack .../3-libc-l10n_2.31-13+deb11u5_all.deb ...
+Unpacking libc-l10n (2.31-13+deb11u5) over (2.31-13+deb11u4) ...
+Preparing to unpack .../4-locales_2.31-13+deb11u5_all.deb ...
+Unpacking locales (2.31-13+deb11u5) over (2.31-13+deb11u4) ...
+deb http://deb.debian.org/debian bullseye main
+deb-src http://deb.debian.org/debian bullseye main
+
+deb http://deb.debian.org/debian-security/ bullseye-security main
+deb-src http://deb.debian.org/debian-security/ bullseye-security main
+
+deb http://deb.debian.org/debian bullseye-updates main
+deb-src http://deb.debian.org/debian bullseye-updates mainPreparing to unpack .../5-libksba8_1.5.0-3+deb11u1_armhf.deb ...
+Unpacking libksba8:armhf (1.5.0-3+deb11u1) over (1.5.0-3) ...
+Setting up libksba8:armhf (1.5.0-3+deb11u1) ...
+Setting up libexpat1:armhf (2.2.10-2+deb11u5) ...
+Setting up libc-l10n (2.31-13+deb11u5) ...
+Setting up isc-dhcp-client (4.4.1-2.3+deb11u1) ...
+Setting up locales (2.31-13+deb11u5) ...
+Generating locales (this might take a while)...
+  en_US.UTF-8... done
+Generation complete.
+Setting up tzdata (2021a-1+deb11u8) ...
+
+Current default time zone: 'Etc/UTC'
+Local time is now:      Mon Nov 28 17:01:15 UTC 2022.
+Universal Time is now:  Mon Nov 28 17:01:15 UTC 2022.
+Run 'dpkg-reconfigure tzdata' if you wish to change it.
+
+Setting up libdbus-1-3:armhf (1.12.24-0+deb11u1) ...
+Setting up dbus (1.12.24-0+deb11u1) ...
+insserv: warning: script 'configgpio.sh' missing LSB tags
+insserv: Default-Start undefined, assuming empty start runlevel(s) for script `configgpio.sh'
+insserv: Default-Stop  undefined, assuming empty stop runlevel(s) for script `configgpio.sh'
+invoke-rc.d: could not determine current runlevel
+dbus.service is a disabled or a static unit, not starting it.
+dbus.socket is a disabled or a static unit, not starting it.
+Setting up isc-dhcp-common (4.4.1-2.3+deb11u1) ...
+Processing triggers for man-db (2.9.4-2) ...
+Processing triggers for libc-bin (2.31-13+deb11u5) ...
+Log ended: 2022-11-28  17:01:36
+
+Log started: 2022-11-28  17:05:52
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 21858 files and directories currently installed.)
+Removing orphan-sysvinit-scripts (0.07) ...
+Log ended: 2022-11-28  17:05:55

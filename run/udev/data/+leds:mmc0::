@@ -1,0 +1,7 @@
+I:14374098
+E:ID_PATH=platform-48060000.mmc
+E:ID_PATH_TAG=platform-48060000_mmc
+E:ID_FOR_SEAT=leds-platform-48060000_mmc
+G:seat
+Q:seat
+V:1

@@ -536,11 +536,11 @@ Owners: libpam-runtime
 
 Name: libpam-runtime/profiles
 Template: libpam-runtime/profiles
-Value: unix, capability
+Value: unix, systemd, capability
 Owners: libpam-runtime
 Variables:
- profile_names = unix, mkhomedir, capability
- profiles = Unix authentication, Create home directory on login, Inheritable Capabilities Management
+ profile_names = unix, systemd, mkhomedir, capability
+ profiles = Unix authentication, Register user sessions in the systemd control group hierarchy, Create home directory on login, Inheritable Capabilities Management
 
 Name: libpam-runtime/title
 Template: libpam-runtime/title

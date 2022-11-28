@@ -154,3 +154,13 @@ Start-Date: 2022-11-27  20:38:53
 Commandline: apt install git
 Install: git:armhf (1:2.30.2-1), patch:armhf (2.7.6-7, automatic), liberror-perl:armhf (0.17029-1, automatic), git-man:armhf (1:2.30.2-1, automatic)
 End-Date: 2022-11-27  20:39:42
+
+Start-Date: 2022-11-28  16:58:39
+Commandline: apt upgrade
+Upgrade: libgssapi-krb5-2:armhf (1.18.3-6+deb11u2, 1.18.3-6+deb11u3), tzdata:armhf (2021a-1+deb11u5, 2021a-1+deb11u8), libexpat1:armhf (2.2.10-2+deb11u3, 2.2.10-2+deb11u5), libdbus-1-3:armhf (1.12.20-2, 1.12.24-0+deb11u1), libkrb5support0:armhf (1.18.3-6+deb11u2, 1.18.3-6+deb11u3), isc-dhcp-common:armhf (4.4.1-2.3, 4.4.1-2.3+deb11u1), libc6:armhf (2.31-13+deb11u4, 2.31-13+deb11u5), locales:armhf (2.31-13+deb11u4, 2.31-13+deb11u5), libkrb5-3:armhf (1.18.3-6+deb11u2, 1.18.3-6+deb11u3), isc-dhcp-client:armhf (4.4.1-2.3, 4.4.1-2.3+deb11u1), libk5crypto3:armhf (1.18.3-6+deb11u2, 1.18.3-6+deb11u3), libc-l10n:armhf (2.31-13+deb11u4, 2.31-13+deb11u5), libc-bin:armhf (2.31-13+deb11u4, 2.31-13+deb11u5), libksba8:armhf (1.5.0-3, 1.5.0-3+deb11u1), dbus:armhf (1.12.20-2, 1.12.24-0+deb11u1)
+End-Date: 2022-11-28  17:01:36
+
+Start-Date: 2022-11-28  17:05:52
+Commandline: apt remove orphan-sysvinit-scripts
+Remove: orphan-sysvinit-scripts:armhf (0.07)
+End-Date: 2022-11-28  17:05:55

@@ -1,4 +1,9 @@
-I:8917373
+I:17132773
 E:ID_PATH=platform-sound
 E:ID_PATH_TAG=platform-sound
+E:ID_FOR_SEAT=sound-platform-sound
 E:SOUND_INITIALIZED=1
+E:SOUND_FORM_FACTOR=internal
+G:seat
+Q:seat
+V:1

@@ -1,0 +1,9 @@
+# This is private data. Do not parse
+PRIORITY=30
+LEVEL_PREFIX=1
+FORWARD_TO_SYSLOG=0
+FORWARD_TO_KMSG=0
+FORWARD_TO_CONSOLE=0
+STREAM_ID=cd6e21a5a0974f15aad9dfd3dd3977db
+IDENTIFIER=systemd-timesyncd
+UNIT=systemd-timesyncd.service

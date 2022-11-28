@@ -242,3 +242,14 @@ Nov 27 21:05:31 debian-armhf sshd[25926]: pam_unix(sshd:session): session opened
 Nov 27 21:05:31 debian-armhf sshd[25926]: pam_systemd(sshd:session): Failed to create session: Launch helper exited with unknown return code 1
 Nov 27 21:17:09 debian-armhf CRON[25965]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
 Nov 27 21:17:09 debian-armhf CRON[25965]: pam_unix(cron:session): session closed for user root
+Nov 27 22:04:28 debian-armhf sshd[2096]: pam_unix(sshd:session): session closed for user root
+Nov 27 22:04:28 debian-armhf sshd[2031]: pam_unix(sshd:session): session closed for user root
+Nov 27 22:04:44 debian-armhf sshd[25926]: pam_unix(sshd:session): session closed for user root
+Nov 27 22:04:49 debian-armhf sshd[13102]: pam_unix(sshd:session): session closed for user root
+Nov 28 17:17:51 debian-armhf systemd-logind[321]: New seat seat0.
+Nov 28 17:17:54 debian-armhf sshd[397]: Server listening on 0.0.0.0 port 22.
+Nov 28 17:17:54 debian-armhf sshd[397]: Server listening on :: port 22.
+Nov 28 17:18:21 debian-armhf sshd[402]: Accepted password for root from 192.168.1.47 port 55771 ssh2
+Nov 28 17:18:21 debian-armhf sshd[402]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 17:18:21 debian-armhf systemd-logind[321]: New session c1 of user root.
+Nov 28 17:18:21 debian-armhf systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)

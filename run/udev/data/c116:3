@@ -1,6 +1,11 @@
-N:snd/controlC0
 S:snd/by-path/platform-sound
-I:7122542
+I:17213195
 E:ID_PATH=platform-sound
 E:ID_PATH_TAG=platform-sound
-G:udev-acl
+E:SYSTEMD_WANTS=sound.target
+E:SYSTEMD_USER_WANTS=sound.target
+G:uaccess
+G:systemd
+Q:uaccess
+Q:systemd
+V:1

@@ -1,0 +1,7 @@
+I:12793571
+E:ID_PATH=platform-leds
+E:ID_PATH_TAG=platform-leds
+E:ID_FOR_SEAT=leds-platform-leds
+G:seat
+Q:seat
+V:1

@@ -1,7 +1,7 @@
 /.
 /lib
 /lib/arm-linux-gnueabihf
-/lib/arm-linux-gnueabihf/libdbus-1.so.3.19.13
+/lib/arm-linux-gnueabihf/libdbus-1.so.3.19.15
 /usr
 /usr/share
 /usr/share/doc

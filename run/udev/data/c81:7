@@ -1,0 +1,13 @@
+S:v4l/by-path/platform-vivid.0-video-index7
+I:22859303
+E:ID_V4L_VERSION=2
+E:ID_V4L_PRODUCT=vivid
+E:ID_V4L_CAPABILITIES=:audio:tuner:
+E:ID_PATH=platform-vivid.0
+E:ID_PATH_TAG=platform-vivid_0
+E:ID_FOR_SEAT=video4linux-platform-vivid_0
+G:uaccess
+G:seat
+Q:uaccess
+Q:seat
+V:1

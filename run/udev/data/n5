@@ -1,0 +1,7 @@
+I:25305449
+E:ID_NET_LINK_FILE=/lib/systemd/network/99-default.link
+E:ID_NET_NAME=ip6tnl0
+E:SYSTEMD_ALIAS=/sys/subsystem/net/devices/ip6tnl0
+G:systemd
+Q:systemd
+V:1

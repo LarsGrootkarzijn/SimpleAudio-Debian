@@ -1,0 +1,1138 @@
+------------ Sat Jan 01 00:01:22 UTC 2000 ------------
+[[0;32m  OK  [0m] Started [0;1;39mShow Plymouth Boot Screen[0m.
+[[0;32m  OK  [0m] Started [0;1;39mForward Password R…s to Plymouth Directory Watch[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mLocal Encrypted Volumes[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mPaths[0m.
+[[0;32m  OK  [0m] Found device [0;1;39m/dev/ttyS0[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mHelper to synchronize boot up for ifupdown[0m.
+[[0;1;31mFAILED[0m] Failed to start [0;1;39mLoad Kernel Modules[0m.
+See 'systemctl status systemd-modules-load.service' for details.
+[[0;32m  OK  [0m] Reached target [0;1;39mSound Card[0m.
+         Starting [0;1;39mApply Kernel Variables[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mApply Kernel Variables[0m.
+[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (32s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (33s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (33s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (34s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (34s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (35s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (35s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (36s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (36s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (37s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (37s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (38s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (38s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (39s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (39s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (40s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (40s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (41s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (41s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (42s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (42s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (43s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (43s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (44s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (44s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (45s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (45s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (46s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (46s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (47s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (47s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (48s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (48s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (49s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (49s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (50s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (50s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (51s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (51s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (52s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (52s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (53s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (53s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (54s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (54s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (55s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (55s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (56s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (56s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (57s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (57s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (58s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (58s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (59s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (59s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 1s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 1s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 2s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 2s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 3s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 3s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 4s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 4s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min 5s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 5s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 6s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 6s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 7s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 7s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 8s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 8s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 9s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 9s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 10s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 10s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 11s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 11s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min 12s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 12s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 13s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 13s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 14s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 14s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 15s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 15s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 16s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 16s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 17s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 17s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 18s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 18s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min 19s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 19s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 20s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 20s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 21s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 21s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 22s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 22s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 23s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 23s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 24s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 24s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 25s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 25s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min 26s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 26s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 27s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 27s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 28s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 28s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 29s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 29s / 1min 30s)
+M[K[[0;1;31m TIME [0m] Timed out waiting for device [0;1;39m/dev/mmcblk0p1[0m.
+[K[[0;1;38;5;185mDEPEND[0m] Dependency failed for [0;1;39m/boot/uboot[0m.
+[[0;1;38;5;185mDEPEND[0m] Dependency failed for [0;1;39mLocal File Systems[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mForward Password R…uests to Wall Directory Watch[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mTimers[0m.
+         Starting [0;1;39mSet console font and keymap[0m...
+         Starting [0;1;39mRaise network interfaces[0m...
+[[0;32m  OK  [0m] Closed [0;1;39mSyslog Socket[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mLogin Prompts[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSockets[0m.
+[[0;32m  OK  [0m] Started [0;1;39mEmergency Shell[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mEmergency Mode[0m.
+         Starting [0;1;39mTell Plymouth To Write Out Runtime Data[0m...
+         Starting [0;1;39mCreate Volatile Files and Directories[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mSet console font and keymap[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mTell Plymouth To Write Out Runtime Data[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mCreate Volatile Files and Directories[0m.
+         Starting [0;1;39mNetwork Time Synchronization[0m...
+         Starting [0;1;39mUpdate UTMP about System Boot/Shutdown[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mUpdate UTMP about System Boot/Shutdown[0m.
+         Starting [0;1;39mUpdate UTMP about System Runlevel Changes[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mUpdate UTMP about System Runlevel Changes[0m.
+[[0;32m  OK  [0m] Started [0;1;39mNetwork Time Synchronization[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSystem Time Set[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSystem Time Synchronized[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mRaise network interfaces[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mNetwork[0m.
+------------ Sat Jan 01 00:01:23 UTC 2000 ------------
+[[0;32m  OK  [0m] Started [0;1;39mShow Plymouth Boot Screen[0m.
+[[0;32m  OK  [0m] Started [0;1;39mForward Password R…s to Plymouth Directory Watch[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mLocal Encrypted Volumes[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mPaths[0m.
+[[0;32m  OK  [0m] Found device [0;1;39m/dev/ttyS0[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mHelper to synchronize boot up for ifupdown[0m.
+[[0;1;31mFAILED[0m] Failed to start [0;1;39mLoad Kernel Modules[0m.
+See 'systemctl status systemd-modules-load.service' for details.
+[[0;32m  OK  [0m] Reached target [0;1;39mSound Card[0m.
+         Starting [0;1;39mApply Kernel Variables[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mApply Kernel Variables[0m.
+[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (32s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (33s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (34s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (34s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (35s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (35s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (36s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (36s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (37s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (38s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (38s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (39s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (39s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (40s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (41s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (41s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (42s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (42s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (43s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (43s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (44s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (45s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (45s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (46s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (46s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (47s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (48s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (48s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (49s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (49s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (50s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (50s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (51s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (51s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (52s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (52s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (53s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (53s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (54s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (54s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (55s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (55s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (56s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (56s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (57s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (57s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (58s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (58s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (59s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (59s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 1s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 1s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 2s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 2s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 3s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 3s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 4s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 4s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 5s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 5s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 6s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 6s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 7s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min 7s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 8s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 8s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 9s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 9s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 10s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 10s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 11s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 11s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 12s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 12s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 13s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 13s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 14s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min 14s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 15s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 15s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 16s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 16s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 17s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 17s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 18s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 18s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 19s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 19s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 20s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 20s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 21s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min 21s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 22s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 22s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 23s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 23s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 24s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 24s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 25s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 25s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 26s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 26s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 27s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 27s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 28s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min 28s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 29s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 29s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 30s / 1min 30s)
+M[K[[0;1;31m TIME [0m] Timed out waiting for device [0;1;39m/dev/mmcblk0p1[0m.
+[K[[0;1;38;5;185mDEPEND[0m] Dependency failed for [0;1;39m/boot/uboot[0m.
+[[0;1;38;5;185mDEPEND[0m] Dependency failed for [0;1;39mLocal File Systems[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mForward Password R…uests to Wall Directory Watch[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mTimers[0m.
+         Starting [0;1;39mSet console font and keymap[0m...
+         Starting [0;1;39mRaise network interfaces[0m...
+[[0;32m  OK  [0m] Closed [0;1;39mSyslog Socket[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mLogin Prompts[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSockets[0m.
+[[0;32m  OK  [0m] Started [0;1;39mEmergency Shell[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mEmergency Mode[0m.
+         Starting [0;1;39mTell Plymouth To Write Out Runtime Data[0m...
+         Starting [0;1;39mCreate Volatile Files and Directories[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mSet console font and keymap[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mTell Plymouth To Write Out Runtime Data[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mCreate Volatile Files and Directories[0m.
+         Starting [0;1;39mNetwork Time Synchronization[0m...
+         Starting [0;1;39mUpdate UTMP about System Boot/Shutdown[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mUpdate UTMP about System Boot/Shutdown[0m.
+         Starting [0;1;39mUpdate UTMP about System Runlevel Changes[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mUpdate UTMP about System Runlevel Changes[0m.
+[[0;32m  OK  [0m] Started [0;1;39mNetwork Time Synchronization[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSystem Time Set[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSystem Time Synchronized[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mRaise network interfaces[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mNetwork[0m.
+------------ Sat Jan 01 00:01:23 UTC 2000 ------------
+[[0;32m  OK  [0m] Started [0;1;39mShow Plymouth Boot Screen[0m.
+[[0;32m  OK  [0m] Started [0;1;39mForward Password R…s to Plymouth Directory Watch[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mLocal Encrypted Volumes[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mPaths[0m.
+[[0;32m  OK  [0m] Found device [0;1;39m/dev/ttyS0[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mHelper to synchronize boot up for ifupdown[0m.
+[[0;1;31mFAILED[0m] Failed to start [0;1;39mLoad Kernel Modules[0m.
+See 'systemctl status systemd-modules-load.service' for details.
+[[0;32m  OK  [0m] Reached target [0;1;39mSound Card[0m.
+         Starting [0;1;39mApply Kernel Variables[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mApply Kernel Variables[0m.
+[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (33s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (33s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (34s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (34s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (35s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (35s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (36s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (36s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (37s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (37s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (38s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (38s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (39s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (39s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (40s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (40s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (41s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (41s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (42s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (42s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (43s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (43s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (44s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (44s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (45s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (45s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (46s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (46s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (47s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (47s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (48s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (48s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (49s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (49s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (50s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (50s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (51s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (51s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (52s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (52s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (53s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (53s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (54s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (54s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (55s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (55s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (56s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (56s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (57s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (57s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (58s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (58s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (59s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (59s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 1s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 1s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 2s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 2s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 3s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 3s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min 4s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 4s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 5s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 5s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 6s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 6s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 7s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 7s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 8s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 8s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 9s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 9s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 10s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 10s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min 11s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 11s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 12s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 12s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 13s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 13s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 14s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 14s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 15s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 15s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 16s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 16s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 17s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 17s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min 18s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 18s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 19s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 19s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 20s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 20s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 21s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 21s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 22s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 22s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 23s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 23s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 24s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 24s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min 25s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 25s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 26s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 26s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 27s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 27s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 28s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 28s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 29s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 29s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 30s / 1min 30s)
+M[K[[0;1;31m TIME [0m] Timed out waiting for device [0;1;39m/dev/mmcblk0p1[0m.
+[K[[0;1;38;5;185mDEPEND[0m] Dependency failed for [0;1;39m/boot/uboot[0m.
+[[0;1;38;5;185mDEPEND[0m] Dependency failed for [0;1;39mLocal File Systems[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mForward Password R…uests to Wall Directory Watch[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mTimers[0m.
+         Starting [0;1;39mSet console font and keymap[0m...
+         Starting [0;1;39mRaise network interfaces[0m...
+[[0;32m  OK  [0m] Closed [0;1;39mSyslog Socket[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mLogin Prompts[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSockets[0m.
+[[0;32m  OK  [0m] Started [0;1;39mEmergency Shell[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mEmergency Mode[0m.
+         Starting [0;1;39mTell Plymouth To Write Out Runtime Data[0m...
+         Starting [0;1;39mCreate Volatile Files and Directories[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mSet console font and keymap[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mTell Plymouth To Write Out Runtime Data[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mCreate Volatile Files and Directories[0m.
+         Starting [0;1;39mNetwork Time Synchronization[0m...
+         Starting [0;1;39mUpdate UTMP about System Boot/Shutdown[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mUpdate UTMP about System Boot/Shutdown[0m.
+         Starting [0;1;39mUpdate UTMP about System Runlevel Changes[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mUpdate UTMP about System Runlevel Changes[0m.
+[[0;32m  OK  [0m] Started [0;1;39mNetwork Time Synchronization[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSystem Time Set[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSystem Time Synchronized[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mRaise network interfaces[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mNetwork[0m.
+------------ Sat Jan 01 00:01:20 UTC 2000 ------------
+[[0;32m  OK  [0m] Started [0;1;39mShow Plymouth Boot Screen[0m.
+[[0;32m  OK  [0m] Started [0;1;39mForward Password R…s to Plymouth Directory Watch[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mLocal Encrypted Volumes[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mPaths[0m.
+[[0;32m  OK  [0m] Found device [0;1;39m/dev/ttyS0[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mHelper to synchronize boot up for ifupdown[0m.
+[[0;1;31mFAILED[0m] Failed to start [0;1;39mLoad Kernel Modules[0m.
+See 'systemctl status systemd-modules-load.service' for details.
+[[0;32m  OK  [0m] Reached target [0;1;39mSound Card[0m.
+         Starting [0;1;39mApply Kernel Variables[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mApply Kernel Variables[0m.
+[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (32s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (33s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (33s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (34s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (34s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (35s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (35s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (36s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (36s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (37s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (37s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (38s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (38s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (39s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (39s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (40s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (40s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (41s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (41s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (42s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (42s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (43s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (43s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (44s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (44s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (45s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (45s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (46s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (46s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (47s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (47s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (48s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (48s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (49s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (49s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (50s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (50s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (51s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (51s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (52s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (52s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (53s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (53s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (54s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (54s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (55s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (55s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (56s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (56s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (57s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (57s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (58s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (58s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (59s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (59s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 1s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 1s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 2s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 2s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 3s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 3s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 4s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 4s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 5s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 5s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 6s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 6s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min 7s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 7s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 8s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 8s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 9s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 9s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 10s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 10s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 11s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 11s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 12s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 12s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 13s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 13s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min 14s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 14s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 15s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 15s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 16s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 16s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 17s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 17s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 18s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 18s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 19s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 19s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 20s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 20s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min 21s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 21s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 22s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 22s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 23s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 23s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 24s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 24s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 25s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 25s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 26s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 26s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 27s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 27s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min 28s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 28s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 29s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 29s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 30s / 1min 30s)
+M[K[[0;1;31m TIME [0m] Timed out waiting for device [0;1;39m/dev/mmcblk0p1[0m.
+[K[[0;1;38;5;185mDEPEND[0m] Dependency failed for [0;1;39m/boot/uboot[0m.
+[[0;1;38;5;185mDEPEND[0m] Dependency failed for [0;1;39mLocal File Systems[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mForward Password R…uests to Wall Directory Watch[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mTimers[0m.
+         Starting [0;1;39mSet console font and keymap[0m...
+         Starting [0;1;39mRaise network interfaces[0m...
+[[0;32m  OK  [0m] Closed [0;1;39mSyslog Socket[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mLogin Prompts[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSockets[0m.
+[[0;32m  OK  [0m] Started [0;1;39mEmergency Shell[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mEmergency Mode[0m.
+         Starting [0;1;39mTell Plymouth To Write Out Runtime Data[0m...
+         Starting [0;1;39mCreate Volatile Files and Directories[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mSet console font and keymap[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mTell Plymouth To Write Out Runtime Data[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mCreate Volatile Files and Directories[0m.
+         Starting [0;1;39mNetwork Time Synchronization[0m...
+         Starting [0;1;39mUpdate UTMP about System Boot/Shutdown[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mUpdate UTMP about System Boot/Shutdown[0m.
+         Starting [0;1;39mUpdate UTMP about System Runlevel Changes[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mUpdate UTMP about System Runlevel Changes[0m.
+[[0;32m  OK  [0m] Started [0;1;39mNetwork Time Synchronization[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSystem Time Set[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSystem Time Synchronized[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mRaise network interfaces[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mNetwork[0m.
+------------ Sat Jan 01 00:01:20 UTC 2000 ------------
+[[0;32m  OK  [0m] Started [0;1;39mShow Plymouth Boot Screen[0m.
+[[0;32m  OK  [0m] Started [0;1;39mForward Password R…s to Plymouth Directory Watch[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mLocal Encrypted Volumes[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mPaths[0m.
+[[0;32m  OK  [0m] Found device [0;1;39m/dev/ttyS0[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mHelper to synchronize boot up for ifupdown[0m.
+[[0;1;31mFAILED[0m] Failed to start [0;1;39mLoad Kernel Modules[0m.
+See 'systemctl status systemd-modules-load.service' for details.
+[[0;32m  OK  [0m] Reached target [0;1;39mSound Card[0m.
+         Starting [0;1;39mApply Kernel Variables[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mApply Kernel Variables[0m.
+[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (32s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (33s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (33s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (34s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (34s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (35s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (35s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (36s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (36s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (37s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (37s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (38s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (38s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (39s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (39s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (40s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (40s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (41s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (41s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (42s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (42s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (43s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (43s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (44s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (44s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (45s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (45s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (46s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (46s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (47s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (47s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (48s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (48s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (49s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (49s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (50s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (50s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (51s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (51s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (52s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (52s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (53s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (53s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (54s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (54s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (55s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (55s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (56s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (56s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (57s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (57s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (58s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (58s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (59s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (59s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 1s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 1s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 2s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 2s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 3s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 3s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 4s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 4s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min 5s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 5s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 6s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 6s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 7s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 7s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 8s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 8s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 9s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 9s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 10s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 10s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 11s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 11s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min 12s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 12s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 13s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 13s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 14s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 14s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 15s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 15s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 16s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 16s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 17s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 17s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 18s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 18s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min 19s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 19s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 20s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 20s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 21s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 21s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 22s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 22s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 23s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 23s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 24s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 24s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 25s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 25s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min 26s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 26s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 27s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 27s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 28s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 28s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 29s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 29s / 1min 30s)
+M[K[[0;1;31m TIME [0m] Timed out waiting for device [0;1;39m/dev/mmcblk0p1[0m.
+[K[[0;1;38;5;185mDEPEND[0m] Dependency failed for [0;1;39m/boot/uboot[0m.
+[[0;1;38;5;185mDEPEND[0m] Dependency failed for [0;1;39mLocal File Systems[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mForward Password R…uests to Wall Directory Watch[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mTimers[0m.
+         Starting [0;1;39mSet console font and keymap[0m...
+         Starting [0;1;39mRaise network interfaces[0m...
+[[0;32m  OK  [0m] Closed [0;1;39mSyslog Socket[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mLogin Prompts[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSockets[0m.
+[[0;32m  OK  [0m] Started [0;1;39mEmergency Shell[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mEmergency Mode[0m.
+         Starting [0;1;39mTell Plymouth To Write Out Runtime Data[0m...
+         Starting [0;1;39mCreate Volatile Files and Directories[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mSet console font and keymap[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mTell Plymouth To Write Out Runtime Data[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mCreate Volatile Files and Directories[0m.
+         Starting [0;1;39mNetwork Time Synchronization[0m...
+         Starting [0;1;39mUpdate UTMP about System Boot/Shutdown[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mUpdate UTMP about System Boot/Shutdown[0m.
+         Starting [0;1;39mUpdate UTMP about System Runlevel Changes[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mUpdate UTMP about System Runlevel Changes[0m.
+[[0;32m  OK  [0m] Started [0;1;39mNetwork Time Synchronization[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSystem Time Set[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSystem Time Synchronized[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mRaise network interfaces[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mNetwork[0m.
+------------ Sat Jan 01 00:01:22 UTC 2000 ------------
+[[0;32m  OK  [0m] Finished [0;1;39mFlush Journal to Persistent Storage[0m.
+[[0;32m  OK  [0m] Started [0;1;39mShow Plymouth Boot Screen[0m.
+[[0;32m  OK  [0m] Found device [0;1;39m/dev/ttyS0[0m.
+[[0;32m  OK  [0m] Started [0;1;39mForward Password R…s to Plymouth Directory Watch[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mLocal Encrypted Volumes[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mPaths[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mHelper to synchronize boot up for ifupdown[0m.
+[[0;1;31mFAILED[0m] Failed to start [0;1;39mLoad Kernel Modules[0m.
+See 'systemctl status systemd-modules-load.service' for details.
+[[0;32m  OK  [0m] Reached target [0;1;39mSound Card[0m.
+         Starting [0;1;39mApply Kernel Variables[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mApply Kernel Variables[0m.
+[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (32s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (33s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (33s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (34s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (34s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (35s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (35s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (36s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (36s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (37s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (37s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (38s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (38s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (39s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (39s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (40s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (40s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (41s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (41s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (42s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (42s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (43s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (43s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (44s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (44s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (45s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (45s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (46s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (46s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (47s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (47s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (48s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (48s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (49s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (49s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (50s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (50s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (51s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (51s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (52s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (52s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (53s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (53s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (54s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (54s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (55s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (55s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (56s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (56s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (57s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (57s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (58s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (58s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (59s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (59s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 1s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 1s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 2s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 2s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 3s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 3s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 4s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min 4s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 5s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 5s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 6s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 6s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 7s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 7s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 8s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 8s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 9s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 9s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 10s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 10s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 11s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min 11s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 12s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 12s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 13s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 13s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 14s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 14s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 15s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 15s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 16s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 16s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 17s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 17s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 18s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min 18s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 19s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 19s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 20s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 20s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 21s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 21s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 22s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 22s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 23s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 23s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 24s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 24s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 25s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min 25s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 26s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 26s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 27s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 27s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 28s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 28s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 29s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 29s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 30s / 1min 30s)
+M[K[[0;1;31m TIME [0m] Timed out waiting for device [0;1;39m/dev/mmcblk0p1[0m.
+[K[[0;1;38;5;185mDEPEND[0m] Dependency failed for [0;1;39m/boot/uboot[0m.
+[[0;1;38;5;185mDEPEND[0m] Dependency failed for [0;1;39mLocal File Systems[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mForward Password R…uests to Wall Directory Watch[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mTimers[0m.
+         Starting [0;1;39mSet console font and keymap[0m...
+         Starting [0;1;39mRaise network interfaces[0m...
+[[0;32m  OK  [0m] Closed [0;1;39mSyslog Socket[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mLogin Prompts[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSockets[0m.
+[[0;32m  OK  [0m] Started [0;1;39mEmergency Shell[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mEmergency Mode[0m.
+         Starting [0;1;39mTell Plymouth To Write Out Runtime Data[0m...
+         Starting [0;1;39mCreate Volatile Files and Directories[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mSet console font and keymap[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mTell Plymouth To Write Out Runtime Data[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mCreate Volatile Files and Directories[0m.
+         Starting [0;1;39mNetwork Time Synchronization[0m...
+         Starting [0;1;39mUpdate UTMP about System Boot/Shutdown[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mUpdate UTMP about System Boot/Shutdown[0m.
+         Starting [0;1;39mUpdate UTMP about System Runlevel Changes[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mUpdate UTMP about System Runlevel Changes[0m.
+[[0;32m  OK  [0m] Started [0;1;39mNetwork Time Synchronization[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSystem Time Set[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSystem Time Synchronized[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mRaise network interfaces[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mNetwork[0m.
+------------ Sat Jan 01 00:01:21 UTC 2000 ------------
+[[0;32m  OK  [0m] Started [0;1;39mShow Plymouth Boot Screen[0m.
+[[0;32m  OK  [0m] Started [0;1;39mForward Password R…s to Plymouth Directory Watch[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mLocal Encrypted Volumes[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mPaths[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mFlush Journal to Persistent Storage[0m.
+[[0;32m  OK  [0m] Found device [0;1;39m/dev/ttyS0[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSound Card[0m.
+[[0;1;31mFAILED[0m] Failed to start [0;1;39mLoad Kernel Modules[0m.
+See 'systemctl status systemd-modules-load.service' for details.
+[[0;32m  OK  [0m] Finished [0;1;39mHelper to synchronize boot up for ifupdown[0m.
+         Starting [0;1;39mApply Kernel Variables[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mApply Kernel Variables[0m.
+[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (32s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (32s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (33s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (33s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (34s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (34s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (35s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (35s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (36s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (36s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (37s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (37s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (38s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (38s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (39s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (39s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (40s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (40s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (41s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (41s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (42s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (42s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (43s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (43s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (44s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (44s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (45s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (45s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (46s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (46s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (47s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (47s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (48s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (48s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (49s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (49s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (50s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (50s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (51s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (51s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (52s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (52s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (53s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (53s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (54s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (54s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (55s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (55s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (56s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (56s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (57s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (57s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (58s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (58s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (59s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (59s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 1s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 1s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 2s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 2s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 3s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 3s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 4s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 4s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 5s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min 5s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 6s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 6s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 7s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 7s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 8s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 8s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 9s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 9s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 10s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 10s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 11s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 11s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 12s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min 12s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 13s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 13s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 14s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 14s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 15s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 15s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 16s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 16s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 17s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 17s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 18s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 18s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 19s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min 19s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 20s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 20s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 21s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 21s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 22s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 22s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 23s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 23s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 24s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 24s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 25s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 25s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 26s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A start job is running for /dev/mmcblk0p1 (1min 26s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for /dev/mmcblk0p1 (1min 27s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for /dev/mmcblk0p1 (1min 27s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /dev/mmcblk0p1 (1min 28s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /dev/mmcblk0p1 (1min 28s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 29s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 29s / 1min 30s)
+M[K[     [0;31m*[0m] A start job is running for /dev/mmcblk0p1 (1min 30s / 1min 30s)
+M[K[[0;1;31m TIME [0m] Timed out waiting for device [0;1;39m/dev/mmcblk0p1[0m.
+[K[[0;1;38;5;185mDEPEND[0m] Dependency failed for [0;1;39m/boot/uboot[0m.
+[[0;1;38;5;185mDEPEND[0m] Dependency failed for [0;1;39mLocal File Systems[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mForward Password R…uests to Wall Directory Watch[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mTimers[0m.
+         Starting [0;1;39mSet console font and keymap[0m...
+         Starting [0;1;39mRaise network interfaces[0m...
+[[0;32m  OK  [0m] Closed [0;1;39mSyslog Socket[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mLogin Prompts[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSockets[0m.
+[[0;32m  OK  [0m] Started [0;1;39mEmergency Shell[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mEmergency Mode[0m.
+         Starting [0;1;39mTell Plymouth To Write Out Runtime Data[0m...
+         Starting [0;1;39mCreate Volatile Files and Directories[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mSet console font and keymap[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mTell Plymouth To Write Out Runtime Data[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mCreate Volatile Files and Directories[0m.
+         Starting [0;1;39mNetwork Time Synchronization[0m...
+         Starting [0;1;39mUpdate UTMP about System Boot/Shutdown[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mUpdate UTMP about System Boot/Shutdown[0m.
+         Starting [0;1;39mUpdate UTMP about System Runlevel Changes[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mUpdate UTMP about System Runlevel Changes[0m.
+[[0;32m  OK  [0m] Started [0;1;39mNetwork Time Synchronization[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSystem Time Set[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSystem Time Synchronized[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mRaise network interfaces[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mNetwork[0m.
+------------ Sat Jan 01 00:00:14 UTC 2000 ------------
+[[0;32m  OK  [0m] Started [0;1;39mShow Plymouth Boot Screen[0m.
+[[0;32m  OK  [0m] Found device [0;1;39m/dev/mmcblk1p1[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mHelper to synchronize boot up for ifupdown[0m.
+[[0;1;31mFAILED[0m] Failed to start [0;1;39mLoad Kernel Modules[0m.
+See 'systemctl status systemd-modules-load.service' for details.
+[[0;32m  OK  [0m] Started [0;1;39mForward Password R…s to Plymouth Directory Watch[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mLocal Encrypted Volumes[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mPaths[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSound Card[0m.
+         Mounting [0;1;39m/boot/uboot[0m...
+         Starting [0;1;39mApply Kernel Variables[0m...
+[[0;32m  OK  [0m] Mounted [0;1;39m/boot/uboot[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mLocal File Systems[0m.
+         Starting [0;1;39mSet console font and keymap[0m...
+         Starting [0;1;39mTell Plymouth To Write Out Runtime Data[0m...
+         Starting [0;1;39mCreate Volatile Files and Directories[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mApply Kernel Variables[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mSet console font and keymap[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mTell Plymouth To Write Out Runtime Data[0m.
+         Starting [0;1;39mRaise network interfaces[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mCreate Volatile Files and Directories[0m.
+         Starting [0;1;39mNetwork Time Synchronization[0m...
+         Starting [0;1;39mUpdate UTMP about System Boot/Shutdown[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mUpdate UTMP about System Boot/Shutdown[0m.
+[[0;32m  OK  [0m] Started [0;1;39mNetwork Time Synchronization[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSystem Initialization[0m.
+[[0;32m  OK  [0m] Started [0;1;39mDaily Cleanup of Temporary Directories[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSystem Time Set[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSystem Time Synchronized[0m.
+[[0;32m  OK  [0m] Started [0;1;39mDaily apt download activities[0m.
+[[0;32m  OK  [0m] Started [0;1;39mDaily apt upgrade and clean activities[0m.
+[[0;32m  OK  [0m] Started [0;1;39mPeriodic ext4 Onli…ata Check for All Filesystems[0m.
+[[0;32m  OK  [0m] Started [0;1;39mDaily rotation of log files[0m.
+[[0;32m  OK  [0m] Started [0;1;39mDaily man-db regeneration[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mTimers[0m.
+[[0;32m  OK  [0m] Listening on [0;1;39mD-Bus System Message Bus Socket[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSockets[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mBasic System[0m.
+[[0;32m  OK  [0m] Started [0;1;39mRegular background program processing daemon[0m.
+[[0;32m  OK  [0m] Started [0;1;39mD-Bus System Message Bus[0m.
+         Starting [0;1;39mRemove Stale Onli…t4 Metadata Check Snapshots[0m...
+         Starting [0;1;39mSystem Logging Service[0m...
+         Starting [0;1;39mUser Login Management[0m...
+         Starting [0;1;39mWPA supplicant[0m...
+[[0;32m  OK  [0m] Started [0;1;39mSystem Logging Service[0m.
+[[0;32m  OK  [0m] Started [0;1;39mUser Login Management[0m.
+[[0;32m  OK  [0m] Started [0;1;39mWPA supplicant[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mRemove Stale Onli…ext4 Metadata Check Snapshots[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mRaise network interfaces[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mNetwork[0m.
+         Starting [0;1;39m/etc/rc.local Compatibility[0m...
+         Starting [0;1;39mOpenBSD Secure Shell server[0m...
+         Starting [0;1;39mPermit User Sessions[0m...
+[[0;32m  OK  [0m] Started [0;1;39m/etc/rc.local Compatibility[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mPermit User Sessions[0m.
+         Starting [0;1;39mHold until boot process finishes up[0m...
+         Starting [0;1;39mTerminate Plymouth Boot Screen[0m...

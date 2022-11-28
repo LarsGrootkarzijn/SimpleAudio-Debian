@@ -333,11 +333,3 @@ ebt_nflog
 bridge
 br_netfilter
 dsa_core
-can
-can-raw
-can-bcm
-can-gw
-bluetooth
-rfcomm
-sctp
-sctp_diag

@@ -666,10 +666,6 @@ Package: libip4tc2
 Architecture: armhf
 Auto-Installed: 1
 
-Package: orphan-sysvinit-scripts
-Architecture: armhf
-Auto-Installed: 1
-
 Package: patch
 Architecture: armhf
 Auto-Installed: 1

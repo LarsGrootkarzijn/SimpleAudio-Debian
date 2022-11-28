@@ -1,0 +1,19 @@
+I:21964854
+E:ID_VENDOR=Philips
+E:ID_VENDOR_ENC=Philips
+E:ID_VENDOR_ID=13fe
+E:ID_MODEL=USB_Flash_Drive
+E:ID_MODEL_ENC=USB\x20Flash\x20Drive
+E:ID_MODEL_ID=4300
+E:ID_REVISION=0100
+E:ID_SERIAL=Philips_USB_Flash_Drive_90008BD253830F38
+E:ID_SERIAL_SHORT=90008BD253830F38
+E:ID_BUS=usb
+E:ID_USB_INTERFACES=:080650:
+E:ID_VENDOR_FROM_DATABASE=Kingston Technology Company Inc.
+E:ID_PATH=platform-musb-hdrc.0-usb-0:1
+E:ID_PATH_TAG=platform-musb-hdrc_0-usb-0_1
+E:ID_FOR_SEAT=usb-platform-musb-hdrc_0-usb-0_1
+G:seat
+Q:seat
+V:1

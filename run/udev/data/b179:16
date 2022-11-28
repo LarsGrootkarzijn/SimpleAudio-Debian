@@ -1,6 +1,8 @@
-N:mmcblk1boot0
-S:disk/by-path/platform-481d8000.mmc
-W:8
-I:7203574
+S:disk/by-path/platform-481d8000.mmc-boot0
+W:4
+I:15833783
 E:ID_PATH=platform-481d8000.mmc
 E:ID_PATH_TAG=platform-481d8000_mmc
+G:systemd
+Q:systemd
+V:1
