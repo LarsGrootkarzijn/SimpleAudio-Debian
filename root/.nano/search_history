@@ -1,4 +1,15 @@
 can
+#
+aes_arm_ce
+aes_arm
+tcr
+mtd_
+g_hid
+trc_efi
+rtc_
+rtc
+capsule
+efi
 
 
 
