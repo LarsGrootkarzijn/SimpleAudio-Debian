@@ -1,0 +1,9 @@
+# This is private data. Do not parse
+PRIORITY=30
+LEVEL_PREFIX=1
+FORWARD_TO_SYSLOG=0
+FORWARD_TO_KMSG=0
+FORWARD_TO_CONSOLE=0
+STREAM_ID=d23aa18e87af4f2592cb7d93c8a8eedf
+IDENTIFIER=systemd-udevd
+UNIT=systemd-udevd.service

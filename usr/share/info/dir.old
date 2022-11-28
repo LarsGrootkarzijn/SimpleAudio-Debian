@@ -22,11 +22,59 @@ Basics
                                 Access modes.
 * Finding files: (find).        Operating on files matching certain criteria.
 
+C++ libraries
+* autosprintf: (autosprintf).   Support for printf format strings in C++.
+
 Compression
 * Gzip: (gzip).                 General (de)compression of files (lzw).
 
 Editors
 * nano: (nano).                 Small and friendly text editor.
+
+GNU Gettext Utilities
+* autopoint: (gettext)autopoint Invocation.
+                                Copy gettext infrastructure.
+* envsubst: (gettext)envsubst Invocation.
+                                Expand environment variables.
+* gettextize: (gettext)gettextize Invocation.
+                                Prepare a package for gettext.
+* gettext: (gettext).           GNU gettext utilities.
+* ISO3166: (gettext)Country Codes.
+                                ISO 3166 country codes.
+* ISO639: (gettext)Language Codes.
+                                ISO 639 language codes.
+* msgattrib: (gettext)msgattrib Invocation.
+                                Select part of a PO file.
+* msgcat: (gettext)msgcat Invocation.
+                                Combine several PO files.
+* msgcmp: (gettext)msgcmp Invocation.
+                                Compare a PO file and template.
+* msgcomm: (gettext)msgcomm Invocation.
+                                Match two PO files.
+* msgconv: (gettext)msgconv Invocation.
+                                Convert PO file to encoding.
+* msgen: (gettext)msgen Invocation.
+                                Create an English PO file.
+* msgexec: (gettext)msgexec Invocation.
+                                Process a PO file.
+* msgfilter: (gettext)msgfilter Invocation.
+                                Pipe a PO file through a filter.
+* msgfmt: (gettext)msgfmt Invocation.
+                                Make MO files out of PO files.
+* msggrep: (gettext)msggrep Invocation.
+                                Select part of a PO file.
+* msginit: (gettext)msginit Invocation.
+                                Create a fresh PO file.
+* msgmerge: (gettext)msgmerge Invocation.
+                                Update a PO file from template.
+* msgunfmt: (gettext)msgunfmt Invocation.
+                                Uncompile MO file into PO file.
+* msguniq: (gettext)msguniq Invocation.
+                                Unify duplicates for PO file.
+* ngettext: (gettext)ngettext Invocation.
+                                Translate a message with plural.
+* xgettext: (gettext)xgettext Invocation.
+                                Extract strings into a PO file.
 
 GNU organization
 * Maintaining Findutils: (find-maint).
@@ -40,7 +88,11 @@ GNU Utilities
 * gpgsm: (gnupg).               S/MIME encryption and signing tool.
 
 Individual utilities
+* aclocal-invocation: (automake-1.16)aclocal Invocation.
+                                                Generating aclocal.m4.
 * arch: (coreutils)arch invocation.             Print machine hardware name.
+* automake-invocation: (automake-1.16)automake Invocation.
+                                                Generating Makefile.in.
 * b2sum: (coreutils)b2sum invocation.           Print or check BLAKE2 digests.
 * base32: (coreutils)base32 invocation.         Base32 encode/decode data.
 * base64: (coreutils)base64 invocation.         Base64 encode/decode data.
@@ -166,11 +218,17 @@ Libraries
 Network applications
 * Wget: (wget).                 Non-interactive network downloader.
 
+Software development
+* Automake: (automake-1.16).    Making GNU standards-compliant Makefiles.
+* Automake-history: (automake-history).
+                                History of Automake development.
+
 Texinfo documentation system
 * info stand-alone: (info-stnd).
                                 Read Info documents without Emacs.
 
 Text creation and manipulation
 * Diffutils: (diffutils).       Comparing and merging files.
+* M4: (m4).                     A powerful macro processor.
 * grep: (grep).                 Print lines that match patterns.
 * sed: (sed).                   Stream EDitor.  

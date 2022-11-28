@@ -397,3 +397,854 @@ Nov 28 17:17:51 debian-armhf kernel: [   16.533836] musb-hdrc musb-hdrc.1: VBUS_
 Nov 28 17:17:51 debian-armhf kernel: [   16.691597] musb-hdrc musb-hdrc.1: VBUS_ERROR in a_wait_vrise (81, <SessEnd), retry #3, port1 00000104
 Nov 28 17:17:51 debian-armhf kernel: [   20.346641] sd 0:0:0:0: [sda] Mode Sense: 23 00 00 00
 Nov 28 17:17:51 debian-armhf kernel: [   23.411963] libata version 3.00 loaded.
+Nov 28 17:27:57 debian-armhf kernel: [    0.000000] On node 0 totalpages: 130816
+Nov 28 17:27:57 debian-armhf kernel: [    0.000000]   Normal zone: 1150 pages used for memmap
+Nov 28 17:27:57 debian-armhf kernel: [    0.000000]   Normal zone: 0 pages reserved
+Nov 28 17:27:57 debian-armhf kernel: [    0.000000]   Normal zone: 130816 pages, LIFO batch:31
+Nov 28 17:27:57 debian-armhf kernel: [    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Nov 28 17:27:57 debian-armhf kernel: [    0.000000] pcpu-alloc: [0] 0 
+Nov 28 17:27:57 debian-armhf kernel: [    1.969536] reg-fixed-voltage fixedregulator0: GPIO lookup for consumer (null)
+Nov 28 17:27:57 debian-armhf kernel: [    1.969559] reg-fixed-voltage fixedregulator0: using device tree for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    1.969614] of_get_named_gpiod_flags: can't parse 'gpios' property of node '/fixedregulator0[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    1.969644] of_get_named_gpiod_flags: can't parse 'gpio' property of node '/fixedregulator0[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    1.969663] reg-fixed-voltage fixedregulator0: using lookup tables for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    1.969678] reg-fixed-voltage fixedregulator0: No GPIO consumer (null) found
+Nov 28 17:27:57 debian-armhf kernel: [    2.940498] omap8250 44e09000.serial: GPIO lookup for consumer rs485-term
+Nov 28 17:27:57 debian-armhf kernel: [    2.940510] omap8250 44e09000.serial: using device tree for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    2.940573] of_get_named_gpiod_flags: can't parse 'rs485-term-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@9000/serial@0[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    2.940614] of_get_named_gpiod_flags: can't parse 'rs485-term-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@9000/serial@0[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    2.940636] omap8250 44e09000.serial: using lookup tables for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    2.940651] omap8250 44e09000.serial: No GPIO consumer rs485-term found
+Nov 28 17:27:57 debian-armhf kernel: [    3.616441] [drm:drm_core_init] Initialized
+Nov 28 17:27:57 debian-armhf kernel: [    3.618624] [drm:tilcdc_drm_init] init
+Nov 28 17:27:57 debian-armhf kernel: [    3.682304] mtd mtd0: GPIO lookup for consumer wp
+Nov 28 17:27:57 debian-armhf kernel: [    3.682321] mtd mtd0: using device tree for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    3.682381] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/ethaddr@7F0000[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    3.682428] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/ethaddr@7F0000[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    3.682447] mtd mtd0: using lookup tables for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    3.682462] mtd mtd0: No GPIO consumer wp found
+Nov 28 17:27:57 debian-armhf kernel: [    3.695247] mtd mtd1: GPIO lookup for consumer wp
+Nov 28 17:27:57 debian-armhf kernel: [    3.695264] mtd mtd1: using device tree for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    3.695320] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/uImage@100000[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    3.695368] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/uImage@100000[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    3.695386] mtd mtd1: using lookup tables for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    3.695400] mtd mtd1: No GPIO consumer wp found
+Nov 28 17:27:57 debian-armhf kernel: [    3.715655] mtd mtd2: GPIO lookup for consumer wp
+Nov 28 17:27:57 debian-armhf kernel: [    3.715671] mtd mtd2: using device tree for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    3.715728] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/ubootenv@F0000[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    3.715776] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/ubootenv@F0000[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    3.715796] mtd mtd2: using lookup tables for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    3.715809] mtd mtd2: No GPIO consumer wp found
+Nov 28 17:27:57 debian-armhf kernel: [    3.734625] mtd mtd3: GPIO lookup for consumer wp
+Nov 28 17:27:57 debian-armhf kernel: [    3.734641] mtd mtd3: using device tree for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    3.734698] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/uboot@80000[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    3.734744] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/uboot@80000[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    3.734761] mtd mtd3: using lookup tables for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    3.734774] mtd mtd3: No GPIO consumer wp found
+Nov 28 17:27:57 debian-armhf kernel: [    3.744980] mtd mtd4: GPIO lookup for consumer wp
+Nov 28 17:27:57 debian-armhf kernel: [    3.744997] mtd mtd4: using device tree for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    3.745063] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/spl@0[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    3.745110] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/spl@0[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    3.745128] mtd mtd4: using lookup tables for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    3.745141] mtd mtd4: No GPIO consumer wp found
+Nov 28 17:27:57 debian-armhf kernel: [    3.761505] mdio_bus fixed-0: GPIO lookup for consumer reset
+Nov 28 17:27:57 debian-armhf kernel: [    3.761532] mdio_bus fixed-0: using lookup tables for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    3.761546] mdio_bus fixed-0: No GPIO consumer reset found
+Nov 28 17:27:57 debian-armhf kernel: [    3.768162] mdio_bus 4a101000.mdio: GPIO lookup for consumer reset
+Nov 28 17:27:57 debian-armhf kernel: [    3.768186] mdio_bus 4a101000.mdio: using device tree for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    3.768247] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/interconnect@4a000000/segment@0/target-module@100000/ethernet@0/mdio@1000[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    3.768292] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/interconnect@4a000000/segment@0/target-module@100000/ethernet@0/mdio@1000[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    3.768579] mdio_bus 4a101000.mdio: using lookup tables for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    3.768595] mdio_bus 4a101000.mdio: No GPIO consumer reset found
+Nov 28 17:27:57 debian-armhf kernel: [    3.837456] mdio_bus 4a101000.mdio:01: GPIO lookup for consumer reset
+Nov 28 17:27:57 debian-armhf kernel: [    3.837474] mdio_bus 4a101000.mdio:01: using device tree for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    3.837540] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/interconnect@4a000000/segment@0/target-module@100000/ethernet@0/mdio@1000/ethernet-phy@0[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    3.837588] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/interconnect@4a000000/segment@0/target-module@100000/ethernet@0/mdio@1000/ethernet-phy@0[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    3.837606] mdio_bus 4a101000.mdio:01: using lookup tables for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    3.837621] mdio_bus 4a101000.mdio:01: No GPIO consumer reset found
+Nov 28 17:27:57 debian-armhf kernel: [    3.913303] sdhci-omap 48060000.mmc: GPIO lookup for consumer cd
+Nov 28 17:27:57 debian-armhf kernel: [    3.913323] sdhci-omap 48060000.mmc: using device tree for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    3.913367] sdhci-omap 48060000.mmc: No GPIO consumer cd found
+Nov 28 17:27:57 debian-armhf kernel: [    3.914166] sdhci-omap 481d8000.mmc: GPIO lookup for consumer cd
+Nov 28 17:27:57 debian-armhf kernel: [    3.914187] sdhci-omap 481d8000.mmc: using device tree for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    3.914250] of_get_named_gpiod_flags: can't parse 'cd-gpios' property of node '/ocp/interconnect@48000000/segment@100000/target-module@d8000/mmc@0[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    3.914291] of_get_named_gpiod_flags: can't parse 'cd-gpio' property of node '/ocp/interconnect@48000000/segment@100000/target-module@d8000/mmc@0[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    3.914310] sdhci-omap 481d8000.mmc: using lookup tables for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    3.914323] sdhci-omap 481d8000.mmc: No GPIO consumer cd found
+Nov 28 17:27:57 debian-armhf kernel: [    3.914339] sdhci-omap 481d8000.mmc: GPIO lookup for consumer wp
+Nov 28 17:27:57 debian-armhf kernel: [    3.914349] sdhci-omap 481d8000.mmc: using device tree for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    3.914389] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@100000/target-module@d8000/mmc@0[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    3.914427] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@100000/target-module@d8000/mmc@0[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    3.914443] sdhci-omap 481d8000.mmc: using lookup tables for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    3.914455] sdhci-omap 481d8000.mmc: No GPIO consumer wp found
+Nov 28 17:27:57 debian-armhf kernel: [    4.109678] [drm:omap_drm_init] init
+Nov 28 17:27:57 debian-armhf kernel: [    4.111314] gpio gpiochip0: (gpio-0-31): created GPIO range 0->7 ==> 44e10800.pinmux PIN 82->89
+Nov 28 17:27:57 debian-armhf kernel: [    4.111346] gpio gpiochip0: (gpio-0-31): created GPIO range 8->11 ==> 44e10800.pinmux PIN 52->55
+Nov 28 17:27:57 debian-armhf kernel: [    4.111366] gpio gpiochip0: (gpio-0-31): created GPIO range 12->15 ==> 44e10800.pinmux PIN 94->97
+Nov 28 17:27:57 debian-armhf kernel: [    4.111386] gpio gpiochip0: (gpio-0-31): created GPIO range 16->17 ==> 44e10800.pinmux PIN 71->72
+Nov 28 17:27:57 debian-armhf kernel: [    4.111406] gpio gpiochip0: (gpio-0-31): created GPIO range 18->18 ==> 44e10800.pinmux PIN 135->135
+Nov 28 17:27:57 debian-armhf kernel: [    4.111430] gpio gpiochip0: (gpio-0-31): created GPIO range 19->20 ==> 44e10800.pinmux PIN 108->109
+Nov 28 17:27:57 debian-armhf kernel: [    4.111452] gpio gpiochip0: (gpio-0-31): created GPIO range 21->21 ==> 44e10800.pinmux PIN 73->73
+Nov 28 17:27:57 debian-armhf kernel: [    4.111474] gpio gpiochip0: (gpio-0-31): created GPIO range 22->23 ==> 44e10800.pinmux PIN 8->9
+Nov 28 17:27:57 debian-armhf kernel: [    4.111495] gpio gpiochip0: (gpio-0-31): created GPIO range 26->27 ==> 44e10800.pinmux PIN 10->11
+Nov 28 17:27:57 debian-armhf kernel: [    4.111528] gpio gpiochip0: (gpio-0-31): created GPIO range 28->28 ==> 44e10800.pinmux PIN 74->74
+Nov 28 17:27:57 debian-armhf kernel: [    4.111551] gpio gpiochip0: (gpio-0-31): created GPIO range 29->29 ==> 44e10800.pinmux PIN 81->81
+Nov 28 17:27:57 debian-armhf kernel: [    4.111574] gpio gpiochip0: (gpio-0-31): created GPIO range 30->31 ==> 44e10800.pinmux PIN 28->29
+Nov 28 17:27:57 debian-armhf kernel: [    4.112026] gpio gpiochip0: (gpio-0-31): added GPIO chardev (254:0)
+Nov 28 17:27:57 debian-armhf kernel: [    4.112168] gpio gpiochip0: registered GPIOs 0 to 31 on gpio-0-31
+Nov 28 17:27:57 debian-armhf kernel: [    4.117823] i2c i2c-0: GPIO lookup for consumer scl
+Nov 28 17:27:57 debian-armhf kernel: [    4.117845] i2c i2c-0: using device tree for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    4.117903] of_get_named_gpiod_flags: can't parse 'scl-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    4.117945] of_get_named_gpiod_flags: can't parse 'scl-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    4.117965] i2c i2c-0: using lookup tables for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    4.117979] i2c i2c-0: No GPIO consumer scl found
+Nov 28 17:27:57 debian-armhf kernel: [    4.118003] i2c i2c-0: GPIO lookup for consumer sda
+Nov 28 17:27:57 debian-armhf kernel: [    4.118013] i2c i2c-0: using device tree for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    4.118052] of_get_named_gpiod_flags: can't parse 'sda-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    4.118091] of_get_named_gpiod_flags: can't parse 'sda-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    4.118105] i2c i2c-0: using lookup tables for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    4.118117] i2c i2c-0: No GPIO consumer sda found
+Nov 28 17:27:57 debian-armhf kernel: [    4.231359] pca953x 0-0023: GPIO lookup for consumer reset
+Nov 28 17:27:57 debian-armhf kernel: [    4.231380] pca953x 0-0023: using device tree for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    4.231438] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@23[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    4.231483] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@23[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    4.231502] pca953x 0-0023: using lookup tables for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    4.231516] pca953x 0-0023: No GPIO consumer reset found
+Nov 28 17:27:57 debian-armhf kernel: [    4.242827] gpiochip_find_base: found new base at 504
+Nov 28 17:27:57 debian-armhf kernel: [    4.243685] gpio gpiochip1: (0-0023): added GPIO chardev (254:1)
+Nov 28 17:27:57 debian-armhf kernel: [    4.243814] gpio gpiochip1: registered GPIOs 504 to 511 on 0-0023
+Nov 28 17:27:57 debian-armhf kernel: [    4.244597] pca953x 0-0022: GPIO lookup for consumer reset
+Nov 28 17:27:57 debian-armhf kernel: [    4.244614] pca953x 0-0022: using device tree for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    4.244667] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@22[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    4.244711] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@22[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    4.244729] pca953x 0-0022: using lookup tables for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    4.244742] pca953x 0-0022: No GPIO consumer reset found
+Nov 28 17:27:57 debian-armhf kernel: [    4.256111] gpiochip_find_base: found new base at 496
+Nov 28 17:27:57 debian-armhf kernel: [    4.256904] gpio gpiochip2: (0-0022): added GPIO chardev (254:2)
+Nov 28 17:27:57 debian-armhf kernel: [    4.257022] gpio gpiochip2: registered GPIOs 496 to 503 on 0-0022
+Nov 28 17:27:57 debian-armhf kernel: [    4.257689] pca953x 0-0020: GPIO lookup for consumer reset
+Nov 28 17:27:57 debian-armhf kernel: [    4.257705] pca953x 0-0020: using device tree for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    4.257756] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@20[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    4.257800] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@20[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    4.257818] pca953x 0-0020: using lookup tables for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    4.257831] pca953x 0-0020: No GPIO consumer reset found
+Nov 28 17:27:57 debian-armhf kernel: [    4.269193] gpiochip_find_base: found new base at 488
+Nov 28 17:27:57 debian-armhf kernel: [    4.270052] gpio gpiochip3: (0-0020): added GPIO chardev (254:3)
+Nov 28 17:27:57 debian-armhf kernel: [    4.270180] gpio gpiochip3: registered GPIOs 488 to 495 on 0-0020
+Nov 28 17:27:57 debian-armhf kernel: [    4.276766] gpio gpiochip4: (gpio-32-63): created GPIO range 0->7 ==> 44e10800.pinmux PIN 0->7
+Nov 28 17:27:57 debian-armhf kernel: [    4.276793] gpio gpiochip4: (gpio-32-63): created GPIO range 8->11 ==> 44e10800.pinmux PIN 90->93
+Nov 28 17:27:57 debian-armhf kernel: [    4.276814] gpio gpiochip4: (gpio-32-63): created GPIO range 12->27 ==> 44e10800.pinmux PIN 12->27
+Nov 28 17:27:57 debian-armhf kernel: [    4.276833] gpio gpiochip4: (gpio-32-63): created GPIO range 28->31 ==> 44e10800.pinmux PIN 30->33
+Nov 28 17:27:57 debian-armhf kernel: [    4.277195] gpio gpiochip4: (gpio-32-63): added GPIO chardev (254:4)
+Nov 28 17:27:57 debian-armhf kernel: [    4.277319] gpio gpiochip4: registered GPIOs 32 to 63 on gpio-32-63
+Nov 28 17:27:57 debian-armhf kernel: [    4.277827] gpio gpiochip5: (gpio-64-95): created GPIO range 0->17 ==> 44e10800.pinmux PIN 34->51
+Nov 28 17:27:57 debian-armhf kernel: [    4.277853] gpio gpiochip5: (gpio-64-95): created GPIO range 18->21 ==> 44e10800.pinmux PIN 77->80
+Nov 28 17:27:57 debian-armhf kernel: [    4.277874] gpio gpiochip5: (gpio-64-95): created GPIO range 22->31 ==> 44e10800.pinmux PIN 56->65
+Nov 28 17:27:57 debian-armhf kernel: [    4.278189] gpio gpiochip5: (gpio-64-95): added GPIO chardev (254:5)
+Nov 28 17:27:57 debian-armhf kernel: [    4.278386] gpio gpiochip5: registered GPIOs 64 to 95 on gpio-64-95
+Nov 28 17:27:57 debian-armhf kernel: [    4.278837] gpio gpiochip6: (gpio-96-127): created GPIO range 0->4 ==> 44e10800.pinmux PIN 66->70
+Nov 28 17:27:57 debian-armhf kernel: [    4.278862] gpio gpiochip6: (gpio-96-127): created GPIO range 5->6 ==> 44e10800.pinmux PIN 98->99
+Nov 28 17:27:57 debian-armhf kernel: [    4.278882] gpio gpiochip6: (gpio-96-127): created GPIO range 7->8 ==> 44e10800.pinmux PIN 75->76
+Nov 28 17:27:57 debian-armhf kernel: [    4.278902] gpio gpiochip6: (gpio-96-127): created GPIO range 13->13 ==> 44e10800.pinmux PIN 141->141
+Nov 28 17:27:57 debian-armhf kernel: [    4.278922] gpio gpiochip6: (gpio-96-127): created GPIO range 14->21 ==> 44e10800.pinmux PIN 100->107
+Nov 28 17:27:57 debian-armhf kernel: [    4.279246] gpio gpiochip6: (gpio-96-127): added GPIO chardev (254:6)
+Nov 28 17:27:57 debian-armhf kernel: [    4.279364] gpio gpiochip6: registered GPIOs 96 to 127 on gpio-96-127
+Nov 28 17:27:57 debian-armhf kernel: [    4.327753] sdhci-omap 48060000.mmc: GPIO lookup for consumer cd
+Nov 28 17:27:57 debian-armhf kernel: [    4.327771] sdhci-omap 48060000.mmc: using device tree for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    4.327831] of_get_named_gpiod_flags: parsed 'cd-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@60000/mmc@0[0]' - status (0)
+Nov 28 17:27:57 debian-armhf kernel: [    4.327905] gpio gpiochip0: Persistence not supported for GPIO 6
+Nov 28 17:27:57 debian-armhf kernel: [    4.337260] of_get_named_gpiod_flags: parsed 'gpios' property of node '/leds/led2[0]' - status (0)
+Nov 28 17:27:57 debian-armhf kernel: [    4.337339] gpio gpiochip4: Persistence not supported for GPIO 21
+Nov 28 17:27:57 debian-armhf kernel: [    4.337349] gpio-53 (?): no flags found for gpios
+Nov 28 17:27:57 debian-armhf kernel: [    4.337565] of_get_named_gpiod_flags: parsed 'gpios' property of node '/leds/led3[0]' - status (0)
+Nov 28 17:27:57 debian-armhf kernel: [    4.337581] gpio gpiochip4: Persistence not supported for GPIO 22
+Nov 28 17:27:57 debian-armhf kernel: [    4.337588] gpio-54 (?): no flags found for gpios
+Nov 28 17:27:57 debian-armhf kernel: [    4.337684] of_get_named_gpiod_flags: parsed 'gpios' property of node '/leds/led4[0]' - status (0)
+Nov 28 17:27:57 debian-armhf kernel: [    4.337696] gpio gpiochip4: Persistence not supported for GPIO 23
+Nov 28 17:27:57 debian-armhf kernel: [    4.337704] gpio-55 (?): no flags found for gpios
+Nov 28 17:27:57 debian-armhf kernel: [    4.337802] of_get_named_gpiod_flags: parsed 'gpios' property of node '/leds/led5[0]' - status (0)
+Nov 28 17:27:57 debian-armhf kernel: [    4.337816] gpio gpiochip4: Persistence not supported for GPIO 24
+Nov 28 17:27:57 debian-armhf kernel: [    4.337823] gpio-56 (?): no flags found for gpios
+Nov 28 17:27:57 debian-armhf kernel: [    4.338859] of_get_named_gpiod_flags: can't parse 'simple-audio-card,hp-det-gpio' property of node '/sound[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    4.338883] of_get_named_gpiod_flags: can't parse 'simple-audio-card,mic-det-gpio' property of node '/sound[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    4.343890] sdhci-omap 48060000.mmc: GPIO lookup for consumer wp
+Nov 28 17:27:57 debian-armhf kernel: [    4.343899] sdhci-omap 48060000.mmc: using device tree for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    4.343937] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@60000/mmc@0[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    4.343961] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@60000/mmc@0[0]'
+Nov 28 17:27:57 debian-armhf kernel: [    4.343975] sdhci-omap 48060000.mmc: using lookup tables for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [    4.343984] sdhci-omap 48060000.mmc: No GPIO consumer wp found
+Nov 28 17:27:57 debian-armhf kernel: [    4.517711]   with arguments:
+Nov 28 17:27:57 debian-armhf kernel: [    4.517717]     /sbin/init
+Nov 28 17:27:57 debian-armhf kernel: [    4.517721]   with environment:
+Nov 28 17:27:57 debian-armhf kernel: [    4.517727]     HOME=/
+Nov 28 17:27:57 debian-armhf kernel: [    4.517731]     TERM=linux
+Nov 28 17:27:57 debian-armhf kernel: [   13.829372] 
+Nov 28 17:27:57 debian-armhf kernel: [   13.905042] omap_rtc 44e3e000.rtc: char device (253:0)
+Nov 28 17:27:57 debian-armhf kernel: [   14.042349] am335x-phy-driver 47401300.usb-phy: GPIO lookup for consumer reset
+Nov 28 17:27:57 debian-armhf kernel: [   14.042372] am335x-phy-driver 47401300.usb-phy: using device tree for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [   14.042421] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/target-module@47400000/usb-phy@1300[0]'
+Nov 28 17:27:57 debian-armhf kernel: [   14.042444] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/target-module@47400000/usb-phy@1300[0]'
+Nov 28 17:27:57 debian-armhf kernel: [   14.042459] am335x-phy-driver 47401300.usb-phy: using lookup tables for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [   14.042468] am335x-phy-driver 47401300.usb-phy: No GPIO consumer reset found
+Nov 28 17:27:57 debian-armhf kernel: [   14.042476] am335x-phy-driver 47401300.usb-phy: GPIO lookup for consumer vbus-detect
+Nov 28 17:27:57 debian-armhf kernel: [   14.042482] am335x-phy-driver 47401300.usb-phy: using device tree for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [   14.042503] of_get_named_gpiod_flags: can't parse 'vbus-detect-gpios' property of node '/ocp/target-module@47400000/usb-phy@1300[0]'
+Nov 28 17:27:57 debian-armhf kernel: [   14.042522] of_get_named_gpiod_flags: can't parse 'vbus-detect-gpio' property of node '/ocp/target-module@47400000/usb-phy@1300[0]'
+Nov 28 17:27:57 debian-armhf kernel: [   14.042531] am335x-phy-driver 47401300.usb-phy: using lookup tables for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [   14.042538] am335x-phy-driver 47401300.usb-phy: No GPIO consumer vbus-detect found
+Nov 28 17:27:57 debian-armhf kernel: [   14.102998] omap_rtc 44e3e000.rtc: GPIO lookup for consumer wp
+Nov 28 17:27:57 debian-armhf kernel: [   14.103019] omap_rtc 44e3e000.rtc: using device tree for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [   14.103100] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@3e000/rtc@0[0]'
+Nov 28 17:27:57 debian-armhf kernel: [   14.103125] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@3e000/rtc@0[0]'
+Nov 28 17:27:57 debian-armhf kernel: [   14.103142] omap_rtc 44e3e000.rtc: using lookup tables for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [   14.103151] omap_rtc 44e3e000.rtc: No GPIO consumer wp found
+Nov 28 17:27:57 debian-armhf kernel: [   14.212578] am335x-phy-driver 47401b00.usb-phy: GPIO lookup for consumer reset
+Nov 28 17:27:57 debian-armhf kernel: [   14.212603] am335x-phy-driver 47401b00.usb-phy: using device tree for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [   14.212649] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/target-module@47400000/usb-phy@1b00[0]'
+Nov 28 17:27:57 debian-armhf kernel: [   14.212672] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/target-module@47400000/usb-phy@1b00[0]'
+Nov 28 17:27:57 debian-armhf kernel: [   14.212686] am335x-phy-driver 47401b00.usb-phy: using lookup tables for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [   14.212695] am335x-phy-driver 47401b00.usb-phy: No GPIO consumer reset found
+Nov 28 17:27:57 debian-armhf kernel: [   14.212703] am335x-phy-driver 47401b00.usb-phy: GPIO lookup for consumer vbus-detect
+Nov 28 17:27:57 debian-armhf kernel: [   14.212709] am335x-phy-driver 47401b00.usb-phy: using device tree for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [   14.212729] of_get_named_gpiod_flags: can't parse 'vbus-detect-gpios' property of node '/ocp/target-module@47400000/usb-phy@1b00[0]'
+Nov 28 17:27:57 debian-armhf kernel: [   14.212748] of_get_named_gpiod_flags: can't parse 'vbus-detect-gpio' property of node '/ocp/target-module@47400000/usb-phy@1b00[0]'
+Nov 28 17:27:57 debian-armhf kernel: [   14.212757] am335x-phy-driver 47401b00.usb-phy: using lookup tables for GPIO lookup
+Nov 28 17:27:57 debian-armhf kernel: [   14.212765] am335x-phy-driver 47401b00.usb-phy: No GPIO consumer vbus-detect found
+Nov 28 17:27:57 debian-armhf kernel: [   15.184772] musb-hdrc musb-hdrc.1: VBUS_ERROR in a_wait_vrise (81, <SessEnd), retry #1, port1 00000104
+Nov 28 17:27:57 debian-armhf kernel: [   15.337205] musb-hdrc musb-hdrc.1: VBUS_ERROR in a_wait_vrise (81, <SessEnd), retry #2, port1 00000104
+Nov 28 17:27:57 debian-armhf kernel: [   15.489638] musb-hdrc musb-hdrc.1: VBUS_ERROR in a_wait_vrise (81, <SessEnd), retry #3, port1 00000104
+Nov 28 17:27:57 debian-armhf kernel: [   19.917416] sd 0:0:0:0: [sda] Mode Sense: 23 00 00 00
+Nov 28 17:27:57 debian-armhf kernel: [   22.506434] libata version 3.00 loaded.
+Nov 28 17:58:54 debian-armhf kernel: [    0.000000] On node 0 totalpages: 130816
+Nov 28 17:58:54 debian-armhf kernel: [    0.000000]   Normal zone: 1150 pages used for memmap
+Nov 28 17:58:54 debian-armhf kernel: [    0.000000]   Normal zone: 0 pages reserved
+Nov 28 17:58:54 debian-armhf kernel: [    0.000000]   Normal zone: 130816 pages, LIFO batch:31
+Nov 28 17:58:54 debian-armhf kernel: [    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Nov 28 17:58:54 debian-armhf kernel: [    0.000000] pcpu-alloc: [0] 0 
+Nov 28 17:58:54 debian-armhf kernel: [    1.969479] reg-fixed-voltage fixedregulator0: GPIO lookup for consumer (null)
+Nov 28 17:58:54 debian-armhf kernel: [    1.969500] reg-fixed-voltage fixedregulator0: using device tree for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    1.969555] of_get_named_gpiod_flags: can't parse 'gpios' property of node '/fixedregulator0[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    1.969586] of_get_named_gpiod_flags: can't parse 'gpio' property of node '/fixedregulator0[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    1.969605] reg-fixed-voltage fixedregulator0: using lookup tables for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    1.969620] reg-fixed-voltage fixedregulator0: No GPIO consumer (null) found
+Nov 28 17:58:54 debian-armhf kernel: [    2.940240] omap8250 44e09000.serial: GPIO lookup for consumer rs485-term
+Nov 28 17:58:54 debian-armhf kernel: [    2.940253] omap8250 44e09000.serial: using device tree for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    2.940315] of_get_named_gpiod_flags: can't parse 'rs485-term-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@9000/serial@0[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    2.940357] of_get_named_gpiod_flags: can't parse 'rs485-term-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@9000/serial@0[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    2.940380] omap8250 44e09000.serial: using lookup tables for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    2.940394] omap8250 44e09000.serial: No GPIO consumer rs485-term found
+Nov 28 17:58:54 debian-armhf kernel: [    3.616226] [drm:drm_core_init] Initialized
+Nov 28 17:58:54 debian-armhf kernel: [    3.618387] [drm:tilcdc_drm_init] init
+Nov 28 17:58:54 debian-armhf kernel: [    3.682064] mtd mtd0: GPIO lookup for consumer wp
+Nov 28 17:58:54 debian-armhf kernel: [    3.682081] mtd mtd0: using device tree for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    3.682140] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/ethaddr@7F0000[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    3.682187] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/ethaddr@7F0000[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    3.682206] mtd mtd0: using lookup tables for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    3.682221] mtd mtd0: No GPIO consumer wp found
+Nov 28 17:58:54 debian-armhf kernel: [    3.695208] mtd mtd1: GPIO lookup for consumer wp
+Nov 28 17:58:54 debian-armhf kernel: [    3.695222] mtd mtd1: using device tree for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    3.695280] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/uImage@100000[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    3.695327] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/uImage@100000[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    3.695345] mtd mtd1: using lookup tables for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    3.695360] mtd mtd1: No GPIO consumer wp found
+Nov 28 17:58:54 debian-armhf kernel: [    3.715625] mtd mtd2: GPIO lookup for consumer wp
+Nov 28 17:58:54 debian-armhf kernel: [    3.715640] mtd mtd2: using device tree for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    3.715699] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/ubootenv@F0000[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    3.715746] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/ubootenv@F0000[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    3.715764] mtd mtd2: using lookup tables for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    3.715778] mtd mtd2: No GPIO consumer wp found
+Nov 28 17:58:54 debian-armhf kernel: [    3.734604] mtd mtd3: GPIO lookup for consumer wp
+Nov 28 17:58:54 debian-armhf kernel: [    3.734620] mtd mtd3: using device tree for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    3.734678] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/uboot@80000[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    3.734724] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/uboot@80000[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    3.734741] mtd mtd3: using lookup tables for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    3.734755] mtd mtd3: No GPIO consumer wp found
+Nov 28 17:58:54 debian-armhf kernel: [    3.744943] mtd mtd4: GPIO lookup for consumer wp
+Nov 28 17:58:54 debian-armhf kernel: [    3.744961] mtd mtd4: using device tree for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    3.745026] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/spl@0[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    3.745074] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/spl@0[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    3.745091] mtd mtd4: using lookup tables for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    3.745105] mtd mtd4: No GPIO consumer wp found
+Nov 28 17:58:54 debian-armhf kernel: [    3.761471] mdio_bus fixed-0: GPIO lookup for consumer reset
+Nov 28 17:58:54 debian-armhf kernel: [    3.761498] mdio_bus fixed-0: using lookup tables for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    3.761511] mdio_bus fixed-0: No GPIO consumer reset found
+Nov 28 17:58:54 debian-armhf kernel: [    3.768145] mdio_bus 4a101000.mdio: GPIO lookup for consumer reset
+Nov 28 17:58:54 debian-armhf kernel: [    3.768172] mdio_bus 4a101000.mdio: using device tree for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    3.768232] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/interconnect@4a000000/segment@0/target-module@100000/ethernet@0/mdio@1000[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    3.768551] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/interconnect@4a000000/segment@0/target-module@100000/ethernet@0/mdio@1000[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    3.768577] mdio_bus 4a101000.mdio: using lookup tables for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    3.768591] mdio_bus 4a101000.mdio: No GPIO consumer reset found
+Nov 28 17:58:54 debian-armhf kernel: [    3.837409] mdio_bus 4a101000.mdio:01: GPIO lookup for consumer reset
+Nov 28 17:58:54 debian-armhf kernel: [    3.837429] mdio_bus 4a101000.mdio:01: using device tree for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    3.837493] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/interconnect@4a000000/segment@0/target-module@100000/ethernet@0/mdio@1000/ethernet-phy@0[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    3.837541] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/interconnect@4a000000/segment@0/target-module@100000/ethernet@0/mdio@1000/ethernet-phy@0[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    3.837558] mdio_bus 4a101000.mdio:01: using lookup tables for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    3.837572] mdio_bus 4a101000.mdio:01: No GPIO consumer reset found
+Nov 28 17:58:54 debian-armhf kernel: [    3.913274] sdhci-omap 48060000.mmc: GPIO lookup for consumer cd
+Nov 28 17:58:54 debian-armhf kernel: [    3.913294] sdhci-omap 48060000.mmc: using device tree for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    3.913338] sdhci-omap 48060000.mmc: No GPIO consumer cd found
+Nov 28 17:58:54 debian-armhf kernel: [    3.914135] sdhci-omap 481d8000.mmc: GPIO lookup for consumer cd
+Nov 28 17:58:54 debian-armhf kernel: [    3.914153] sdhci-omap 481d8000.mmc: using device tree for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    3.914216] of_get_named_gpiod_flags: can't parse 'cd-gpios' property of node '/ocp/interconnect@48000000/segment@100000/target-module@d8000/mmc@0[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    3.914257] of_get_named_gpiod_flags: can't parse 'cd-gpio' property of node '/ocp/interconnect@48000000/segment@100000/target-module@d8000/mmc@0[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    3.914277] sdhci-omap 481d8000.mmc: using lookup tables for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    3.914291] sdhci-omap 481d8000.mmc: No GPIO consumer cd found
+Nov 28 17:58:54 debian-armhf kernel: [    3.914306] sdhci-omap 481d8000.mmc: GPIO lookup for consumer wp
+Nov 28 17:58:54 debian-armhf kernel: [    3.914317] sdhci-omap 481d8000.mmc: using device tree for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    3.914356] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@100000/target-module@d8000/mmc@0[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    3.914394] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@100000/target-module@d8000/mmc@0[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    3.914410] sdhci-omap 481d8000.mmc: using lookup tables for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    3.914422] sdhci-omap 481d8000.mmc: No GPIO consumer wp found
+Nov 28 17:58:54 debian-armhf kernel: [    4.109639] [drm:omap_drm_init] init
+Nov 28 17:58:54 debian-armhf kernel: [    4.111280] gpio gpiochip0: (gpio-0-31): created GPIO range 0->7 ==> 44e10800.pinmux PIN 82->89
+Nov 28 17:58:54 debian-armhf kernel: [    4.111316] gpio gpiochip0: (gpio-0-31): created GPIO range 8->11 ==> 44e10800.pinmux PIN 52->55
+Nov 28 17:58:54 debian-armhf kernel: [    4.111336] gpio gpiochip0: (gpio-0-31): created GPIO range 12->15 ==> 44e10800.pinmux PIN 94->97
+Nov 28 17:58:54 debian-armhf kernel: [    4.111355] gpio gpiochip0: (gpio-0-31): created GPIO range 16->17 ==> 44e10800.pinmux PIN 71->72
+Nov 28 17:58:54 debian-armhf kernel: [    4.111375] gpio gpiochip0: (gpio-0-31): created GPIO range 18->18 ==> 44e10800.pinmux PIN 135->135
+Nov 28 17:58:54 debian-armhf kernel: [    4.111399] gpio gpiochip0: (gpio-0-31): created GPIO range 19->20 ==> 44e10800.pinmux PIN 108->109
+Nov 28 17:58:54 debian-armhf kernel: [    4.111421] gpio gpiochip0: (gpio-0-31): created GPIO range 21->21 ==> 44e10800.pinmux PIN 73->73
+Nov 28 17:58:54 debian-armhf kernel: [    4.111442] gpio gpiochip0: (gpio-0-31): created GPIO range 22->23 ==> 44e10800.pinmux PIN 8->9
+Nov 28 17:58:54 debian-armhf kernel: [    4.111464] gpio gpiochip0: (gpio-0-31): created GPIO range 26->27 ==> 44e10800.pinmux PIN 10->11
+Nov 28 17:58:54 debian-armhf kernel: [    4.111497] gpio gpiochip0: (gpio-0-31): created GPIO range 28->28 ==> 44e10800.pinmux PIN 74->74
+Nov 28 17:58:54 debian-armhf kernel: [    4.111521] gpio gpiochip0: (gpio-0-31): created GPIO range 29->29 ==> 44e10800.pinmux PIN 81->81
+Nov 28 17:58:54 debian-armhf kernel: [    4.111543] gpio gpiochip0: (gpio-0-31): created GPIO range 30->31 ==> 44e10800.pinmux PIN 28->29
+Nov 28 17:58:54 debian-armhf kernel: [    4.111992] gpio gpiochip0: (gpio-0-31): added GPIO chardev (254:0)
+Nov 28 17:58:54 debian-armhf kernel: [    4.112131] gpio gpiochip0: registered GPIOs 0 to 31 on gpio-0-31
+Nov 28 17:58:54 debian-armhf kernel: [    4.117784] i2c i2c-0: GPIO lookup for consumer scl
+Nov 28 17:58:54 debian-armhf kernel: [    4.117805] i2c i2c-0: using device tree for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    4.117863] of_get_named_gpiod_flags: can't parse 'scl-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    4.117904] of_get_named_gpiod_flags: can't parse 'scl-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    4.117924] i2c i2c-0: using lookup tables for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    4.117938] i2c i2c-0: No GPIO consumer scl found
+Nov 28 17:58:54 debian-armhf kernel: [    4.117963] i2c i2c-0: GPIO lookup for consumer sda
+Nov 28 17:58:54 debian-armhf kernel: [    4.117973] i2c i2c-0: using device tree for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    4.118012] of_get_named_gpiod_flags: can't parse 'sda-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    4.118051] of_get_named_gpiod_flags: can't parse 'sda-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    4.118066] i2c i2c-0: using lookup tables for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    4.118078] i2c i2c-0: No GPIO consumer sda found
+Nov 28 17:58:54 debian-armhf kernel: [    4.231300] pca953x 0-0023: GPIO lookup for consumer reset
+Nov 28 17:58:54 debian-armhf kernel: [    4.231323] pca953x 0-0023: using device tree for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    4.231380] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@23[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    4.231426] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@23[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    4.231446] pca953x 0-0023: using lookup tables for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    4.231459] pca953x 0-0023: No GPIO consumer reset found
+Nov 28 17:58:54 debian-armhf kernel: [    4.242775] gpiochip_find_base: found new base at 504
+Nov 28 17:58:54 debian-armhf kernel: [    4.243630] gpio gpiochip1: (0-0023): added GPIO chardev (254:1)
+Nov 28 17:58:54 debian-armhf kernel: [    4.243760] gpio gpiochip1: registered GPIOs 504 to 511 on 0-0023
+Nov 28 17:58:54 debian-armhf kernel: [    4.244534] pca953x 0-0022: GPIO lookup for consumer reset
+Nov 28 17:58:54 debian-armhf kernel: [    4.244550] pca953x 0-0022: using device tree for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    4.244606] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@22[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    4.244650] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@22[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    4.244669] pca953x 0-0022: using lookup tables for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    4.244682] pca953x 0-0022: No GPIO consumer reset found
+Nov 28 17:58:54 debian-armhf kernel: [    4.256055] gpiochip_find_base: found new base at 496
+Nov 28 17:58:54 debian-armhf kernel: [    4.256841] gpio gpiochip2: (0-0022): added GPIO chardev (254:2)
+Nov 28 17:58:54 debian-armhf kernel: [    4.256966] gpio gpiochip2: registered GPIOs 496 to 503 on 0-0022
+Nov 28 17:58:54 debian-armhf kernel: [    4.257633] pca953x 0-0020: GPIO lookup for consumer reset
+Nov 28 17:58:54 debian-armhf kernel: [    4.257649] pca953x 0-0020: using device tree for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    4.257700] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@20[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    4.257743] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@20[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    4.257761] pca953x 0-0020: using lookup tables for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    4.257774] pca953x 0-0020: No GPIO consumer reset found
+Nov 28 17:58:54 debian-armhf kernel: [    4.269135] gpiochip_find_base: found new base at 488
+Nov 28 17:58:54 debian-armhf kernel: [    4.270002] gpio gpiochip3: (0-0020): added GPIO chardev (254:3)
+Nov 28 17:58:54 debian-armhf kernel: [    4.270130] gpio gpiochip3: registered GPIOs 488 to 495 on 0-0020
+Nov 28 17:58:54 debian-armhf kernel: [    4.276714] gpio gpiochip4: (gpio-32-63): created GPIO range 0->7 ==> 44e10800.pinmux PIN 0->7
+Nov 28 17:58:54 debian-armhf kernel: [    4.276743] gpio gpiochip4: (gpio-32-63): created GPIO range 8->11 ==> 44e10800.pinmux PIN 90->93
+Nov 28 17:58:54 debian-armhf kernel: [    4.276764] gpio gpiochip4: (gpio-32-63): created GPIO range 12->27 ==> 44e10800.pinmux PIN 12->27
+Nov 28 17:58:54 debian-armhf kernel: [    4.276784] gpio gpiochip4: (gpio-32-63): created GPIO range 28->31 ==> 44e10800.pinmux PIN 30->33
+Nov 28 17:58:54 debian-armhf kernel: [    4.277146] gpio gpiochip4: (gpio-32-63): added GPIO chardev (254:4)
+Nov 28 17:58:54 debian-armhf kernel: [    4.277269] gpio gpiochip4: registered GPIOs 32 to 63 on gpio-32-63
+Nov 28 17:58:54 debian-armhf kernel: [    4.277763] gpio gpiochip5: (gpio-64-95): created GPIO range 0->17 ==> 44e10800.pinmux PIN 34->51
+Nov 28 17:58:54 debian-armhf kernel: [    4.277790] gpio gpiochip5: (gpio-64-95): created GPIO range 18->21 ==> 44e10800.pinmux PIN 77->80
+Nov 28 17:58:54 debian-armhf kernel: [    4.277810] gpio gpiochip5: (gpio-64-95): created GPIO range 22->31 ==> 44e10800.pinmux PIN 56->65
+Nov 28 17:58:54 debian-armhf kernel: [    4.278128] gpio gpiochip5: (gpio-64-95): added GPIO chardev (254:5)
+Nov 28 17:58:54 debian-armhf kernel: [    4.278247] gpio gpiochip5: registered GPIOs 64 to 95 on gpio-64-95
+Nov 28 17:58:54 debian-armhf kernel: [    4.278775] gpio gpiochip6: (gpio-96-127): created GPIO range 0->4 ==> 44e10800.pinmux PIN 66->70
+Nov 28 17:58:54 debian-armhf kernel: [    4.278802] gpio gpiochip6: (gpio-96-127): created GPIO range 5->6 ==> 44e10800.pinmux PIN 98->99
+Nov 28 17:58:54 debian-armhf kernel: [    4.278821] gpio gpiochip6: (gpio-96-127): created GPIO range 7->8 ==> 44e10800.pinmux PIN 75->76
+Nov 28 17:58:54 debian-armhf kernel: [    4.278841] gpio gpiochip6: (gpio-96-127): created GPIO range 13->13 ==> 44e10800.pinmux PIN 141->141
+Nov 28 17:58:54 debian-armhf kernel: [    4.278861] gpio gpiochip6: (gpio-96-127): created GPIO range 14->21 ==> 44e10800.pinmux PIN 100->107
+Nov 28 17:58:54 debian-armhf kernel: [    4.279180] gpio gpiochip6: (gpio-96-127): added GPIO chardev (254:6)
+Nov 28 17:58:54 debian-armhf kernel: [    4.279299] gpio gpiochip6: registered GPIOs 96 to 127 on gpio-96-127
+Nov 28 17:58:54 debian-armhf kernel: [    4.327704] sdhci-omap 48060000.mmc: GPIO lookup for consumer cd
+Nov 28 17:58:54 debian-armhf kernel: [    4.327722] sdhci-omap 48060000.mmc: using device tree for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    4.327782] of_get_named_gpiod_flags: parsed 'cd-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@60000/mmc@0[0]' - status (0)
+Nov 28 17:58:54 debian-armhf kernel: [    4.327857] gpio gpiochip0: Persistence not supported for GPIO 6
+Nov 28 17:58:54 debian-armhf kernel: [    4.337204] of_get_named_gpiod_flags: parsed 'gpios' property of node '/leds/led2[0]' - status (0)
+Nov 28 17:58:54 debian-armhf kernel: [    4.337283] gpio gpiochip4: Persistence not supported for GPIO 21
+Nov 28 17:58:54 debian-armhf kernel: [    4.337293] gpio-53 (?): no flags found for gpios
+Nov 28 17:58:54 debian-armhf kernel: [    4.337509] of_get_named_gpiod_flags: parsed 'gpios' property of node '/leds/led3[0]' - status (0)
+Nov 28 17:58:54 debian-armhf kernel: [    4.337525] gpio gpiochip4: Persistence not supported for GPIO 22
+Nov 28 17:58:54 debian-armhf kernel: [    4.337532] gpio-54 (?): no flags found for gpios
+Nov 28 17:58:54 debian-armhf kernel: [    4.337626] of_get_named_gpiod_flags: parsed 'gpios' property of node '/leds/led4[0]' - status (0)
+Nov 28 17:58:54 debian-armhf kernel: [    4.337638] gpio gpiochip4: Persistence not supported for GPIO 23
+Nov 28 17:58:54 debian-armhf kernel: [    4.337646] gpio-55 (?): no flags found for gpios
+Nov 28 17:58:54 debian-armhf kernel: [    4.337748] of_get_named_gpiod_flags: parsed 'gpios' property of node '/leds/led5[0]' - status (0)
+Nov 28 17:58:54 debian-armhf kernel: [    4.337762] gpio gpiochip4: Persistence not supported for GPIO 24
+Nov 28 17:58:54 debian-armhf kernel: [    4.337768] gpio-56 (?): no flags found for gpios
+Nov 28 17:58:54 debian-armhf kernel: [    4.338805] of_get_named_gpiod_flags: can't parse 'simple-audio-card,hp-det-gpio' property of node '/sound[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    4.338833] of_get_named_gpiod_flags: can't parse 'simple-audio-card,mic-det-gpio' property of node '/sound[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    4.343847] sdhci-omap 48060000.mmc: GPIO lookup for consumer wp
+Nov 28 17:58:54 debian-armhf kernel: [    4.343855] sdhci-omap 48060000.mmc: using device tree for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    4.343890] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@60000/mmc@0[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    4.343914] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@60000/mmc@0[0]'
+Nov 28 17:58:54 debian-armhf kernel: [    4.343928] sdhci-omap 48060000.mmc: using lookup tables for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [    4.343937] sdhci-omap 48060000.mmc: No GPIO consumer wp found
+Nov 28 17:58:54 debian-armhf kernel: [    4.514898]   with arguments:
+Nov 28 17:58:54 debian-armhf kernel: [    4.514904]     /sbin/init
+Nov 28 17:58:54 debian-armhf kernel: [    4.514909]   with environment:
+Nov 28 17:58:54 debian-armhf kernel: [    4.514914]     HOME=/
+Nov 28 17:58:54 debian-armhf kernel: [    4.514918]     TERM=linux
+Nov 28 17:58:54 debian-armhf kernel: [   13.426470] omap_rtc 44e3e000.rtc: char device (253:0)
+Nov 28 17:58:54 debian-armhf kernel: [   13.574461] omap_rtc 44e3e000.rtc: GPIO lookup for consumer wp
+Nov 28 17:58:54 debian-armhf kernel: [   13.574481] omap_rtc 44e3e000.rtc: using device tree for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [   13.574537] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@3e000/rtc@0[0]'
+Nov 28 17:58:54 debian-armhf kernel: [   13.574582] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@3e000/rtc@0[0]'
+Nov 28 17:58:54 debian-armhf kernel: [   13.574599] omap_rtc 44e3e000.rtc: using lookup tables for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [   13.574608] omap_rtc 44e3e000.rtc: No GPIO consumer wp found
+Nov 28 17:58:54 debian-armhf kernel: [   13.590990] 
+Nov 28 17:58:54 debian-armhf kernel: [   14.220727] am335x-phy-driver 47401300.usb-phy: GPIO lookup for consumer reset
+Nov 28 17:58:54 debian-armhf kernel: [   14.220751] am335x-phy-driver 47401300.usb-phy: using device tree for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [   14.220800] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/target-module@47400000/usb-phy@1300[0]'
+Nov 28 17:58:54 debian-armhf kernel: [   14.220823] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/target-module@47400000/usb-phy@1300[0]'
+Nov 28 17:58:54 debian-armhf kernel: [   14.220837] am335x-phy-driver 47401300.usb-phy: using lookup tables for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [   14.220846] am335x-phy-driver 47401300.usb-phy: No GPIO consumer reset found
+Nov 28 17:58:54 debian-armhf kernel: [   14.220854] am335x-phy-driver 47401300.usb-phy: GPIO lookup for consumer vbus-detect
+Nov 28 17:58:54 debian-armhf kernel: [   14.220861] am335x-phy-driver 47401300.usb-phy: using device tree for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [   14.220880] of_get_named_gpiod_flags: can't parse 'vbus-detect-gpios' property of node '/ocp/target-module@47400000/usb-phy@1300[0]'
+Nov 28 17:58:54 debian-armhf kernel: [   14.220899] of_get_named_gpiod_flags: can't parse 'vbus-detect-gpio' property of node '/ocp/target-module@47400000/usb-phy@1300[0]'
+Nov 28 17:58:54 debian-armhf kernel: [   14.220908] am335x-phy-driver 47401300.usb-phy: using lookup tables for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [   14.220916] am335x-phy-driver 47401300.usb-phy: No GPIO consumer vbus-detect found
+Nov 28 17:58:54 debian-armhf kernel: [   14.369710] am335x-phy-driver 47401b00.usb-phy: GPIO lookup for consumer reset
+Nov 28 17:58:54 debian-armhf kernel: [   14.369735] am335x-phy-driver 47401b00.usb-phy: using device tree for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [   14.369780] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/target-module@47400000/usb-phy@1b00[0]'
+Nov 28 17:58:54 debian-armhf kernel: [   14.369805] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/target-module@47400000/usb-phy@1b00[0]'
+Nov 28 17:58:54 debian-armhf kernel: [   14.369819] am335x-phy-driver 47401b00.usb-phy: using lookup tables for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [   14.369828] am335x-phy-driver 47401b00.usb-phy: No GPIO consumer reset found
+Nov 28 17:58:54 debian-armhf kernel: [   14.369836] am335x-phy-driver 47401b00.usb-phy: GPIO lookup for consumer vbus-detect
+Nov 28 17:58:54 debian-armhf kernel: [   14.369842] am335x-phy-driver 47401b00.usb-phy: using device tree for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [   14.369863] of_get_named_gpiod_flags: can't parse 'vbus-detect-gpios' property of node '/ocp/target-module@47400000/usb-phy@1b00[0]'
+Nov 28 17:58:54 debian-armhf kernel: [   14.369882] of_get_named_gpiod_flags: can't parse 'vbus-detect-gpio' property of node '/ocp/target-module@47400000/usb-phy@1b00[0]'
+Nov 28 17:58:54 debian-armhf kernel: [   14.369892] am335x-phy-driver 47401b00.usb-phy: using lookup tables for GPIO lookup
+Nov 28 17:58:54 debian-armhf kernel: [   14.369900] am335x-phy-driver 47401b00.usb-phy: No GPIO consumer vbus-detect found
+Nov 28 17:58:54 debian-armhf kernel: [   15.509558] musb-hdrc musb-hdrc.1: VBUS_ERROR in a_wait_vrise (81, <SessEnd), retry #1, port1 00000100
+Nov 28 17:58:54 debian-armhf kernel: [   15.661977] musb-hdrc musb-hdrc.1: VBUS_ERROR in a_wait_vrise (81, <SessEnd), retry #2, port1 00000104
+Nov 28 17:58:54 debian-armhf kernel: [   15.814413] musb-hdrc musb-hdrc.1: VBUS_ERROR in a_wait_vrise (81, <SessEnd), retry #3, port1 00000104
+Nov 28 17:58:54 debian-armhf kernel: [   19.638050] sd 0:0:0:0: [sda] Mode Sense: 23 00 00 00
+Nov 28 17:58:54 debian-armhf kernel: [   22.440607] libata version 3.00 loaded.
+Nov 28 18:04:07 debian-armhf kernel: [    0.000000] On node 0 totalpages: 130816
+Nov 28 18:04:07 debian-armhf kernel: [    0.000000]   Normal zone: 1150 pages used for memmap
+Nov 28 18:04:07 debian-armhf kernel: [    0.000000]   Normal zone: 0 pages reserved
+Nov 28 18:04:07 debian-armhf kernel: [    0.000000]   Normal zone: 130816 pages, LIFO batch:31
+Nov 28 18:04:07 debian-armhf kernel: [    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Nov 28 18:04:07 debian-armhf kernel: [    0.000000] pcpu-alloc: [0] 0 
+Nov 28 18:04:07 debian-armhf kernel: [    1.969521] reg-fixed-voltage fixedregulator0: GPIO lookup for consumer (null)
+Nov 28 18:04:07 debian-armhf kernel: [    1.969543] reg-fixed-voltage fixedregulator0: using device tree for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    1.969598] of_get_named_gpiod_flags: can't parse 'gpios' property of node '/fixedregulator0[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    1.969629] of_get_named_gpiod_flags: can't parse 'gpio' property of node '/fixedregulator0[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    1.969649] reg-fixed-voltage fixedregulator0: using lookup tables for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    1.969664] reg-fixed-voltage fixedregulator0: No GPIO consumer (null) found
+Nov 28 18:04:07 debian-armhf kernel: [    2.940298] omap8250 44e09000.serial: GPIO lookup for consumer rs485-term
+Nov 28 18:04:07 debian-armhf kernel: [    2.940310] omap8250 44e09000.serial: using device tree for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    2.940371] of_get_named_gpiod_flags: can't parse 'rs485-term-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@9000/serial@0[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    2.940414] of_get_named_gpiod_flags: can't parse 'rs485-term-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@9000/serial@0[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    2.940436] omap8250 44e09000.serial: using lookup tables for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    2.940450] omap8250 44e09000.serial: No GPIO consumer rs485-term found
+Nov 28 18:04:07 debian-armhf kernel: [    3.616300] [drm:drm_core_init] Initialized
+Nov 28 18:04:07 debian-armhf kernel: [    3.618459] [drm:tilcdc_drm_init] init
+Nov 28 18:04:07 debian-armhf kernel: [    3.682090] mtd mtd0: GPIO lookup for consumer wp
+Nov 28 18:04:07 debian-armhf kernel: [    3.682108] mtd mtd0: using device tree for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    3.682170] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/ethaddr@7F0000[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    3.682217] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/ethaddr@7F0000[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    3.682237] mtd mtd0: using lookup tables for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    3.682252] mtd mtd0: No GPIO consumer wp found
+Nov 28 18:04:07 debian-armhf kernel: [    3.695200] mtd mtd1: GPIO lookup for consumer wp
+Nov 28 18:04:07 debian-armhf kernel: [    3.695216] mtd mtd1: using device tree for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    3.695274] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/uImage@100000[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    3.695321] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/uImage@100000[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    3.695339] mtd mtd1: using lookup tables for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    3.695353] mtd mtd1: No GPIO consumer wp found
+Nov 28 18:04:07 debian-armhf kernel: [    3.715623] mtd mtd2: GPIO lookup for consumer wp
+Nov 28 18:04:07 debian-armhf kernel: [    3.715640] mtd mtd2: using device tree for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    3.715699] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/ubootenv@F0000[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    3.715746] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/ubootenv@F0000[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    3.715764] mtd mtd2: using lookup tables for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    3.715778] mtd mtd2: No GPIO consumer wp found
+Nov 28 18:04:07 debian-armhf kernel: [    3.734591] mtd mtd3: GPIO lookup for consumer wp
+Nov 28 18:04:07 debian-armhf kernel: [    3.734606] mtd mtd3: using device tree for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    3.734662] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/uboot@80000[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    3.734709] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/uboot@80000[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    3.734726] mtd mtd3: using lookup tables for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    3.734740] mtd mtd3: No GPIO consumer wp found
+Nov 28 18:04:07 debian-armhf kernel: [    3.744945] mtd mtd4: GPIO lookup for consumer wp
+Nov 28 18:04:07 debian-armhf kernel: [    3.744961] mtd mtd4: using device tree for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    3.745026] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/spl@0[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    3.745074] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@30000/spi@0/m25p80@0/spl@0[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    3.745091] mtd mtd4: using lookup tables for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    3.745105] mtd mtd4: No GPIO consumer wp found
+Nov 28 18:04:07 debian-armhf kernel: [    3.761477] mdio_bus fixed-0: GPIO lookup for consumer reset
+Nov 28 18:04:07 debian-armhf kernel: [    3.761503] mdio_bus fixed-0: using lookup tables for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    3.761517] mdio_bus fixed-0: No GPIO consumer reset found
+Nov 28 18:04:07 debian-armhf kernel: [    3.768127] mdio_bus 4a101000.mdio: GPIO lookup for consumer reset
+Nov 28 18:04:07 debian-armhf kernel: [    3.768154] mdio_bus 4a101000.mdio: using device tree for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    3.768214] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/interconnect@4a000000/segment@0/target-module@100000/ethernet@0/mdio@1000[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    3.768258] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/interconnect@4a000000/segment@0/target-module@100000/ethernet@0/mdio@1000[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    3.768545] mdio_bus 4a101000.mdio: using lookup tables for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    3.768561] mdio_bus 4a101000.mdio: No GPIO consumer reset found
+Nov 28 18:04:07 debian-armhf kernel: [    3.837407] mdio_bus 4a101000.mdio:01: GPIO lookup for consumer reset
+Nov 28 18:04:07 debian-armhf kernel: [    3.837426] mdio_bus 4a101000.mdio:01: using device tree for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    3.837495] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/interconnect@4a000000/segment@0/target-module@100000/ethernet@0/mdio@1000/ethernet-phy@0[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    3.837543] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/interconnect@4a000000/segment@0/target-module@100000/ethernet@0/mdio@1000/ethernet-phy@0[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    3.837560] mdio_bus 4a101000.mdio:01: using lookup tables for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    3.837574] mdio_bus 4a101000.mdio:01: No GPIO consumer reset found
+Nov 28 18:04:07 debian-armhf kernel: [    3.913273] sdhci-omap 48060000.mmc: GPIO lookup for consumer cd
+Nov 28 18:04:07 debian-armhf kernel: [    3.913294] sdhci-omap 48060000.mmc: using device tree for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    3.913338] sdhci-omap 48060000.mmc: No GPIO consumer cd found
+Nov 28 18:04:07 debian-armhf kernel: [    3.914131] sdhci-omap 481d8000.mmc: GPIO lookup for consumer cd
+Nov 28 18:04:07 debian-armhf kernel: [    3.914150] sdhci-omap 481d8000.mmc: using device tree for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    3.914214] of_get_named_gpiod_flags: can't parse 'cd-gpios' property of node '/ocp/interconnect@48000000/segment@100000/target-module@d8000/mmc@0[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    3.914254] of_get_named_gpiod_flags: can't parse 'cd-gpio' property of node '/ocp/interconnect@48000000/segment@100000/target-module@d8000/mmc@0[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    3.914273] sdhci-omap 481d8000.mmc: using lookup tables for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    3.914286] sdhci-omap 481d8000.mmc: No GPIO consumer cd found
+Nov 28 18:04:07 debian-armhf kernel: [    3.914300] sdhci-omap 481d8000.mmc: GPIO lookup for consumer wp
+Nov 28 18:04:07 debian-armhf kernel: [    3.914311] sdhci-omap 481d8000.mmc: using device tree for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    3.914351] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@100000/target-module@d8000/mmc@0[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    3.914389] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@100000/target-module@d8000/mmc@0[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    3.914405] sdhci-omap 481d8000.mmc: using lookup tables for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    3.914417] sdhci-omap 481d8000.mmc: No GPIO consumer wp found
+Nov 28 18:04:07 debian-armhf kernel: [    4.082525] [drm:omap_drm_init] init
+Nov 28 18:04:07 debian-armhf kernel: [    4.084197] gpio gpiochip0: (gpio-0-31): created GPIO range 0->7 ==> 44e10800.pinmux PIN 82->89
+Nov 28 18:04:07 debian-armhf kernel: [    4.084228] gpio gpiochip0: (gpio-0-31): created GPIO range 8->11 ==> 44e10800.pinmux PIN 52->55
+Nov 28 18:04:07 debian-armhf kernel: [    4.084249] gpio gpiochip0: (gpio-0-31): created GPIO range 12->15 ==> 44e10800.pinmux PIN 94->97
+Nov 28 18:04:07 debian-armhf kernel: [    4.084268] gpio gpiochip0: (gpio-0-31): created GPIO range 16->17 ==> 44e10800.pinmux PIN 71->72
+Nov 28 18:04:07 debian-armhf kernel: [    4.084288] gpio gpiochip0: (gpio-0-31): created GPIO range 18->18 ==> 44e10800.pinmux PIN 135->135
+Nov 28 18:04:07 debian-armhf kernel: [    4.084309] gpio gpiochip0: (gpio-0-31): created GPIO range 19->20 ==> 44e10800.pinmux PIN 108->109
+Nov 28 18:04:07 debian-armhf kernel: [    4.084331] gpio gpiochip0: (gpio-0-31): created GPIO range 21->21 ==> 44e10800.pinmux PIN 73->73
+Nov 28 18:04:07 debian-armhf kernel: [    4.084353] gpio gpiochip0: (gpio-0-31): created GPIO range 22->23 ==> 44e10800.pinmux PIN 8->9
+Nov 28 18:04:07 debian-armhf kernel: [    4.084374] gpio gpiochip0: (gpio-0-31): created GPIO range 26->27 ==> 44e10800.pinmux PIN 10->11
+Nov 28 18:04:07 debian-armhf kernel: [    4.084403] gpio gpiochip0: (gpio-0-31): created GPIO range 28->28 ==> 44e10800.pinmux PIN 74->74
+Nov 28 18:04:07 debian-armhf kernel: [    4.084426] gpio gpiochip0: (gpio-0-31): created GPIO range 29->29 ==> 44e10800.pinmux PIN 81->81
+Nov 28 18:04:07 debian-armhf kernel: [    4.084448] gpio gpiochip0: (gpio-0-31): created GPIO range 30->31 ==> 44e10800.pinmux PIN 28->29
+Nov 28 18:04:07 debian-armhf kernel: [    4.084897] gpio gpiochip0: (gpio-0-31): added GPIO chardev (254:0)
+Nov 28 18:04:07 debian-armhf kernel: [    4.085040] gpio gpiochip0: registered GPIOs 0 to 31 on gpio-0-31
+Nov 28 18:04:07 debian-armhf kernel: [    4.091250] i2c i2c-0: GPIO lookup for consumer scl
+Nov 28 18:04:07 debian-armhf kernel: [    4.091328] i2c i2c-0: using device tree for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    4.091391] of_get_named_gpiod_flags: can't parse 'scl-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    4.091433] of_get_named_gpiod_flags: can't parse 'scl-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    4.091455] i2c i2c-0: using lookup tables for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    4.091468] i2c i2c-0: No GPIO consumer scl found
+Nov 28 18:04:07 debian-armhf kernel: [    4.091493] i2c i2c-0: GPIO lookup for consumer sda
+Nov 28 18:04:07 debian-armhf kernel: [    4.091503] i2c i2c-0: using device tree for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    4.091542] of_get_named_gpiod_flags: can't parse 'sda-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    4.091580] of_get_named_gpiod_flags: can't parse 'sda-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    4.091595] i2c i2c-0: using lookup tables for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    4.091607] i2c i2c-0: No GPIO consumer sda found
+Nov 28 18:04:07 debian-armhf kernel: [    4.201541] pca953x 0-0023: GPIO lookup for consumer reset
+Nov 28 18:04:07 debian-armhf kernel: [    4.201563] pca953x 0-0023: using device tree for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    4.201622] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@23[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    4.201666] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@23[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    4.201685] pca953x 0-0023: using lookup tables for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    4.201699] pca953x 0-0023: No GPIO consumer reset found
+Nov 28 18:04:07 debian-armhf kernel: [    4.213007] gpiochip_find_base: found new base at 504
+Nov 28 18:04:07 debian-armhf kernel: [    4.213853] gpio gpiochip1: (0-0023): added GPIO chardev (254:1)
+Nov 28 18:04:07 debian-armhf kernel: [    4.213985] gpio gpiochip1: registered GPIOs 504 to 511 on 0-0023
+Nov 28 18:04:07 debian-armhf kernel: [    4.214773] pca953x 0-0022: GPIO lookup for consumer reset
+Nov 28 18:04:07 debian-armhf kernel: [    4.214791] pca953x 0-0022: using device tree for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    4.214845] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@22[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    4.214890] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@22[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    4.214910] pca953x 0-0022: using lookup tables for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    4.214923] pca953x 0-0022: No GPIO consumer reset found
+Nov 28 18:04:07 debian-armhf kernel: [    4.226290] gpiochip_find_base: found new base at 496
+Nov 28 18:04:07 debian-armhf kernel: [    4.227067] gpio gpiochip2: (0-0022): added GPIO chardev (254:2)
+Nov 28 18:04:07 debian-armhf kernel: [    4.227191] gpio gpiochip2: registered GPIOs 496 to 503 on 0-0022
+Nov 28 18:04:07 debian-armhf kernel: [    4.227873] pca953x 0-0020: GPIO lookup for consumer reset
+Nov 28 18:04:07 debian-armhf kernel: [    4.227889] pca953x 0-0020: using device tree for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    4.227940] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@20[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    4.227984] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@b000/i2c@0/pca9554@20[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    4.228003] pca953x 0-0020: using lookup tables for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    4.228016] pca953x 0-0020: No GPIO consumer reset found
+Nov 28 18:04:07 debian-armhf kernel: [    4.239462] gpiochip_find_base: found new base at 488
+Nov 28 18:04:07 debian-armhf kernel: [    4.240318] gpio gpiochip3: (0-0020): added GPIO chardev (254:3)
+Nov 28 18:04:07 debian-armhf kernel: [    4.240447] gpio gpiochip3: registered GPIOs 488 to 495 on 0-0020
+Nov 28 18:04:07 debian-armhf kernel: [    4.247032] gpio gpiochip4: (gpio-32-63): created GPIO range 0->7 ==> 44e10800.pinmux PIN 0->7
+Nov 28 18:04:07 debian-armhf kernel: [    4.247061] gpio gpiochip4: (gpio-32-63): created GPIO range 8->11 ==> 44e10800.pinmux PIN 90->93
+Nov 28 18:04:07 debian-armhf kernel: [    4.247081] gpio gpiochip4: (gpio-32-63): created GPIO range 12->27 ==> 44e10800.pinmux PIN 12->27
+Nov 28 18:04:07 debian-armhf kernel: [    4.247101] gpio gpiochip4: (gpio-32-63): created GPIO range 28->31 ==> 44e10800.pinmux PIN 30->33
+Nov 28 18:04:07 debian-armhf kernel: [    4.247464] gpio gpiochip4: (gpio-32-63): added GPIO chardev (254:4)
+Nov 28 18:04:07 debian-armhf kernel: [    4.247592] gpio gpiochip4: registered GPIOs 32 to 63 on gpio-32-63
+Nov 28 18:04:07 debian-armhf kernel: [    4.248098] gpio gpiochip5: (gpio-64-95): created GPIO range 0->17 ==> 44e10800.pinmux PIN 34->51
+Nov 28 18:04:07 debian-armhf kernel: [    4.248124] gpio gpiochip5: (gpio-64-95): created GPIO range 18->21 ==> 44e10800.pinmux PIN 77->80
+Nov 28 18:04:07 debian-armhf kernel: [    4.248144] gpio gpiochip5: (gpio-64-95): created GPIO range 22->31 ==> 44e10800.pinmux PIN 56->65
+Nov 28 18:04:07 debian-armhf kernel: [    4.248547] gpio gpiochip5: (gpio-64-95): added GPIO chardev (254:5)
+Nov 28 18:04:07 debian-armhf kernel: [    4.248670] gpio gpiochip5: registered GPIOs 64 to 95 on gpio-64-95
+Nov 28 18:04:07 debian-armhf kernel: [    4.249118] gpio gpiochip6: (gpio-96-127): created GPIO range 0->4 ==> 44e10800.pinmux PIN 66->70
+Nov 28 18:04:07 debian-armhf kernel: [    4.249143] gpio gpiochip6: (gpio-96-127): created GPIO range 5->6 ==> 44e10800.pinmux PIN 98->99
+Nov 28 18:04:07 debian-armhf kernel: [    4.249163] gpio gpiochip6: (gpio-96-127): created GPIO range 7->8 ==> 44e10800.pinmux PIN 75->76
+Nov 28 18:04:07 debian-armhf kernel: [    4.249184] gpio gpiochip6: (gpio-96-127): created GPIO range 13->13 ==> 44e10800.pinmux PIN 141->141
+Nov 28 18:04:07 debian-armhf kernel: [    4.249204] gpio gpiochip6: (gpio-96-127): created GPIO range 14->21 ==> 44e10800.pinmux PIN 100->107
+Nov 28 18:04:07 debian-armhf kernel: [    4.249530] gpio gpiochip6: (gpio-96-127): added GPIO chardev (254:6)
+Nov 28 18:04:07 debian-armhf kernel: [    4.249650] gpio gpiochip6: registered GPIOs 96 to 127 on gpio-96-127
+Nov 28 18:04:07 debian-armhf kernel: [    4.298009] sdhci-omap 48060000.mmc: GPIO lookup for consumer cd
+Nov 28 18:04:07 debian-armhf kernel: [    4.298026] sdhci-omap 48060000.mmc: using device tree for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    4.298085] of_get_named_gpiod_flags: parsed 'cd-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@60000/mmc@0[0]' - status (0)
+Nov 28 18:04:07 debian-armhf kernel: [    4.298161] gpio gpiochip0: Persistence not supported for GPIO 6
+Nov 28 18:04:07 debian-armhf kernel: [    4.307513] of_get_named_gpiod_flags: parsed 'gpios' property of node '/leds/led2[0]' - status (0)
+Nov 28 18:04:07 debian-armhf kernel: [    4.307590] gpio gpiochip4: Persistence not supported for GPIO 21
+Nov 28 18:04:07 debian-armhf kernel: [    4.307600] gpio-53 (?): no flags found for gpios
+Nov 28 18:04:07 debian-armhf kernel: [    4.307819] of_get_named_gpiod_flags: parsed 'gpios' property of node '/leds/led3[0]' - status (0)
+Nov 28 18:04:07 debian-armhf kernel: [    4.307836] gpio gpiochip4: Persistence not supported for GPIO 22
+Nov 28 18:04:07 debian-armhf kernel: [    4.307843] gpio-54 (?): no flags found for gpios
+Nov 28 18:04:07 debian-armhf kernel: [    4.307941] of_get_named_gpiod_flags: parsed 'gpios' property of node '/leds/led4[0]' - status (0)
+Nov 28 18:04:07 debian-armhf kernel: [    4.307953] gpio gpiochip4: Persistence not supported for GPIO 23
+Nov 28 18:04:07 debian-armhf kernel: [    4.307961] gpio-55 (?): no flags found for gpios
+Nov 28 18:04:07 debian-armhf kernel: [    4.308062] of_get_named_gpiod_flags: parsed 'gpios' property of node '/leds/led5[0]' - status (0)
+Nov 28 18:04:07 debian-armhf kernel: [    4.308075] gpio gpiochip4: Persistence not supported for GPIO 24
+Nov 28 18:04:07 debian-armhf kernel: [    4.308081] gpio-56 (?): no flags found for gpios
+Nov 28 18:04:07 debian-armhf kernel: [    4.309132] of_get_named_gpiod_flags: can't parse 'simple-audio-card,hp-det-gpio' property of node '/sound[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    4.309160] of_get_named_gpiod_flags: can't parse 'simple-audio-card,mic-det-gpio' property of node '/sound[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    4.314165] sdhci-omap 48060000.mmc: GPIO lookup for consumer wp
+Nov 28 18:04:07 debian-armhf kernel: [    4.314173] sdhci-omap 48060000.mmc: using device tree for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    4.314207] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@48000000/segment@0/target-module@60000/mmc@0[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    4.314231] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@48000000/segment@0/target-module@60000/mmc@0[0]'
+Nov 28 18:04:07 debian-armhf kernel: [    4.314245] sdhci-omap 48060000.mmc: using lookup tables for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [    4.314254] sdhci-omap 48060000.mmc: No GPIO consumer wp found
+Nov 28 18:04:07 debian-armhf kernel: [    4.471637]   with arguments:
+Nov 28 18:04:07 debian-armhf kernel: [    4.471644]     /sbin/init
+Nov 28 18:04:07 debian-armhf kernel: [    4.471649]   with environment:
+Nov 28 18:04:07 debian-armhf kernel: [    4.471654]     HOME=/
+Nov 28 18:04:07 debian-armhf kernel: [    4.471658]     TERM=linux
+Nov 28 18:04:07 debian-armhf kernel: [   11.570508] am335x-phy-driver 47401300.usb-phy: GPIO lookup for consumer reset
+Nov 28 18:04:07 debian-armhf kernel: [   11.570531] am335x-phy-driver 47401300.usb-phy: using device tree for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [   11.570581] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/target-module@47400000/usb-phy@1300[0]'
+Nov 28 18:04:07 debian-armhf kernel: [   11.570604] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/target-module@47400000/usb-phy@1300[0]'
+Nov 28 18:04:07 debian-armhf kernel: [   11.570619] am335x-phy-driver 47401300.usb-phy: using lookup tables for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [   11.570628] am335x-phy-driver 47401300.usb-phy: No GPIO consumer reset found
+Nov 28 18:04:07 debian-armhf kernel: [   11.570635] am335x-phy-driver 47401300.usb-phy: GPIO lookup for consumer vbus-detect
+Nov 28 18:04:07 debian-armhf kernel: [   11.570641] am335x-phy-driver 47401300.usb-phy: using device tree for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [   11.570661] of_get_named_gpiod_flags: can't parse 'vbus-detect-gpios' property of node '/ocp/target-module@47400000/usb-phy@1300[0]'
+Nov 28 18:04:07 debian-armhf kernel: [   11.570680] of_get_named_gpiod_flags: can't parse 'vbus-detect-gpio' property of node '/ocp/target-module@47400000/usb-phy@1300[0]'
+Nov 28 18:04:07 debian-armhf kernel: [   11.570688] am335x-phy-driver 47401300.usb-phy: using lookup tables for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [   11.570696] am335x-phy-driver 47401300.usb-phy: No GPIO consumer vbus-detect found
+Nov 28 18:04:07 debian-armhf kernel: [   11.693801] am335x-phy-driver 47401b00.usb-phy: GPIO lookup for consumer reset
+Nov 28 18:04:07 debian-armhf kernel: [   11.693825] am335x-phy-driver 47401b00.usb-phy: using device tree for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [   11.693871] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/ocp/target-module@47400000/usb-phy@1b00[0]'
+Nov 28 18:04:07 debian-armhf kernel: [   11.693893] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/ocp/target-module@47400000/usb-phy@1b00[0]'
+Nov 28 18:04:07 debian-armhf kernel: [   11.693907] am335x-phy-driver 47401b00.usb-phy: using lookup tables for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [   11.693916] am335x-phy-driver 47401b00.usb-phy: No GPIO consumer reset found
+Nov 28 18:04:07 debian-armhf kernel: [   11.693924] am335x-phy-driver 47401b00.usb-phy: GPIO lookup for consumer vbus-detect
+Nov 28 18:04:07 debian-armhf kernel: [   11.693930] am335x-phy-driver 47401b00.usb-phy: using device tree for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [   11.693949] of_get_named_gpiod_flags: can't parse 'vbus-detect-gpios' property of node '/ocp/target-module@47400000/usb-phy@1b00[0]'
+Nov 28 18:04:07 debian-armhf kernel: [   11.693968] of_get_named_gpiod_flags: can't parse 'vbus-detect-gpio' property of node '/ocp/target-module@47400000/usb-phy@1b00[0]'
+Nov 28 18:04:07 debian-armhf kernel: [   11.693978] am335x-phy-driver 47401b00.usb-phy: using lookup tables for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [   11.693985] am335x-phy-driver 47401b00.usb-phy: No GPIO consumer vbus-detect found
+Nov 28 18:04:07 debian-armhf kernel: [   13.932558] omap_rtc 44e3e000.rtc: char device (253:0)
+Nov 28 18:04:07 debian-armhf kernel: [   14.155513] omap_rtc 44e3e000.rtc: GPIO lookup for consumer wp
+Nov 28 18:04:07 debian-armhf kernel: [   14.155532] omap_rtc 44e3e000.rtc: using device tree for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [   14.155588] of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@3e000/rtc@0[0]'
+Nov 28 18:04:07 debian-armhf kernel: [   14.155612] of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/ocp/interconnect@44c00000/segment@200000/target-module@3e000/rtc@0[0]'
+Nov 28 18:04:07 debian-armhf kernel: [   14.155628] omap_rtc 44e3e000.rtc: using lookup tables for GPIO lookup
+Nov 28 18:04:07 debian-armhf kernel: [   14.155637] omap_rtc 44e3e000.rtc: No GPIO consumer wp found
+Nov 28 18:04:07 debian-armhf kernel: [   15.266146] musb-hdrc musb-hdrc.1: VBUS_ERROR in a_wait_vrise (81, <SessEnd), retry #1, port1 00000104
+Nov 28 18:04:07 debian-armhf kernel: [   15.418561] musb-hdrc musb-hdrc.1: VBUS_ERROR in a_wait_vrise (81, <SessEnd), retry #2, port1 00000104
+Nov 28 18:04:07 debian-armhf kernel: [   15.571003] musb-hdrc musb-hdrc.1: VBUS_ERROR in a_wait_vrise (81, <SessEnd), retry #3, port1 00000104
+Nov 28 18:04:07 debian-armhf kernel: [   18.196483] sd 0:0:0:0: [sda] Mode Sense: 23 00 00 00
+Nov 28 18:04:07 debian-armhf kernel: [   20.571705] libata version 3.00 loaded.
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.297344] gpio gpiochip3: Persistence not supported for GPIO 4
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.300713] Change MCASP clock...
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.301333] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.301344] export_store: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.301437] Change MCASP clock...
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.301819] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.301828] export_store: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.301904] Change MCASP clock...
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.302259] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.302267] export_store: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.302336] Change MCASP clock...
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.302672] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.302680] export_store: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.302748] Change MCASP clock...
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.303116] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.303125] export_store: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.303192] Change MCASP clock...
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.319865] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.319888] export_store: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.320036] Change MCASP clock...
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.320494] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.320504] export_store: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.320584] Change MCASP clock...
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.320933] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.320942] export_store: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.321011] Change MCASP clock...
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.321374] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.321382] export_store: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.321451] Change MCASP clock...
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.321782] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.321790] export_store: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.321856] Change MCASP clock...
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.322175] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.322183] export_store: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.322245] Change MCASP clock...
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.322566] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.322573] export_store: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.322636] Change MCASP clock...
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.322921] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.322929] export_store: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.322990] Change MCASP clock...
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.323323] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.323330] export_store: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.333374] Change MCASP clock...
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.334615] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.334631] export_store: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.334763] Change MCASP clock...
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.335124] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.335132] export_store: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.335209] Change MCASP clock...
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.335577] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.335586] export_store: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.335652] Change MCASP clock...
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.336027] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.336035] export_store: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.336105] Change MCASP clock...
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.402206] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.402230] export_store: status -16
+Nov 28 18:29:12 debian-armhf kernel: [ 1476.402363] Change MCASP clock...
+Nov 28 18:29:34 debian-armhf kernel: [ 1497.775156] gpio gpiochip3: Persistence not supported for GPIO 5
+Nov 28 18:29:47 debian-armhf kernel: [ 1510.884205] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:29:47 debian-armhf kernel: [ 1510.884271] export_store: status -16
+Nov 28 18:29:47 debian-armhf kernel: [ 1510.884521] Change MCASP clock...
+Nov 28 18:29:52 debian-armhf kernel: [ 1516.070893] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:29:52 debian-armhf kernel: [ 1516.070916] export_store: status -16
+Nov 28 18:29:52 debian-armhf kernel: [ 1516.071052] Change MCASP clock...
+Nov 28 18:29:57 debian-armhf kernel: [ 1521.074115] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:29:57 debian-armhf kernel: [ 1521.074139] export_store: status -16
+Nov 28 18:29:57 debian-armhf kernel: [ 1521.074272] Change MCASP clock...
+Nov 28 18:30:09 debian-armhf kernel: [ 1533.590392] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:30:09 debian-armhf kernel: [ 1533.590496] export_store: status -16
+Nov 28 18:30:09 debian-armhf kernel: [ 1533.590964] Change MCASP clock...
+Nov 28 18:30:26 debian-armhf kernel: [ 1550.588941] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:30:26 debian-armhf kernel: [ 1550.589009] export_store: status -16
+Nov 28 18:30:26 debian-armhf kernel: [ 1550.589248] Change MCASP clock...
+Nov 28 18:30:32 debian-armhf kernel: [ 1555.906131] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:30:32 debian-armhf kernel: [ 1555.906154] export_store: status -16
+Nov 28 18:30:32 debian-armhf kernel: [ 1555.906296] Change MCASP clock...
+Nov 28 18:30:37 debian-armhf kernel: [ 1560.909051] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:30:37 debian-armhf kernel: [ 1560.909074] export_store: status -16
+Nov 28 18:30:37 debian-armhf kernel: [ 1560.909209] Change MCASP clock...
+Nov 28 18:31:00 debian-armhf kernel: [ 1584.503613] gpio gpiochip3: Persistence not supported for GPIO 5
+Nov 28 18:31:34 debian-armhf kernel: [ 1618.629748] gpio gpiochip3: Persistence not supported for GPIO 5
+Nov 28 18:31:37 debian-armhf kernel: [ 1620.990608] gpio gpiochip3: Persistence not supported for GPIO 5
+Nov 28 18:31:41 debian-armhf kernel: [ 1624.920055] gpio gpiochip3: Persistence not supported for GPIO 5
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.267411] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.267435] export_store: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.267580] Change MCASP clock...
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.268009] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.268018] export_store: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.268096] Change MCASP clock...
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.268456] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.268464] export_store: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.268539] Change MCASP clock...
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.268912] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.268921] export_store: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.268988] Change MCASP clock...
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.269326] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.269334] export_store: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.269399] Change MCASP clock...
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.269733] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.269741] export_store: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.269805] Change MCASP clock...
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.270139] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.270146] export_store: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.270211] Change MCASP clock...
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.270531] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.270538] export_store: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.270601] Change MCASP clock...
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.270923] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.270931] export_store: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.270994] Change MCASP clock...
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.271313] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.271320] export_store: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.271384] Change MCASP clock...
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.271708] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.271716] export_store: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.271778] Change MCASP clock...
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.272093] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.272100] export_store: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.272162] Change MCASP clock...
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.272512] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.272520] export_store: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.272585] Change MCASP clock...
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.284252] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.284275] export_store: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.284412] Change MCASP clock...
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.284849] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.284858] export_store: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.284939] Change MCASP clock...
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.285371] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.285379] export_store: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.285451] Change MCASP clock...
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.285755] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.285763] export_store: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.285840] Change MCASP clock...
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.286194] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.286201] export_store: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.286266] Change MCASP clock...
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.286610] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.286618] export_store: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.286683] Change MCASP clock...
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.313278] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.313301] export_store: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.313436] Change MCASP clock...
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.659098] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.659123] export_store: status -16
+Nov 28 18:31:55 debian-armhf kernel: [ 1639.659464] Change MCASP clock...
+Nov 28 18:32:00 debian-armhf kernel: [ 1644.662930] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:32:00 debian-armhf kernel: [ 1644.662953] export_store: status -16
+Nov 28 18:32:00 debian-armhf kernel: [ 1644.663090] Change MCASP clock...
+Nov 28 18:32:12 debian-armhf kernel: [ 1655.717079] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:32:12 debian-armhf kernel: [ 1655.717103] export_store: status -16
+Nov 28 18:32:12 debian-armhf kernel: [ 1655.717352] Change MCASP clock...
+Nov 28 18:32:29 debian-armhf kernel: [ 1673.670022] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:32:29 debian-armhf kernel: [ 1673.670046] export_store: status -16
+Nov 28 18:32:29 debian-armhf kernel: [ 1673.670180] Change MCASP clock...
+Nov 28 18:32:50 debian-armhf kernel: [ 1693.841897] gpio gpiochip3: Persistence not supported for GPIO 5
+Nov 28 18:32:54 debian-armhf kernel: [ 1697.992954] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:32:54 debian-armhf kernel: [ 1697.992977] export_store: status -16
+Nov 28 18:33:44 debian-armhf kernel: [ 1748.069999] gpio gpiochip3: Persistence not supported for GPIO 4
+Nov 28 18:33:44 debian-armhf kernel: [ 1748.070549] Change MCASP clock...
+Nov 28 18:33:49 debian-armhf kernel: [ 1753.073440] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:33:49 debian-armhf kernel: [ 1753.073463] export_store: status -16
+Nov 28 18:33:49 debian-armhf kernel: [ 1753.073606] Change MCASP clock...
+Nov 28 18:33:51 debian-armhf kernel: [ 1755.665261] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:33:51 debian-armhf kernel: [ 1755.665285] export_store: status -16
+Nov 28 18:33:54 debian-armhf kernel: [ 1758.038939] gpio gpiochip3: Persistence not supported for GPIO 4
+Nov 28 18:33:55 debian-armhf kernel: [ 1758.719865] gpio gpiochip3: Persistence not supported for GPIO 4
+Nov 28 18:33:56 debian-armhf kernel: [ 1760.233877] gpio gpiochip3: Persistence not supported for GPIO 4
+Nov 28 18:34:02 debian-armhf kernel: [ 1766.538148] gpio gpiochip3: Persistence not supported for GPIO 4
+Nov 28 18:34:11 debian-armhf kernel: [ 1775.114936] gpio gpiochip3: Persistence not supported for GPIO 4
+Nov 28 18:34:55 debian-armhf kernel: [ 1818.729203] gpio gpiochip3: Persistence not supported for GPIO 4
+Nov 28 18:34:55 debian-armhf kernel: [ 1818.730926] Change MCASP clock...
+Nov 28 18:35:02 debian-armhf kernel: [ 1826.347759] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:35:02 debian-armhf kernel: [ 1826.347838] export_store: status -16
+Nov 28 18:35:02 debian-armhf kernel: [ 1826.348586] Change MCASP clock...
+Nov 28 18:35:07 debian-armhf kernel: [ 1831.351787] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:35:07 debian-armhf kernel: [ 1831.351812] export_store: status -16
+Nov 28 18:35:07 debian-armhf kernel: [ 1831.352515] Change MCASP clock...
+Nov 28 18:35:15 debian-armhf kernel: [ 1839.270120] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:35:15 debian-armhf kernel: [ 1839.270143] export_store: status -16
+Nov 28 18:35:15 debian-armhf kernel: [ 1839.271245] Change MCASP clock...
+Nov 28 18:35:24 debian-armhf kernel: [ 1848.539502] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:35:24 debian-armhf kernel: [ 1848.539576] export_store: status -16
+Nov 28 18:35:24 debian-armhf kernel: [ 1848.540236] Change MCASP clock...
+Nov 28 18:38:54 debian-armhf kernel: [ 2058.550885] gpio gpiochip3: Persistence not supported for GPIO 5
+Nov 28 18:38:54 debian-armhf kernel: [ 2058.561638] gpio-492 (sysfs): gpiod_request: status -16
+Nov 28 18:38:54 debian-armhf kernel: [ 2058.561661] export_store: status -16
+Nov 28 18:40:27 debian-armhf kernel: [ 2150.914548] gpio gpiochip3: Persistence not supported for GPIO 5
+Nov 28 18:40:27 debian-armhf kernel: [ 2150.944326] gpio gpiochip3: Persistence not supported for GPIO 4
+Nov 28 18:40:27 debian-armhf kernel: [ 2150.994250] gpio gpiochip3: Persistence not supported for GPIO 4
+Nov 28 18:41:28 debian-armhf kernel: [ 2212.284240] gpio gpiochip3: Persistence not supported for GPIO 5
+Nov 28 18:41:28 debian-armhf kernel: [ 2212.311309] gpio gpiochip3: Persistence not supported for GPIO 4
+Nov 28 18:41:28 debian-armhf kernel: [ 2212.335468] gpio gpiochip3: Persistence not supported for GPIO 4
+Nov 28 18:41:31 debian-armhf kernel: [ 2215.474506] gpio gpiochip3: Persistence not supported for GPIO 5
+Nov 28 18:41:31 debian-armhf kernel: [ 2215.506740] gpio gpiochip3: Persistence not supported for GPIO 4
+Nov 28 18:41:31 debian-armhf kernel: [ 2215.534508] gpio gpiochip3: Persistence not supported for GPIO 4

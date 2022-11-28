@@ -1,7 +1,7 @@
-S:disk/by-path/platform-481d8000.mmc
 S:disk/by-id/mmc-MMC04G_0x69cb918c
+S:disk/by-path/platform-481d8000.mmc
 W:1
-I:15042190
+I:15346735
 E:ID_SERIAL=0x69cb918c
 E:ID_NAME=MMC04G
 E:ID_PATH=platform-481d8000.mmc

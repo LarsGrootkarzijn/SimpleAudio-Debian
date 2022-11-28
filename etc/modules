@@ -2,20 +2,19 @@
 #
 # This file contains the names of kernel modules that should be loaded
 # at boot time, one per line. Lines beginning with "#" are ignored.
-
 aes-arm
 aes-arm-bs
 sha1-arm
 sha1-arm-neon
 sha256-arm
 sha512-arm
-aes-arm-ce
-sha1-arm-ce
-sha2-arm-ce
-ghash-arm-ce
+#aes-arm-ce
+#sha1-arm-ce
+#sha2-arm-ce
+#ghash-arm-ce
 fscache
 cifs
-efivarfs
+#efivarfs
 seqiv
 echainiv
 cmac
@@ -28,7 +27,7 @@ authenc
 authencesn
 drbg
 jitterentropy_rng
-tcrypt
+#tcrypt
 algif_hash
 algif_skcipher
 ecc
@@ -51,15 +50,15 @@ axp20x-i2c
 scsi_mod
 sd_mod
 sr_mod
-mtd_oobtest
-mtd_pagetest
-mtd_readtest
-mtd_speedtest
-mtd_stresstest
-mtd_subpagetest
-mtd_torturetest
-mtd_nandecctest
-mtd_nandbiterrs
+#mtd_oobtest
+#mtd_pagetest
+#mtd_readtest
+#mtd_speedtest
+#mtd_stresstest
+#mtd_subpagetest
+#mtd_torturetest
+#mtd_nandecctest
+#mtd_nandbiterrs
 spidev
 spi-bitbang
 spi-gpio
@@ -148,7 +147,7 @@ g_serial
 g_printer
 g_midi
 g_cdc
-g_hid
+#g_hid
 g_dbgp
 g_multi
 g_webcam
@@ -174,7 +173,7 @@ axp20x-pek
 input-polldev
 matrix-keymap
 rtc-ds1307
-rtc-efi
+#rtc-efi
 rtc-omap
 rtc-palmas
 rtc-tps6586x
@@ -193,7 +192,7 @@ ntc_thermistor
 pwm-fan
 omap_wdt
 led-class-flash
-capsule-loader
+#capsule-loader
 usbhid
 extcon-palmas
 extcon-usb-gpio
@@ -333,3 +332,5 @@ ebt_nflog
 bridge
 br_netfilter
 dsa_core
+#
+#

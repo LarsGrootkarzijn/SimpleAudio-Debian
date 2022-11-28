@@ -1,9 +1,9 @@
-S:disk/by-partuuid/cc3d64a1-01
-S:disk/by-path/platform-musb-hdrc.0-usb-0:1:1.0-scsi-0:0:0:0-part1
-S:disk/by-id/usb-Philips_USB_Flash_Drive_90008BD253830F38-0:0-part1
 S:disk/by-uuid/fb5a10a7-77ed-438f-8148-4a30799772f0
+S:disk/by-path/platform-musb-hdrc.0-usb-0:1:1.0-scsi-0:0:0:0-part1
+S:disk/by-partuuid/cc3d64a1-01
+S:disk/by-id/usb-Philips_USB_Flash_Drive_90008BD253830F38-0:0-part1
 W:17
-I:23027478
+I:21602646
 E:ID_VENDOR=Philips
 E:ID_VENDOR_ENC=Philips\x20
 E:ID_VENDOR_ID=13fe

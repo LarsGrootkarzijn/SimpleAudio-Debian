@@ -253,3 +253,78 @@ Nov 28 17:18:21 debian-armhf sshd[402]: Accepted password for root from 192.168.
 Nov 28 17:18:21 debian-armhf sshd[402]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
 Nov 28 17:18:21 debian-armhf systemd-logind[321]: New session c1 of user root.
 Nov 28 17:18:21 debian-armhf systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 17:21:30 debian-armhf login[399]: pam_unix(login:auth): check pass; user unknown
+Nov 28 17:21:30 debian-armhf login[399]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/ttyS0 ruser= rhost= 
+Nov 28 17:21:32 debian-armhf login[399]: FAILED LOGIN (1) on '/dev/ttyS0' FOR 'UNKNOWN', Authentication failure
+Nov 28 17:21:37 debian-armhf login[399]: pam_unix(login:auth): check pass; user unknown
+Nov 28 17:21:37 debian-armhf login[399]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/ttyS0 ruser= rhost= 
+Nov 28 17:21:41 debian-armhf login[399]: FAILED LOGIN (2) on '/dev/ttyS0' FOR 'UNKNOWN', Authentication failure
+Nov 28 17:21:45 debian-armhf login[399]: pam_unix(login:session): session opened for user root(uid=0) by LOGIN(uid=0)
+Nov 28 17:21:45 debian-armhf systemd-logind[321]: New session c2 of user root.
+Nov 28 17:21:45 debian-armhf login[472]: ROOT LOGIN  on '/dev/ttyS0'
+Nov 28 17:27:54 debian-armhf sshd[402]: Exiting on signal 15
+Nov 28 17:27:54 debian-armhf sshd[402]: pam_unix(sshd:session): session closed for user root
+Nov 28 17:27:57 debian-armhf systemd-logind[324]: New seat seat0.
+Nov 28 17:28:00 debian-armhf sshd[403]: Server listening on 0.0.0.0 port 22.
+Nov 28 17:28:00 debian-armhf sshd[403]: Server listening on :: port 22.
+Nov 28 17:41:36 debian-armhf agetty[402]: checkname failed: Operation not permitted
+Nov 28 17:42:02 debian-armhf sshd[411]: Accepted password for root from 192.168.1.47 port 56278 ssh2
+Nov 28 17:42:02 debian-armhf sshd[411]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 17:42:02 debian-armhf systemd-logind[324]: New session c1 of user root.
+Nov 28 17:42:02 debian-armhf systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 17:58:50 debian-armhf sshd[411]: Exiting on signal 15
+Nov 28 17:58:50 debian-armhf sshd[411]: pam_unix(sshd:session): session closed for user root
+Nov 28 17:58:54 debian-armhf systemd-logind[321]: New seat seat0.
+Nov 28 17:58:57 debian-armhf sshd[404]: Server listening on 0.0.0.0 port 22.
+Nov 28 17:58:57 debian-armhf sshd[404]: Server listening on :: port 22.
+Nov 28 17:59:20 debian-armhf sshd[407]: Accepted password for root from 192.168.1.47 port 57800 ssh2
+Nov 28 17:59:20 debian-armhf sshd[407]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 17:59:20 debian-armhf systemd-logind[321]: New session c1 of user root.
+Nov 28 17:59:20 debian-armhf systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 18:01:07 debian-armhf login[403]: pam_unix(login:auth): check pass; user unknown
+Nov 28 18:01:07 debian-armhf login[403]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/ttyS0 ruser= rhost= 
+Nov 28 18:01:09 debian-armhf login[403]: FAILED LOGIN (1) on '/dev/ttyS0' FOR 'UNKNOWN', Authentication failure
+Nov 28 18:01:15 debian-armhf login[403]: pam_unix(login:session): session opened for user root(uid=0) by LOGIN(uid=0)
+Nov 28 18:01:15 debian-armhf systemd-logind[321]: New session c2 of user root.
+Nov 28 18:01:15 debian-armhf login[456]: ROOT LOGIN  on '/dev/ttyS0'
+Nov 28 18:04:04 debian-armhf sshd[407]: Exiting on signal 15
+Nov 28 18:04:04 debian-armhf sshd[407]: pam_unix(sshd:session): session closed for user root
+Nov 28 18:04:07 debian-armhf systemd-logind[317]: New seat seat0.
+Nov 28 18:04:09 debian-armhf sshd[397]: Server listening on 0.0.0.0 port 22.
+Nov 28 18:04:09 debian-armhf sshd[397]: Server listening on :: port 22.
+Nov 28 18:04:32 debian-armhf sshd[400]: Accepted password for root from 192.168.1.47 port 57862 ssh2
+Nov 28 18:04:32 debian-armhf sshd[400]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 18:04:32 debian-armhf systemd-logind[317]: New session c1 of user root.
+Nov 28 18:04:32 debian-armhf systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 18:08:45 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/root/ALSA-lib-SimpleAudio ; USER=root ; COMMAND=/usr/bin/apt install dpkg-dev devscripts
+Nov 28 18:08:45 debian-armhf sudo: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+Nov 28 18:09:00 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 28 18:14:33 debian-armhf login[396]: pam_unix(login:session): session opened for user root(uid=0) by LOGIN(uid=0)
+Nov 28 18:14:33 debian-armhf systemd-logind[317]: New session c2 of user root.
+Nov 28 18:14:35 debian-armhf login[1345]: ROOT LOGIN  on '/dev/ttyS0'
+Nov 28 18:17:01 debian-armhf CRON[3103]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 18:17:01 debian-armhf CRON[3103]: pam_unix(cron:session): session closed for user root
+Nov 28 18:21:18 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/root/ALSA-lib-SimpleAudio ; USER=root ; COMMAND=/usr/bin/make
+Nov 28 18:21:18 debian-armhf sudo: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+Nov 28 18:21:18 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 28 18:21:27 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/root/ALSA-lib-SimpleAudio ; USER=root ; COMMAND=/usr/bin/apt-get install libtool-bin automake makeinfo
+Nov 28 18:21:27 debian-armhf sudo: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+Nov 28 18:21:30 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 28 18:21:36 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/root/ALSA-lib-SimpleAudio ; USER=root ; COMMAND=/usr/bin/apt-get install libtool-bin automake
+Nov 28 18:21:36 debian-armhf sudo: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+Nov 28 18:22:22 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 28 18:24:11 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/root/ALSA-lib-SimpleAudio ; USER=root ; COMMAND=/usr/bin/make
+Nov 28 18:24:11 debian-armhf sudo: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+Nov 28 18:28:53 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 28 18:28:58 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/root/ALSA-lib-SimpleAudio ; USER=root ; COMMAND=/usr/bin/make install
+Nov 28 18:28:59 debian-armhf sudo: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+Nov 28 18:29:07 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 28 18:40:09 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/root/alsa-utils-1.2.8 ; USER=root ; COMMAND=/usr/bin/apt-get install libncurses5-dev libncursesw5-dev
+Nov 28 18:40:09 debian-armhf sudo: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+Nov 28 18:40:32 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 28 18:40:45 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/root/alsa-utils-1.2.8 ; USER=root ; COMMAND=/usr/bin/make
+Nov 28 18:40:45 debian-armhf sudo: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+Nov 28 18:40:45 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 28 18:49:29 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/root/alsa-utils-1.2.8 ; USER=root ; COMMAND=/usr/bin/make install
+Nov 28 18:49:29 debian-armhf sudo: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+Nov 28 18:49:43 debian-armhf sudo: pam_unix(sudo:session): session closed for user root

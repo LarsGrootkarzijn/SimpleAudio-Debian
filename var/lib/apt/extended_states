@@ -130,18 +130,6 @@ Package: openssl
 Architecture: armhf
 Auto-Installed: 1
 
-Package: libnih-dbus1
-Architecture: armhf
-Auto-Installed: 1
-
-Package: libnih1
-Architecture: armhf
-Auto-Installed: 1
-
-Package: plymouth
-Architecture: armhf
-Auto-Installed: 1
-
 Package: libestr0
 Architecture: armhf
 Auto-Installed: 1
@@ -183,10 +171,6 @@ Architecture: armhf
 Auto-Installed: 1
 
 Package: libaudit-common
-Architecture: armhf
-Auto-Installed: 1
-
-Package: libdrm2
 Architecture: armhf
 Auto-Installed: 1
 
@@ -275,10 +259,6 @@ Architecture: armhf
 Auto-Installed: 1
 
 Package: libseccomp2
-Architecture: armhf
-Auto-Installed: 1
-
-Package: libpng16-16
 Architecture: armhf
 Auto-Installed: 1
 
@@ -482,10 +462,6 @@ Package: gpgsm
 Architecture: armhf
 Auto-Installed: 1
 
-Package: libdrm-common
-Architecture: armhf
-Auto-Installed: 1
-
 Package: libpython3.9-minimal
 Architecture: armhf
 Auto-Installed: 1
@@ -575,10 +551,6 @@ Architecture: armhf
 Auto-Installed: 1
 
 Package: libfile-fcntllock-perl
-Architecture: armhf
-Auto-Installed: 1
-
-Package: libplymouth5
 Architecture: armhf
 Auto-Installed: 1
 
@@ -675,6 +647,214 @@ Architecture: armhf
 Auto-Installed: 1
 
 Package: git-man
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libalgorithm-merge-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libgomp1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: manpages-dev
+Architecture: armhf
+Auto-Installed: 1
+
+Package: gcc-10
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libctf-nobfd0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: cpp
+Architecture: armhf
+Auto-Installed: 1
+
+Package: gcc
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libalgorithm-diff-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libbinutils
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libfakeroot
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libdeflate0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libtiff5
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libfreetype6
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libmpfr6
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libcc1-0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libmpc3
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libxpm4
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libfontconfig1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libpng16-16
+Architecture: armhf
+Auto-Installed: 1
+
+Package: fontconfig-config
+Architecture: armhf
+Auto-Installed: 1
+
+Package: dpkg-dev
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libasan6
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libnsl-dev
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libjpeg62-turbo
+Architecture: armhf
+Auto-Installed: 1
+
+Package: make
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libctf0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libwebp6
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libcrypt-dev
+Architecture: armhf
+Auto-Installed: 1
+
+Package: cpp-10
+Architecture: armhf
+Auto-Installed: 1
+
+Package: binutils-common
+Architecture: armhf
+Auto-Installed: 1
+
+Package: binutils-arm-linux-gnueabihf
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libjbig0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libc-dev-bin
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libc-devtools
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libisl23
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libc6-dev
+Architecture: armhf
+Auto-Installed: 1
+
+Package: fonts-dejavu-core
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libubsan1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libalgorithm-diff-xs-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libgd3
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libgcc-10-dev
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libtirpc-dev
+Architecture: armhf
+Auto-Installed: 1
+
+Package: binutils
+Architecture: armhf
+Auto-Installed: 1
+
+Package: fakeroot
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libatomic1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: linux-libc-dev
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libsigsegv2
+Architecture: armhf
+Auto-Installed: 1
+
+Package: autoconf
+Architecture: armhf
+Auto-Installed: 1
+
+Package: autotools-dev
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libtool
+Architecture: armhf
+Auto-Installed: 1
+
+Package: m4
+Architecture: armhf
+Auto-Installed: 1
+
+Package: gettext-base
 Architecture: armhf
 Auto-Installed: 1
 

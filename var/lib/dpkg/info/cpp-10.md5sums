@@ -1,0 +1,3 @@
+bc0b014673992449d27008d4b0c1c8ad  usr/bin/arm-linux-gnueabihf-cpp-10
+e06662b2767bd1ddb5d485306091bd6a  usr/lib/gcc/arm-linux-gnueabihf/10/cc1
+d1d42520a275f76779fcef167c6460c0  usr/share/lintian/overrides/cpp-10

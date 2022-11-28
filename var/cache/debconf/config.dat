@@ -382,6 +382,26 @@ Template: exim4/use_split_config
 Value: false
 Owners: exim4-config
 
+Name: fontconfig/enable_bitmaps
+Template: fontconfig/enable_bitmaps
+Value: false
+Owners: fontconfig-config
+
+Name: fontconfig/hinting_style
+Template: fontconfig/hinting_style
+Value: hintslight
+Owners: fontconfig-config
+
+Name: fontconfig/hinting_type
+Template: fontconfig/hinting_type
+Value: Native
+Owners: fontconfig-config
+
+Name: fontconfig/subpixel_rendering
+Template: fontconfig/subpixel_rendering
+Value: Automatic
+Owners: fontconfig-config
+
 Name: glibc/disable-screensaver
 Template: glibc/disable-screensaver
 Owners: libc6, libc6:armhf

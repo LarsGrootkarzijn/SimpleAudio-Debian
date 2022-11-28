@@ -1,8 +1,8 @@
-S:disk/by-uuid/B8E6-DACD
 S:disk/by-id/mmc-MMC04G_0x69cb918c-part1
+S:disk/by-uuid/B8E6-DACD
 S:disk/by-path/platform-481d8000.mmc-part1
 W:7
-I:15879075
+I:15856570
 E:ID_SERIAL=0x69cb918c
 E:ID_NAME=MMC04G
 E:ID_PATH=platform-481d8000.mmc

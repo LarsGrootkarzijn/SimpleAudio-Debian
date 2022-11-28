@@ -8,9 +8,9 @@ lease {
   option dhcp-message-type 5;
   option domain-name-servers 192.168.1.1;
   option dhcp-server-identifier 192.168.1.1;
-  renew 1 2022/11/28 17:17:52;
-  rebind 1 2022/11/28 17:17:52;
-  expire 1 2022/11/28 17:17:52;
+  renew 1 2022/11/28 18:04:06;
+  rebind 1 2022/11/28 18:04:06;
+  expire 1 2022/11/28 18:04:06;
 }
 lease {
   interface "eth0";
@@ -21,7 +21,7 @@ lease {
   option dhcp-message-type 5;
   option domain-name-servers 192.168.1.1;
   option dhcp-server-identifier 192.168.1.1;
-  renew 2 2022/11/29 03:33:27;
-  rebind 2 2022/11/29 14:17:53;
-  expire 2 2022/11/29 17:17:53;
+  renew 2 2022/11/29 05:15:46;
+  rebind 2 2022/11/29 15:04:08;
+  expire 2 2022/11/29 18:04:08;
 }

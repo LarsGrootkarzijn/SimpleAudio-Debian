@@ -134,6 +134,58 @@ Description: architecture independent files for the aptitude package manager
  aptitude.
 Homepage: https://wiki.debian.org/Aptitude
 
+Package: autoconf
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 1846
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Architecture: all
+Multi-Arch: foreign
+Version: 2.69-14
+Depends: perl (>> 5.005), m4 (>= 1.4.13), debianutils (>= 1.8)
+Recommends: automake | automaken
+Suggests: autoconf-archive, gnu-standards, autoconf-doc, libtool, gettext
+Breaks: gettext (<< 0.10.39), pkg-config (<< 0.25-1.1)
+Conffiles:
+ /etc/emacs/site-start.d/50autoconf.el 297521889d690871ec9d89c5eeff745a
+Description: automatic configure script builder
+ The standard for FSF source packages.  This is only useful if you
+ write your own programs or if you extensively modify other people's
+ programs.
+ .
+ For an extensive library of additional Autoconf macros, install the
+ `autoconf-archive' package.
+ .
+ This version of autoconf is not compatible with scripts meant for
+ Autoconf 2.13 or earlier.
+Homepage: https://www.gnu.org/software/autoconf/
+
+Package: autotools-dev
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 157
+Maintainer: Henrique de Moraes Holschuh <hmh@debian.org>
+Architecture: all
+Multi-Arch: foreign
+Version: 20180224.1+nmu1
+Enhances: cdbs, debhelper
+Description: Update infrastructure for config.{guess,sub} files
+ This package installs an up-to-date version of config.guess and
+ config.sub, used by the automake and libtool packages.  It provides
+ the canonical copy of those files for other packages as well.
+ .
+ It also documents in /usr/share/doc/autotools-dev/README.Debian.gz
+ best practices and guidelines for using autoconf, automake and
+ friends on Debian packages.  This is a must-read for any developers
+ packaging software that uses the GNU autotools, or GNU gettext.
+ .
+ Additionally this package provides seamless integration into Debhelper
+ or CDBS, allowing maintainers to easily update config.{guess,sub} files
+ in their packages.
+Homepage: http://savannah.gnu.org/projects/config/
+
 Package: base-files
 Essential: yes
 Status: install ok installed
@@ -212,6 +264,64 @@ Description: GNU Bourne Again SHell
  The Programmable Completion Code, by Ian Macdonald, is now found in
  the bash-completion package.
 Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
+
+Package: binutils
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 97
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: armhf
+Version: 2.35.2-2
+Provides: binutils-gold, elf-binutils
+Depends: binutils-common (= 2.35.2-2), libbinutils (= 2.35.2-2), binutils-arm-linux-gnueabihf (= 2.35.2-2)
+Suggests: binutils-doc (>= 2.35.2-2)
+Conflicts: binutils-multiarch (<< 2.27-8), modutils (<< 2.4.19-1)
+Description: GNU assembler, linker and binary utilities
+ The programs in this package are used to assemble, link and manipulate
+ binary and object files.  They may be used in conjunction with a compiler
+ and various libraries to build programs.
+Homepage: https://www.gnu.org/software/binutils/
+
+Package: binutils-arm-linux-gnueabihf
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 7755
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: armhf
+Multi-Arch: allowed
+Source: binutils
+Version: 2.35.2-2
+Replaces: binutils (<< 2.29-6)
+Depends: binutils-common (= 2.35.2-2), libbinutils (= 2.35.2-2), libc6 (>= 2.27), libctf-nobfd0 (>= 2.33.50), libctf0 (>= 2.33.50), libgcc-s1 (>= 3.5), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Suggests: binutils-doc (= 2.35.2-2)
+Breaks: binutils (<< 2.29-6)
+Description: GNU binary utilities, for arm-linux-gnueabihf target
+ This package provides GNU assembler, linker and binary utilities
+ for the arm-linux-gnueabihf target.
+ .
+ You don't need this package unless you plan to cross-compile programs
+ for arm-linux-gnueabihf and arm-linux-gnueabihf is not your native platform.
+Homepage: https://www.gnu.org/software/binutils/
+
+Package: binutils-common
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 13897
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: binutils
+Version: 2.35.2-2
+Replaces: binutils (<< 2.29.1-3.1~)
+Breaks: binutils (<< 2.29.1-3.1~)
+Description: Common files for the GNU assembler, linker and binary utilities
+ This package contains the localization files used by binutils packages for
+ various target architectures and parts of the binutils documentation. It is
+ not useful on its own.
+Homepage: https://www.gnu.org/software/binutils/
 
 Package: bsdextrautils
 Status: install ok installed
@@ -492,6 +602,48 @@ Description: GNU cpio -- a program to manage archives of files
  files from one place to another.  It handles a number of cpio formats
  as well as reading and writing tar files.
 Homepage: https://www.gnu.org/software/cpio/
+
+Package: cpp
+Status: install ok installed
+Priority: optional
+Section: interpreters
+Installed-Size: 42
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: armhf
+Multi-Arch: allowed
+Source: gcc-defaults (1.190)
+Version: 4:10.2.1-1
+Depends: cpp-10 (>= 10.2.1-3~)
+Suggests: cpp-doc
+Conflicts: cpp-doc (<< 1:2.95.3)
+Description: GNU C preprocessor (cpp)
+ The GNU C preprocessor is a macro processor that is used automatically
+ by the GNU C compiler to transform programs before actual compilation.
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the compiler.
+ .
+ This is a dependency package providing the default GNU C preprocessor.
+
+Package: cpp-10
+Status: install ok installed
+Priority: optional
+Section: interpreters
+Installed-Size: 15289
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: armhf
+Source: gcc-10
+Version: 10.2.1-6
+Depends: gcc-10-base (= 10.2.1-6), libc6 (>= 2.28), libgmp10 (>= 2:5.0.1~), libisl23 (>= 0.15), libmpc3 (>= 1.1.0), libmpfr6 (>= 3.1.3), libzstd1 (>= 1.3.2), zlib1g (>= 1:1.2.3.3)
+Suggests: gcc-10-locales (>= 10)
+Breaks: hardening-wrapper (<< 2.8+nmu3), libmagics++-dev (<< 2.28.0-4)
+Description: GNU C preprocessor
+ A macro processor that is used automatically by the GNU C compiler
+ to transform programs before actual compilation.
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the compiler.
+Homepage: http://gcc.gnu.org/
 
 Package: cron
 Status: install ok installed
@@ -810,6 +962,31 @@ Description: Debian package management system
  For Debian package development tools, install dpkg-dev.
 Homepage: https://wiki.debian.org/Teams/Dpkg
 
+Package: dpkg-dev
+Status: install ok installed
+Priority: optional
+Section: utils
+Installed-Size: 2616
+Maintainer: Dpkg Developers <debian-dpkg@lists.debian.org>
+Architecture: all
+Multi-Arch: foreign
+Source: dpkg
+Version: 1.20.12
+Depends: perl:any, libdpkg-perl (= 1.20.12), tar (>= 1.28-1), bzip2, xz-utils, patch (>= 2.7), make, binutils
+Recommends: build-essential, gcc | c-compiler, fakeroot, gnupg, gpgv, libalgorithm-merge-perl
+Suggests: debian-keyring
+Breaks: debhelper (<< 10.10.1~)
+Conffiles:
+ /etc/dpkg/shlibs.default 1a2b9d0a869e2aa885ae3621c557fb95
+ /etc/dpkg/shlibs.override 84b1e69080569cc5c613a50887af5200
+Description: Debian package development tools
+ This package provides the development tools (including dpkg-source)
+ required to unpack, build and upload Debian source packages.
+ .
+ Most Debian source packages will require additional tools to build;
+ for example, most packages need make and the C compiler gcc.
+Homepage: https://wiki.debian.org/Teams/Dpkg
+
 Package: e2fslibs
 Status: install ok installed
 Priority: required
@@ -853,6 +1030,27 @@ Description: ext2/ext3/ext4 file system utilities
 Homepage: http://e2fsprogs.sourceforge.net
 Important: yes
 
+Package: fakeroot
+Status: install ok installed
+Priority: optional
+Section: utils
+Installed-Size: 198
+Maintainer: Clint Adams <clint@debian.org>
+Architecture: armhf
+Multi-Arch: foreign
+Version: 1.25.3-1.1
+Depends: libfakeroot (>= 1.25.3-1.1), libc6 (>= 2.28)
+Description: tool for simulating superuser privileges
+ fakeroot provides a fake "root environment" by means of LD_PRELOAD and
+ SysV IPC (or TCP) trickery. It puts wrappers around getuid(), chown(),
+ stat(), and other file-manipulation functions, so that unprivileged
+ users can (for instance) populate .deb archives with root-owned files;
+ various build tools use fakeroot for this by default.
+ .
+ This package contains fakeroot command and the daemon that remembers
+ fake ownership/permissions of files manipulated by fakeroot
+ processes.
+
 Package: file
 Status: install ok installed
 Priority: standard
@@ -890,6 +1088,104 @@ Description: utilities for finding files--find, xargs
  This package contains 'find' and 'xargs'; however, 'locate' has
  been split off into a separate package.
 Homepage: https://savannah.gnu.org/projects/findutils/
+
+Package: fontconfig-config
+Status: install ok installed
+Priority: optional
+Section: fonts
+Installed-Size: 442
+Maintainer: Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org>
+Architecture: all
+Multi-Arch: foreign
+Source: fontconfig
+Version: 2.13.1-4.2
+Depends: debconf (>= 0.5) | debconf-2.0, ucf (>= 0.29), fonts-dejavu-core | ttf-bitstream-vera | fonts-liberation | fonts-liberation2 | fonts-croscore | fonts-freefont-otf | fonts-freefont-ttf | fonts-urw-base35 | fonts-texgyre
+Breaks: libfontconfig1 (<< 2.13.0)
+Conffiles:
+ /etc/fonts/conf.d/README 42d13304ed2e9e5b60b74d6ed29b3729
+ /etc/fonts/fonts.conf 1a6ebc792c61d5944c30e1696446f5d4
+Description: generic font configuration library - configuration
+ Fontconfig is a font configuration and customization library, which
+ does not depend on the X Window System. It is designed to locate
+ fonts within the system and select them according to requirements
+ specified by applications.
+ .
+ This package contains the configuration files and scripts for fontconfig.
+Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
+
+Package: fonts-dejavu-core
+Status: install ok installed
+Priority: optional
+Section: fonts
+Installed-Size: 2954
+Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Architecture: all
+Multi-Arch: foreign
+Source: fonts-dejavu
+Version: 2.37-2
+Conffiles:
+ /etc/fonts/conf.avail/20-unhint-small-dejavu-lgc-sans-mono.conf 10d6f2176d76ee9b89a19a17811257f2
+ /etc/fonts/conf.avail/20-unhint-small-dejavu-lgc-sans.conf 6488b24401e477e35aa71237054c8ada
+ /etc/fonts/conf.avail/20-unhint-small-dejavu-lgc-serif.conf 0b01522fe76b4e5b8ab3d12383371348
+ /etc/fonts/conf.avail/20-unhint-small-dejavu-sans-mono.conf 0cbf30e4580c5a8570da071ab12c5e4d
+ /etc/fonts/conf.avail/20-unhint-small-dejavu-sans.conf f7df7bba810dd953dd78212900f4dcad
+ /etc/fonts/conf.avail/20-unhint-small-dejavu-serif.conf e90c678d46f49bb9d6ba469b64e80c0c
+ /etc/fonts/conf.avail/57-dejavu-sans-mono.conf b9a76edd2aeb35cd1095e378963e2cdd
+ /etc/fonts/conf.avail/57-dejavu-sans.conf 2156c2353cfcc81f33150cf889193c28
+ /etc/fonts/conf.avail/57-dejavu-serif.conf 2604487cb2eee1bdb7010ea716faf408
+ /etc/fonts/conf.avail/58-dejavu-lgc-sans-mono.conf d2ee39274982cb4f831783cff742c8bc
+ /etc/fonts/conf.avail/58-dejavu-lgc-sans.conf b4a8f51e45aa24fdee47b3f838cc0205
+ /etc/fonts/conf.avail/58-dejavu-lgc-serif.conf 5f0b00e681b1f40b65dd336696ee0bbb
+Description: Vera font family derivate with additional characters
+ DejaVu provides an expanded version of the Vera font family aiming for
+ quality and broader Unicode coverage while retaining the original Vera
+ style. DejaVu currently works towards conformance with the Multilingual
+ European Standards (MES-1 and MES-2) for Unicode coverage. The DejaVu
+ fonts provide serif, sans and monospaced variants.
+ .
+ This package only contains the sans, sans-bold, serif, serif-bold,
+ mono and mono-bold variants. For additional variants, see the
+ fonts-dejavu-extra package.
+ .
+ DejaVu fonts are intended for use on low-resolution devices (mainly
+ computer screens) but can be used in printing as well.
+Homepage: https://dejavu-fonts.github.io/
+
+Package: gcc
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 45
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: armhf
+Source: gcc-defaults (1.190)
+Version: 4:10.2.1-1
+Provides: c-compiler, gcc-arm-linux-gnueabihf (= 4:10.2.1-1)
+Depends: cpp (= 4:10.2.1-1), gcc-10 (>= 10.2.1-3~)
+Recommends: libc6-dev | libc-dev
+Suggests: gcc-multilib, make, manpages-dev, autoconf, automake, libtool, flex, bison, gdb, gcc-doc
+Conflicts: gcc-doc (<< 1:2.95.3)
+Description: GNU C compiler
+ This is the GNU C compiler, a fairly portable optimizing compiler for C.
+ .
+ This is a dependency package providing the default GNU C compiler.
+
+Package: gcc-10
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 31361
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: armhf
+Version: 10.2.1-6
+Replaces: cpp-10 (<< 7.1.1-8)
+Provides: c-compiler
+Depends: cpp-10 (= 10.2.1-6), gcc-10-base (= 10.2.1-6), libcc1-0 (>= 10.2.1-6), binutils (>= 2.35.1), libgcc-10-dev (= 10.2.1-6), libc6 (>= 2.28), libgcc-s1 (>= 3.5), libgmp10 (>= 2:5.0.1~), libisl23 (>= 0.15), libmpc3 (>= 1.1.0), libmpfr6 (>= 3.1.3), libstdc++6 (>= 5), libzstd1 (>= 1.3.2), zlib1g (>= 1:1.2.3.3)
+Recommends: libc6-dev (>= 2.30-1~)
+Suggests: gcc-10-doc (>= 10), gcc-10-locales (>= 10)
+Description: GNU C compiler
+ This is the GNU C compiler, a fairly portable optimizing compiler for C.
+Homepage: http://gcc.gnu.org/
 
 Package: gcc-10-base
 Status: install ok installed
@@ -954,6 +1250,22 @@ Description: GCC, the GNU Compiler Collection (base package)
  This package contains files common to all languages and libraries
  contained in the GNU Compiler Collection (GCC).
 Homepage: http://gcc.gnu.org/
+
+Package: gettext-base
+Status: install ok installed
+Priority: standard
+Section: utils
+Installed-Size: 620
+Maintainer: Santiago Vila <sanvila@debian.org>
+Architecture: armhf
+Multi-Arch: foreign
+Source: gettext
+Version: 0.21-4
+Depends: libc6 (>= 2.4)
+Description: GNU Internationalization utilities for the base system
+ This package includes the gettext and ngettext programs which allow
+ other packages to internationalize the messages given by shell scripts.
+Homepage: https://www.gnu.org/software/gettext/
 
 Package: git
 Status: install ok installed
@@ -1860,6 +2172,65 @@ Description: access control list - shared library
  draft standard 17 functions for manipulating access control lists.
 Homepage: https://savannah.nongnu.org/projects/acl/
 
+Package: libalgorithm-diff-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 129
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Multi-Arch: foreign
+Version: 1.201-1
+Depends: perl:any
+Recommends: libalgorithm-diff-xs-perl
+Description: module to find differences between files
+ Algorithm::Diff is a Perl module that allows users to analyze text based on a
+ Longest Common Subsequence (LCS) algorithm. It can compare two files and find
+ the differences between them, which can produce the same information as the
+ common Unix tool 'diff'.
+ .
+ There is an XS-optimized implementation of the core loop, which accelerates
+ some types of diff output (see libalgorithm-diff-xs-perl).
+Homepage: https://metacpan.org/release/Algorithm-Diff
+
+Package: libalgorithm-diff-xs-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 40
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Source: libalgorithm-diff-xs-perl (0.04-6)
+Version: 0.04-6+b1
+Depends: perl (>= 5.32.0-4), perlapi-5.32.0, libc6 (>= 2.4), libalgorithm-diff-perl
+Description: module to find differences between files (XS accelerated)
+ Algorithm::Diff::XS is a Perl diff utility module based on Joe Schaefer's
+ excellent but not very well-known Algorithm::LCS module, with a drop-in
+ interface identical to Algorithm::Diff.
+ .
+ Note that only the LCSidx function is optimized in XS at the moment, which
+ means only compact_diff will get significantly faster for large data sets,
+ while diff and sdiff will run in identical speed as Algorithm::Diff.
+Homepage: https://metacpan.org/release/Algorithm-Diff-XS
+
+Package: libalgorithm-merge-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 43
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 0.08-3
+Depends: perl, libalgorithm-diff-perl
+Description: Perl module for three-way merge of textual data
+ Algorithm::Merge provides three-way merge and diff functions, complementing
+ the functionality offered by Algorithm::Diff (libalgorithm-diff-perl). Given
+ three sets of items, known as the original, left and right, this module can
+ take a three-way difference or merge them. Taking a difference provides an
+ array reference that is very similar to the behaviour of Algorithm::Diff. One
+ can also implement custom conflict resolution using the CONFLICT callback.
+Homepage: https://metacpan.org/release/Algorithm-Merge
+
 Package: libapparmor1
 Status: install ok installed
 Priority: optional
@@ -1981,6 +2352,23 @@ Description: memory-hard hashing function - runtime library
  This package includes the dynamic library against which programs are linked.
 Homepage: https://github.com/P-H-C/phc-winner-argon2
 
+Package: libasan6
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 7576
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: gcc-10
+Version: 10.2.1-6
+Provides: libasan6-armhf
+Depends: gcc-10-base (= 10.2.1-6), libc6 (>= 2.28), libgcc-s1 (>= 4.3)
+Description: AddressSanitizer -- a fast memory error detector
+ AddressSanitizer (ASan) is a fast memory error detector.  It finds
+ use-after-free and {heap,stack,global}-buffer overflow bugs in C/C++ programs.
+Homepage: http://gcc.gnu.org/
+
 Package: libassuan0
 Status: install ok installed
 Priority: optional
@@ -2012,6 +2400,23 @@ Depends: libc6 (>= 2.7)
 Description: shared library for ATM (Asynchronous Transfer Mode)
  Shared libraries needed by ATM (Asynchronous Transfer Mode) related programs
 Homepage: http://linux-atm.sourceforge.net/
+
+Package: libatomic1
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 36
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: gcc-10
+Version: 10.2.1-6
+Provides: libatomic1-armhf
+Depends: gcc-10-base (= 10.2.1-6), libc6 (>= 2.4)
+Description: support library providing __atomic built-in functions
+ library providing __atomic built-in functions. When an atomic call cannot
+ be turned into lock-free instructions, GCC will make calls into this library.
+Homepage: http://gcc.gnu.org/
 
 Package: libattr1
 Status: install ok installed
@@ -2068,6 +2473,23 @@ Description: Dynamic library for security auditing
  applications to use the audit framework. It is used to monitor systems for
  security related events.
 Homepage: https://people.redhat.com/sgrubb/audit/
+
+Package: libbinutils
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 1104
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: binutils
+Version: 2.35.2-2
+Replaces: binutils (<< 2.29-6)
+Depends: libc6 (>= 2.28), zlib1g (>= 1:1.2.0), binutils-common (= 2.35.2-2)
+Breaks: binutils (<< 2.29-6)
+Description: GNU binary utilities (private shared library)
+ This package includes the private shared libraries libbfd and libopcodes.
+Homepage: https://www.gnu.org/software/binutils/
 
 Package: libblkid1
 Status: install ok installed
@@ -2260,6 +2682,50 @@ Description: GNU C Library: Binaries
   * tzselect, zdump, zic: select/dump/compile time zones
 Homepage: https://www.gnu.org/software/libc/libc.html
 
+Package: libc-dev-bin
+Status: install ok installed
+Priority: optional
+Section: libdevel
+Installed-Size: 340
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: armhf
+Multi-Arch: foreign
+Source: glibc
+Version: 2.31-13+deb11u5
+Depends: libc6 (>> 2.31), libc6 (<< 2.32)
+Recommends: manpages, manpages-dev, libc-devtools (>> 2.31)
+Description: GNU C Library: Development binaries
+ This package contains utility programs related to the GNU C Library
+ development package.
+ .
+  * gencat: generate message catalogs
+  * rpcgen: compile RPC protocols to C
+Homepage: https://www.gnu.org/software/libc/libc.html
+
+Package: libc-devtools
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 308
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: armhf
+Multi-Arch: foreign
+Source: glibc
+Version: 2.31-13+deb11u5
+Replaces: libc-dev-bin (<< 2.31-8)
+Depends: libc6 (>= 2.4), libgd3 (>= 2.1.0~alpha~)
+Recommends: manpages, manpages-dev
+Breaks: libc-dev-bin (<< 2.31-8)
+Description: GNU C Library: Development tools
+ This package contains development tools shipped by the GNU C
+ Library.
+ .
+  * memusage, memusagestat: profile a program's memory usage
+  * mtrace: interpret the malloc trace log
+  * sotruss: trace shared library calls
+  * sprof: display shared object profiling data
+Homepage: https://www.gnu.org/software/libc/libc.html
+
 Package: libc-l10n
 Status: install ok installed
 Priority: standard
@@ -2295,6 +2761,26 @@ Description: GNU C Library: Shared libraries
  Contains the standard libraries that are used by nearly all programs on
  the system. This package includes shared versions of the standard C library
  and the standard math library, as well as many others.
+Homepage: https://www.gnu.org/software/libc/libc.html
+
+Package: libc6-dev
+Status: install ok installed
+Priority: optional
+Section: libdevel
+Installed-Size: 9043
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: glibc
+Version: 2.31-13+deb11u5
+Provides: libc-dev
+Depends: libc6 (= 2.31-13+deb11u5), libc-dev-bin (= 2.31-13+deb11u5), linux-libc-dev, libcrypt-dev, libnsl-dev
+Suggests: glibc-doc, manpages-dev
+Breaks: libc6-dev-armhf-cross (<< 2.31~), libgcc-10-dev (<< 10-20200321-1~), libgcc-7-dev (<< 7.5.0-6~), libgcc-8-dev (<< 8.4.0-2~), libgcc-9-dev (<< 9.3.0-5~), libperl5.26 (<< 5.26.1-3), python3.7 (<< 3.7.7-1+b1), python3.8 (<< 3.8.2-1+b1)
+Conflicts: libc0.1-dev, libc0.3-dev, libc6.1-dev
+Description: GNU C Library: Development Libraries and Header Files
+ Contains the symlinks, headers, and object files needed to compile
+ and link programs which use the standard C library.
 Homepage: https://www.gnu.org/software/libc/libc.html
 
 Package: libcap-ng0
@@ -2389,6 +2875,21 @@ Description: library for parsing and generating CBOR (RFC 7049)
  This package contains the runtime library.
 Homepage: https://github.com/PJK/libcbor
 
+Package: libcc1-0
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 95
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: gcc-10
+Version: 10.2.1-6
+Depends: gcc-10-base (= 10.2.1-6), libc6 (>= 2.4), libgcc-s1 (>= 3.5), libstdc++6 (>= 5.2)
+Description: GCC cc1 plugin for GDB
+ libcc1 is a plugin for GDB.
+Homepage: http://gcc.gnu.org/
+
 Package: libcom-err2
 Status: install ok installed
 Priority: optional
@@ -2423,6 +2924,25 @@ Depends: libcom-err2
 Description: transitional package
  This is a transitional package. It can safely be removed.
 Homepage: http://e2fsprogs.sourceforge.net
+
+Package: libcrypt-dev
+Status: install ok installed
+Priority: optional
+Section: libdevel
+Installed-Size: 277
+Maintainer: Marco d'Itri <md@linux.it>
+Architecture: armhf
+Multi-Arch: same
+Source: libxcrypt
+Version: 1:4.4.18-4
+Replaces: libc6-dev (<< 2.29-4), libcrypt1-dev, libcrypt2-dev, manpages-dev (<< 5.01-1)
+Provides: libcrypt1-dev
+Depends: libcrypt1 (= 1:4.4.18-4)
+Breaks: libc6-dev (<< 2.29-4), manpages-dev (<< 5.01-1)
+Conflicts: libcrypt1-dev, libcrypt2-dev
+Description: libcrypt development files
+ This package contains the files needed for developing applications that
+ use libcrypt.
 
 Package: libcrypt1
 Protected: yes
@@ -2464,6 +2984,40 @@ Description: disk encryption support - shared library
  .
  This package provides the libcryptsetup shared library.
 Homepage: https://gitlab.com/cryptsetup/cryptsetup
+
+Package: libctf-nobfd0
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 162
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: binutils
+Version: 2.35.2-2
+Replaces: libbinutils (<< 2.33.50.20191128-1~)
+Depends: libc6 (>= 2.8), zlib1g (>= 1:1.2.0)
+Breaks: libbinutils (<< 2.33.50.20191128-1~)
+Description: Compact C Type Format library (runtime, no BFD dependency)
+ This package includes the libctf-nobfd shared library.  The Compact C Type
+ Format (CTF) is a way of representing information about a binary program
+Homepage: https://www.gnu.org/software/binutils/
+
+Package: libctf0
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 108
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: binutils
+Version: 2.35.2-2
+Depends: libbinutils (= 2.35.2-2), libc6 (>= 2.8), zlib1g (>= 1:1.2.0)
+Description: Compact C Type Format library (runtime, BFD dependency)
+ This package includes the libctf-nobfd shared library.  The Compact C Type
+ Format (CTF) is a way of representing information about a binary program
+Homepage: https://www.gnu.org/software/binutils/
 
 Package: libcurl3-gnutls
 Status: install ok installed
@@ -2618,6 +3172,29 @@ Description: Debian Configuration Management System (C-implementation library)
  .
  This library allows C programs to interface with cdebconf.
 
+Package: libdeflate0
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 77
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: libdeflate
+Version: 1.7-1
+Depends: libc6 (>= 2.4)
+Description: fast, whole-buffer DEFLATE-based compression and decompression
+ The supported formats are:
+  * DEFLATE (raw)
+  * zlib (a.k.a. DEFLATE with a zlib wrapper)
+  * gzip (a.k.a. DEFLATE with a gzip wrapper)
+ .
+ libdeflate is heavily optimized. It is significantly faster than the zlib
+ library, both for compression and decompression, and especially on x86
+ processors. In addition, libdeflate provides optional high compression modes
+ that provide a better compression ratio than the zlib's "level 9".
+Homepage: https://github.com/ebiggers/libdeflate
+
 Package: libdevmapper1.02.1
 Status: install ok installed
 Priority: optional
@@ -2742,47 +3319,6 @@ Description: Dpkg perl modules
  All the packages listed in Suggests or Recommends are used by some of the
  modules.
 Homepage: https://wiki.debian.org/Teams/Dpkg
-
-Package: libdrm-common
-Status: install ok installed
-Priority: optional
-Section: libs
-Installed-Size: 43
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Architecture: all
-Multi-Arch: foreign
-Source: libdrm
-Version: 2.4.104-1
-Description: Userspace interface to kernel DRM services -- common files
- This library implements the userspace interface to the kernel DRM
- services.  DRM stands for "Direct Rendering Manager", which is the
- kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
- The DRI is currently used on Linux to provide hardware-accelerated
- OpenGL drivers.
- .
- This package provides common files for libdrm.
-Homepage: https://cgit.freedesktop.org/mesa/drm/
-
-Package: libdrm2
-Status: install ok installed
-Priority: optional
-Section: libs
-Installed-Size: 90
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Architecture: armhf
-Multi-Arch: same
-Source: libdrm
-Version: 2.4.104-1
-Depends: libdrm-common (>= 2.4.104-1), libc6 (>= 2.17)
-Description: Userspace interface to kernel DRM services -- runtime
- This library implements the userspace interface to the kernel DRM
- services.  DRM stands for "Direct Rendering Manager", which is the
- kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
- The DRI is currently used on Linux to provide hardware-accelerated
- OpenGL drivers.
- .
- This package provides the runtime environment for libdrm.
-Homepage: https://cgit.freedesktop.org/mesa/drm/
 
 Package: libedit2
 Status: install ok installed
@@ -2938,6 +3474,30 @@ Description: ext2/ext3/ext4 file system libraries
  dumpe2fs, chattr, and lsattr.
 Homepage: http://e2fsprogs.sourceforge.net
 
+Package: libfakeroot
+Status: install ok installed
+Priority: optional
+Section: utils
+Installed-Size: 116
+Maintainer: Clint Adams <clint@debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: fakeroot
+Version: 1.25.3-1.1
+Replaces: fakeroot (<< 1.20-2~)
+Depends: libc6 (>= 2.28)
+Breaks: fakeroot (<< 1.20-2~)
+Conffiles:
+ /etc/ld.so.conf.d/fakeroot-arm-linux-gnueabihf.conf d25f10d5ed2988daa84e1d495ea75bd3
+Description: tool for simulating superuser privileges - shared libraries
+ fakeroot provides a fake "root environment" by means of LD_PRELOAD and
+ SysV IPC (or TCP) trickery. It puts wrappers around getuid(), chown(),
+ stat(), and other file-manipulation functions, so that unprivileged
+ users can (for instance) populate .deb archives with root-owned files;
+ various build tools use fakeroot for this by default.
+ .
+ This package contains the LD_PRELOAD libraries.
+
 Package: libfastjson4
 Status: install ok installed
 Priority: optional
@@ -3029,6 +3589,88 @@ Description: Perl module for file locking with fcntl(2)
  Furthermore due to its design it supports reliable locking over NFS.
 Homepage: https://metacpan.org/release/File-FcntlLock
 
+Package: libfontconfig1
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 429
+Maintainer: Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: fontconfig
+Version: 2.13.1-4.2
+Provides: libfontconfig
+Depends: libc6 (>= 2.28), libexpat1 (>= 2.0.1), libfreetype6 (>= 2.9.1), libuuid1 (>= 2.16), fontconfig-config (>= 2.13.1-4.2)
+Breaks: xpdf (<= 3.03-11)
+Description: generic font configuration library - runtime
+ Fontconfig is a font configuration and customization library, which
+ does not depend on the X Window System. It is designed to locate
+ fonts within the system and select them according to requirements
+ specified by applications.
+ .
+ This package contains the runtime library needed to launch applications
+ using fontconfig.
+Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
+
+Package: libfreetype6
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 580
+Maintainer: Hugh McMaster <hugh.mcmaster@outlook.com>
+Architecture: armhf
+Multi-Arch: same
+Source: freetype
+Version: 2.10.4+dfsg-1+deb11u1
+Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.28), libpng16-16 (>= 1.6.2-1), zlib1g (>= 1:1.1.4)
+Description: FreeType 2 font engine, shared library files
+ The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on providing small,
+ efficient and ubiquitous products.
+ .
+ The FreeType 2 library is their new software font engine.  It has been
+ designed to provide the following important features:
+  * A universal and simple API to manage font files
+  * Support for several font formats through loadable modules
+  * High-quality anti-aliasing
+  * High portability & performance
+ .
+ Supported font formats include:
+  * TrueType files (.ttf) and collections (.ttc)
+  * Type 1 font files both in ASCII (.pfa) or binary (.pfb) format
+  * Type 1 Multiple Master fonts.  The FreeType 2 API also provides
+    routines to manage design instances easily
+  * Type 1 CID-keyed fonts
+  * OpenType/CFF (.otf) fonts
+  * CFF/Type 2 fonts
+  * Adobe CEF fonts (.cef), used to embed fonts in SVG documents with
+    the Adobe SVG viewer plugin.
+  * Windows FNT/FON bitmap fonts
+ .
+ This package contains the files needed to run programs that use the
+ FreeType 2 library.
+Homepage: https://www.freetype.org
+
+Package: libgcc-10-dev
+Status: install ok installed
+Priority: optional
+Section: libdevel
+Installed-Size: 7040
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: gcc-10
+Version: 10.2.1-6
+Replaces: libgccjit-10-dev (<< 10-20200321-1)
+Depends: gcc-10-base (= 10.2.1-6), libgcc-s1 (>= 10.2.1-6), libgomp1 (>= 10.2.1-6), libatomic1 (>= 10.2.1-6), libasan6 (>= 10.2.1-6), libubsan1 (>= 10.2.1-6)
+Recommends: libc6-dev (>= 2.30-1~)
+Breaks: libgccjit-10-dev (<< 10-20200321-1)
+Description: GCC support library (development files)
+ This package contains the headers and static library files necessary for
+ building C programs which use libgcc, libgomp, libquadmath, libssp or libitm.
+Homepage: http://gcc.gnu.org/
+
 Package: libgcc-s1
 Protected: yes
 Status: install ok installed
@@ -3114,6 +3756,28 @@ Description: LGPL Crypto library - runtime library
  SHAKE128, SHAKE256, Tiger, Whirlpool, DSA, DSA2, ElGamal, RSA, ECC
  (Curve25519, sec256k1, GOST R 34.10-2001 and GOST R 34.10-2012, etc.)
 Homepage: https://directory.fsf.org/project/libgcrypt/
+
+Package: libgd3
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 344
+Maintainer: GD Team <team+gd@tracker.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: libgd2
+Version: 2.3.0-2
+Depends: libc6 (>= 2.29), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libtiff5 (>= 4.0.3), libwebp6 (>= 0.5.1), libxpm4, zlib1g (>= 1:1.1.4)
+Suggests: libgd-tools
+Description: GD Graphics Library
+ GD is a graphics library. It allows your code to quickly draw images
+ complete with lines, arcs, text, multiple colours, cut and paste from
+ other images, flood fills, and write out the result as a PNG file.
+ This is particularly useful in World Wide Web applications, where PNG is
+ one of the formats accepted for inline images by most browsers.
+ .
+ This is the runtime package of the library.
+Homepage: http://www.libgd.org/
 
 Package: libgdbm-compat4
 Status: install ok installed
@@ -3321,6 +3985,24 @@ Description: GNU TLS library - main runtime library
  .
  This package contains the main runtime library.
 Homepage: https://www.gnutls.org/
+
+Package: libgomp1
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 185
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: gcc-10
+Version: 10.2.1-6
+Provides: libgomp1-armhf
+Depends: gcc-10-base (= 10.2.1-6), libc6 (>= 2.17)
+Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
+Description: GCC OpenMP (GOMP) support library
+ GOMP is an implementation of OpenMP for the C, C++, and Fortran compilers
+ in the GNU Compiler Collection.
+Homepage: http://gcc.gnu.org/
 
 Package: libgpg-error0
 Status: install ok installed
@@ -3632,6 +4314,30 @@ Description: Exported ISC CFG Shared Library
  .
  This package delivers the exported libisccfg shared library.
 
+Package: libisl23
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 1323
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: isl
+Version: 0.23-1
+Replaces: libisl-dbg (<< 0.19)
+Depends: libc6 (>= 2.4), libgmp10
+Breaks: libisl-dbg (<< 0.19)
+Description: manipulating sets and relations of integer points bounded by linear constraints
+ isl is a library for manipulating sets and relations of integer points
+ bounded by linear constraints. Supported operations on sets include
+ intersection, union, set difference, emptiness check, convex hull,
+ (integer) affine hull, integer projection, and computing the lexicographic
+ minimum using parametric integer programming. It also includes an ILP solver
+ based on generalized basis reduction.
+ .
+ This package contains the runtime library.
+Homepage: http://isl.gforge.inria.fr/
+
 Package: libiw30
 Status: install ok installed
 Priority: extra
@@ -3672,6 +4378,50 @@ Description: C library for encoding, decoding and manipulating JSON data
   * Full Unicode support (UTF-8)
   * Extensive test suite
 Homepage: http://www.digip.org/jansson/
+
+Package: libjbig0
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 65
+Maintainer: Michael van der Kolff <mvanderkolff@gmail.com>
+Architecture: armhf
+Multi-Arch: same
+Source: jbigkit (2.1-3.1)
+Version: 2.1-3.1+b2
+Depends: libc6 (>= 2.4)
+Description: JBIGkit libraries
+ JBIG-KIT provides a portable library of compression and decompression functions
+ with a documented interface that you can include very easily into your image or
+ document processing software.
+ .
+ This package contains the dynamically linked library.
+Homepage: http://www.cl.cam.ac.uk/~mgk25/jbigkit/
+
+Package: libjpeg62-turbo
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 230
+Maintainer: Ondřej Surý <ondrej@debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: libjpeg-turbo
+Version: 1:2.0.6-4
+Replaces: libjpeg62
+Provides: libjpeg62 (= 1:2.0.6-4)
+Depends: libc6 (>= 2.7)
+Conflicts: libjpeg62
+Description: libjpeg-turbo JPEG runtime library
+ The libjpeg-turbo JPEG library is a library for handling JPEG files.
+ .
+ libjpeg-turbo is a JPEG image codec that uses SIMD instructions (MMX,
+ SSE2, NEON) to accelerate baseline JPEG compression and decompression
+ on x86, x86-64, and ARM systems.  The libjpeg-turbo JPEG library is
+ an API/ABI compatible with the IJG JPEG library.
+ .
+ This package contains the shared runtime library.
+Homepage: https://www.libjpeg-turbo.org/
 
 Package: libjson-c2
 Status: deinstall ok config-files
@@ -4113,6 +4863,30 @@ Description: device mounting library
  This device mounting library is used by mount and umount helpers.
 Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
 
+Package: libmpc3
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 84
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: mpclib3
+Version: 1.2.0-1
+Depends: libc6 (>= 2.4), libgmp10, libmpfr6 (>= 4.0.0)
+Description: multiple precision complex floating-point library
+ MPC is a portable library written in C for arbitrary precision
+ arithmetic on complex numbers providing correct rounding. For the time
+ being, it contains all arithmetic operations over complex numbers, the
+ exponential and the logarithm functions, the trigonometric and
+ hyperbolic functions.
+ .
+ Ultimately, it should implement a multiprecision equivalent of the ISO
+ C99 standard.
+ .
+ It builds upon the GNU MP and the MPFR libraries.
+Homepage: http://www.multiprecision.org/mpc/
+
 Package: libmpdec3
 Status: install ok installed
 Priority: optional
@@ -4129,6 +4903,26 @@ Description: library for decimal floating point arithmetic (runtime library)
  mpdecimal is a package for correctly-rounded arbitrary precision decimal
  floating point arithmetic.
 Homepage: https://www.bytereef.org/mpdecimal/index.html
+
+Package: libmpfr6
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 957
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: mpfr4
+Version: 4.1.0-3
+Depends: libc6 (>= 2.7), libgmp10
+Breaks: libcgal13 (<< 4.11-2+b1), libflint-2.5.2 (<< 2.5.2-17+b2), libgiac0 (<< 1.2.3.57+dfsg1-2+b4), libgmp3 (<< 4.1.4-3), libmpc3 (<< 1.1.0-1~), libnormaliz3 (<< 3.5.1+ds-4), sagemath (<< 8.1-2+b2)
+Description: multiple precision floating-point computation
+ MPFR provides a library for multiple-precision floating-point computation
+ with correct rounding.  The computation is both efficient and has a
+ well-defined semantics. It copies the good ideas from the
+ ANSI/IEEE-754 standard for double-precision floating-point arithmetic
+ (53-bit mantissa).
+Homepage: https://www.mpfr.org/
 
 Package: libncurses5
 Status: install ok installed
@@ -4391,41 +5185,6 @@ Description: library implementing HTTP/2 protocol (shared library)
  This package installs a shared library.
 Homepage: https://nghttp2.org/
 
-Package: libnih-dbus1
-Status: install ok installed
-Priority: optional
-Section: libs
-Installed-Size: 121
-Maintainer: Debian QA Group <packages@qa.debian.org>
-Architecture: armhf
-Source: libnih
-Version: 1.0.3-11
-Depends: libnih1 (= 1.0.3-11), libc6 (>= 2.17), libdbus-1-3 (>= 1.9.14)
-Description: NIH D-Bus Bindings Library
- libnih-dbus is a D-Bus bindings library that integrates with the main
- loop provided by libnih.
- .
- This package contains the shared library.
-Homepage: https://launchpad.net/libnih
-
-Package: libnih1
-Status: install ok installed
-Priority: optional
-Section: libs
-Installed-Size: 176
-Maintainer: Debian QA Group <packages@qa.debian.org>
-Architecture: armhf
-Source: libnih
-Version: 1.0.3-11
-Depends: libc6 (>> 2.31), libc6 (<< 2.32)
-Description: NIH Utility Library
- libnih is a light-weight "standard library" of C functions to ease the
- development of other libraries and applications, especially those
- normally found in /lib.
- .
- This package contains the shared library.
-Homepage: https://launchpad.net/libnih
-
 Package: libnl-3-200
 Status: install ok installed
 Priority: optional
@@ -4504,6 +5263,24 @@ Description: replacement for GNU Pth using system threads
  implementation. Thus nPth allows the use of libraries which are not
  compatible to GNU Pth.
 Homepage: https://www.gnupg.org/
+
+Package: libnsl-dev
+Status: install ok installed
+Priority: optional
+Section: libdevel
+Installed-Size: 269
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: libnsl
+Version: 1.3.0-2
+Replaces: libc6-dev (<< 2.31-4)
+Depends: libnsl2 (= 1.3.0-2), libtirpc-dev
+Breaks: libc6-dev (<< 2.31-4)
+Description: libnsl development files
+ This package contains the files needed for developing applications that
+ use libnsl.
+Homepage: https://github.com/thkukuk/libnsl
 
 Package: libnsl2
 Status: install ok installed
@@ -4899,27 +5676,6 @@ Description: Unix process pipeline manipulation library
  without needing to involve shell command-line parsing which is often
  error-prone and insecure.
 Homepage: https://nongnu.org/libpipeline/
-
-Package: libplymouth5
-Status: install ok installed
-Priority: optional
-Section: libs
-Installed-Size: 266
-Maintainer: Laurent Bigonville <bigon@debian.org>
-Architecture: armhf
-Multi-Arch: same
-Source: plymouth
-Version: 0.9.5-3
-Replaces: plymouth (<< 0.9.2-1~)
-Depends: libc6 (>= 2.28), libpng16-16 (>= 1.6.2-1), libudev1 (>= 183)
-Breaks: plymouth (<< 0.9.2-1~)
-Description: graphical boot animation and logger - shared libraries
- Plymouth is an application that runs very early in the boot process
- (even before the root filesystem is mounted!) that provides a graphical
- boot animation while the boot process happens in the background.
- .
- This package contains the shared libraries.
-Homepage: http://www.freedesktop.org/wiki/Software/Plymouth
 
 Package: libpng12-0
 Status: deinstall ok config-files
@@ -5549,6 +6305,25 @@ Description: type-safe Signal Framework for C++ - runtime
  run software which depends on it.
 Homepage: https://libsigcplusplus.github.io/libsigcplusplus/
 
+Package: libsigsegv2
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 53
+Maintainer: Debian Common Lisp Team <debian-common-lisp@lists.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: libsigsegv
+Version: 2.13-1
+Depends: libc6 (>= 2.4)
+Description: Library for handling page faults in a portable way
+ GNU libsigsegv is a library that allows handling page faults in a
+ portable way. It is used e.g. for generational garbage collectors
+ and stack overflow handlers.
+ .
+ This package contains the shared library.
+Homepage: https://www.gnu.org/software/libsigsegv/
+
 Package: libslang2
 Status: install ok installed
 Priority: important
@@ -5865,6 +6640,23 @@ Description: internationalized substitute of Text::Wrap
  It provides wrap().
 Homepage: https://metacpan.org/release/Text-WrapI18N
 
+Package: libtiff5
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 530
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: tiff
+Version: 4.2.0-1+deb11u1
+Depends: libc6 (>= 2.29), libdeflate0 (>= 1.0), libjbig0 (>= 2.0), libjpeg62-turbo (>= 1.3.1), liblzma5 (>= 5.1.1alpha+20120614), libwebp6 (>= 0.5.1), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.1.4)
+Description: Tag Image File Format (TIFF) library
+ libtiff is a library providing support for the Tag Image File Format
+ (TIFF), a widely used format for storing image data.  This package
+ includes the shared library.
+Homepage: https://libtiff.gitlab.io/libtiff/
+
 Package: libtinfo5
 Status: install ok installed
 Priority: required
@@ -5926,6 +6718,25 @@ Description: transport-independent RPC library - common files
  associated manpage.
 Homepage: http://sourceforge.net/projects/libtirpc
 
+Package: libtirpc-dev
+Status: install ok installed
+Priority: optional
+Section: libdevel
+Installed-Size: 573
+Maintainer: Josue Ortega <josue@debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: libtirpc
+Version: 1.3.1-1+deb11u1
+Depends: libtirpc3 (= 1.3.1-1+deb11u1)
+Description: transport-independent RPC library - development files
+ This package contains a port of Sun's transport-independent RPC library to
+ Linux. The library is intended as a replacement for the RPC code in the GNU C
+ library, providing among others support for RPC (and in turn, NFS) over IPv6.
+ .
+ This package contains the files needed for development against libtirpc.
+Homepage: http://sourceforge.net/projects/libtirpc
+
 Package: libtirpc3
 Status: install ok installed
 Priority: optional
@@ -5943,6 +6754,48 @@ Description: transport-independent RPC library
  Linux. The library is intended as a replacement for the RPC code in the GNU C
  library, providing among others support for RPC (and in turn, NFS) over IPv6.
 Homepage: http://sourceforge.net/projects/libtirpc
+
+Package: libtool
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 1198
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Architecture: all
+Multi-Arch: foreign
+Version: 2.4.6-15
+Depends: gcc | c-compiler, cpp, libc6-dev | libc-dev, file, autotools-dev
+Recommends: libltdl-dev
+Suggests: libtool-doc, autoconf (>> 2.50), automaken, gfortran | fortran95-compiler, gcj-jdk
+Conflicts: autoconf (<= 2.12), automake (<= 1.3), libtool1.4
+Description: Generic library support script
+ This is GNU libtool, a generic library support script.  Libtool hides
+ the complexity of generating special library types (such as shared
+ libraries) behind a consistent interface.  To use libtool, add the
+ new generic library building commands to your Makefile, Makefile.in,
+ or Makefile.am.  See the documentation for details.  Libtool supports
+ building static libraries on all platforms.
+ .
+ Libtool supports generation of C, C++, Fortran and Java libraries.
+Homepage: https://www.gnu.org/software/libtool/
+
+Package: libubsan1
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 2366
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: gcc-10
+Version: 10.2.1-6
+Provides: libubsan1-armhf
+Depends: gcc-10-base (= 10.2.1-6), libc6 (>= 2.28), libgcc-s1 (>= 4.3), libstdc++6 (>= 4.1.1)
+Description: UBSan -- undefined behaviour sanitizer (runtime)
+ UndefinedBehaviorSanitizer can be enabled via -fsanitize=undefined.
+ Various computations will be instrumented to detect undefined behavior
+ at runtime. Available for C and C++.
+Homepage: http://gcc.gnu.org/
 
 Package: libuchardet0
 Status: install ok installed
@@ -6106,6 +6959,24 @@ Description: Universally Unique ID library
  .
  See RFC 4122 for more information.
 Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+
+Package: libwebp6
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 335
+Maintainer: Jeff Breidenbach <jab@debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: libwebp
+Version: 0.6.1-2.1
+Depends: libc6 (>= 2.29)
+Description: Lossy compression of digital photographic images.
+ Image Compression format, based on the VP8 codec.
+ WebP uses the modern VP8 compression format to deliver efficient
+ compression of images for the web. More than 30% extra gain over
+ optimized JPEG, for same quality, is not unusual.
+Homepage: https://developers.google.com/speed/webp/
 
 Package: libwrap0
 Status: install ok installed
@@ -6355,6 +7226,25 @@ Description: X11 miscellaneous micro-utility library
  This module can be found at
  git://anongit.freedesktop.org/git/xorg/lib/libXmu
 
+Package: libxpm4
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 78
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: libxpm
+Version: 1:3.5.12-1
+Depends: libc6 (>= 2.7), libx11-6
+Description: X11 pixmap library
+ The X PixMap image format is an extension of the monochrome X BitMap
+ format specified in the X protocol, and is commonly used in traditional
+ X applications.
+ .
+ This package provides runtime support for XPM format.
+Homepage: https://www.x.org
+
 Package: libxtables10
 Status: deinstall ok config-files
 Priority: important
@@ -6446,6 +7336,22 @@ Breaks: kernel-common (<= 13.018+nmu1)
 Description: Linux image base package
  This package contains files and support scripts for all Linux
  images.
+
+Package: linux-libc-dev
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 5655
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: linux
+Version: 5.10.149-2
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These
+ headers are used by the installed headers for GNU libc and other system
+ libraries.
+Homepage: https://www.kernel.org/
 
 Package: locales
 Status: install ok installed
@@ -6589,6 +7495,26 @@ Description: Linux Standard Base version reporting utility
  installation and derived distributions.
 Homepage: https://wiki.linuxfoundation.org/lsb/start
 
+Package: m4
+Status: install ok installed
+Priority: optional
+Section: interpreters
+Installed-Size: 292
+Maintainer: Santiago Vila <sanvila@debian.org>
+Architecture: armhf
+Multi-Arch: foreign
+Version: 1.4.18-5
+Depends: libc6 (>= 2.28), libsigsegv2 (>= 2.9)
+Suggests: m4-doc
+Description: macro processing language
+ GNU `m4' is an implementation of the traditional UNIX macro
+ processor.  It is mostly SVR4 compatible, although it has some
+ extensions (for example, handling more than 9 positional parameters to
+ macros).  `m4' also has builtin functions for including files, running
+ shell commands, doing arithmetic, etc.  Autoconf needs GNU `m4' for
+ generating `configure' scripts, but not for running them.
+Homepage: https://www.gnu.org/software/m4/
+
 Package: mailcap
 Status: install ok installed
 Priority: optional
@@ -6620,6 +7546,32 @@ Description: Debian's mailcap system, and support programs
  .
  This package also provides the "debian-view" utility to handle Debian packages
  interactively.
+
+Package: make
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 1514
+Maintainer: Manoj Srivastava <srivasta@debian.org>
+Architecture: armhf
+Multi-Arch: allowed
+Source: make-dfsg
+Version: 4.3-4.1
+Replaces: make-guile
+Depends: libc6 (>= 2.28)
+Suggests: make-doc
+Conflicts: make-guile
+Description: utility for directing compilation
+ GNU Make is a utility which controls the generation of executables
+ and other target files of a program from the program's source
+ files. It determines automatically which pieces of a large program
+ need to be (re)created, and issues the commands to (re)create
+ them. Make can be used to organize any task in which targets (files)
+ are to be automatically updated based on input files whenever the
+ corresponding input is newer --- it is not limited to building
+ computer programs. Indeed, Make is a general purpose dependency
+ solver.
+Homepage: https://www.gnu.org/software/make/
 
 Package: makedev
 Status: install ok installed
@@ -6695,6 +7647,28 @@ Description: Manual pages about using a GNU/Linux system
  package only includes the intro man page describing the section.
  .
  The man pages describe syntaxes of several system files.
+Homepage: https://www.kernel.org/doc/man-pages/
+
+Package: manpages-dev
+Status: install ok installed
+Priority: optional
+Section: doc
+Installed-Size: 3942
+Maintainer: Dr. Tobias Quathamer <toddy@debian.org>
+Architecture: all
+Multi-Arch: foreign
+Source: manpages
+Version: 5.10-1
+Replaces: libattr1-dev (<< 1:2.4.47-3), libbsd-dev (<< 0.8.4-1)
+Depends: manpages
+Suggests: man-browser
+Breaks: libattr1-dev (<< 1:2.4.47-3), libbsd-dev (<< 0.8.4-1), manpages (<< 5.09-2)
+Description: Manual pages about using GNU/Linux for development
+ These man pages describe the Linux programming interface, including
+ these two sections:
+  2 = Linux system calls.
+  3 = Library calls (note that a more comprehensive source of information
+      may be found in the glibc-doc and glibc-doc-reference packages).
 Homepage: https://www.kernel.org/doc/man-pages/
 
 Package: mawk
@@ -6800,7 +7774,7 @@ Description: tools for mounting and manipulating filesystems
 Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
 
 Package: mountall
-Status: install ok installed
+Status: deinstall ok config-files
 Priority: required
 Section: admin
 Installed-Size: 224
@@ -6808,6 +7782,7 @@ Maintainer: Steve Langasek <vorlon@debian.org>
 Architecture: armhf
 Multi-Arch: foreign
 Version: 2.54
+Config-Version: 2.54
 Replaces: upstart (<< 0.6.3-2)
 Depends: makedev, udev, plymouth, coreutils (>= 7.1), libc6 (>= 2.9), libdbus-1-3 (>= 1.2.16), libnih-dbus1 (>= 1.0.0), libnih1 (>= 1.0.0), libudev1 (>= 183)
 Pre-Depends: dpkg (>= 1.15.7.2)
@@ -7499,13 +8474,14 @@ Description: curses-based PIN or pass-phrase entry dialog for GnuPG
 Homepage: https://www.gnupg.org/related_software/pinentry/
 
 Package: plymouth
-Status: install ok installed
+Status: deinstall ok config-files
 Priority: optional
 Section: misc
 Installed-Size: 480
 Maintainer: Laurent Bigonville <bigon@debian.org>
 Architecture: armhf
 Version: 0.9.5-3
+Config-Version: 0.9.5-3
 Replaces: plymouth-drm (<< 0.9.0-6~), plymouth-themes (<< 0.9.0-8~)
 Depends: init-system-helpers (>= 1.18), initramfs-tools | dracut, lsb-base (>= 3.0-6), systemd (>= 232-8~), udev (>= 232-8~), libc6 (>= 2.29), libdrm2 (>= 2.4.47), libplymouth5 (>= 0.9.5)
 Suggests: desktop-base, plymouth-themes

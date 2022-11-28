@@ -1,8 +1,8 @@
+S:disk/by-id/mmc-MMC04G_0x69cb918c-part3
 S:disk/by-path/platform-481d8000.mmc-part3
 S:disk/by-uuid/8b5a31b9-354d-4d44-91f7-41b1cd09b6ab
-S:disk/by-id/mmc-MMC04G_0x69cb918c-part3
 W:3
-I:15786017
+I:15726655
 E:ID_SERIAL=0x69cb918c
 E:ID_NAME=MMC04G
 E:ID_PATH=platform-481d8000.mmc
