@@ -1,7 +1,7 @@
-S:disk/by-id/usb-Philips_USB_Flash_Drive_90008BD253830F38-0:0
 S:disk/by-path/platform-musb-hdrc.0-usb-0:1:1.0-scsi-0:0:0:0
+S:disk/by-id/usb-Philips_USB_Flash_Drive_90008BD253830F38-0:0
 W:16
-I:21303305
+I:22064889
 E:ID_VENDOR=Philips
 E:ID_VENDOR_ENC=Philips\x20
 E:ID_VENDOR_ID=13fe

@@ -1,11 +1,11 @@
 S:snd/by-path/platform-sound
-I:16147178
+I:16685669
 E:ID_PATH=platform-sound
 E:ID_PATH_TAG=platform-sound
 E:SYSTEMD_WANTS=sound.target
 E:SYSTEMD_USER_WANTS=sound.target
-G:uaccess
 G:systemd
-Q:uaccess
+G:uaccess
 Q:systemd
+Q:uaccess
 V:1

@@ -328,3 +328,67 @@ Nov 28 18:40:45 debian-armhf sudo: pam_unix(sudo:session): session closed for us
 Nov 28 18:49:29 debian-armhf sudo:     root : TTY=pts/0 ; PWD=/root/alsa-utils-1.2.8 ; USER=root ; COMMAND=/usr/bin/make install
 Nov 28 18:49:29 debian-armhf sudo: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
 Nov 28 18:49:43 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 28 19:17:01 debian-armhf CRON[31369]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 19:17:01 debian-armhf CRON[31369]: pam_unix(cron:session): session closed for user root
+Nov 28 20:17:01 debian-armhf CRON[31391]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 20:17:01 debian-armhf CRON[31391]: pam_unix(cron:session): session closed for user root
+Nov 28 21:17:01 debian-armhf CRON[31476]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 21:17:01 debian-armhf CRON[31476]: pam_unix(cron:session): session closed for user root
+Nov 28 21:48:08 debian-armhf sshd[400]: pam_unix(sshd:session): session closed for user root
+Nov 28 21:48:08 debian-armhf systemd-logind[317]: Session c1 logged out. Waiting for processes to exit.
+Nov 28 21:48:08 debian-armhf systemd-logind[317]: Removed session c1.
+Nov 28 21:30:05 debian-armhf systemd-logind[319]: New seat seat0.
+Nov 28 21:30:07 debian-armhf sshd[387]: Server listening on 0.0.0.0 port 22.
+Nov 28 21:30:07 debian-armhf sshd[387]: Server listening on :: port 22.
+Nov 28 21:30:19 debian-armhf sshd[390]: Accepted password for root from 192.168.1.47 port 51604 ssh2
+Nov 28 21:30:19 debian-armhf sshd[390]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 21:30:19 debian-armhf systemd-logind[319]: New session c1 of user root.
+Nov 28 21:30:20 debian-armhf systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 10:15:24 debian-armhf sshd[588]: Accepted password for root from 192.168.1.47 port 58521 ssh2
+Nov 29 10:15:24 debian-armhf sshd[588]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 10:15:24 debian-armhf systemd-logind[319]: New session c2 of user root.
+Nov 29 10:15:55 debian-armhf sshd[611]: Accepted password for root from 192.168.1.47 port 58522 ssh2
+Nov 29 10:15:55 debian-armhf sshd[611]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 10:15:55 debian-armhf systemd-logind[319]: New session c3 of user root.
+Nov 29 10:16:22 debian-armhf sshd[390]: Exiting on signal 15
+Nov 29 10:16:22 debian-armhf sshd[390]: pam_unix(sshd:session): session closed for user root
+Nov 29 10:16:22 debian-armhf sshd[588]: Exiting on signal 15
+Nov 29 10:16:22 debian-armhf sshd[588]: pam_unix(sshd:session): session closed for user root
+Nov 29 10:16:22 debian-armhf sshd[588]: pam_systemd(sshd:session): Failed to release session: Interrupted system call
+Nov 29 10:16:22 debian-armhf sshd[611]: Exiting on signal 15
+Nov 29 10:16:22 debian-armhf sshd[611]: pam_unix(sshd:session): session closed for user root
+Nov 29 10:16:22 debian-armhf sshd[611]: pam_systemd(sshd:session): Failed to release session: Interrupted system call
+Nov 29 10:16:33 debian-armhf systemd-logind[331]: New seat seat0.
+Nov 29 10:16:34 debian-armhf sshd[399]: Server listening on 0.0.0.0 port 22.
+Nov 29 10:16:34 debian-armhf sshd[399]: Server listening on :: port 22.
+Nov 29 10:16:45 debian-armhf sshd[402]: Accepted password for root from 192.168.1.47 port 59287 ssh2
+Nov 29 10:16:46 debian-armhf sshd[402]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 10:16:46 debian-armhf systemd-logind[331]: New session c1 of user root.
+Nov 29 10:16:46 debian-armhf systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 10:32:43 debian-armhf login[398]: pam_unix(login:session): session opened for user root(uid=0) by LOGIN(uid=0)
+Nov 29 10:32:43 debian-armhf systemd-logind[331]: New session c2 of user root.
+Nov 29 10:32:43 debian-armhf login[492]: ROOT LOGIN  on '/dev/ttyS0'
+Nov 29 10:45:32 debian-armhf sshd[514]: Accepted password for root from 192.168.1.47 port 60112 ssh2
+Nov 29 10:45:32 debian-armhf sshd[514]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 10:45:33 debian-armhf systemd-logind[331]: New session c3 of user root.
+Nov 29 10:46:47 debian-armhf sshd[402]: Exiting on signal 15
+Nov 29 10:46:47 debian-armhf sshd[402]: pam_unix(sshd:session): session closed for user root
+Nov 29 10:46:47 debian-armhf sshd[514]: Exiting on signal 15
+Nov 29 10:46:47 debian-armhf sshd[514]: pam_unix(sshd:session): session closed for user root
+Nov 29 10:46:47 debian-armhf sshd[514]: pam_systemd(sshd:session): Failed to release session: Interrupted system call
+Nov 29 10:46:52 debian-armhf systemd-logind[324]: New seat seat0.
+Nov 29 10:46:55 debian-armhf sshd[392]: Server listening on 0.0.0.0 port 22.
+Nov 29 10:46:55 debian-armhf sshd[392]: Server listening on :: port 22.
+Nov 29 10:47:03 debian-armhf login[391]: pam_unix(login:session): session opened for user root(uid=0) by LOGIN(uid=0)
+Nov 29 10:47:04 debian-armhf systemd-logind[324]: New session c1 of user root.
+Nov 29 10:47:05 debian-armhf systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 10:47:08 debian-armhf login[422]: ROOT LOGIN  on '/dev/ttyS0'
+Nov 29 11:09:51 debian-armhf sudo:     root : TTY=ttyS0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get clean and sudo apt-get autoclean commands
+Nov 29 11:09:51 debian-armhf sudo: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+Nov 29 11:09:51 debian-armhf sudo: pam_unix(sudo:session): session closed for user root
+Nov 29 11:11:23 debian-armhf login[391]: pam_unix(login:session): session closed for user root
+Nov 29 11:11:23 debian-armhf systemd-logind[324]: Session c1 logged out. Waiting for processes to exit.
+Nov 29 11:11:23 debian-armhf systemd-logind[324]: Removed session c1.
+Nov 29 11:11:28 debian-armhf login[474]: pam_unix(login:session): session opened for user root(uid=0) by LOGIN(uid=0)
+Nov 29 11:11:28 debian-armhf systemd-logind[324]: New session c2 of user root.
+Nov 29 11:11:28 debian-armhf login[484]: ROOT LOGIN  on '/dev/ttyS0'

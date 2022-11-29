@@ -2109,3 +2109,1327 @@ Nov 28 18:14:33 debian-armhf systemd[1]: Started Session c2 of user root.
 Nov 28 18:19:57 debian-armhf systemd[1]: Starting Cleanup of Temporary Directories...
 Nov 28 18:19:57 debian-armhf systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
 Nov 28 18:19:57 debian-armhf systemd[1]: Finished Cleanup of Temporary Directories.
+Nov 28 20:31:27 debian-armhf systemd[1]: Starting Daily apt download activities...
+Nov 28 20:31:31 debian-armhf systemd[1]: apt-daily.service: Succeeded.
+Nov 28 20:31:31 debian-armhf systemd[1]: Finished Daily apt download activities.
+Nov 28 20:31:31 debian-armhf systemd[1]: apt-daily.service: Consumed 2.968s CPU time.
+Nov 28 21:48:08 debian-armhf systemd[1]: session-c1.scope: Succeeded.
+Nov 28 21:48:08 debian-armhf systemd[1]: session-c1.scope: Consumed 21min 24.618s CPU time.
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'aes_arm'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'aes_arm_bs'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'sha1_arm'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'sha1_arm_neon'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'sha256_arm'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'sha512_arm'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'fscache'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'cifs'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'seqiv'
+Nov 28 21:30:04 debian-armhf systemd-fsck[132]: /dev/mmcblk1p4: Superblock last mount time is in the future.
+Nov 28 21:30:04 debian-armhf systemd-fsck[132]: #011(by less than a day, probably due to the hardware clock being incorrectly set)
+Nov 28 21:30:04 debian-armhf systemd-fsck[132]: /dev/mmcblk1p4: clean, 40973/188048 files, 613126/751000 blocks
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'echainiv'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'cmac'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'md4'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ccm'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'des_generic'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'arc4'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'authenc'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'authencesn'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'drbg'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'jitterentropy_rng'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'algif_hash'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'algif_skcipher'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ecc'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ecdh_generic'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'crc_ccitt'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'crc_itu_t'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'crc7'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'libcrc32c'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ts_kmp'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ts_bm'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ts_fsm'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'gpio_pisosr'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'gpio_tpic2810'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'pwm_fsl_ftm'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ti_am335x_tscadc'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'axp20x'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'axp20x_i2c'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'scsi_mod'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'sd_mod'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'sr_mod'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'spidev'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'spi_bitbang'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'spi_gpio'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'phylink'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'tg3'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'e1000'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'e1000e'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'skge'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'can_dev'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'rcar_can'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'mcp251x'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'c_can'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'c_can_platform'
+Nov 28 21:30:04 debian-armhf systemd[1]: Starting Flush Journal to Persistent Storage...
+Nov 28 21:30:04 debian-armhf systemd[1]: Finished Create Static Device Nodes in /dev.
+Nov 28 21:30:04 debian-armhf systemd[1]: Reached target Local File Systems (Pre).
+Nov 28 21:30:04 debian-armhf systemd[1]: Starting Rule-based Manager for Device Events and Files...
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'pegasus'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'r8152'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'asix'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ax88179_178a'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'cdc_ether'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'smsc75xx'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'smsc95xx'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'net1080'
+Nov 28 21:30:04 debian-armhf systemd[1]: Started Rule-based Manager for Device Events and Files.
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'cdc_subset'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'cdc_ncm'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'phy_generic'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'phy_am335x_control'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'phy_am335x'
+Nov 28 21:30:04 debian-armhf systemd[1]: Finished Coldplug All udev Devices.
+Nov 28 21:30:04 debian-armhf systemd[1]: Starting Helper to synchronize boot up for ifupdown...
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'phy_gpio_vbus_usb'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'phy_isp1301'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ehci_hcd'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ehci_pci'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ehci_platform'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ehci_omap'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ohci_hcd'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ohci_pci'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ohci_platform'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'xhci_hcd'
+Nov 28 21:30:04 debian-armhf systemd[1]: Finished Flush Journal to Persistent Storage.
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'xhci_pci'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'xhci_plat_hcd'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'r8a66597_hcd'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'dwc3'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'dwc3_omap'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'dwc3_haps'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'dwc3_of_simple'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'isp1760'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'cdc_acm'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'usb_storage'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'usbserial'
+Nov 28 21:30:04 debian-armhf systemd[1]: Found device /dev/ttyS0.
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'usbtest'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'omap2430'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'am35x'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'libcomposite'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'usb_f_acm'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'usb_f_ss_lb'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'usb_f_serial'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'usb_f_obex'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'u_ether'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'usb_f_ncm'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'usb_f_ecm'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'usb_f_eem'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'usb_f_ecm_subset'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'usb_f_rndis'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'usb_f_mass_storage'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'usb_f_fs'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'u_audio'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'usb_f_uac1'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'usb_f_uac2'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'usb_f_uvc'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'usb_f_midi'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'usb_f_hid'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'usb_f_printer'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'g_zero'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'g_audio'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'g_ether'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'gadgetfs'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'g_ffs'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'g_mass_storage'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'g_serial'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'g_printer'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'g_midi'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'g_cdc'
+Nov 28 21:30:04 debian-armhf systemd-udevd[188]: Using default interface naming scheme 'v247'.
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'g_dbgp'
+Nov 28 21:30:04 debian-armhf systemd-udevd[188]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'g_multi'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'g_webcam'
+Nov 28 21:30:04 debian-armhf systemd-udevd[190]: controlC0: Process '/usr/sbin/alsactl restore 0' failed with exit code 99.
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'g_ncm'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'g_acm_ms'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'matrix_keypad'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'qt1070'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'samsung_keypad'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'cyapatp'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'atmel_mxt_ts'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'edt_ft5x06'
+Nov 28 21:30:04 debian-armhf systemd-udevd[187]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'goodix'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'mms114'
+Nov 28 21:30:04 debian-armhf systemd-udevd[193]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'pixcir_i2c_ts'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'st1232'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ti_am335x_tsc'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'adxl34x'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'adxl34x_i2c'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'adxl34x_spi'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'gpio_decoder'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'axp20x_pek'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'input_polldev'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'rtc_ds1307'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'rtc_palmas'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'rtc_tps6586x'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'rtc_tps65910'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'i2c_emev2'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'v4l2_tpg'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'uvcvideo'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'gspca_main'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'vivid'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'axp20x_usb_power'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'max17040_battery'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'max17042_battery'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ina2xx'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ntc_thermistor'
+Nov 28 21:30:04 debian-armhf systemd[1]: Found device /dev/mmcblk1p1.
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'pwm_fan'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'led_class_flash'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'usbhid'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'extcon_palmas'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'extcon_usb_gpio'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ti_am335x_adc'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'vf610_adc'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'cm36651'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'libata'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ahci'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ahci_platform'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'sata_mv'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'uio'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'omap_hdq'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'rpmsg_core'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'virtio_rpmsg_bus'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'rpmsg_kdrv'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'rpmsg_kdrv_switch'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'snd_hwdep'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'snd_usb_audio'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'snd_soc_fsl_sai'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'p8022'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'psnap'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'stp'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'act_police'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'act_gact'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'act_mirred'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'act_ipt'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'act_nat'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'act_pedit'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'act_simple'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'act_skbedit'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'act_csum'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'sch_cbq'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'sch_htb'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'sch_hfsc'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'sch_red'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'sch_gred'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'sch_ingress'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'sch_dsmark'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'sch_sfb'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'sch_sfq'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'sch_tbf'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'sch_teql'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'sch_prio'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'sch_multiq'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'sch_netem'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'sch_drr'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'sch_mqprio'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'sch_choke'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'sch_qfq'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'sch_codel'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'sch_fq_codel'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'cls_u32'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'cls_route'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'cls_fw'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'cls_rsvp'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'cls_tcindex'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'cls_rsvp6'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'cls_basic'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'cls_flow'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'em_cmp'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'em_nbyte'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'em_u32'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'em_meta'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'em_text'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'nf_conntrack'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'nf_nat'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'nf_synproxy_core'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'xt_mark'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'xt_nat'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'xt_CLASSIFY'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'xt_MASQUERADE'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'xt_IDLETIMER'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'xt_comment'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'xt_cpu'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'xt_iprange'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'xt_length'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'xt_limit'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'xt_mac'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'xt_multiport'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'xt_pkttype'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'xt_policy'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'xt_sctp'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'xt_socket'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'iptable_filter'
+Nov 28 21:30:04 debian-armhf systemd-udevd[193]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'iptable_nat'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ipt_SYNPROXY'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'arp_tables'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'arpt_mangle'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'arptable_filter'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ah4'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'esp4'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ipcomp'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'xfrm4_tunnel'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'xfrm_user'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ah6'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'esp6'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ipcomp6'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'mip6'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ip6_tunnel'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module '8021q'
+Nov 28 21:30:04 debian-armhf systemd-udevd[189]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov 28 21:30:04 debian-armhf systemd-udevd[189]: Using default interface naming scheme 'v247'.
+Nov 28 21:30:04 debian-armhf systemd-udevd[189]: ip6tnl0: Could not set Alias=, MACAddress= or MTU=, ignoring: Invalid argument
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'af_key'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ebtables'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ebtable_broute'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ebtable_filter'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ebtable_nat'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ebt_802_3'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ebt_among'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ebt_arp'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ebt_ip'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ebt_ip6'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ebt_limit'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ebt_mark_m'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ebt_pkttype'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ebt_stp'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ebt_vlan'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ebt_arpreply'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ebt_mark'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ebt_dnat'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ebt_redirect'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ebt_snat'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ebt_log'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'ebt_nflog'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'bridge'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'br_netfilter'
+Nov 28 21:30:04 debian-armhf systemd-modules-load[131]: Inserted module 'dsa_core'
+Nov 28 21:30:04 debian-armhf systemd[1]: Finished Load Kernel Modules.
+Nov 28 21:30:04 debian-armhf systemd[1]: Finished Helper to synchronize boot up for ifupdown.
+Nov 28 21:30:04 debian-armhf systemd[1]: Reached target Sound Card.
+Nov 28 21:30:04 debian-armhf systemd[1]: Mounting /boot/uboot...
+Nov 28 21:30:04 debian-armhf systemd[1]: Starting Apply Kernel Variables...
+Nov 28 21:30:04 debian-armhf systemd[1]: Mounted /boot/uboot.
+Nov 28 21:30:04 debian-armhf systemd[1]: Finished Apply Kernel Variables.
+Nov 28 21:30:04 debian-armhf systemd[1]: Reached target Local File Systems.
+Nov 28 21:30:04 debian-armhf systemd[1]: Starting Set console font and keymap...
+Nov 28 21:30:04 debian-armhf systemd[1]: Starting Raise network interfaces...
+Nov 28 21:30:04 debian-armhf systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+Nov 28 21:30:04 debian-armhf systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+Nov 28 21:30:04 debian-armhf systemd[1]: Starting Create Volatile Files and Directories...
+Nov 28 21:30:04 debian-armhf systemd[1]: Finished Set console font and keymap.
+Nov 28 21:30:04 debian-armhf systemd[1]: Finished Create Volatile Files and Directories.
+Nov 28 21:30:04 debian-armhf systemd[1]: Starting Network Time Synchronization...
+Nov 28 21:30:04 debian-armhf systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Nov 28 21:30:04 debian-armhf systemd[1]: Finished Update UTMP about System Boot/Shutdown.
+Nov 28 21:30:04 debian-armhf dhclient[303]: Internet Systems Consortium DHCP Client 4.4.1
+Nov 28 21:30:04 debian-armhf dhclient[303]: Copyright 2004-2018 Internet Systems Consortium.
+Nov 28 21:30:04 debian-armhf ifup[303]: Internet Systems Consortium DHCP Client 4.4.1
+Nov 28 21:30:04 debian-armhf ifup[303]: Copyright 2004-2018 Internet Systems Consortium.
+Nov 28 21:30:04 debian-armhf ifup[303]: All rights reserved.
+Nov 28 21:30:04 debian-armhf ifup[303]: For info, please visit https://www.isc.org/software/dhcp/
+Nov 28 21:30:04 debian-armhf dhclient[303]: All rights reserved.
+Nov 28 21:30:04 debian-armhf dhclient[303]: For info, please visit https://www.isc.org/software/dhcp/
+Nov 28 21:30:04 debian-armhf dhclient[303]: 
+Nov 28 21:30:04 debian-armhf systemd[1]: Started Network Time Synchronization.
+Nov 28 21:30:04 debian-armhf systemd[1]: Reached target System Initialization.
+Nov 28 21:30:04 debian-armhf systemd[1]: Started Daily Cleanup of Temporary Directories.
+Nov 28 21:30:04 debian-armhf systemd[1]: Reached target System Time Set.
+Nov 28 21:30:04 debian-armhf systemd[1]: Reached target System Time Synchronized.
+Nov 28 21:30:04 debian-armhf systemd[1]: Started Daily apt download activities.
+Nov 28 21:30:04 debian-armhf systemd[1]: Started Daily apt upgrade and clean activities.
+Nov 28 21:30:04 debian-armhf systemd[1]: Started Periodic ext4 Online Metadata Check for All Filesystems.
+Nov 28 21:30:04 debian-armhf systemd[1]: Started Daily rotation of log files.
+Nov 28 21:30:04 debian-armhf systemd[1]: Started Daily man-db regeneration.
+Nov 28 21:30:04 debian-armhf systemd[1]: Reached target Timers.
+Nov 28 21:30:04 debian-armhf systemd[1]: Listening on D-Bus System Message Bus Socket.
+Nov 28 21:30:04 debian-armhf systemd[1]: Reached target Sockets.
+Nov 28 21:30:04 debian-armhf systemd[1]: Reached target Basic System.
+Nov 28 21:30:04 debian-armhf ifup[303]: Listening on LPF/eth0/d0:ff:50:01:21:02
+Nov 28 21:30:04 debian-armhf ifup[303]: Sending on   LPF/eth0/d0:ff:50:01:21:02
+Nov 28 21:30:04 debian-armhf ifup[303]: Sending on   Socket/fallback
+Nov 28 21:30:04 debian-armhf ifup[303]: DHCPREQUEST for 192.168.1.9 on eth0 to 255.255.255.255 port 67
+Nov 28 21:30:04 debian-armhf systemd[1]: Started Regular background program processing daemon.
+Nov 28 21:30:04 debian-armhf dhclient[303]: Listening on LPF/eth0/d0:ff:50:01:21:02
+Nov 28 21:30:04 debian-armhf systemd[1]: Started D-Bus System Message Bus.
+Nov 28 21:30:04 debian-armhf dhclient[303]: Sending on   LPF/eth0/d0:ff:50:01:21:02
+Nov 28 21:30:04 debian-armhf dhclient[303]: Sending on   Socket/fallback
+Nov 28 21:30:04 debian-armhf dhclient[303]: DHCPREQUEST for 192.168.1.9 on eth0 to 255.255.255.255 port 67
+Nov 28 21:30:04 debian-armhf systemd[1]: Starting Remove Stale Online ext4 Metadata Check Snapshots...
+Nov 28 21:30:04 debian-armhf systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Nov 28 21:30:04 debian-armhf systemd[1]: Starting LSB: Stop plymouth during boot and start it on shutdown...
+Nov 28 21:30:04 debian-armhf systemd[1]: Starting System Logging Service...
+Nov 28 21:30:04 debian-armhf systemd[1]: Starting User Login Management...
+Nov 28 21:30:04 debian-armhf systemd[1]: Starting WPA supplicant...
+Nov 28 21:30:04 debian-armhf systemd[1]: Started System Logging Service.
+Nov 28 21:30:04 debian-armhf systemd[1]: Started LSB: Stop plymouth during boot and start it on shutdown.
+Nov 28 21:30:05 debian-armhf wpa_supplicant[320]: Successfully initialized wpa_supplicant
+Nov 28 21:30:05 debian-armhf systemd[1]: Started WPA supplicant.
+Nov 28 21:30:05 debian-armhf systemd[1]: Started User Login Management.
+Nov 28 21:30:05 debian-armhf systemd[1]: e2scrub_reap.service: Succeeded.
+Nov 28 21:30:05 debian-armhf systemd[1]: Finished Remove Stale Online ext4 Metadata Check Snapshots.
+Nov 28 21:30:06 debian-armhf dhclient[303]: DHCPACK of 192.168.1.9 from 192.168.1.1
+Nov 28 21:30:06 debian-armhf ifup[303]: DHCPACK of 192.168.1.9 from 192.168.1.1
+Nov 28 21:30:06 debian-armhf dhclient[303]: bound to 192.168.1.9 -- renewal in 34866 seconds.
+Nov 28 21:30:06 debian-armhf ifup[303]: bound to 192.168.1.9 -- renewal in 34866 seconds.
+Nov 28 21:30:06 debian-armhf systemd[1]: Finished Raise network interfaces.
+Nov 28 21:30:06 debian-armhf systemd[1]: Reached target Network.
+Nov 28 21:30:06 debian-armhf systemd[1]: Starting /etc/rc.local Compatibility...
+Nov 28 21:30:06 debian-armhf systemd[1]: Starting OpenBSD Secure Shell server...
+Nov 28 21:30:07 debian-armhf systemd[1]: Starting Permit User Sessions...
+Nov 28 21:30:07 debian-armhf systemd[1]: Started /etc/rc.local Compatibility.
+Nov 28 21:30:07 debian-armhf systemd[1]: Finished Permit User Sessions.
+Nov 28 21:30:07 debian-armhf systemd[1]: Started Getty on tty1.
+Nov 28 21:30:07 debian-armhf systemd[1]: Started Serial Getty on ttyS0.
+Nov 28 21:30:07 debian-armhf systemd[1]: Reached target Login Prompts.
+Nov 28 21:30:07 debian-armhf systemd[1]: Started OpenBSD Secure Shell server.
+Nov 28 21:30:07 debian-armhf systemd[1]: Reached target Multi-User System.
+Nov 28 21:30:07 debian-armhf systemd[1]: Reached target Graphical Interface.
+Nov 28 21:30:07 debian-armhf systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Nov 28 21:30:07 debian-armhf systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Nov 28 21:30:07 debian-armhf systemd[1]: Finished Update UTMP about System Runlevel Changes.
+Nov 28 21:30:07 debian-armhf systemd[1]: Startup finished in 12.015s (kernel) + 27.689s (userspace) = 39.704s.
+Nov 28 21:30:14 debian-armhf systemd[1]: systemd-fsckd.service: Succeeded.
+Nov 28 21:30:19 debian-armhf systemd[1]: Created slice User Slice of UID 0.
+Nov 28 21:30:19 debian-armhf systemd[1]: Starting User Runtime Directory /run/user/0...
+Nov 28 21:30:20 debian-armhf systemd[1]: Finished User Runtime Directory /run/user/0.
+Nov 28 21:30:20 debian-armhf systemd[1]: Starting User Manager for UID 0...
+Nov 28 21:30:23 debian-armhf systemd[396]: Queued start job for default target Main User Target.
+Nov 28 21:30:23 debian-armhf systemd[396]: Created slice User Application Slice.
+Nov 28 21:30:23 debian-armhf systemd[396]: Reached target Paths.
+Nov 28 21:30:23 debian-armhf systemd[396]: Reached target Timers.
+Nov 28 21:30:23 debian-armhf systemd[396]: Listening on GnuPG network certificate management daemon.
+Nov 28 21:30:23 debian-armhf systemd[396]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Nov 28 21:30:23 debian-armhf systemd[396]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Nov 28 21:30:23 debian-armhf systemd[396]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Nov 28 21:30:23 debian-armhf systemd[396]: Listening on GnuPG cryptographic agent and passphrase cache.
+Nov 28 21:30:23 debian-armhf systemd[396]: Reached target Sockets.
+Nov 28 21:30:23 debian-armhf systemd[396]: Reached target Basic System.
+Nov 28 21:30:23 debian-armhf systemd[1]: Started User Manager for UID 0.
+Nov 28 21:30:23 debian-armhf systemd[396]: Reached target Main User Target.
+Nov 28 21:30:23 debian-armhf systemd[396]: Startup finished in 3.532s.
+Nov 28 21:30:23 debian-armhf systemd[1]: Started Session c1 of user root.
+Nov 29 10:07:04 debian-armhf dhclient[303]: DHCPREQUEST for 192.168.1.9 on eth0 to 192.168.1.1 port 67
+Nov 29 10:07:04 debian-armhf systemd[1]: Starting Rotate log files...
+Nov 29 10:07:04 debian-armhf systemd[1]: Starting Daily man-db regeneration...
+Nov 29 10:07:05 debian-armhf systemd[1]: logrotate.service: Succeeded.
+Nov 29 10:07:05 debian-armhf systemd[1]: Finished Rotate log files.
+Nov 29 10:07:05 debian-armhf dhclient[303]: DHCPACK of 192.168.1.9 from 192.168.1.1
+Nov 29 10:07:05 debian-armhf dhclient[303]: bound to 192.168.1.9 -- renewal in 35890 seconds.
+Nov 29 10:07:10 debian-armhf systemd[1]: man-db.service: Succeeded.
+Nov 29 10:07:10 debian-armhf systemd[1]: Finished Daily man-db regeneration.
+Nov 29 10:07:10 debian-armhf systemd[1]: man-db.service: Consumed 1.384s CPU time.
+Nov 29 10:15:24 debian-armhf systemd[1]: Started Session c2 of user root.
+Nov 29 10:15:55 debian-armhf systemd[1]: Started Session c3 of user root.
+Nov 29 10:16:22 debian-armhf systemd[1]: Stopping Session c1 of user root.
+Nov 29 10:16:22 debian-armhf systemd[1]: Stopping Session c2 of user root.
+Nov 29 10:16:22 debian-armhf systemd[1]: Stopping Session c3 of user root.
+Nov 29 10:16:22 debian-armhf systemd[1]: Removed slice system-modprobe.slice.
+Nov 29 10:16:22 debian-armhf systemd[1]: Stopped target Graphical Interface.
+Nov 29 10:16:22 debian-armhf systemd[1]: Stopped target Multi-User System.
+Nov 29 10:16:22 debian-armhf systemd[1]: Stopped target Login Prompts.
+Nov 29 10:16:22 debian-armhf systemd[1]: Stopped target Sound Card.
+Nov 29 10:16:22 debian-armhf systemd[1]: Stopped target Timers.
+Nov 29 10:16:22 debian-armhf systemd[1]: apt-daily-upgrade.timer: Succeeded.
+Nov 29 10:16:22 debian-armhf systemd[1]: Stopped Daily apt upgrade and clean activities.
+Nov 29 10:16:22 debian-armhf systemd[1]: apt-daily.timer: Succeeded.
+Nov 29 10:16:22 debian-armhf systemd[1]: Stopped Daily apt download activities.
+Nov 29 10:16:22 debian-armhf systemd[1]: e2scrub_all.timer: Succeeded.
+Nov 29 10:16:22 debian-armhf systemd[1]: Stopped Periodic ext4 Online Metadata Check for All Filesystems.
+Nov 29 10:16:22 debian-armhf systemd[1]: logrotate.timer: Succeeded.
+Nov 29 10:16:22 debian-armhf systemd[1]: Stopped Daily rotation of log files.
+Nov 29 10:16:22 debian-armhf systemd[1]: man-db.timer: Succeeded.
+Nov 29 10:16:22 debian-armhf systemd[1]: Stopped Daily man-db regeneration.
+Nov 29 10:16:22 debian-armhf systemd[1]: systemd-tmpfiles-clean.timer: Succeeded.
+Nov 29 10:16:22 debian-armhf systemd[1]: Stopped Daily Cleanup of Temporary Directories.
+Nov 29 10:16:22 debian-armhf systemd[1]: Stopped target System Time Synchronized.
+Nov 29 10:16:22 debian-armhf systemd[1]: Stopped target System Time Set.
+Nov 29 10:16:22 debian-armhf systemd[1]: Stopping Regular background program processing daemon...
+Nov 29 10:16:22 debian-armhf systemd[1]: Stopping Getty on tty1...
+Nov 29 10:16:22 debian-armhf systemd[1]: Stopping LSB: Stop plymouth during boot and start it on shutdown...
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'aes_arm'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'aes_arm_bs'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'sha1_arm'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'sha1_arm_neon'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'sha256_arm'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'sha512_arm'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'fscache'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'cifs'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'seqiv'
+Nov 29 10:16:32 debian-armhf systemd-fsck[132]: /dev/mmcblk1p4: Superblock last mount time is in the future.
+Nov 29 10:16:32 debian-armhf systemd-fsck[132]: #011(by less than a day, probably due to the hardware clock being incorrectly set)
+Nov 29 10:16:32 debian-armhf systemd-fsck[132]: /dev/mmcblk1p4: clean, 41214/188048 files, 628841/751000 blocks
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'echainiv'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'cmac'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'md4'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ccm'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'des_generic'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'arc4'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'authenc'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'authencesn'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'drbg'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'jitterentropy_rng'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'algif_hash'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'algif_skcipher'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ecc'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ecdh_generic'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'crc_ccitt'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'crc_itu_t'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'crc7'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'libcrc32c'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ts_kmp'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ts_bm'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ts_fsm'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'gpio_pisosr'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'gpio_tpic2810'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'pwm_fsl_ftm'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ti_am335x_tscadc'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'axp20x'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'axp20x_i2c'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'scsi_mod'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'sd_mod'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'sr_mod'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'spidev'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'spi_bitbang'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'spi_gpio'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'phylink'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'tg3'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'e1000'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'e1000e'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'skge'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'can_dev'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'rcar_can'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'mcp251x'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'c_can'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'c_can_platform'
+Nov 29 10:16:32 debian-armhf systemd[1]: Starting Flush Journal to Persistent Storage...
+Nov 29 10:16:32 debian-armhf systemd[1]: Finished Create Static Device Nodes in /dev.
+Nov 29 10:16:32 debian-armhf systemd[1]: Reached target Local File Systems (Pre).
+Nov 29 10:16:32 debian-armhf systemd[1]: Starting Rule-based Manager for Device Events and Files...
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'pegasus'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'r8152'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'asix'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ax88179_178a'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'cdc_ether'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'smsc75xx'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'smsc95xx'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'net1080'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'cdc_subset'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'cdc_ncm'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'phy_generic'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'phy_am335x_control'
+Nov 29 10:16:32 debian-armhf systemd[1]: Started Rule-based Manager for Device Events and Files.
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'phy_am335x'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'phy_gpio_vbus_usb'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'phy_isp1301'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ehci_hcd'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ehci_pci'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ehci_platform'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ehci_omap'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ohci_hcd'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ohci_pci'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ohci_platform'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'xhci_hcd'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'xhci_pci'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'xhci_plat_hcd'
+Nov 29 10:16:32 debian-armhf systemd[1]: Found device /dev/ttyS0.
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'r8a66597_hcd'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'dwc3'
+Nov 29 10:16:32 debian-armhf systemd[1]: Finished Coldplug All udev Devices.
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'dwc3_omap'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'dwc3_haps'
+Nov 29 10:16:32 debian-armhf systemd[1]: Starting Helper to synchronize boot up for ifupdown...
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'dwc3_of_simple'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'isp1760'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'cdc_acm'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'usb_storage'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'usbserial'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'usbtest'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'omap2430'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'am35x'
+Nov 29 10:16:32 debian-armhf systemd[1]: Finished Flush Journal to Persistent Storage.
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'musb_dsps'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'libcomposite'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'usb_f_acm'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'usb_f_ss_lb'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'usb_f_serial'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'usb_f_obex'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'u_ether'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'usb_f_ncm'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'usb_f_ecm'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'usb_f_eem'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'usb_f_ecm_subset'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'usb_f_rndis'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'usb_f_mass_storage'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'usb_f_fs'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'u_audio'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'usb_f_uac1'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'usb_f_uac2'
+Nov 29 10:16:32 debian-armhf systemd-udevd[187]: Using default interface naming scheme 'v247'.
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'usb_f_uvc'
+Nov 29 10:16:32 debian-armhf systemd-udevd[187]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'usb_f_midi'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'usb_f_hid'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'usb_f_printer'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'g_zero'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'g_audio'
+Nov 29 10:16:32 debian-armhf systemd-udevd[192]: controlC0: Process '/usr/sbin/alsactl restore 0' failed with exit code 99.
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'g_ether'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'gadgetfs'
+Nov 29 10:16:32 debian-armhf systemd-udevd[190]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'g_ffs'
+Nov 29 10:16:32 debian-armhf systemd-udevd[192]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'g_mass_storage'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'g_serial'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'g_printer'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'g_midi'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'g_cdc'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'g_dbgp'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'g_multi'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'g_webcam'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'g_ncm'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'g_acm_ms'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'matrix_keypad'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'qt1070'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'samsung_keypad'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'cyapatp'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'atmel_mxt_ts'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'edt_ft5x06'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'goodix'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'mms114'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'pixcir_i2c_ts'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'st1232'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ti_am335x_tsc'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'adxl34x'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'adxl34x_i2c'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'adxl34x_spi'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'gpio_decoder'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'axp20x_pek'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'input_polldev'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'rtc_ds1307'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'rtc_palmas'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'rtc_tps6586x'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'rtc_tps65910'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'i2c_emev2'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'v4l2_tpg'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'uvcvideo'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'gspca_main'
+Nov 29 10:16:32 debian-armhf systemd[1]: Found device /dev/mmcblk1p1.
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'vivid'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'axp20x_usb_power'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'max17040_battery'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'max17042_battery'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ina2xx'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ntc_thermistor'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'pwm_fan'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'led_class_flash'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'usbhid'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'extcon_palmas'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'extcon_usb_gpio'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ti_am335x_adc'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'vf610_adc'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'cm36651'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'libata'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ahci'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ahci_platform'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'sata_mv'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'uio'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'omap_hdq'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'rpmsg_core'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'virtio_rpmsg_bus'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'rpmsg_kdrv'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'rpmsg_kdrv_switch'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'snd_hwdep'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'snd_usb_audio'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'snd_soc_fsl_sai'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'p8022'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'psnap'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'stp'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'act_police'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'act_gact'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'act_mirred'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'act_ipt'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'act_nat'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'act_pedit'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'act_simple'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'act_skbedit'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'act_csum'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'sch_cbq'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'sch_htb'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'sch_hfsc'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'sch_red'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'sch_gred'
+Nov 29 10:16:32 debian-armhf systemd[1]: Finished Helper to synchronize boot up for ifupdown.
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'sch_ingress'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'sch_dsmark'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'sch_sfb'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'sch_sfq'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'sch_tbf'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'sch_teql'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'sch_prio'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'sch_multiq'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'sch_netem'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'sch_drr'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'sch_mqprio'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'sch_choke'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'sch_qfq'
+Nov 29 10:16:32 debian-armhf systemd-udevd[190]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'sch_codel'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'sch_fq_codel'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'cls_u32'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'cls_route'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'cls_fw'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'cls_rsvp'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'cls_tcindex'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'cls_rsvp6'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'cls_basic'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'cls_flow'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'em_cmp'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'em_nbyte'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'em_u32'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'em_meta'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'em_text'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'nf_conntrack'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'nf_nat'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'nf_synproxy_core'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'xt_mark'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'xt_nat'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'xt_CLASSIFY'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'xt_MASQUERADE'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'xt_IDLETIMER'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'xt_comment'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'xt_cpu'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'xt_iprange'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'xt_length'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'xt_limit'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'xt_mac'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'xt_multiport'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'xt_pkttype'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'xt_policy'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'xt_sctp'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'xt_socket'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'iptable_filter'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'iptable_nat'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ipt_SYNPROXY'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'arp_tables'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'arpt_mangle'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'arptable_filter'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ah4'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'esp4'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ipcomp'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'xfrm4_tunnel'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'xfrm_user'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ah6'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'esp6'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ipcomp6'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'mip6'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ip6_tunnel'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module '8021q'
+Nov 29 10:16:32 debian-armhf systemd-udevd[190]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov 29 10:16:32 debian-armhf systemd-udevd[190]: Using default interface naming scheme 'v247'.
+Nov 29 10:16:32 debian-armhf systemd-udevd[190]: ip6tnl0: Could not set Alias=, MACAddress= or MTU=, ignoring: Invalid argument
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'af_key'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ebtables'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ebtable_broute'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ebtable_filter'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ebtable_nat'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ebt_802_3'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ebt_among'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ebt_arp'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ebt_ip'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ebt_ip6'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ebt_limit'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ebt_mark_m'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ebt_pkttype'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ebt_stp'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ebt_vlan'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ebt_arpreply'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ebt_mark'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ebt_dnat'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ebt_redirect'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ebt_snat'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ebt_log'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'ebt_nflog'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'bridge'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'br_netfilter'
+Nov 29 10:16:32 debian-armhf systemd-modules-load[129]: Inserted module 'dsa_core'
+Nov 29 10:16:32 debian-armhf systemd[1]: Finished Load Kernel Modules.
+Nov 29 10:16:32 debian-armhf systemd[1]: Reached target Sound Card.
+Nov 29 10:16:32 debian-armhf systemd[1]: Mounting /boot/uboot...
+Nov 29 10:16:32 debian-armhf systemd[1]: Starting Apply Kernel Variables...
+Nov 29 10:16:32 debian-armhf systemd[1]: Mounted /boot/uboot.
+Nov 29 10:16:32 debian-armhf systemd[1]: Finished Apply Kernel Variables.
+Nov 29 10:16:32 debian-armhf systemd[1]: Reached target Local File Systems.
+Nov 29 10:16:32 debian-armhf systemd[1]: Starting Set console font and keymap...
+Nov 29 10:16:32 debian-armhf systemd[1]: Starting Raise network interfaces...
+Nov 29 10:16:32 debian-armhf systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+Nov 29 10:16:32 debian-armhf systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+Nov 29 10:16:32 debian-armhf systemd[1]: Starting Create Volatile Files and Directories...
+Nov 29 10:16:32 debian-armhf systemd[1]: Finished Set console font and keymap.
+Nov 29 10:16:32 debian-armhf systemd[1]: Finished Create Volatile Files and Directories.
+Nov 29 10:16:32 debian-armhf systemd[1]: Starting Network Time Synchronization...
+Nov 29 10:16:32 debian-armhf systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Nov 29 10:16:32 debian-armhf systemd[1]: Finished Update UTMP about System Boot/Shutdown.
+Nov 29 10:16:32 debian-armhf dhclient[304]: Internet Systems Consortium DHCP Client 4.4.1
+Nov 29 10:16:32 debian-armhf ifup[304]: Internet Systems Consortium DHCP Client 4.4.1
+Nov 29 10:16:32 debian-armhf ifup[304]: Copyright 2004-2018 Internet Systems Consortium.
+Nov 29 10:16:32 debian-armhf ifup[304]: All rights reserved.
+Nov 29 10:16:32 debian-armhf ifup[304]: For info, please visit https://www.isc.org/software/dhcp/
+Nov 29 10:16:32 debian-armhf dhclient[304]: Copyright 2004-2018 Internet Systems Consortium.
+Nov 29 10:16:32 debian-armhf dhclient[304]: All rights reserved.
+Nov 29 10:16:32 debian-armhf dhclient[304]: For info, please visit https://www.isc.org/software/dhcp/
+Nov 29 10:16:32 debian-armhf dhclient[304]: 
+Nov 29 10:16:32 debian-armhf systemd[1]: Started Network Time Synchronization.
+Nov 29 10:16:32 debian-armhf systemd[1]: Reached target System Initialization.
+Nov 29 10:16:32 debian-armhf ifup[304]: Listening on LPF/eth0/d0:ff:50:01:21:02
+Nov 29 10:16:32 debian-armhf ifup[304]: Sending on   LPF/eth0/d0:ff:50:01:21:02
+Nov 29 10:16:32 debian-armhf ifup[304]: Sending on   Socket/fallback
+Nov 29 10:16:32 debian-armhf ifup[304]: DHCPREQUEST for 192.168.1.9 on eth0 to 255.255.255.255 port 67
+Nov 29 10:16:32 debian-armhf dhclient[304]: Listening on LPF/eth0/d0:ff:50:01:21:02
+Nov 29 10:16:32 debian-armhf systemd[1]: Started Daily Cleanup of Temporary Directories.
+Nov 29 10:16:32 debian-armhf dhclient[304]: Sending on   LPF/eth0/d0:ff:50:01:21:02
+Nov 29 10:16:32 debian-armhf systemd[1]: Reached target System Time Set.
+Nov 29 10:16:32 debian-armhf dhclient[304]: Sending on   Socket/fallback
+Nov 29 10:16:32 debian-armhf systemd[1]: Reached target System Time Synchronized.
+Nov 29 10:16:32 debian-armhf dhclient[304]: DHCPREQUEST for 192.168.1.9 on eth0 to 255.255.255.255 port 67
+Nov 29 10:16:32 debian-armhf systemd[1]: Started Daily apt download activities.
+Nov 29 10:16:32 debian-armhf systemd[1]: Started Daily apt upgrade and clean activities.
+Nov 29 10:16:32 debian-armhf ifup[304]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Nov 29 10:16:32 debian-armhf systemd[1]: Started Periodic ext4 Online Metadata Check for All Filesystems.
+Nov 29 10:16:32 debian-armhf dhclient[304]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Nov 29 10:16:32 debian-armhf systemd[1]: Started Daily rotation of log files.
+Nov 29 10:16:32 debian-armhf systemd[1]: Started Daily man-db regeneration.
+Nov 29 10:16:32 debian-armhf systemd[1]: Reached target Timers.
+Nov 29 10:16:32 debian-armhf systemd[1]: Listening on D-Bus System Message Bus Socket.
+Nov 29 10:16:32 debian-armhf systemd[1]: Reached target Sockets.
+Nov 29 10:16:32 debian-armhf systemd[1]: Reached target Basic System.
+Nov 29 10:16:32 debian-armhf systemd[1]: Started Regular background program processing daemon.
+Nov 29 10:16:32 debian-armhf systemd[1]: Started D-Bus System Message Bus.
+Nov 29 10:16:32 debian-armhf systemd[1]: Starting Remove Stale Online ext4 Metadata Check Snapshots...
+Nov 29 10:16:32 debian-armhf systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Nov 29 10:16:32 debian-armhf systemd[1]: Starting LSB: Stop plymouth during boot and start it on shutdown...
+Nov 29 10:16:32 debian-armhf systemd[1]: Starting System Logging Service...
+Nov 29 10:16:32 debian-armhf systemd[1]: Starting User Login Management...
+Nov 29 10:16:32 debian-armhf systemd[1]: Starting WPA supplicant...
+Nov 29 10:16:32 debian-armhf dhclient[304]: DHCPOFFER of 192.168.1.9 from 192.168.1.1
+Nov 29 10:16:32 debian-armhf ifup[304]: DHCPOFFER of 192.168.1.9 from 192.168.1.1
+Nov 29 10:16:32 debian-armhf ifup[304]: DHCPREQUEST for 192.168.1.9 on eth0 to 255.255.255.255 port 67
+Nov 29 10:16:32 debian-armhf dhclient[304]: DHCPREQUEST for 192.168.1.9 on eth0 to 255.255.255.255 port 67
+Nov 29 10:16:32 debian-armhf systemd[1]: Started System Logging Service.
+Nov 29 10:16:32 debian-armhf dhclient[304]: DHCPACK of 192.168.1.9 from 192.168.1.1
+Nov 29 10:16:32 debian-armhf ifup[304]: DHCPACK of 192.168.1.9 from 192.168.1.1
+Nov 29 10:16:32 debian-armhf systemd[1]: Started LSB: Stop plymouth during boot and start it on shutdown.
+Nov 29 10:16:33 debian-armhf systemd[1]: Started WPA supplicant.
+Nov 29 10:16:33 debian-armhf wpa_supplicant[332]: Successfully initialized wpa_supplicant
+Nov 29 10:16:33 debian-armhf systemd[1]: Started User Login Management.
+Nov 29 10:16:33 debian-armhf systemd[1]: e2scrub_reap.service: Succeeded.
+Nov 29 10:16:33 debian-armhf systemd[1]: Finished Remove Stale Online ext4 Metadata Check Snapshots.
+Nov 29 10:16:33 debian-armhf dhclient[304]: bound to 192.168.1.9 -- renewal in 40504 seconds.
+Nov 29 10:16:33 debian-armhf ifup[304]: bound to 192.168.1.9 -- renewal in 40504 seconds.
+Nov 29 10:16:33 debian-armhf systemd[1]: Finished Raise network interfaces.
+Nov 29 10:16:33 debian-armhf systemd[1]: Reached target Network.
+Nov 29 10:16:33 debian-armhf systemd[1]: Starting /etc/rc.local Compatibility...
+Nov 29 10:16:33 debian-armhf systemd[1]: Starting OpenBSD Secure Shell server...
+Nov 29 10:16:33 debian-armhf systemd[1]: Starting Permit User Sessions...
+Nov 29 10:16:33 debian-armhf systemd[1]: Started /etc/rc.local Compatibility.
+Nov 29 10:16:33 debian-armhf systemd[1]: Finished Permit User Sessions.
+Nov 29 10:16:34 debian-armhf systemd[1]: Started Getty on tty1.
+Nov 29 10:16:34 debian-armhf systemd[1]: Started Serial Getty on ttyS0.
+Nov 29 10:16:34 debian-armhf systemd[1]: Reached target Login Prompts.
+Nov 29 10:16:34 debian-armhf systemd[1]: Started OpenBSD Secure Shell server.
+Nov 29 10:16:34 debian-armhf systemd[1]: Reached target Multi-User System.
+Nov 29 10:16:34 debian-armhf systemd[1]: Reached target Graphical Interface.
+Nov 29 10:16:34 debian-armhf systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Nov 29 10:16:34 debian-armhf systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Nov 29 10:16:34 debian-armhf systemd[1]: Finished Update UTMP about System Runlevel Changes.
+Nov 29 10:16:34 debian-armhf systemd[1]: Startup finished in 5.137s (kernel) + 31.277s (userspace) = 36.414s.
+Nov 29 10:16:37 debian-armhf systemd[1]: systemd-fsckd.service: Succeeded.
+Nov 29 10:16:46 debian-armhf systemd[1]: Created slice User Slice of UID 0.
+Nov 29 10:16:46 debian-armhf systemd[1]: Starting User Runtime Directory /run/user/0...
+Nov 29 10:16:46 debian-armhf systemd[1]: Finished User Runtime Directory /run/user/0.
+Nov 29 10:16:46 debian-armhf systemd[1]: Starting User Manager for UID 0...
+Nov 29 10:16:49 debian-armhf systemd[408]: Queued start job for default target Main User Target.
+Nov 29 10:16:49 debian-armhf systemd[408]: Created slice User Application Slice.
+Nov 29 10:16:49 debian-armhf systemd[408]: Reached target Paths.
+Nov 29 10:16:49 debian-armhf systemd[408]: Reached target Timers.
+Nov 29 10:16:49 debian-armhf systemd[408]: Listening on GnuPG network certificate management daemon.
+Nov 29 10:16:49 debian-armhf systemd[408]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Nov 29 10:16:49 debian-armhf systemd[408]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Nov 29 10:16:49 debian-armhf systemd[408]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Nov 29 10:16:49 debian-armhf systemd[408]: Listening on GnuPG cryptographic agent and passphrase cache.
+Nov 29 10:16:49 debian-armhf systemd[408]: Reached target Sockets.
+Nov 29 10:16:49 debian-armhf systemd[408]: Reached target Basic System.
+Nov 29 10:16:49 debian-armhf systemd[1]: Started User Manager for UID 0.
+Nov 29 10:16:49 debian-armhf systemd[408]: Reached target Main User Target.
+Nov 29 10:16:49 debian-armhf systemd[408]: Startup finished in 3.550s.
+Nov 29 10:16:49 debian-armhf systemd[1]: Started Session c1 of user root.
+Nov 29 10:28:42 debian-armhf systemd[1]: Starting Daily apt upgrade and clean activities...
+Nov 29 10:28:47 debian-armhf systemd[1]: apt-daily-upgrade.service: Succeeded.
+Nov 29 10:28:47 debian-armhf systemd[1]: Finished Daily apt upgrade and clean activities.
+Nov 29 10:28:47 debian-armhf systemd[1]: apt-daily-upgrade.service: Consumed 2.949s CPU time.
+Nov 29 10:32:43 debian-armhf systemd[1]: Started Session c2 of user root.
+Nov 29 10:43:19 debian-armhf systemd[1]: Starting Cleanup of Temporary Directories...
+Nov 29 10:43:19 debian-armhf systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Nov 29 10:43:19 debian-armhf systemd[1]: Finished Cleanup of Temporary Directories.
+Nov 29 10:45:33 debian-armhf systemd[1]: Started Session c3 of user root.
+Nov 29 10:46:47 debian-armhf systemd[1]: Stopping Session c1 of user root.
+Nov 29 10:46:47 debian-armhf systemd[1]: Stopping Session c2 of user root.
+Nov 29 10:46:47 debian-armhf systemd[1]: Stopping Session c3 of user root.
+Nov 29 10:46:47 debian-armhf systemd[1]: Removed slice system-modprobe.slice.
+Nov 29 10:46:47 debian-armhf systemd[1]: Stopped target Graphical Interface.
+Nov 29 10:46:47 debian-armhf systemd[1]: Stopped target Multi-User System.
+Nov 29 10:46:47 debian-armhf systemd[1]: Stopped target Login Prompts.
+Nov 29 10:46:47 debian-armhf systemd[1]: Stopped target Sound Card.
+Nov 29 10:46:47 debian-armhf systemd[1]: Stopped target Timers.
+Nov 29 10:46:47 debian-armhf systemd[1]: apt-daily-upgrade.timer: Succeeded.
+Nov 29 10:46:47 debian-armhf systemd[1]: Stopped Daily apt upgrade and clean activities.
+Nov 29 10:46:47 debian-armhf systemd[1]: apt-daily.timer: Succeeded.
+Nov 29 10:46:47 debian-armhf systemd[1]: Stopped Daily apt download activities.
+Nov 29 10:46:47 debian-armhf systemd[1]: e2scrub_all.timer: Succeeded.
+Nov 29 10:46:47 debian-armhf systemd[1]: Stopped Periodic ext4 Online Metadata Check for All Filesystems.
+Nov 29 10:46:47 debian-armhf systemd[1]: logrotate.timer: Succeeded.
+Nov 29 10:46:47 debian-armhf systemd[1]: Stopped Daily rotation of log files.
+Nov 29 10:46:47 debian-armhf systemd[1]: man-db.timer: Succeeded.
+Nov 29 10:46:47 debian-armhf systemd[1]: Stopped Daily man-db regeneration.
+Nov 29 10:46:47 debian-armhf systemd[1]: systemd-tmpfiles-clean.timer: Succeeded.
+Nov 29 10:46:47 debian-armhf systemd[1]: Stopped Daily Cleanup of Temporary Directories.
+Nov 29 10:46:47 debian-armhf systemd[1]: Stopped target System Time Synchronized.
+Nov 29 10:46:47 debian-armhf systemd[1]: Stopped target System Time Set.
+Nov 29 10:46:47 debian-armhf systemd[1]: Stopping Regular background program processing daemon...
+Nov 29 10:46:47 debian-armhf systemd[1]: Stopping Getty on tty1...
+Nov 29 10:46:47 debian-armhf systemd[1]: Stopping LSB: Stop plymouth during boot and start it on shutdown...
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'aes_arm'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'aes_arm_bs'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'sha1_arm'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'sha1_arm_neon'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'sha256_arm'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'sha512_arm'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'fscache'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'cifs'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'seqiv'
+Nov 29 10:46:52 debian-armhf systemd-fsck[133]: /dev/mmcblk1p4: Superblock last mount time is in the future.
+Nov 29 10:46:52 debian-armhf systemd-fsck[133]: #011(by less than a day, probably due to the hardware clock being incorrectly set)
+Nov 29 10:46:52 debian-armhf systemd-fsck[133]: /dev/mmcblk1p4: clean, 41212/188048 files, 628904/751000 blocks
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'echainiv'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'cmac'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'md4'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ccm'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'des_generic'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'arc4'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'authenc'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'authencesn'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'drbg'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'jitterentropy_rng'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'algif_hash'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'algif_skcipher'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ecc'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ecdh_generic'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'crc_ccitt'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'crc_itu_t'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'crc7'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'libcrc32c'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ts_kmp'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ts_bm'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ts_fsm'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'gpio_pisosr'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'gpio_tpic2810'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'pwm_fsl_ftm'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ti_am335x_tscadc'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'axp20x'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'axp20x_i2c'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'scsi_mod'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'sd_mod'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'sr_mod'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'spidev'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'spi_bitbang'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'spi_gpio'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'phylink'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'tg3'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'e1000'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'e1000e'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'skge'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'can_dev'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'rcar_can'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'mcp251x'
+Nov 29 10:46:52 debian-armhf systemd[1]: Finished Create Static Device Nodes in /dev.
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'c_can'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'c_can_platform'
+Nov 29 10:46:52 debian-armhf systemd[1]: Reached target Local File Systems (Pre).
+Nov 29 10:46:52 debian-armhf systemd[1]: Starting Flush Journal to Persistent Storage...
+Nov 29 10:46:52 debian-armhf systemd[1]: Starting Rule-based Manager for Device Events and Files...
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'pegasus'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'r8152'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'asix'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ax88179_178a'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'cdc_ether'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'smsc75xx'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'smsc95xx'
+Nov 29 10:46:52 debian-armhf systemd[1]: Started Rule-based Manager for Device Events and Files.
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'net1080'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'cdc_subset'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'cdc_ncm'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'phy_generic'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'phy_am335x_control'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'phy_am335x'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'phy_gpio_vbus_usb'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'phy_isp1301'
+Nov 29 10:46:52 debian-armhf systemd[1]: Finished Coldplug All udev Devices.
+Nov 29 10:46:52 debian-armhf systemd[1]: Starting Helper to synchronize boot up for ifupdown...
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ehci_hcd'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ehci_pci'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ehci_platform'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ehci_omap'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ohci_hcd'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ohci_pci'
+Nov 29 10:46:52 debian-armhf systemd[1]: Found device /dev/ttyS0.
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ohci_platform'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'xhci_hcd'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'xhci_pci'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'xhci_plat_hcd'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'r8a66597_hcd'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'dwc3'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'dwc3_omap'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'dwc3_haps'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'dwc3_of_simple'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'isp1760'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'cdc_acm'
+Nov 29 10:46:52 debian-armhf systemd[1]: Finished Flush Journal to Persistent Storage.
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'usb_storage'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'usbserial'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'usbtest'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'omap2430'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'am35x'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'libcomposite'
+Nov 29 10:46:52 debian-armhf systemd-udevd[192]: Using default interface naming scheme 'v247'.
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_acm'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_ss_lb'
+Nov 29 10:46:52 debian-armhf systemd-udevd[192]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_serial'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_obex'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'u_ether'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_ncm'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_ecm'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_eem'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_ecm_subset'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_rndis'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_mass_storage'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_fs'
+Nov 29 10:46:52 debian-armhf systemd-udevd[189]: controlC0: Process '/usr/sbin/alsactl restore 0' failed with exit code 99.
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'u_audio'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_uac1'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_uac2'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_uvc'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_midi'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_hid'
+Nov 29 10:46:52 debian-armhf systemd-udevd[189]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'usb_f_printer'
+Nov 29 10:46:52 debian-armhf systemd-udevd[187]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'g_zero'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'g_audio'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'g_ether'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'gadgetfs'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'g_ffs'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'g_mass_storage'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'g_serial'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'g_printer'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'g_midi'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'g_cdc'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'g_dbgp'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'g_multi'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'g_webcam'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'g_ncm'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'g_acm_ms'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'matrix_keypad'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'qt1070'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'samsung_keypad'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'cyapatp'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'atmel_mxt_ts'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'edt_ft5x06'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'goodix'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'mms114'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'pixcir_i2c_ts'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'st1232'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ti_am335x_tsc'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'adxl34x'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'adxl34x_i2c'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'adxl34x_spi'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'gpio_decoder'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'axp20x_pek'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'input_polldev'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'rtc_ds1307'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'rtc_palmas'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'rtc_tps6586x'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'rtc_tps65910'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'i2c_emev2'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'v4l2_tpg'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'uvcvideo'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'gspca_main'
+Nov 29 10:46:52 debian-armhf systemd[1]: Found device /dev/mmcblk1p1.
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'vivid'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'axp20x_usb_power'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'max17040_battery'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'max17042_battery'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ina2xx'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ntc_thermistor'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'pwm_fan'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'led_class_flash'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'usbhid'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'extcon_palmas'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'extcon_usb_gpio'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ti_am335x_adc'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'vf610_adc'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'cm36651'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'libata'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ahci'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ahci_platform'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'sata_mv'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'uio'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'omap_hdq'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'rpmsg_core'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'virtio_rpmsg_bus'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'rpmsg_kdrv'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'rpmsg_kdrv_switch'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'snd_hwdep'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'snd_usb_audio'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'snd_soc_fsl_sai'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'p8022'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'psnap'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'stp'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'act_police'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'act_gact'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'act_mirred'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'act_ipt'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'act_nat'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'act_pedit'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'act_simple'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'act_skbedit'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'act_csum'
+Nov 29 10:46:52 debian-armhf systemd[1]: Finished Helper to synchronize boot up for ifupdown.
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'sch_cbq'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'sch_htb'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'sch_hfsc'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'sch_red'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'sch_gred'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'sch_ingress'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'sch_dsmark'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'sch_sfb'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'sch_sfq'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'sch_tbf'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'sch_teql'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'sch_prio'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'sch_multiq'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'sch_netem'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'sch_drr'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'sch_mqprio'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'sch_choke'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'sch_qfq'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'sch_codel'
+Nov 29 10:46:52 debian-armhf systemd-udevd[188]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'sch_fq_codel'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'cls_u32'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'cls_route'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'cls_fw'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'cls_rsvp'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'cls_tcindex'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'cls_rsvp6'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'cls_basic'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'cls_flow'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'em_cmp'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'em_nbyte'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'em_u32'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'em_meta'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'em_text'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'nf_conntrack'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'nf_nat'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'nf_synproxy_core'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'xt_mark'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'xt_nat'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'xt_CLASSIFY'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'xt_MASQUERADE'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'xt_IDLETIMER'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'xt_comment'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'xt_cpu'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'xt_iprange'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'xt_length'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'xt_limit'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'xt_mac'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'xt_multiport'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'xt_pkttype'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'xt_policy'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'xt_sctp'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'xt_socket'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'iptable_filter'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'iptable_nat'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ipt_SYNPROXY'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'arp_tables'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'arpt_mangle'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'arptable_filter'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ah4'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'esp4'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ipcomp'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'xfrm4_tunnel'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'xfrm_user'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ah6'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'esp6'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ipcomp6'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'mip6'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ip6_tunnel'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module '8021q'
+Nov 29 10:46:52 debian-armhf systemd-udevd[188]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov 29 10:46:52 debian-armhf systemd-udevd[188]: Using default interface naming scheme 'v247'.
+Nov 29 10:46:52 debian-armhf systemd-udevd[188]: ip6tnl0: Could not set Alias=, MACAddress= or MTU=, ignoring: Invalid argument
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'af_key'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ebtables'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ebtable_broute'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ebtable_filter'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ebtable_nat'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_802_3'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_among'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_arp'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_ip'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_ip6'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_limit'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_mark_m'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_pkttype'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_stp'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_vlan'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_arpreply'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_mark'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_dnat'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_redirect'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_snat'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_log'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'ebt_nflog'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'bridge'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'br_netfilter'
+Nov 29 10:46:52 debian-armhf systemd-modules-load[130]: Inserted module 'dsa_core'
+Nov 29 10:46:52 debian-armhf systemd[1]: Finished Load Kernel Modules.
+Nov 29 10:46:52 debian-armhf systemd[1]: Reached target Sound Card.
+Nov 29 10:46:52 debian-armhf systemd[1]: Mounting /boot/uboot...
+Nov 29 10:46:52 debian-armhf systemd[1]: Starting Apply Kernel Variables...
+Nov 29 10:46:52 debian-armhf systemd[1]: Mounted /boot/uboot.
+Nov 29 10:46:52 debian-armhf systemd[1]: Reached target Local File Systems.
+Nov 29 10:46:52 debian-armhf systemd[1]: Starting Set console font and keymap...
+Nov 29 10:46:52 debian-armhf systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+Nov 29 10:46:52 debian-armhf systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+Nov 29 10:46:52 debian-armhf systemd[1]: Starting Create Volatile Files and Directories...
+Nov 29 10:46:52 debian-armhf systemd[1]: Finished Apply Kernel Variables.
+Nov 29 10:46:52 debian-armhf systemd[1]: Finished Set console font and keymap.
+Nov 29 10:46:52 debian-armhf systemd[1]: Starting Raise network interfaces...
+Nov 29 10:46:52 debian-armhf systemd[1]: Finished Create Volatile Files and Directories.
+Nov 29 10:46:52 debian-armhf systemd[1]: Starting Network Time Synchronization...
+Nov 29 10:46:52 debian-armhf systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Nov 29 10:46:52 debian-armhf systemd[1]: Finished Update UTMP about System Boot/Shutdown.
+Nov 29 10:46:52 debian-armhf systemd[1]: Started Network Time Synchronization.
+Nov 29 10:46:52 debian-armhf systemd[1]: Reached target System Initialization.
+Nov 29 10:46:52 debian-armhf systemd[1]: Started Daily Cleanup of Temporary Directories.
+Nov 29 10:46:52 debian-armhf systemd[1]: Reached target System Time Set.
+Nov 29 10:46:52 debian-armhf systemd[1]: Reached target System Time Synchronized.
+Nov 29 10:46:52 debian-armhf systemd[1]: Started Daily apt download activities.
+Nov 29 10:46:52 debian-armhf systemd[1]: Started Daily apt upgrade and clean activities.
+Nov 29 10:46:52 debian-armhf systemd[1]: Started Periodic ext4 Online Metadata Check for All Filesystems.
+Nov 29 10:46:52 debian-armhf systemd[1]: Started Daily rotation of log files.
+Nov 29 10:46:52 debian-armhf systemd[1]: Started Daily man-db regeneration.
+Nov 29 10:46:52 debian-armhf systemd[1]: Reached target Timers.
+Nov 29 10:46:52 debian-armhf systemd[1]: Listening on D-Bus System Message Bus Socket.
+Nov 29 10:46:52 debian-armhf systemd[1]: Reached target Sockets.
+Nov 29 10:46:52 debian-armhf systemd[1]: Reached target Basic System.
+Nov 29 10:46:52 debian-armhf dhclient[305]: Internet Systems Consortium DHCP Client 4.4.1
+Nov 29 10:46:52 debian-armhf ifup[305]: Internet Systems Consortium DHCP Client 4.4.1
+Nov 29 10:46:52 debian-armhf ifup[305]: Copyright 2004-2018 Internet Systems Consortium.
+Nov 29 10:46:52 debian-armhf ifup[305]: All rights reserved.
+Nov 29 10:46:52 debian-armhf ifup[305]: For info, please visit https://www.isc.org/software/dhcp/
+Nov 29 10:46:52 debian-armhf dhclient[305]: Copyright 2004-2018 Internet Systems Consortium.
+Nov 29 10:46:52 debian-armhf systemd[1]: Started Regular background program processing daemon.
+Nov 29 10:46:52 debian-armhf dhclient[305]: All rights reserved.
+Nov 29 10:46:52 debian-armhf dhclient[305]: For info, please visit https://www.isc.org/software/dhcp/
+Nov 29 10:46:52 debian-armhf dhclient[305]: 
+Nov 29 10:46:52 debian-armhf systemd[1]: Started D-Bus System Message Bus.
+Nov 29 10:46:52 debian-armhf systemd[1]: Starting Remove Stale Online ext4 Metadata Check Snapshots...
+Nov 29 10:46:52 debian-armhf systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Nov 29 10:46:52 debian-armhf systemd[1]: Starting LSB: Stop plymouth during boot and start it on shutdown...
+Nov 29 10:46:52 debian-armhf systemd[1]: Starting System Logging Service...
+Nov 29 10:46:52 debian-armhf dhclient[305]: Listening on LPF/eth0/d0:ff:50:01:21:02
+Nov 29 10:46:52 debian-armhf ifup[305]: Listening on LPF/eth0/d0:ff:50:01:21:02
+Nov 29 10:46:52 debian-armhf ifup[305]: Sending on   LPF/eth0/d0:ff:50:01:21:02
+Nov 29 10:46:52 debian-armhf dhclient[305]: Sending on   LPF/eth0/d0:ff:50:01:21:02
+Nov 29 10:46:52 debian-armhf dhclient[305]: Sending on   Socket/fallback
+Nov 29 10:46:52 debian-armhf ifup[305]: Sending on   Socket/fallback
+Nov 29 10:46:52 debian-armhf ifup[305]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Nov 29 10:46:52 debian-armhf dhclient[305]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Nov 29 10:46:52 debian-armhf systemd[1]: Starting User Login Management...
+Nov 29 10:46:52 debian-armhf systemd[1]: Starting WPA supplicant...
+Nov 29 10:46:52 debian-armhf systemd[1]: Started System Logging Service.
+Nov 29 10:46:52 debian-armhf systemd[1]: Started LSB: Stop plymouth during boot and start it on shutdown.
+Nov 29 10:46:52 debian-armhf wpa_supplicant[325]: Successfully initialized wpa_supplicant
+Nov 29 10:46:52 debian-armhf systemd[1]: Started WPA supplicant.
+Nov 29 10:46:52 debian-armhf systemd[1]: Started User Login Management.
+Nov 29 10:46:52 debian-armhf systemd[1]: e2scrub_reap.service: Succeeded.
+Nov 29 10:46:52 debian-armhf systemd[1]: Finished Remove Stale Online ext4 Metadata Check Snapshots.
+Nov 29 10:46:54 debian-armhf dhclient[305]: DHCPOFFER of 192.168.1.9 from 192.168.1.1
+Nov 29 10:46:54 debian-armhf ifup[305]: DHCPOFFER of 192.168.1.9 from 192.168.1.1
+Nov 29 10:46:54 debian-armhf ifup[305]: DHCPREQUEST for 192.168.1.9 on eth0 to 255.255.255.255 port 67
+Nov 29 10:46:54 debian-armhf dhclient[305]: DHCPREQUEST for 192.168.1.9 on eth0 to 255.255.255.255 port 67
+Nov 29 10:46:54 debian-armhf dhclient[305]: DHCPACK of 192.168.1.9 from 192.168.1.1
+Nov 29 10:46:54 debian-armhf ifup[305]: DHCPACK of 192.168.1.9 from 192.168.1.1
+Nov 29 10:46:54 debian-armhf dhclient[305]: bound to 192.168.1.9 -- renewal in 36718 seconds.
+Nov 29 10:46:54 debian-armhf ifup[305]: bound to 192.168.1.9 -- renewal in 36718 seconds.
+Nov 29 10:46:54 debian-armhf systemd[1]: Finished Raise network interfaces.
+Nov 29 10:46:54 debian-armhf systemd[1]: Reached target Network.
+Nov 29 10:46:54 debian-armhf systemd[1]: Starting /etc/rc.local Compatibility...
+Nov 29 10:46:54 debian-armhf systemd[1]: Starting OpenBSD Secure Shell server...
+Nov 29 10:46:54 debian-armhf systemd[1]: Starting Permit User Sessions...
+Nov 29 10:46:54 debian-armhf systemd[1]: Started /etc/rc.local Compatibility.
+Nov 29 10:46:54 debian-armhf systemd[1]: Finished Permit User Sessions.
+Nov 29 10:46:54 debian-armhf systemd[1]: Started Getty on tty1.
+Nov 29 10:46:55 debian-armhf systemd[1]: Started Serial Getty on ttyS0.
+Nov 29 10:46:55 debian-armhf systemd[1]: Reached target Login Prompts.
+Nov 29 10:46:55 debian-armhf systemd[1]: Started OpenBSD Secure Shell server.
+Nov 29 10:46:55 debian-armhf systemd[1]: Reached target Multi-User System.
+Nov 29 10:46:55 debian-armhf systemd[1]: Reached target Graphical Interface.
+Nov 29 10:46:55 debian-armhf systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Nov 29 10:46:55 debian-armhf systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Nov 29 10:46:55 debian-armhf systemd[1]: Finished Update UTMP about System Runlevel Changes.
+Nov 29 10:46:55 debian-armhf systemd[1]: Startup finished in 5.622s (kernel) + 26.782s (userspace) = 32.404s.
+Nov 29 10:47:03 debian-armhf systemd[1]: systemd-fsckd.service: Succeeded.
+Nov 29 10:47:04 debian-armhf systemd[1]: Created slice User Slice of UID 0.
+Nov 29 10:47:04 debian-armhf systemd[1]: Starting User Runtime Directory /run/user/0...
+Nov 29 10:47:05 debian-armhf systemd[1]: Finished User Runtime Directory /run/user/0.
+Nov 29 10:47:05 debian-armhf systemd[1]: Starting User Manager for UID 0...
+Nov 29 10:47:08 debian-armhf systemd[402]: Queued start job for default target Main User Target.
+Nov 29 10:47:08 debian-armhf systemd[402]: Created slice User Application Slice.
+Nov 29 10:47:08 debian-armhf systemd[402]: Reached target Paths.
+Nov 29 10:47:08 debian-armhf systemd[402]: Reached target Timers.
+Nov 29 10:47:08 debian-armhf systemd[402]: Listening on GnuPG network certificate management daemon.
+Nov 29 10:47:08 debian-armhf systemd[402]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Nov 29 10:47:08 debian-armhf systemd[402]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Nov 29 10:47:08 debian-armhf systemd[402]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Nov 29 10:47:08 debian-armhf systemd[402]: Listening on GnuPG cryptographic agent and passphrase cache.
+Nov 29 10:47:08 debian-armhf systemd[402]: Reached target Sockets.
+Nov 29 10:47:08 debian-armhf systemd[402]: Reached target Basic System.
+Nov 29 10:47:08 debian-armhf systemd[1]: Started User Manager for UID 0.
+Nov 29 10:47:08 debian-armhf systemd[402]: Reached target Main User Target.
+Nov 29 10:47:08 debian-armhf systemd[402]: Startup finished in 3.533s.
+Nov 29 10:47:08 debian-armhf systemd[1]: Started Session c1 of user root.
+Nov 29 11:11:23 debian-armhf systemd[1]: session-c1.scope: Succeeded.
+Nov 29 11:11:23 debian-armhf systemd[1]: session-c1.scope: Consumed 6.671s CPU time.
+Nov 29 11:11:23 debian-armhf systemd[1]: serial-getty@ttyS0.service: Succeeded.
+Nov 29 11:11:23 debian-armhf systemd[1]: serial-getty@ttyS0.service: Scheduled restart job, restart counter is at 1.
+Nov 29 11:11:23 debian-armhf systemd[1]: Stopped Serial Getty on ttyS0.
+Nov 29 11:11:23 debian-armhf systemd[1]: Started Serial Getty on ttyS0.
+Nov 29 11:11:28 debian-armhf systemd[1]: Started Session c2 of user root.
